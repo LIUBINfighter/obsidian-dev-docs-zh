@@ -1,9 +1,12 @@
 name: GitHub Actions Build and Deploy
- 
+
 on:
+  push:
+    branches:
+      - main
   # 手动运行工作流程（workflow_dispatch 事件触发器配置后可以在actions下手动运行工作流）
   workflow_dispatch:
- 
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest  #指定服务器的运行环境：最新版本ubuntu
@@ -14,13 +17,13 @@ jobs:
         with:
           # 根据网上资料查询此处可以设置为 false。https://github.com/actions/checkout
           persist-credentials: false
- 
+
       # 安装 pnpm
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
- 
+
       # 设置node的版本
       - name: Use Node.js
         # 使用 actions/setup-node@v3 库安装 nodejs，with 提供了一个参数 node-version 表示要安装的 nodejs 版本
@@ -28,11 +31,11 @@ jobs:
         with:
           node-version: '18.x'
           cache: 'pnpm'
- 
+
       # 打包成静态文件
       - name: Build
         run: pnpm install && pnpm docs-build
- 
+
       # 部署到GitHub Pages - 也就是将打包内容发布到GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
