@@ -3,3 +3,6 @@
 .cache
 dist
 .idea
+.obsidian
+.trash
+template
