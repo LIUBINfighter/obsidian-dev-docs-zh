@@ -237,10 +237,28 @@ export const contentsNote = [
         collapsed: true,
         items: [
             {
-                text: "为什么需要持久化视图到工作区",
-                link: "/zh/articles/persistYourView",
+                text: "视图",
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    {
+                        text: "为什么需要持久化视图到工作区",
+                        link: "/zh/articles/view/persistYourView",
+                    }
+                ]
             },
-        ],
+            {
+                text: "命令",
+                collapsible: true,
+                collapsed: true,
+                items: [
+                    {
+                        text: "是否可以卸载一条命令？",
+                        link: "/zh/articles/commands/unloadCommand",
+                    }
+                ]
+            }
+        ]
     },
     {
         text:"关于本文档",
