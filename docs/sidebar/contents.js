@@ -230,5 +230,20 @@ export const contentsNote = [
                 link: "/zh/reference/reference",
             },
         ],
+    },
+    {
+        text: "社区内容",
+        collapsible: true,
+        collapsed: true,
+        items: [
+            {
+                text: "为什么需要持久化视图到工作区",
+                link: "/zh/articles/persistYourView",
+            },
+        ],
+    },
+    {
+        text:"关于本文档",
+        link:"/zh/about",
     }
 ];

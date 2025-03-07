@@ -42,6 +42,8 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 社区文档和我的文章将会另外单列出来。同时会引用原来[luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)的内容以及其他网络内容。
 
+> 2025-03-07 补充：正在致力于阅读与翻译 [liamca](https://liamca.in/hello)。作为一名经验丰富的开发者和插件审查者，他的文档非常有价值。
+
 对于未能及时翻译的部分，请查看下面列出的网址。
 
 ## 官方文档和社区内容
