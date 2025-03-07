@@ -7,17 +7,17 @@
       alt: Obsidian
     name: Obsidian
     text: 开发者文档
-    tagline: 基于Obsidian官方开发者文档翻译，包括插件和主题开发两部分，方便使用查阅。
+    tagline: 基于Obsidian官方开发者文档以及社区内容翻译整理，包括插件与主题开发和进阶API调用设计。
     actions:
     - theme: brand
       text: 开始使用
-      link: /zh/home
+      link: /zh/about
     - theme: alt
       text: 官方文档
       link: https://docs.obsidian.md/Home
     - theme: alt
       text: GitHub
-      link: https://github.com/Raistlind/obsidian-dev-docs-zh.git
+      link: https://github.com/LIUBINfighter/obsidian-dev-docs-zh
   features:
   - title: 插件开发
     details: 包括编辑器、UI、发布方法以及相关案例。
