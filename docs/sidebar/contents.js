@@ -229,6 +229,10 @@ export const contentsNote = [
                 text: "参考章节翻译说明",
                 link: "/zh/reference/reference",
             },
+            {
+                text: "manifest.json 配置",
+                link: "/zh/reference/manifest",
+            },
         ],
     },
     {

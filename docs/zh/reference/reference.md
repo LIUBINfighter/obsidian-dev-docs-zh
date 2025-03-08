@@ -14,3 +14,4 @@
 
 原文：[Home - Developer Documentation (obsidian.md)](https://docs.obsidian.md/Home)中的Reference部分。
 
+> Jay: 对于我在开发中经常用到的以及比较稳定的 API 我会进行翻译。 2025-03-09
