@@ -2,10 +2,9 @@
  * @Author: Raistlind johnd0712@gmail.com
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Jay Bridge
- * @LastEditTime: 2025-03-07 10:18:00
+ * @LastEditTime: 2025-03-17 22:13:00
  * @Description: 
 -->
-
 
 # Obsidian 开发者中文文档
 
@@ -16,9 +15,25 @@
 | [Raistlind翻译的开发者文档 (raistlind.github.io)](https://raistlind.github.io/obsidian-dev-docs-zh/) | [Raistlind/obsidian-dev-docs-zh](https://github.com/Raistlind/obsidian-dev-docs-zh)                                           | 1 year ago  |
 | [luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)               | [luhaifeng666/obsidian-plugin-docs-zh: Obsidian 插件开发文档 (github.com)](https://github.com/luhaifeng666/obsidian-plugin-docs-zh) | 2 years ago |
 
+## 免责申明 Disclaim
+
+::: warning 译者免责声明
+本文档不正式隶属于 Obsidian 团队，也未得到 Obsidian 团队的认可。
+
+本 Fork 目前的维护者和[原始项目的创建者](https://github.com/Raistlind/obsidian-dev-docs-zh)目前也并无任何正式关系。
+
+内容翻译自官方文档以及社区文档。译者的翻译也可能有错误，在开发中请自行决定是否查看英文原文或者寻求其他帮助。译者不对因为内容翻译准确性以及及时性导致的后果承担责任。
+
+随着 Obsidian 的更新，请留意相关的API更改，以官方文档为准，在适当的时候更新代码。
+
+如果涉及到版权相关内容，请联系我。
+:::
+
 ## 前言
 
-本项目Fork From [Raistlind/obsidian-dev-docs-zh](https://github.com/Raistlind/obsidian-dev-docs-zh). 由[LIUBINfighter (Jay Bridge) (github.com)](https://github.com/LIUBINfighter)持续维护。
+本项目Fork From [Raistlind/obsidian-dev-docs-zh](https://github.com/Raistlind/obsidian-dev-docs-zh)。
+
+由[LIUBINfighter (Jay Bridge) (github.com)](https://github.com/LIUBINfighter)持续维护。
 
 使用vitepress构建:[![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
 
@@ -50,7 +65,7 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 1.文档   2.文档Repo  3.开发Repo  4.资源聚合网站  5.论坛和新闻
 
-为什么这么分类？如果是文档Repo的话意味着你可以本地进行RAG（我正在开发的一个插件的灵感）。
+为什么这么分类？如果是文档Repo的话意味着你可以本地进行RAG（我正在开发的一个插件的灵感），甚至很方便的加入 MCP 。
 
 ## Obsidian基础官方教程
 
