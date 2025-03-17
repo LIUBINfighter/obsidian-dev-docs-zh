@@ -236,7 +236,7 @@ export const contentsNote = [
         ],
     },
     {
-        text: "社区内容",
+        text: "Liam Cain",
         collapsible: true,
         collapsed: true,
         items: [
@@ -247,7 +247,7 @@ export const contentsNote = [
                 items: [
                     {
                         text: "为什么需要持久化视图到工作区",
-                        link: "/zh/articles/view/persistYourView",
+                        link: "/zh/articles/liam-cain/view/persistYourView",
                     }
                 ]
             },
@@ -258,9 +258,28 @@ export const contentsNote = [
                 items: [
                     {
                         text: "是否可以卸载一条命令？",
-                        link: "/zh/articles/commands/unloadCommand",
+                        link: "/zh/articles/liam-cain/commands/unloadCommand",
                     }
                 ]
+            }
+        ]
+    },
+    {
+        text: "Typings",
+        collapsible: true,
+        collapsed: true,
+        items: [
+            {
+                text: "文档介绍",
+                link: "/zh/articles/typings/index.md"
+            },
+            {
+                text: "入门指南",
+                link: "/zh/articles/typings/getting-started"
+            },
+            {
+                text: "使用方法",
+                link: "/zh/articles/typings/usage"
             }
         ]
     },
