@@ -3,18 +3,17 @@ title: 入门指南
 description: 了解如何在 Obsidian 插件中使用 Obsidian Typings。
 ---
 
+# Obsidian Typings 入门指南
+
 > 原文地址: [Getting Started](https://fevol.github.io/obsidian-typings/getting-started/).
 
-# Obsidian Typings 入门指南
 
 Obsidian Typings 是一个 TypeScript 库，为 Obsidian API 的私有部分提供类型定义。
 本项目与 [Obsidian](https://obsidian.md/) 没有官方关联。
 
-> **警告**
-> 
-> 在使用此包之前，请务必阅读[**免责声明**](https://fevol.github.io/obsidian-typings/disclaimer/)，
-> 以了解使用这些类型定义相关的风险，
-> 并了解此包适用的对象和项目类型。
+::: warning 原作者警告
+在使用此包之前，请务必阅读[**免责声明**](https://fevol.github.io/obsidian-typings/disclaimer/)，以了解使用这些类型定义相关的风险，并了解此包适用的对象和项目类型。
+:::
 
 ## 前提条件
 

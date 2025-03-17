@@ -13,6 +13,12 @@ description: Obsidian API 未公开部分的 Typescript 类型定义
 
 Obsidian API 未公开部分的 Typescript 类型定义。
 
+::: warning 译者免责声明
+开发请留意备份仓库以及隔离环境。
+
+译者的翻译也可能有错误，对于中文翻譯有疑问的内容请 Issue/PR 或者 email，对于文档内容有问题请前往[原地址](https://github.com/fevol/obsidian-typings)。在开发中请自行决定是否查看英文原文。译者不对因为内容翻译准确性导致的后果承担责任。
+:::
+
 ## 功能特点
 
 ### 私有 API 的类型安全访问

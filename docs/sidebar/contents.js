@@ -270,16 +270,32 @@ export const contentsNote = [
         collapsed: true,
         items: [
             {
-                text: "文档介绍",
+                text: "文档介绍：Obsidian 类型定义",
                 link: "/zh/articles/typings/index.md"
             },
             {
-                text: "入门指南",
+                text: "快速开始",
                 link: "/zh/articles/typings/getting-started"
             },
             {
-                text: "使用方法",
+                text: "导入库，扩展和使用方法",
                 link: "/zh/articles/typings/usage"
+            },
+            {
+                text: "教程：添加新的类型定义",
+                link: "/zh/articles/typings/adding-new-typings"
+            },
+            {
+                text: "教程：分析源代码",
+                link: "/zh/articles/typings/analyzing-source-code"
+            },
+            {
+                text: "教程：调试代码",
+                link: "/zh/articles/typings/code-debugging"
+            },
+            {
+                text: "社区资源：Showcase!",
+                link: "/zh/articles/typings/showcase"
             }
         ]
     },

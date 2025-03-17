@@ -1,11 +1,12 @@
 ---
-title: 使用方法
+title: 导入库，扩展和使用方法
 description: 了解如何在你的项目中导入和使用该库。
 ---
 
-> 原文链接：[Usage](https://fevol.github.io/obsidian-typings/usage/)
 
-# 使用方法
+# 导入库，扩展和使用方法
+
+> 原文链接：[Usage](https://fevol.github.io/obsidian-typings/usage/)
 
 在本页面中，你可以找到如何在项目中导入和使用该库的相关信息。
 
