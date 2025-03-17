@@ -7,7 +7,6 @@ description: 了解如何在 Obsidian 插件中使用 Obsidian Typings。
 
 > 原文地址: [Getting Started](https://fevol.github.io/obsidian-typings/getting-started/).
 
-
 Obsidian Typings 是一个 TypeScript 库，为 Obsidian API 的私有部分提供类型定义。
 本项目与 [Obsidian](https://obsidian.md/) 没有官方关联。
 
