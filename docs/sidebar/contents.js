@@ -248,6 +248,38 @@ export const contentsNote = [
                     {
                         text: "为什么需要持久化视图到工作区",
                         link: "/zh/articles/liam-cain/view/persistYourView",
+                    },
+                    {
+                        text: "如何在视图中添加上下文菜单？",
+                        link: "/zh/articles/liam-cain/view/add a custom contextmenu"
+                    },
+                    {
+                        text: "为PDF导出添加兼容性",
+                        link: "/zh/articles/liam-cain/view/adding compatibility with Save As PDF"
+                    },
+                    {
+                        text: "在侧边栏附加新视图",
+                        link: "/zh/articles/liam-cain/view/attach a new view to the sidebar"
+                    },
+                    {
+                        text: "创建自定义代码块",
+                        link: "/zh/articles/liam-cain/view/create a custom code block"
+                    },
+                    {
+                        text: "聚焦笔记标题光标",
+                        link: "/zh/articles/liam-cain/view/focus the note title with the cursor"
+                    },
+                    {
+                        text: "Obsidian日历UI",
+                        link: "/zh/articles/liam-cain/view/obsidian-calendar-ui"
+                    },
+                    {
+                        text: "Obsidian每日笔记界面",
+                        link: "/zh/articles/liam-cain/view/obsidian-daily-notes-interface"
+                    },
+                    {
+                        text: "持久化视图状态",
+                        link: "/zh/articles/liam-cain/view/persisting your view state"
                     }
                 ]
             },
