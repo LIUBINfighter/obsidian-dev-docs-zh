@@ -9,7 +9,7 @@ tags:
 
 [#obsidian/api/faq](https://liamca.in/Obsidian/API+FAQ/views/#obsidian/api/faq)
 
-## 示例代码
+# 示例代码
 
 ```ts
 // 创建一个类型为 \`my-view-type\` 的新视图并添加到右侧边栏

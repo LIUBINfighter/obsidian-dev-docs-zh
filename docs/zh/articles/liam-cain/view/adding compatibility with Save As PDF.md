@@ -5,7 +5,7 @@ created: 2025-03-26
 tags:
   - "clippings"
 ---
-## 如何确保自定义代码块在导出的PDF中显示？
+# 如何确保自定义代码块在导出的PDF中显示？
 
 [#obsidian/api/faq](https://liamca.in/Obsidian/API+FAQ/views/#obsidian/api/faq)
 

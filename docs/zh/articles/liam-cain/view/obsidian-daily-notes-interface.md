@@ -5,11 +5,11 @@ created: 2025-03-26
 tags:
   - "clippings"
 ---
-## Daily Notes Interface
+# 每日笔记接口
 
-The [daily notes interface](https://github.com/liamcain/obsidian-daily-notes-interface) is a package that allows for easily creating or retrieving daily notes. As of version 0.7.0, it also handles weekly and monthly notes.
+[daily notes interface](https://github.com/liamcain/obsidian-daily-notes-interface) 是一个可以轻松创建或检索每日笔记的包。从0.7.0版本开始，它还支持周记和月记。
 
-It's currently used by several plugins:
+目前被以下插件使用：
 
 - [Calendar](https://liamca.in/Obsidian/Plugins/Calendar)
 - [Periodic Notes](https://liamca.in/Obsidian/Plugins/Periodic+Notes)

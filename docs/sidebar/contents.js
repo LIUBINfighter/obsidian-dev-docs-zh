@@ -246,11 +246,11 @@ export const contentsNote = [
                 collapsed: true,
                 items: [
                     {
-                        text: "为什么需要持久化视图到工作区",
+                        text: "持久化视图状态到工作区",
                         link: "/zh/articles/liam-cain/view/persistYourView",
                     },
                     {
-                        text: "如何在视图中添加上下文菜单？",
+                        text: "在视图中添加上下文菜单",
                         link: "/zh/articles/liam-cain/view/add a custom contextmenu"
                     },
                     {
@@ -276,10 +276,6 @@ export const contentsNote = [
                     {
                         text: "Obsidian每日笔记界面",
                         link: "/zh/articles/liam-cain/view/obsidian-daily-notes-interface"
-                    },
-                    {
-                        text: "持久化视图状态",
-                        link: "/zh/articles/liam-cain/view/persisting your view state"
                     }
                 ]
             },

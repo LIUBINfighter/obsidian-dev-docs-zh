@@ -1,79 +1,79 @@
 ---
-title: "index"
+title: "索引"
 source: "https://liamca.in/Obsidian/Plugin+Review+Guide/index"
 created: 2025-03-26
 tags:
   - "clippings"
 ---
-## Obsidian Plugin Review Guidelines
+# Obsidian 插件审查指南
 
-When reviewing an Obsidian plugin, your main focus should be making sure the plugin is functional and doesn't break compatibility with the app or other plugins.
+审查 Obsidian 插件时，主要关注点应是确保插件功能正常且不会破坏与应用程序或其他插件的兼容性。
 
-## Requirements
+## 要求
 
-### Look for cases of potential data loss
+### 检查可能导致数据丢失的情况
 
-Data loss is the fastest way to lose a user's trust. While users are accepting some risk by enabling community-created plugins, data loss (even caused by a plugin) hurts Obsidian's image and makes users weary to install other plugins in the future. As a result, it's especially important that plugins modifying user data are thoroughly vetted and reviewed.
+数据丢失是失去用户信任的最快方式。虽然用户通过启用社区创建的插件承担了一定风险，但数据丢失（即使由插件引起）会损害 Obsidian 的形象，并让用户对安装其他插件产生顾虑。因此，特别需要彻底审查和评估修改用户数据的插件。
 
-#### Common Pitfalls
+#### 常见陷阱
 
-##### Is the plugin writing stale data to disk?
+##### 插件是否将过时数据写入磁盘？
 
-This could be caused by using `cachedRead` then writing that result back to disk. Also keep an eye out for time gaps between reading the data, modifying it, and writing it back to disk.
+这可能是由于使用 `cachedRead` 然后将结果写回磁盘引起的。同时注意读取数据、修改数据和将数据写回磁盘之间的时间间隔。
 
-### Security vulnerabilities
+### 安全漏洞
 
-Is the plugin sending user data to a third-party service without the user knowing?
+插件是否在用户不知情的情况下将用户数据发送给第三方服务？
 
-### Look for glaring logic errors
+### 检查明显的逻辑错误
 
-This section is a catch-all to say: "provide a thorough code review." Is the plugin properly handling edge cases? Does the behavior look consistent with what's expected?
+本节是一个总括，意思是："提供彻底的代码审查"。插件是否正确处理边缘情况？行为是否符合预期？
 
-## Recommendations
+## 建议
 
-### Avoid using private APIs
+### 避免使用私有 API
 
-If an API is not exposed (i.e. not in the API spec), plugin authors are recommended not to use it. Keep an eye out for cases where users are casting the `app` to `any` and reaching into the innards of Obsidian.
+如果 API 未公开（即不在 API 规范中），建议插件作者不要使用它。注意用户将 `app` 强制转换为 `any` 并深入 Obsidian 内部的情况。
 
-### Prefer simplicity
+### 偏好简单性
 
-If a utility already exists in the Obsidian API, point users to use that over rolling their own variant. A few common examples of that are:
+如果 Obsidian API 中已存在实用程序，建议用户使用它而不是自己重新实现。一些常见例子包括：
 
-- **Date formatting.** Obsidian bundles Moment.js with it so for convenience and parity, users are recommended to use that over importing a new library or trying to format date strings themselves.
-- **Debounce** Obsidian provides a simple `debounce` utilty that authors can use for throttling their functions without messing with setTimeout.
+- **日期格式化**。Obsidian 捆绑了 Moment.js，为了方便和一致性，建议用户使用它而不是导入新库或尝试自己格式化日期字符串。
+- **防抖** Obsidian 提供了一个简单的 `debounce` 实用程序，作者可以使用它来节流函数，而无需使用 setTimeout。
 
-### Speed
+### 速度
 
-Keep an eye out for operations that could impact Obsidian's performance.
+注意可能影响 Obsidian 性能的操作。
 
-### Type-Safety
+### 类型安全
 
-While not a requirement, Typescript is recommended for plugins over vanilla Javascript for its added type checking. Not only does it help the plugin author, but it makes reviewing the plugins easier!
+虽然不是要求，但建议插件使用 Typescript 而不是原生 Javascript，因为它提供了额外的类型检查。这不仅有助于插件作者，也使审查插件更容易！
 
-### Code Clarity
+### 代码清晰度
 
-There's no formal Style Guide for plugins. That said, plugins should be readable. Code Formatters can go a long way in helping that.
+没有正式的插件样式指南。也就是说，插件应该是可读的。代码格式化工具在这方面有很大帮助。
 
-If a plugin's formatting is impeding your ability to review it, ask them to format it with a tool such as [Prettier](https://prettier.io/).
+如果插件的格式妨碍了审查能力，请要求他们使用 [Prettier](https://prettier.io/) 等工具进行格式化。
 
-### Plugin Best Practices
+### 插件最佳实践
 
-Obsidian Plugin devs are currently compiling a list of best practices for other devs to reference. [#TODO](https://liamca.in/Obsidian/Plugin+Review+Guide/#TODO)
+Obsidian 插件开发者目前正在为其他开发者编制最佳实践列表。[#TODO](https://liamca.in/Obsidian/Plugin+Review+Guide/#TODO)
 
-For now, you can reference the [API FAQ](https://liamca.in/Obsidian/API+FAQ/index) which provides some more color to the API and example snippets for reference.
+目前，可以参考 [API FAQ](https://liamca.in/Obsidian/API+FAQ/index)，它提供了更多关于 API 的说明和示例代码片段。
 
-## Nonissues
+## 非问题
 
-### Competition
+### 竞争
 
-It's okay if more than one plugin provides the same utility.
+多个插件提供相同的功能是可以的。
 
-### Frameworks
+### 框架
 
-Authors are free to use external libraries and frameworks for their plugin.
+作者可以自由地为他们的插件使用外部库和框架。
 
-## How to write the code review
+## 如何编写代码审查
 
-- If you are going to review the PR, react with 👀 on original post to signal that you're reviewing it.
-- Keep your Code Review in the the `obsidian-releases` PR body itself.
-- From the `main` branch, make sure to reference lines of code with issues using "Copy Permalink" so that the links don't go stale if a new commit is pushed to the repo.
+- 如果要审查 PR，请在原帖上使用 👀 表情表示你正在审查。
+- 将代码审查保留在 `obsidian-releases` PR 正文中。
+- 从 `main` 分支，确保使用 "Copy Permalink" 引用有问题的代码行，这样如果向仓库推送新提交，链接不会失效。

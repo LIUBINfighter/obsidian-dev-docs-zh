@@ -5,17 +5,16 @@ created: 2025-03-26
 tags:
   - "clippings"
 ---
-## calendar-ui
+# calendar-ui
 
 [Repo](https://github.com/liamcain/obsidian-calendar-ui)
 
-I extracted view that powers the [Calendar](https://liamca.in/Obsidian/Plugins/Calendar) plugin into it's own package. If you need to embed a calendar widget into your plugin, you should be able to easily drop-in the calendar-ui package.
+我将[Calendar](https://liamca.in/Obsidian/Plugins/Calendar)插件的视图提取成了独立的包。如果你需要在插件中嵌入日历组件，可以轻松地直接使用calendar-ui包。
 
-The view is build and compiled with Svelte; however, that DOES NOT mean you need to use Svelte for your plugin to use `calendar-ui`. You can instantiate the view as ifit were a plain JS class (because it is!). It can be attached to an arbitrary DOM element like so:
+该视图使用Svelte构建和编译；但这并不意味着你的插件需要使用Svelte才能使用`calendar-ui`。你可以像使用普通JS类一样实例化这个视图（因为它就是！）。它可以像这样附加到任意DOM元素：
 
 ```ts
 this.calendar = new Calendar({
-  target: contentEl, // the HTML element you're attaching it to
+  target: contentEl, // 你要附加到的HTML元素
   props: {},
 });
-```

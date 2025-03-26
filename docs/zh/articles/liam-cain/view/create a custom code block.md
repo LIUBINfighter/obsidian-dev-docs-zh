@@ -1,21 +1,20 @@
 ---
-title: "create a custom code block"
+title: "创建自定义代码块"
 source: "https://liamca.in/Obsidian/API+FAQ/views/create+a+custom+code+block"
 created: 2025-03-26
 tags:
   - "clippings"
 ---
-## How to create a custom code fence
+# 如何创建自定义代码围栏
 
 [#obsidian/api/faq](https://liamca.in/Obsidian/API+FAQ/views/#obsidian/api/faq)
 
-## Sample Code
+## 示例代码
 
 ```ts
 export default class MyPlugin extends Plugin {
   async onload(): Promise<void> {
-    // The first argument here is the "language." It's the keyword that appears
-	// after the \`\`\` backticks. 
+    // 第一个参数是"语言"标识，它会出现在\`\`\`反引号后面
     this.registerMarkdownCodeBlockHandler('myCodeFence', this.myCodeFenceProcessor);
   }
   
@@ -24,8 +23,7 @@ export default class MyPlugin extends Plugin {
 	el: HTMLElement, 
 	ctx: MarkdownPostProcessorContext
   ): void {
-    // step 1: process the \`source\`
-	// step 2: attach whatever DOM elements you want to \`el\`
+    // 第一步：处理\`source\`
+	// 第二步：将你想要的DOM元素附加到\`el\`上
   }
 }
-```
