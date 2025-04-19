@@ -13,7 +13,7 @@
 
 | Docs                                                                                         | Github Repo                                                                                                                   |             |
 | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)               | [luhaifeng666/obsidian-plugin-docs-zh: Obsidian 插件开发文档 (github.com)](https://github.com/luhaifeng666/obsidian-plugin-docs-zh) | 2 years ago |
+| [luhaifeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)               | [luhaifeng666/obsidian-plugin-docs-zh: Obsidian 插件开发文档 (github.com)](https://github.com/luhaifeng666/obsidian-plugin-docs-zh) | 2 years ago |
 | [Raistlind翻译的开发者文档 (raistlind.github.io)](https://raistlind.github.io/obsidian-dev-docs-zh/) | [Raistlind/obsidian-dev-docs-zh](https://github.com/Raistlind/obsidian-dev-docs-zh)                                           | 1 year ago  |
 
 ## 前言
