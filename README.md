@@ -190,6 +190,8 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 Vue开发可参考 [Vue | Obsidian 插件开发文档 (luhaifeng666.github.io)](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/zh2.0/getting-started/vue.html)。 但是！Vue开发的坑超级大，而且样式不易与obsidian兼容。总之这些虽然能修复但是太心累，参考优秀的 Kanban 插件，React 足够...
 
+收录： [PKmer Obsidian 插件开发](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E5%BC%80%E5%8F%91/obsidian%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/)
+
 ## 贡献
 
 Issue和Pr都欢迎。接受网站/博客推荐，插件推荐（帮助解析一下原理），插件开发的奇思妙想都可以。
