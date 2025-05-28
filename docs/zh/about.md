@@ -8,6 +8,8 @@
 
 # Obsidian 开发者中文文档
 
+> 2025年5月28日更新，为了适配Deepwiki我加入了原版仓库文档[en](https://github.com/obsidianmd/obsidian-developer-docs)，你现在可以在[这个](https://deepwiki.com/LIUBINfighter/obsidian-dev-docs-zh)网址直接询问仓库内的文档内容。
+
 官方文档翻译的入口请看： [Home](/zh/home)
 
 | Docs                                                                                         | Github Repo                                                                                                                   |             |

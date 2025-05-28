@@ -15,6 +15,9 @@
     - theme: alt
       text: 官方文档
       link: https://docs.obsidian.md/Home
+    - theme: brand
+      text: Deepwiki在线问答
+      link: https://deepwiki.com/LIUBINfighter/obsidian-dev-docs-zh
     - theme: alt
       text: GitHub
       link: https://github.com/LIUBINfighter/obsidian-dev-docs-zh
