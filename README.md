@@ -8,7 +8,7 @@
 
 > 一入`Obsidian`深似海，从此入坑前端+AI
 
-> 2025年5月28日更新，为了适配Deepwiki我加入了原版仓库文档[en]()，你现在可以在[这个]()网址直接询问仓库内的文档内容。
+> 2025年5月28日更新，为了适配Deepwiki我加入了原版仓库文档[en](https://github.com/obsidianmd/obsidian-developer-docs)，你现在可以在[这个]()网址直接询问仓库内的文档内容。
 
 # Obsidian 开发者中文文档
 
