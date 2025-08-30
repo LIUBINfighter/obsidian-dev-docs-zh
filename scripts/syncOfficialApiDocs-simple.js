@@ -95,6 +95,46 @@ function fixMarkdownLinks(content, currentFileDir, baseDir) {
     }
   );
   
+  // 5. 修复全局函数链接 (如 normalizePath, addIcon 等)
+  // 例在子目录中：[normalizePath()](normalizePath) -> [normalizePath()](../normalizePath)
+  fixedContent = fixedContent.replace(
+    /\[([^\]]+)\]\(([a-z][a-zA-Z0-9]*)\)/g,
+    (match, text, functionName) => {
+      // 跳过已经有路径前缀的链接
+      if (functionName.includes('/') || functionName.startsWith('./') || functionName.startsWith('../')) {
+        return match;
+      }
+      
+      // 检查目标文件是否存在于父目录（全局函数）
+      const parentFile = path.join(baseDir, `${functionName}.md`);
+      if (fs.existsSync(parentFile)) {
+        console.log(`    🔧 修复全局函数链接: ${match} -> [${text}](../${functionName})`);
+        hasChanges = true;
+        return `[${text}](../${functionName})`;
+      }
+      return match;
+    }
+  );
+  
+  // 6. 修复跨类引用链接
+  // 例如：./Vault/getAbstractFileByPath -> ../Vault/getAbstractFileByPath
+  fixedContent = fixedContent.replace(
+    /\[([^\]]+)\]\(\.\/([A-Z][a-zA-Z0-9]*)\/([a-zA-Z0-9_'().-]+)\)/g,
+    (match, text, className, methodName) => {
+      // 如果类名与当前目录名不匹配，这是跨类引用
+      if (className !== currentDirName) {
+        // 检查目标类是否存在于父目录
+        const parentClassFile = path.join(baseDir, `${className}.md`);
+        if (fs.existsSync(parentClassFile)) {
+          console.log(`    🔧 修复跨类引用链接: ${match} -> [${text}](../${className}/${methodName})`);
+          hasChanges = true;
+          return `[${text}](../${className}/${methodName})`;
+        }
+      }
+      return match;
+    }
+  );
+  
   if (hasChanges) {
     console.log(`  ✅ 文件链接已修复`);
   }
