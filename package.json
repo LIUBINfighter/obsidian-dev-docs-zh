@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "pnpm lint:fix && pnpm docs-dev",
-    "build": "pnpm lint:fix && pnpm docs-build",
+    "dev": "pnpm sync:official-api && pnpm lint:fix && pnpm docs-dev",
+    "build": "pnpm sync:official-api && pnpm lint:fix && pnpm docs-build",
     "docs-dev": "vitepress dev docs",
     "docs-build": "vitepress build docs",
     "docs-serve": "vitepress serve docs",
@@ -20,6 +20,8 @@
     "submodule:pull": "cd docs/en/official-develop-docs && git pull origin main",
     "submodule:status": "git submodule status",
     "translate:check": "git diff --name-only docs/en/official-develop-docs/",
+    "sync:official-api": "node scripts/syncOfficialApiDocs-simple.js",
+    "sync:all": "pnpm sync:official-api",
     "translate:sync-official-api": "api-documenter markdown --input-folder docs/en/official-develop-docs/config/input --output-folder docs/zh/official/reference/typescript-api",
     "translate:sync-typings-api": "api-documenter markdown --input-folder node_modules/obsidian-typings/dist --output-folder docs/zh/typings/typescript-api"
   },
