@@ -40,9 +40,13 @@ function generateSidebar(dir) {
       });
     }
     // 处理直接的 .md 文件（官方API文档的实际格式）
-    else if (file.endsWith('.md') && !file.startsWith('obsidian') && file !== 'index.md') {
+    else if (
+      file.endsWith('.md') &&
+      !file.startsWith('obsidian') &&
+      file !== 'index.md'
+    ) {
       const fileName = file.replace('.md', '');
-      
+
       // 按首字母分组
       const firstLetter = fileName.charAt(0).toUpperCase();
       const groupKey = firstLetter;
@@ -55,7 +59,7 @@ function generateSidebar(dir) {
           items: [],
         };
       }
-      
+
       sidebar[groupKey].items.push({
         text: fileName,
         link: `/zh/official/reference/typescript-api/${file}`,
