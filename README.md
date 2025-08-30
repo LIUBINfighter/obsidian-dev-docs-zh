@@ -10,7 +10,6 @@
 
 > 2025年5月28日更新，为了适配Deepwiki我加入了原版仓库文档[en](https://github.com/obsidianmd/obsidian-developer-docs)，你现在可以直接点击[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LIUBINfighter/obsidian-dev-docs-zh)询问仓库内的文档内容。
 
-
 # Obsidian 开发者中文文档
 
 | Docs                                                                                                 | Github Repo                                                                                                                         |             |
