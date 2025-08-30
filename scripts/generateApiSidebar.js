@@ -12,12 +12,16 @@ function generateSidebar(dir) {
   files.forEach((file) => {
     if (file.startsWith('obsidian-typings.')) {
       const parts = file.replace('.md', '').split('.');
-      // obsidian-typings.App.md -> App
-      // obsidian-typings.App.commands.md -> App
       const mainKey = parts[1];
 
-      // obsidian-typings.App.md -> App
-      // obsidian-typings.App.commands.md -> commands
+      if (!mainKey) {
+        // Handle special case for obsidian-typings.md (index file)
+        if (file === 'obsidian-typings.md') {
+          return; // Skip the index file
+        }
+        return;
+      }
+
       const subKey = parts.length > 2 ? parts.slice(2).join('.') : mainKey;
 
       if (!sidebar[mainKey]) {
@@ -44,7 +48,7 @@ function generateSidebar(dir) {
 }
 
 const apiSidebar = generateSidebar(
-  path.resolve(__dirname, '../../docs/zh/reference/typescript-api'),
+  path.resolve(__dirname, '../docs/zh/reference/typescript-api'),
 );
 
 // console.log(JSON.stringify(apiSidebar, null, 2));
