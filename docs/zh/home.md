@@ -3,13 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # Obsidian开发者文档
 
-
 ---
+
 欢迎访问官方的Obsidian开发者文档，您可以在这里学习如何为[Obsidian](https://obsidian.md/)构建插件和主题。有关如何使用Obsidian的提示，请访问[官方帮助网站](https://help.obsidian.md/)。
 
 # 插件
@@ -27,14 +27,12 @@
 - [提交您的主题](./themes/app-themes/submit-your-theme.md)
 - CSS变量
 
-
 # 加入开发者社区
 
 如果您遇到困难，或者正在寻找反馈，请加入[社区](https://obsidian.md/community)。
 
 - Discord 上的`#plugin-dev` 和 `#theme-dev` 频道。
 - [开发人员和API](https://forum.obsidian.md/c/developers-api/14)，以及论坛上的[分享和展示](https://forum.obsidian.md/c/share-showcase/9)版块。
-
 
 # 贡献
 

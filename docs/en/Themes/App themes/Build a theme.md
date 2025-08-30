@@ -93,13 +93,13 @@ Themes can support both light and dark color schemes. Define your CSS variables 
 
    ```css
    .theme-dark {
-     --background-primary: #18004F;
+     --background-primary: #18004f;
      --background-secondary: #220070;
    }
 
    .theme-light {
-     --background-primary: #ECE4FF;
-     --background-secondary: #D9C9FF;
+     --background-primary: #ece4ff;
+     --background-secondary: #d9c9ff;
    }
    ```
 
@@ -119,22 +119,21 @@ Here's an example to illustrate its usage:
 >
 > ```css
 > :root {
->    --input-focus-border-color: Highlight;
->    --input-focus-outline: 1px solid Canvas;
->    --input-unfocused-border-color: transparent;
->    --input-disabled-border-color: transparent;
->    --input-hover-border-color: black;
->    /* Default Input Variables for Root */
- > }
- > ```
-
+>   --input-focus-border-color: Highlight;
+>   --input-focus-outline: 1px solid Canvas;
+>   --input-unfocused-border-color: transparent;
+>   --input-disabled-border-color: transparent;
+>   --input-hover-border-color: black;
+>   /* Default Input Variables for Root */
+> }
+> ```
 
 Now, let's modify the hover border color in our CSS:
 
 ```css
 :root {
-   --input-hover-border-color: red;
-/* Change from Black to Red */
+  --input-hover-border-color: red;
+  /* Change from Black to Red */
 }
 ```
 
@@ -152,14 +151,14 @@ With this update, when you hover over any input field, the border color will cha
 Obsidian exposes more than 400 different CSS variables for customizing different parts of the user interface.
 You can find a list of many of these variables under available under [[CSS variables]]
 
-Alternatively, you can inspect the app to find the variable that is used to style a certain element. 
+Alternatively, you can inspect the app to find the variable that is used to style a certain element.
 In this step, you'll find the CSS variable for changing the ribbon background.
 
 1. In Obsidian, open the **Developer Tools** by pressing `Ctrl`+`Shift`+`I` (or `Cmd`+`Option`+`I` on macOS).
 2. Open the **Sources** tab.
 3. Under **Page → top → obsidian.md**, select **app.css**.
 4. Scroll to the top of `app.css` to find all available CSS variables.
-5. Search for variables related to the ribbon by pressing `Ctrl`+`F` (or `Cmd`+`F` on macOS) and typing "  --ribbon-". Notice the two blank spaces, which return the definitions rather than their uses.
+5. Search for variables related to the ribbon by pressing `Ctrl`+`F` (or `Cmd`+`F` on macOS) and typing " --ribbon-". Notice the two blank spaces, which return the definitions rather than their uses.
 
 One of the results is `--ribbon-background`, which sounds promising. To be sure, you can also inspect the HTML to find the CSS variable used by a specific element.
 

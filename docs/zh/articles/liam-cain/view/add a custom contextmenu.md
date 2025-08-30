@@ -1,10 +1,11 @@
 ---
-title: "添加自定义上下文菜单"
-source: "https://liamca.in/Obsidian/API+FAQ/views/add+a+custom+contextmenu"
+title: '添加自定义上下文菜单'
+source: 'https://liamca.in/Obsidian/API+FAQ/views/add+a+custom+contextmenu'
 created: 2025-03-26
 tags:
-  - "clippings"
+  - 'clippings'
 ---
+
 # 如何为视图添加上下文菜单？
 
 [#obsidian/api/faq](https://liamca.in/Obsidian/API+FAQ/views/#obsidian/api/faq)
@@ -22,11 +23,11 @@ const fileMenu = new Menu(); // 创建空文件菜单
 
 // 钩子函数让插件可以添加"文件感知"菜单项
 this.app.workspace.trigger(
-  "file-menu", 
-  fileMenu, 
-  file, 
-  "my-context-menu", 
-  null
+  'file-menu',
+  fileMenu,
+  file,
+  'my-context-menu',
+  null,
 );
 
 fileMenu.showAtPosition({ x: event.pageX, y: event.pageY }); // 实际打开菜单
@@ -40,11 +41,12 @@ fileMenu.showAtPosition({ x: event.pageX, y: event.pageY }); // 实际打开菜�
 
 ```ts
 const myMenu = new Menu();
-  myMenu.addItem((item) =>
-    item
-      .setTitle("我的自定义操作")
-      .setIcon("trash")
-      .onClick(() => {
-        myCustomFunction();
-      })
-  );
+myMenu.addItem((item) =>
+  item
+    .setTitle('我的自定义操作')
+    .setIcon('trash')
+    .onClick(() => {
+      myCustomFunction();
+    }),
+);
+```

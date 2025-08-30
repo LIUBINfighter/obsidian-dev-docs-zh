@@ -31,10 +31,10 @@ Visitors to Publish sites may use older browsers that are not compatible with ne
 
 Obsidian Publish has two breakpoints by default:
 
-| Breakpoint | Device | Effect | 
-| ----------- | - | - |
-| 1000px | Tablet | Right sidebar is hidden |
-| 750px | Mobile | Left and right sidebars are hidden. If enabled, navigation is accessible via hamburger menu in the top left corner |
+| Breakpoint | Device | Effect                                                                                                             |
+| ---------- | ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 1000px     | Tablet | Right sidebar is hidden                                                                                            |
+| 750px      | Mobile | Left and right sidebars are hidden. If enabled, navigation is accessible via hamburger menu in the top left corner |
 
 You can target these devices using CSS. Any rules defined outside of the `@media` query will apply to all devices.
 

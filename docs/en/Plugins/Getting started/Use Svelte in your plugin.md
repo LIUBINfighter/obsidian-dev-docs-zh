@@ -11,8 +11,8 @@ This guide assumes that you've finished [[Build a plugin]].
 
 ## Configure your plugin
 
-To build a plugin with Svelte, you need to install the dependencies and configure your plugin to compile code written using Svelte. 
-If you only want to use TypeScript's *type-only* features, you don't need `svelte-preprocess`.
+To build a plugin with Svelte, you need to install the dependencies and configure your plugin to compile code written using Svelte.
+If you only want to use TypeScript's _type-only_ features, you don't need `svelte-preprocess`.
 
 1. Add Svelte to your plugin dependencies:
 
@@ -33,13 +33,10 @@ If you only want to use TypeScript's *type-only* features, you don't need `svelt
    {
      "compilerOptions": {
        "verbatimModuleSyntax": true,
-       "skipLibCheck": true,
+       "skipLibCheck": true
        // ...
      },
-     "include": [
-       "**/*.ts",
-       "**/*.svelte"
-     ]
+     "include": ["**/*.ts", "**/*.svelte"]
    }
    ```
 
@@ -63,9 +60,9 @@ If you only want to use TypeScript's *type-only* features, you don't need `svelt
      // ...
    });
    ```
-  
+
 5. Add a script to run `svelte-check` to your `package.json`.
-   
+
    ```json
    {
      // ...
@@ -143,7 +140,7 @@ export class ExampleView extends ItemView {
       target: this.contentEl,
       props: {
         startCount: 5,
-      }
+      },
     });
 
     // Since the component instance is typed, the exported `increment` method is known to TypeScript.

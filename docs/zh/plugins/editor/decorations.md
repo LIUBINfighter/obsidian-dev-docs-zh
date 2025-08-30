@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 装饰
+
 ---
+
 装饰可以让你控制[编辑器扩展](./editor-extensions.md)中内容的绘制或样式。如果你想通过添加、替换编辑器中的元素或为其设计样式来改变编辑器的外观和观感，那么你很可能需要使用装饰。
 
 在本节结束时，您将能够：
@@ -15,9 +17,8 @@
 - 了解如何使用装饰来改变编辑器外观。
 - 了解使用状态字段和视图插件提供装饰的区别。
 
-
 > [!NOTE]
-> 
+>
 > 本页旨在为Obsidian 插件开发人员提炼 CodeMirror 6 官方文档。有关状态字段的详细信息，请参阅 [Decorating the Document](https://codemirror.net/docs/guide/#decorating-the-document) 。
 
 ## 先决条件
@@ -70,13 +71,13 @@ Widget是可以添加到编辑器中的自定义 HTML 元素。您可以在文�
 下面的示例定义了一个返回 HTML 元素 `<span>👉</span>` 的 widget。稍后您将使用该 widget。
 
 ```ts
-import { EditorView, WidgetType } from "@codemirror/view";
+import { EditorView, WidgetType } from '@codemirror/view';
 
 export class EmojiWidget extends WidgetType {
   toDOM(view: EditorView): HTMLElement {
-    const div = document.createElement("span");
+    const div = document.createElement('span');
 
-    div.innerText = "👉";
+    div.innerText = '👉';
 
     return div;
   }
@@ -87,7 +88,7 @@ export class EmojiWidget extends WidgetType {
 
 ```ts
 const decoration = Decoration.replace({
-  widget: new EmojiWidget()
+  widget: new EmojiWidget(),
 });
 ```
 
@@ -96,31 +97,29 @@ const decoration = Decoration.replace({
 从状态栏中提供装饰：
 
 1. 使用 `DecorationSet` 类型定义[状态字段](./state-fields.md)。
-    
 2. 为状态字段添加 `provide` 属性。
-    
-    ```ts
-    provide(field: StateField<DecorationSet>): Extension {
-      return EditorView.decorations.from(field);
-    },
-    ```
-    
+
+   ```ts
+   provide(field: StateField<DecorationSet>): Extension {
+     return EditorView.decorations.from(field);
+   },
+   ```
 
 ```ts
-import { syntaxTree } from "@codemirror/language";
+import { syntaxTree } from '@codemirror/language';
 import {
   Extension,
   RangeSetBuilder,
   StateField,
   Transaction,
-} from "@codemirror/state";
+} from '@codemirror/state';
 import {
   Decoration,
   DecorationSet,
   EditorView,
   WidgetType,
-} from "@codemirror/view";
-import { EmojiWidget } from "emoji";
+} from '@codemirror/view';
+import { EmojiWidget } from 'emoji';
 
 export const emojiListField = StateField.define<DecorationSet>({
   create(state): DecorationSet {
@@ -131,7 +130,7 @@ export const emojiListField = StateField.define<DecorationSet>({
 
     syntaxTree(transaction.state).iterate({
       enter(node) {
-        if (node.type.name.startsWith("list")) {
+        if (node.type.name.startsWith('list')) {
           // Position of the '-' or the '*'.
           const listCharFrom = node.from - 2;
 
@@ -140,7 +139,7 @@ export const emojiListField = StateField.define<DecorationSet>({
             listCharFrom + 1,
             Decoration.replace({
               widget: new EmojiWidget(),
-            })
+            }),
           );
         }
       },
@@ -166,8 +165,8 @@ export const emojiListField = StateField.define<DecorationSet>({
 并非所有更新都需要重建装饰。下面的示例只在底层文档或视窗发生变化时重建装饰。
 
 ```ts
-import { syntaxTree } from "@codemirror/language";
-import { RangeSetBuilder } from "@codemirror/state";
+import { syntaxTree } from '@codemirror/language';
+import { RangeSetBuilder } from '@codemirror/state';
 import {
   Decoration,
   DecorationSet,
@@ -177,8 +176,8 @@ import {
   ViewPlugin,
   ViewUpdate,
   WidgetType,
-} from "@codemirror/view";
-import { EmojiWidget } from "emoji";
+} from '@codemirror/view';
+import { EmojiWidget } from 'emoji';
 
 class EmojiListPlugin implements PluginValue {
   decorations: DecorationSet;
@@ -203,7 +202,7 @@ class EmojiListPlugin implements PluginValue {
         from,
         to,
         enter(node) {
-          if (node.type.name.startsWith("list")) {
+          if (node.type.name.startsWith('list')) {
             // Position of the '-' or the '*'.
             const listCharFrom = node.from - 2;
 
@@ -212,7 +211,7 @@ class EmojiListPlugin implements PluginValue {
               listCharFrom + 1,
               Decoration.replace({
                 widget: new EmojiWidget(),
-              })
+              }),
             );
           }
         },
@@ -229,7 +228,7 @@ const pluginSpec: PluginSpec<EmojiListPlugin> = {
 
 export const emojiListPlugin = ViewPlugin.fromClass(
   EmojiListPlugin,
-  pluginSpec
+  pluginSpec,
 );
 ```
 
@@ -238,4 +237,3 @@ export const emojiListPlugin = ViewPlugin.fromClass(
 请注意 `ViewPlugin.fromClass()` 函数的第二个参数。 `PluginSpec` 中的 `decorations` 属性指定了视图插件向编辑器提供装饰的方式。
 
 由于视图插件知道用户可以看到什么，因此可以使用 `view.visibleRanges` 来限制访问语法树的哪些部分。
-

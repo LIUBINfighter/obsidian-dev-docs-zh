@@ -27,9 +27,11 @@ If your plugin uses more than one `.ts` file, consider organizing them into fold
 The sample plugin contains placeholder names for common classes, such as `MyPlugin`, `MyPluginSettings`, and `SampleSettingTab`. Rename these to reflect the name of your plugin.
 
 ## Mobile
+
 ![[Mobile development#Node and Electron APIs]]
 
 ![[Mobile development#Lookbehind in regular expressions]]
+
 ## UI text
 
 This section lists guidelines for formatting text in the user interface, such as settings, commands, and buttons.
@@ -70,9 +72,11 @@ Any text in UI elements should be using [Sentence case](https://en.wiktionary.or
 
 Using the heading elements from HTML will result in inconsistent styling between different plugins.
 Instead you should prefer the following:
+
 ```ts
 new Setting(containerEl).setName('your heading title').setHeading();
 ```
+
 ## Security
 
 ### Avoid `innerHTML`, `outerHTML` and `insertAdjacentHTML`
@@ -109,7 +113,7 @@ export default class MyPlugin extends Plugin {
 
   onCreate: (file: TAbstractFile) => {
     // ...
-  }
+  };
 }
 ```
 
@@ -158,7 +162,7 @@ If you want to access the editor in the active note, use `activeEditor` instead:
 const editor = this.app.workspace.activeEditor?.editor;
 
 if (editor) {
-    // ...
+  // ...
 }
 ```
 
@@ -169,7 +173,7 @@ Managing references to custom view can cause memory leaks or unintended conseque
 **Don't** do this:
 
 ```ts
-this.registerViewType(MY_VIEW_TYPE, () => this.view = new MyCustomView());
+this.registerViewType(MY_VIEW_TYPE, () => (this.view = new MyCustomView()));
 ```
 
 Do this instead:
@@ -228,7 +232,7 @@ This is inefficient, especially for large vaults. Use [[getFileByPath|Vault.getF
 **Don't** do this:
 
 ```ts
-this.app.vault.getFiles().find(file => file.path === filePath);
+this.app.vault.getFiles().find((file) => file.path === filePath);
 ```
 
 Do this instead:
@@ -246,14 +250,15 @@ const folder = this.app.vault.getFolderByPath(folderPath);
 ```
 
 If you aren't sure if the path provided is for a folder or a file, use:
+
 ```ts
 const abstractFile = this.app.vault.getAbstractFileByPath(filePath);
 
 if (file instanceof TFile) {
-	// it's a file
+  // it's a file
 }
 if (file instanceof TFolder) {
-	// it's a folder
+  // it's a folder
 }
 ```
 
@@ -304,8 +309,8 @@ class MyPlugin extends Plugin {
     this.app.workspace.updateOptions();
   }
 }
-
 ```
+
 ## Styling
 
 ### No hardcoded styling
@@ -323,15 +328,15 @@ To make it easy for users to modify the styling of your plugin you should use CS
 **Do** this instead:
 
 ```ts
-const el = containerEl.createDiv({cls: 'warning-container'});
+const el = containerEl.createDiv({ cls: 'warning-container' });
 ```
 
- In the plugins CSS add the following:
+In the plugins CSS add the following:
 
 ```css
 .warning-container {
-	color: var(--text-normal);
-	background-color: var(--background-modifier-error);
+  color: var(--text-normal);
+  background-color: var(--background-modifier-error);
 }
 ```
 
@@ -369,8 +374,7 @@ async function AsyncTest(): Promise<string | null> {
     let res = await requestUrl('https://example.com');
     let text = await r.text;
     return text;
-  }
-  catch (e) {
+  } catch (e) {
     console.log(e);
     return null;
   }

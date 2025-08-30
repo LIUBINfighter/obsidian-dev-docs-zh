@@ -48,7 +48,7 @@ this.addCommand({
         doCommand(value);
       }
 
-      return true
+      return true;
     }
 
     return false;
@@ -81,7 +81,11 @@ If the editor callback can only run given under certain conditions, consider usi
 this.addCommand({
   id: 'example-command',
   name: 'Example command',
-  editorCheckCallback: (checking: boolean, editor: Editor, view: MarkdownView) => {
+  editorCheckCallback: (
+    checking: boolean,
+    editor: Editor,
+    view: MarkdownView,
+  ) => {
     const value = getRequiredValue();
 
     if (value) {
@@ -89,7 +93,7 @@ this.addCommand({
         doCommand(value);
       }
 
-      return true
+      return true;
     }
 
     return false;

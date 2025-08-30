@@ -53,32 +53,32 @@ import { ReactView } from './ReactView';
 const VIEW_TYPE_EXAMPLE = 'example-view';
 
 class ExampleView extends ItemView {
-	root: Root | null = null;
+  root: Root | null = null;
 
-	constructor(leaf: WorkspaceLeaf) {
-		super(leaf);
-	}
+  constructor(leaf: WorkspaceLeaf) {
+    super(leaf);
+  }
 
-	getViewType() {
-		return VIEW_TYPE_EXAMPLE;
-	}
+  getViewType() {
+    return VIEW_TYPE_EXAMPLE;
+  }
 
-	getDisplayText() {
-		return 'Example view';
-	}
+  getDisplayText() {
+    return 'Example view';
+  }
 
-	async onOpen() {
-		this.root = createRoot(this.containerEl.children[1]);
-		this.root.render(
-			<StrictMode>
-				<ReactView />,
-			</StrictMode>,
-		);
-	}
+  async onOpen() {
+    this.root = createRoot(this.containerEl.children[1]);
+    this.root.render(
+      <StrictMode>
+        <ReactView />,
+      </StrictMode>,
+    );
+  }
 
-	async onClose() {
-		this.root?.unmount();
-	}
+  async onClose() {
+    this.root?.unmount();
+  }
 }
 ```
 
@@ -108,7 +108,7 @@ Another alternative is to create a React context for the app to make it globally
    this.root.render(
      <AppContext.Provider value={this.app}>
        <ReactView />
-     </AppContext.Provider>
+     </AppContext.Provider>,
    );
    ```
 

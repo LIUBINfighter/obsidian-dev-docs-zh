@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 构建主题
+
 ---
+
 In this tutorial, you'll learn how to start developing a theme for Obsidian. Themes let you customize how Obsidian looks and feels, using CSS.  
 在本教程中，您将学习如何开始为Obsidian开发主题。主题允许您使用 CSS 自定义Obsidian的外观和体验。
 
@@ -33,22 +35,21 @@ In this tutorial, you'll learn how to start developing a theme for Obsidian. The
 您在本教程中使用的示例主题将在 [GitHub repository](https://github.com/obsidianmd/obsidian-sample-theme)中提供。
 
 1. 打开终端窗口，将项目目录更改为该 `themes` 目录。
-    
-    ```bash
-    cd path/to/vault/.obsidian/themes
-    ```
-    
+
+   ```bash
+   cd path/to/vault/.obsidian/themes
+   ```
+
 2. 用 Git 克隆示例主题。
-    
-    ```bash
-    git clone https://github.com/obsidianmd/obsidian-sample-theme.git "Sample Theme"
-    ```
-    
+
+   ```bash
+   git clone https://github.com/obsidianmd/obsidian-sample-theme.git "Sample Theme"
+   ```
 
 > [!tip] 模板存储库
-> 
+>
 > 示例主题的存储库是 GitHub 模板存储库，这意味着您可以从示例主题创建自己的存储库。要了解如何操作，请参阅 [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)。
-> 
+>
 > 请记住在克隆示例主题时使用您自己的存储库的 URL。
 
 ## 第 2 步：启用主题
@@ -59,22 +60,19 @@ In this tutorial, you'll learn how to start developing a theme for Obsidian. The
 
 您已启用示例主题。接下来，我们将对其进行一些更改。
 
-## 第 3 步：更新 manifest  
+## 第 3 步：更新 manifest
 
 在此步骤中，您将通过更新 `manifest.json` 来重命名主题。manifest包含有关主题的信息，例如其名称和说明。
 
 1. 在代码编辑器中打开 `manifest.json` 。
-    
 2. 更改 `name` 名称，例如 `"Disco Lights"` .
-    
 3. 将themes目录下的主题目录重命名为相同的名称。主题目录的名称必须与 `name` 中的 `manifest.json` 属性完全匹配。
-    
-    ```bash
-    mv "Sample Theme" "Disco Lights"
-    ```
-    
+
+   ```bash
+   mv "Sample Theme" "Disco Lights"
+   ```
+
 4. 重新启动Obsidian以加载对清单的新更改。
-    
 
 返回到“设置”→“外观”→“主题”，发现主题的名称已更改。
 
@@ -85,21 +83,19 @@ In this tutorial, you'll learn how to start developing a theme for Obsidian. The
 Obsidian使用 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) 来设置用户界面的样式。在此步骤中，您将使用 CSS 变量来更改编辑器中的字体。
 
 1. 创建一个新笔记，例如“主题开发”。
-    
 2. 在笔记中输入以下文本：
-    
-    ```md
-    Themes let you make [Obsidian](https://obsidian.md) look the way **you** want it.
-    ```
-    
+
+   ```md
+   Themes let you make [Obsidian](https://obsidian.md) look the way **you** want it.
+   ```
+
 3. 在 `theme.css` 中，添加以下内容：
-    
-    ```css
-    body {
-      --font-text-theme: Georgia, serif;
-    }
-    ```
-    
+
+   ```css
+   body {
+     --font-text-theme: Georgia, serif;
+   }
+   ```
 
 编辑器将使用您定义的字体显示笔记。
 
@@ -108,23 +104,22 @@ Obsidian使用 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/
 主题可以支持浅色和深色配色方案。在 `.theme-light` 或 `.theme-dark`下 定义 CSS 变量。
 
 1. 在  `theme.css` 中，添加以下内容：
-    
-    ```css
-    .theme-dark {
-      --background-primary: #18004F;
-      --background-secondary: #220070;
-    }
-    
-    .theme-light {
-      --background-primary: #ECE4FF;
-      --background-secondary: #D9C9FF;
-    }
-    ```
-    
+
+   ```css
+   .theme-dark {
+     --background-primary: #18004f;
+     --background-secondary: #220070;
+   }
+
+   .theme-light {
+     --background-primary: #ece4ff;
+     --background-secondary: #d9c9ff;
+   }
+   ```
+
 2. 在Obsidian中，打开设置。
-    
 3. 在“外观”下，在“浅色”和“深色”之间切换基本配色方案。
-    
+
 您将看到Obsidian根据您选择的配色方案呈现颜色。尝试将颜色更改为 `red` 、 `green` 或 `blue` 进行更强烈的更改。
 
 ## 第 6 步：更改输入悬停边框颜色
@@ -133,10 +128,9 @@ Obsidian使用 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/
 
 下面是一个示例来说明其用法：
 
-
 > [!NOTE] 示例
 > 如果想在 Obsidian 中的不同位置找到的输入字段，例如设置或文本内容。要定义针对此输入字段的样式，我们可以使用 `:root` 选择器。
-> 
+>
 > ```css
 > :root {
 >   --input-focus-border-color: Highlight;
@@ -147,26 +141,24 @@ Obsidian使用 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/
 >   /* Default Input Variables for Root */
 > }
 > ```
-> 
 
 现在，让我们修改 CSS 中的悬停边框颜色：
 
 ```css
 :root {
-   --input-hover-border-color: red;
-/* Change from Black to Red */
+  --input-hover-border-color: red;
+  /* Change from Black to Red */
 }
 ```
 
 在此更新中，当您将鼠标悬停在任何输入字段上时，边框颜色将变为亮红色。
 
-
-> [!NOTE] 
-> 
+> [!NOTE]
+>
 > 在定义浅色和深色主题都相同的样式时，建议使用 `body` 选择器。
-> 
+>
 > 仅当您希望在浅色和深色主题之间切换时更改样式时，才使用 `.theme-dark` 或 `.theme-light` 选择器。
-> 
+>
 > `:root` 需要谨慎使用。尽量将变量放在`body`、 `.theme-dark` 或 `.theme-light` 选择器。
 
 ## 第 7 步：发现正在使用的 CSS 变量

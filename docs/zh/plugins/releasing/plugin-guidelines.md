@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 插件指南
+
 ---
+
 本页列出了插件作者在提交插件时收到的常见评审意见。
 
 虽然此页面上的指南是建议，但根据其严重程度，我们可能仍会要求您解决违规问题。
@@ -90,18 +92,17 @@ function showName(name: string) {
 ```ts
 export default class MyPlugin extends Plugin {
   onload() {
-    this.registerEvent(this.app.vault.on("create", this.onCreate));
+    this.registerEvent(this.app.vault.on('create', this.onCreate));
   }
 
   onCreate: (file: TAbstractFile) => {
     // ...
-  }
+  };
 }
 ```
 
-
-> [!NOTE] 
-> 
+> [!NOTE]
+>
 > 您无需清理在插件卸载时删除的资源。例如，如果在 DOM 元素上注册 `mouseenter` 侦听器，当该元素超出范围时，将对事件侦听器进行垃圾回收。
 
 ### 不要在`onunload`分离 leaves
@@ -153,7 +154,7 @@ const editor = this.app.workspace.activeEditor;
 不要：
 
 ```ts
-this.registerViewType(MY_VIEW_TYPE, () => this.view = new MyCustomView());
+this.registerViewType(MY_VIEW_TYPE, () => (this.view = new MyCustomView()));
 ```
 
 请改为执行此操作：
@@ -201,7 +202,7 @@ Obsidian公开了两个用于文件操作的 API：Vault API （ `app.vault` �
 不建议：
 
 ```ts
-vault.getAllFiles().find(file => file.path === filePath)
+vault.getAllFiles().find((file) => file.path === filePath);
 ```
 
 请改为执行此操作：
@@ -229,8 +230,8 @@ if (file instanceof TFile) {
 - 通过 [String.prototype.normalize](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize) 执行路径。
 
 ```ts
-import { normalizePath } from "obsidian";
-const pathToPlugin = normalizePath(app.vault.configDir + "//plugins/my-plugin");
+import { normalizePath } from 'obsidian';
+const pathToPlugin = normalizePath(app.vault.configDir + '//plugins/my-plugin');
 // pathToPlugin contains ".obsidian/plugins/my-plugin" not .obsidian//plugins/my-plugin
 ```
 
@@ -264,7 +265,6 @@ class MyPlugin extends Plugin {
     this.app.workspace.updateOptions();
   }
 }
-
 ```
 
 ## TypeScript
@@ -298,8 +298,7 @@ async function AsyncTest(): Promise<string | null> {
     let res = await requestUrl('https://example.com');
     let text = await r.text;
     return text;
-  }
-  catch (e) {
+  } catch (e) {
     console.log(e);
     return null;
   }

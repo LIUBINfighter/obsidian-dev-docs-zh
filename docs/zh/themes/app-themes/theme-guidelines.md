@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 主题指南
+
 ---
+
 本页列出了我们关于构建可靠且可维护的主题的建议。通过遵循这些准则，您可以最大限度地减少维护工作，以使您的主题与 Obsidian 的未来版本保持更新。
 
 有关开发人员一般准则的更多信息，请参阅 [Developer policies](https://docs.obsidian.md/Developer+policies)。

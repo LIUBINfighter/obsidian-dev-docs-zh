@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 移动开发
+
 ---
+
 了解如何为移动设备开发插件。
 
 ## 在桌面上模拟移动设备
@@ -15,15 +17,12 @@
 您可以直接从开发人员工具模拟运行移动设备的Obsidian。
 
 1. 打开开发人员工具(Shift+Ctrl+i)。
-    
 2. 选择“控制台”选项卡。
-    
 3. 输入以下内容，然后按 `Enter` 。
-    
-    ```ts
-    this.app.emulateMobile(true);
-    ```
-    
+
+   ```ts
+   this.app.emulateMobile(true);
+   ```
 
 要禁用移动仿真，请输入以下内容并按： `Enter`。
 
@@ -53,7 +52,7 @@ this.app.emulateMobile(!this.app.isMobile);
 要检测运行插件的平台，您可以使用 `Platform` ：
 
 ```ts
-import { Platform } from "obsidian";
+import { Platform } from 'obsidian';
 
 if (Platform.isIosApp) {
   // ...

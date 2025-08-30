@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 使用React
+
 ---
+
 在本指南中，您将配置插件以使用 React。它假设你已经有一个带有 [custom view](https://docs.obsidian.md/Plugins/User+interface/Views) 的插件，你想通过它来使用 React。
 
 虽然你不需要使用单独的框架来构建插件，但有几个原因可能导致你想使用 React：
@@ -19,27 +21,26 @@
 ## 配置插件
 
 1. 将 React 添加到插件依赖项中：
-    
-    ```bash
-    npm install react react-dom
-    ```
-    
+
+   ```bash
+   npm install react react-dom
+   ```
+
 2. 为 React 添加类型定义：
-    
-    ```bash
-    npm install --save-dev @types/react @types/react-dom
-    ```
-    
+
+   ```bash
+   npm install --save-dev @types/react @types/react-dom
+   ```
+
 3. 在 `tsconfig.json` 中 ，对 `compilerOptions` 对象启用 JSX 支持：
-    
-    ```ts
-    {
-      "compilerOptions": {
-        "jsx": "preserve"
-      }
-    }
-    ```
-    
+
+   ```ts
+   {
+     "compilerOptions": {
+       "jsx": "preserve"
+     }
+   }
+   ```
 
 ## 创建 React 组件
 
@@ -56,40 +57,40 @@ export const ReactView = () => {
 要使用 React 组件，需要将其挂载在 [HTML elements](https://docs.obsidian.md/Plugins/User+interface/HTML+elements). 上。以下示例将 `ReactView` 组件装载到元素 `this.containerEl.children[1]` 上：
 
 ```tsx
-import { StrictMode } from "react";
-import { ItemView, WorkspaceLeaf } from "obsidian";
-import { Root, createRoot } from "react-dom/client";
-import { ReactView } from "./ReactView";
+import { StrictMode } from 'react';
+import { ItemView, WorkspaceLeaf } from 'obsidian';
+import { Root, createRoot } from 'react-dom/client';
+import { ReactView } from './ReactView';
 
-const VIEW_TYPE_EXAMPLE = "example-view";
+const VIEW_TYPE_EXAMPLE = 'example-view';
 
 class ExampleView extends ItemView {
-	root: Root | null = null;
+  root: Root | null = null;
 
-	constructor(leaf: WorkspaceLeaf) {
-		super(leaf);
-	}
+  constructor(leaf: WorkspaceLeaf) {
+    super(leaf);
+  }
 
-	getViewType() {
-		return VIEW_TYPE_EXAMPLE;
-	}
+  getViewType() {
+    return VIEW_TYPE_EXAMPLE;
+  }
 
-	getDisplayText() {
-		return "Example view";
-	}
+  getDisplayText() {
+    return 'Example view';
+  }
 
-	async onOpen() {
-		this.root = createRoot(this.containerEl.children[1]);
-		this.root.render(
-			<StrictMode>
-				<ReactView />,
-			</StrictMode>,
-		);
-	}
+  async onOpen() {
+    this.root = createRoot(this.containerEl.children[1]);
+    this.root.render(
+      <StrictMode>
+        <ReactView />,
+      </StrictMode>,
+    );
+  }
 
-	async onClose() {
-		this.root?.unmount();
-	}
+  async onClose() {
+    this.root?.unmount();
+  }
 }
 ```
 
@@ -103,47 +104,46 @@ class ExampleView extends ItemView {
 另一种选择是为应用创建一个 React 上下文，使其对 React 视图中的所有组件全局可用。
 
 1. 用 `createContext()` 创建新的应用上下文。
-    
-    ```tsx
-    import { createContext } from "react";
-    import { App } from "obsidian";
-    
-    export const AppContext = createContext<App | undefined>(undefined);
-    ```
-    
+
+   ```tsx
+   import { createContext } from 'react';
+   import { App } from 'obsidian';
+
+   export const AppContext = createContext<App | undefined>(undefined);
+   ```
+
 2. 使用上下文程序包装，将 `ReactView` 应用作为值传递。
-    
-    ```tsx
-    this.root = createRoot(this.containerEl.children[1]);
-    this.root.render(
-      <AppContext.Provider value={this.app}>
-        <ReactView />
-      </AppContext.Provider>
-    );
-    ```
-    
+
+   ```tsx
+   this.root = createRoot(this.containerEl.children[1]);
+   this.root.render(
+     <AppContext.Provider value={this.app}>
+       <ReactView />
+     </AppContext.Provider>,
+   );
+   ```
+
 3. 创建自定义钩子，以便更轻松地在组件中使用上下文。
-    
-    ```tsx
-    import { useContext } from "react";
-    import { AppContext } from "./context";
-    
-    export const useApp = (): App | undefined => {
-      return useContext(AppContext);
-    };
-    ```
-    
+
+   ```tsx
+   import { useContext } from 'react';
+   import { AppContext } from './context';
+
+   export const useApp = (): App | undefined => {
+     return useContext(AppContext);
+   };
+   ```
+
 4. 使用任何 `ReactView` React 组件中的钩子来访问应用程序。
-    
-    ```tsx
-    import { useApp } from "./hooks";
-    
-    export const ReactView = () => {
-      const { vault } = useApp();
-    
-      return <h4>{vault.getName()}</h4>;
-    };
-    ```
-    
+
+   ```tsx
+   import { useApp } from './hooks';
+
+   export const ReactView = () => {
+     const { vault } = useApp();
+
+     return <h4>{vault.getName()}</h4>;
+   };
+   ```
 
 有关更多信息，请参阅 React 文档 [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context) and [Reusing Logic with Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks) 。

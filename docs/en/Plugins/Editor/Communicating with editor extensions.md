@@ -15,18 +15,18 @@ You can access the [[View plugins|view plugin]] instance from the `EditorView.pl
 
 ```ts
 this.addCommand({
-	id: 'example-editor-command',
-	name: 'Example editor command',
-	editorCallback: (editor, view) => {
-		// @ts-expect-error, not typed
-		const editorView = view.editor.cm as EditorView;
+  id: 'example-editor-command',
+  name: 'Example editor command',
+  editorCallback: (editor, view) => {
+    // @ts-expect-error, not typed
+    const editorView = view.editor.cm as EditorView;
 
-		const plugin = editorView.plugin(examplePlugin);
+    const plugin = editorView.plugin(examplePlugin);
 
-		if (plugin) {
-			plugin.addPointerToSelection(editorView);
-		}
-	},
+    if (plugin) {
+      plugin.addPointerToSelection(editorView);
+    }
+  },
 });
 ```
 
@@ -36,18 +36,17 @@ You can dispatch changes and [[State fields#Dispatching state effects|dispatch s
 
 ```ts
 this.addCommand({
-	id: 'example-editor-command',
-	name: 'Example editor command',
-	editorCallback: (editor, view) => {
-		// @ts-expect-error, not typed
-		const editorView = view.editor.cm as EditorView;
+  id: 'example-editor-command',
+  name: 'Example editor command',
+  editorCallback: (editor, view) => {
+    // @ts-expect-error, not typed
+    const editorView = view.editor.cm as EditorView;
 
-		editorView.dispatch({
-			effects: [
-				// ...
-			],
-		});
-	},
+    editorView.dispatch({
+      effects: [
+        // ...
+      ],
+    });
+  },
 });
 ```
-

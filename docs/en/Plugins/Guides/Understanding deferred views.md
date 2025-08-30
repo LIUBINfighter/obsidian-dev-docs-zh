@@ -51,10 +51,10 @@ For most use cases, the solution is simple:
 ```ts
 let leaf = workspace.getLeavesOfType('my-view').first();
 if (leaf) {
-	await workspace.revealLeaf(leaf); // Ensure the view is visible, `await` it to make sure the view is fully loaded
-	if (leaf.view instanceof MyCustomView) {
-		let view = leaf.view; // You now have your CustomView
-	}
+  await workspace.revealLeaf(leaf); // Ensure the view is visible, `await` it to make sure the view is fully loaded
+  if (leaf.view instanceof MyCustomView) {
+    let view = leaf.view; // You now have your CustomView
+  }
 }
 ```
 
@@ -77,4 +77,4 @@ for (let leaf of leaves) {
 ```
 
 > [!Warning] Performance warning
-> Manually calling `loadIfDeferred`, your plugin is removing this performance optimization from the given views. Use this *sparingly*.
+> Manually calling `loadIfDeferred`, your plugin is removing this performance optimization from the given views. Use this _sparingly_.

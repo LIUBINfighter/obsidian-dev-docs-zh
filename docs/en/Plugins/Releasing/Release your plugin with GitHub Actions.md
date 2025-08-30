@@ -8,7 +8,7 @@ Manually releasing your plugin can be time-consuming and error-prone. In this gu
    on:
      push:
        tags:
-         - "*"
+         - '*'
 
    jobs:
      build:
@@ -21,7 +21,7 @@ Manually releasing your plugin can be time-consuming and error-prone. In this gu
          - name: Use Node.js
            uses: actions/setup-node@v3
            with:
-             node-version: "18.x"
+             node-version: '18.x'
 
          - name: Build plugin
            run: |

@@ -3,24 +3,26 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 工作区
+
 ---
+
 Obsidian 让你可以随时配置哪些内容对你可见。在不需要文件浏览器时将其隐藏，并排显示多个文档，或者在处理文档时显示文档大纲。应用程序窗口中可见内容的配置称为工作区。
 
-工作区是以 [树形数据结构](https://en.wikipedia.org/wiki/Tree_(data_structure)) 的形式实现的，其上的每个节点都被称为 [工作区项](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceItem)。工作区项有两种类型： [父节点](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceParent) 和 [叶子节点](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceLeaf)。主要区别在于父节点可以包含子节点或其他父节点，而叶子节点则不能包含任何其它节点。
+工作区是以 [树形数据结构](<https://en.wikipedia.org/wiki/Tree_(data_structure)>) 的形式实现的，其上的每个节点都被称为 [工作区项](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceItem)。工作区项有两种类型： [父节点](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceParent) 和 [叶子节点](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceLeaf)。主要区别在于父节点可以包含子节点或其他父节点，而叶子节点则不能包含任何其它节点。
 
 父节点分为两种类型，即 [splits](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceSplit) 和 [tabs](https://docs.obsidian.md/Reference/TypeScript+API/WorkspaceTabs)，它们决定了如何向用户展示子项：
 ![](../../../public/images/split和tabs.png)
+
 - split会沿垂直或水平方向逐个排列其子项。
 - tabs每次只显示一个子项目，并隐藏其他项目。
 
 工作区下有三个特殊的split：left、right和root。下图是一个典型工作区的示例：
 
 ![](../../../public/images/特殊split.png)
-
 
 叶子是一个窗口，可以以不同方式显示内容。叶子的类型决定显示内容的方式，并与特定视图相对应。例如，类型为 `graph` 的叶子对应显示[graph view](https://help.obsidian.md/Plugins/Graph+view)。
 
@@ -31,16 +33,17 @@ Obsidian 让你可以随时配置哪些内容对你可见。在不需要文件�
 
 left和right splits的工作方式略有不同。在侧边栏中拆分叶子时，Obsidian 会生成一个新的tabs，并将新叶子添加到它下面。实际上，这意味着它们在任何时候都只能有三层工作区项，而且直接子项必须是tabs。
 ![](../../../public/images/left_right.png)
+
 ## 检查工作区
 
 您可以通过 [App](https://docs.obsidian.md/Reference/TypeScript+API/App) 对象访问工作区。下面的示例将打印工作区中每个叶的类型：
 
 ```ts
-import { Plugin } from "obsidian";
+import { Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    this.addRibbonIcon("dice", "Print leaf types", () => {
+    this.addRibbonIcon('dice', 'Print leaf types', () => {
       this.app.workspace.iterateAllLeaves((leaf) => {
         console.log(leaf.getViewState().type);
       });

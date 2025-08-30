@@ -14,7 +14,7 @@ export default class ExamplePlugin extends Plugin {
           .setIcon('documents')
           .onClick(() => {
             new Notice('Copied');
-          })
+          }),
       );
 
       menu.addItem((item) =>
@@ -23,7 +23,7 @@ export default class ExamplePlugin extends Plugin {
           .setIcon('paste')
           .onClick(() => {
             new Notice('Pasted');
-          })
+          }),
       );
 
       menu.showAtMouseEvent(event);
@@ -58,11 +58,11 @@ export default class ExamplePlugin extends Plugin {
               new Notice(file.path);
             });
         });
-      })
+      }),
     );
 
     this.registerEvent(
-      this.app.workspace.on("editor-menu", (menu, editor, view) => {
+      this.app.workspace.on('editor-menu', (menu, editor, view) => {
         menu.addItem((item) => {
           item
             .setTitle('Print file path 👈')
@@ -71,7 +71,7 @@ export default class ExamplePlugin extends Plugin {
               new Notice(view.file.path);
             });
         });
-      })
+      }),
     );
   }
 }

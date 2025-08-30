@@ -119,7 +119,7 @@ For example if you want `.left-icon` to not be mirrored for RTL languages:
 
 ```css
 .mod-rtl svg.svg-icon.left-icon {
-	transform: unset;
+  transform: unset;
 }
 ```
 

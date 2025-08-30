@@ -3,17 +3,17 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 插件的生命周期
 
-
 ---
+
 Plugin 类定义了插件的生命周期，并公开所有插件可用的操作：
 
 ```ts
-import { Plugin } from "obsidian";
+import { Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
@@ -39,14 +39,14 @@ export default class ExamplePlugin extends Plugin {
 2. 单击“开发人员工具”窗口中的“控制台”选项卡。
 
 ```ts
-import { Plugin } from "obsidian";
+import { Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    console.log('loading plugin')
+    console.log('loading plugin');
   }
   async onunload() {
-    console.log('unloading plugin')
+    console.log('unloading plugin');
   }
 }
 ```

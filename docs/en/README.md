@@ -9,7 +9,7 @@ A hosted version of this vault is available at https://docs.obsidian.md/.
 **You can contribute in several ways**:
 
 - **Fix typos and mistakes**: If you want to fix a typo or other small modifications, you can submit a pull request without creating an issue. For smaller edits, you can use the GitHub web interface instead of cloning the repository.
-- **Add missing, outdated, or clarifying  content**: If you want to add, remove, or expand on current content, please [submit an issue](https://github.com/obsidianmd/obsidian-developer-docs/issues/new) before you start working on it. We will let you know if this is something that should be worked on, or not.
+- **Add missing, outdated, or clarifying content**: If you want to add, remove, or expand on current content, please [submit an issue](https://github.com/obsidianmd/obsidian-developer-docs/issues/new) before you start working on it. We will let you know if this is something that should be worked on, or not.
 - Any contributions to the docs must follow our [Style guide](https://help.obsidian.md/Contributing+to+Obsidian/Style+guide).
 
 > [!warning]

@@ -3,15 +3,17 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 模态框
+
 ---
+
 模态框显示信息并接受用户输入。要创建一个模态框，请创建一个扩展 [Modal](https://docs.obsidian.md/Reference/TypeScript+API/Modal/Modal) 的类：
 
 ```ts
-import { App, Modal } from "obsidian";
+import { App, Modal } from 'obsidian';
 
 export class ExampleModal extends Modal {
   constructor(app: App) {
@@ -36,14 +38,14 @@ export class ExampleModal extends Modal {
 要打开模态框，请创建 `ExampleModal` 的新实例并调用 [open()](https://docs.obsidian.md/Reference/TypeScript+API/Modal/open) ：
 
 ```ts
-import { Plugin } from "obsidian";
-import { ExampleModal } from "./modal";
+import { Plugin } from 'obsidian';
+import { ExampleModal } from './modal';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
     this.addCommand({
-      id: "display-modal",
-      name: "Display modal",
+      id: 'display-modal',
+      name: 'Display modal',
       callback: () => {
         new ExampleModal(this.app).open();
       },
@@ -59,7 +61,7 @@ export default class ExamplePlugin extends Plugin {
 ![ttdgq](../../../public/images/ttdgq.png)
 
 ```ts
-import { App, Modal, Setting } from "obsidian";
+import { App, Modal, Setting } from 'obsidian';
 
 export class ExampleModal extends Modal {
   result: string;
@@ -73,24 +75,23 @@ export class ExampleModal extends Modal {
   onOpen() {
     const { contentEl } = this;
 
-    contentEl.createEl("h1", { text: "What's your name?" });
+    contentEl.createEl('h1', { text: "What's your name?" });
 
-    new Setting(contentEl)
-      .setName("Name")
-      .addText((text) =>
-        text.onChange((value) => {
-          this.result = value
-        }));
+    new Setting(contentEl).setName('Name').addText((text) =>
+      text.onChange((value) => {
+        this.result = value;
+      }),
+    );
 
-    new Setting(contentEl)
-      .addButton((btn) =>
-        btn
-          .setButtonText("Submit")
-          .setCta()
-          .onClick(() => {
-            this.close();
-            this.onSubmit(this.result);
-          }));
+    new Setting(contentEl).addButton((btn) =>
+      btn
+        .setButtonText('Submit')
+        .setCta()
+        .onClick(() => {
+          this.close();
+          this.onSubmit(this.result);
+        }),
+    );
   }
 
   onClose() {
@@ -115,7 +116,7 @@ new ExampleModal(this.app, (result) => {
 ![4hqsi](../../../public/images/4hqsi.gif)
 
 ```ts
-import { App, Notice, SuggestModal } from "obsidian";
+import { App, Notice, SuggestModal } from 'obsidian';
 
 interface Book {
   title: string;
@@ -124,16 +125,16 @@ interface Book {
 
 const ALL_BOOKS = [
   {
-    title: "How to Take Smart Notes",
-    author: "Sönke Ahrens",
+    title: 'How to Take Smart Notes',
+    author: 'Sönke Ahrens',
   },
   {
-    title: "Thinking, Fast and Slow",
-    author: "Daniel Kahneman",
+    title: 'Thinking, Fast and Slow',
+    author: 'Daniel Kahneman',
   },
   {
-    title: "Deep Work",
-    author: "Cal Newport",
+    title: 'Deep Work',
+    author: 'Cal Newport',
   },
 ];
 
@@ -141,14 +142,14 @@ export class ExampleModal extends SuggestModal<Book> {
   // Returns all available suggestions.
   getSuggestions(query: string): Book[] {
     return ALL_BOOKS.filter((book) =>
-      book.title.toLowerCase().includes(query.toLowerCase())
+      book.title.toLowerCase().includes(query.toLowerCase()),
     );
   }
 
   // Renders each suggestion item.
   renderSuggestion(book: Book, el: HTMLElement) {
-    el.createEl("div", { text: book.title });
-    el.createEl("small", { text: book.author });
+    el.createEl('div', { text: book.title });
+    el.createEl('small', { text: book.author });
   }
 
   // Perform action on the selected suggestion.

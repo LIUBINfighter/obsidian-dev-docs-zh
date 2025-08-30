@@ -9,19 +9,19 @@ In most applications, you would update state by assigning a new value to a prope
 
 ```ts
 let note = '';
-note = 'Heading'
-note = '# Heading'
-note = '## Heading' // How to undo this?
+note = 'Heading';
+note = '# Heading';
+note = '## Heading'; // How to undo this?
 ```
 
 To support features like undoing and redoing changes to a user's workspace, applications like Obsidian instead keep a history of all changes that have been made. To undo a change, you can then go back to a point in time before the change was made.
 
-|   | State      |
-|---|------------|
-| 0 |            |
-| 1 | Heading    |
-| 2 | # Heading  |
-| 3 | ## Heading |
+|     | State      |
+| --- | ---------- |
+| 0   |            |
+| 1   | Heading    |
+| 2   | # Heading  |
+| 3   | ## Heading |
 
 In TypeScript, you'd then end up with something like this:
 
@@ -52,8 +52,8 @@ Bringing it all together to implement the surround feature from before in an edi
 view.dispatch({
   changes: [
     { from: selectionStart, insert: `"` },
-    { from: selectionEnd, insert: `"` }
-  ]
+    { from: selectionEnd, insert: `"` },
+  ],
 });
 ```
 

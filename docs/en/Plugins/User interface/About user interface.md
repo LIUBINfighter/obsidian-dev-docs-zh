@@ -8,4 +8,4 @@ You can see some of the user interface components when you first open Obsidian.
 
 To modify the editor, refer to [[Editor]] and [[Editor extensions]].
 
-![User interface](user-interface.png)
+![User interface](../../Assets/user-interface.png)

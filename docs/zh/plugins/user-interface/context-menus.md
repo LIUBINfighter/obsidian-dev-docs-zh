@@ -3,37 +3,39 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 上下文菜单
+
 ---
+
 如果要打开上下文菜单，请使用 [Menu](https://docs.obsidian.md/Reference/TypeScript+API/Menu)：
 
 ```ts
-import { Menu, Notice, Plugin } from "obsidian";
+import { Menu, Notice, Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    this.addRibbonIcon("dice", "Open menu", (event) => {
+    this.addRibbonIcon('dice', 'Open menu', (event) => {
       const menu = new Menu();
 
       menu.addItem((item) =>
         item
-          .setTitle("Copy")
-          .setIcon("documents")
+          .setTitle('Copy')
+          .setIcon('documents')
           .onClick(() => {
-            new Notice("Copied");
-          })
+            new Notice('Copied');
+          }),
       );
 
       menu.addItem((item) =>
         item
-          .setTitle("Paste")
-          .setIcon("paste")
+          .setTitle('Paste')
+          .setIcon('paste')
           .onClick(() => {
-            new Notice("Pasted");
-          })
+            new Notice('Pasted');
+          }),
       );
 
       menu.showAtMouseEvent(event);
@@ -44,8 +46,7 @@ export default class ExamplePlugin extends Plugin {
 
 [showAtMouseEvent()](https://docs.obsidian.md/Reference/TypeScript+API/Menu/showAtMouseEvent) 会打开鼠标点击处的菜单。
 
-
-> [!TIP] 
+> [!TIP]
 > 如果需要对菜单显示的位置进行更多控制，可以使用 `menu.showAtPosition({ x: 20, y: 20 })` 在Obsidian窗口左上角的相对位置打开菜单。
 
 有关可以使用哪些图标的更多信息，请参阅 [Icons](https://docs.obsidian.md/Plugins/User+interface/Icons)。
@@ -54,34 +55,34 @@ export default class ExamplePlugin extends Plugin {
 ![](../../../public/images/上下文菜单.png)
 
 ```ts
-import { Notice, Plugin } from "obsidian";
+import { Notice, Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
     this.registerEvent(
-      this.app.workspace.on("file-menu", (menu, file) => {
+      this.app.workspace.on('file-menu', (menu, file) => {
         menu.addItem((item) => {
           item
-            .setTitle("Print file path 👈")
-            .setIcon("document")
+            .setTitle('Print file path 👈')
+            .setIcon('document')
             .onClick(async () => {
               new Notice(file.path);
             });
         });
-      })
+      }),
     );
 
-  this.registerEvent(
-      this.app.workspace.on("editor-menu", (menu, editor, view) => {
+    this.registerEvent(
+      this.app.workspace.on('editor-menu', (menu, editor, view) => {
         menu.addItem((item) => {
           item
-            .setTitle("Print file path 👈")
-            .setIcon("document")
+            .setTitle('Print file path 👈')
+            .setIcon('document')
             .onClick(async () => {
               new Notice(view.file.path);
             });
         });
-      })
+      }),
     );
   }
 }

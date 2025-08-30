@@ -9,9 +9,9 @@ const view = this.app.workspace.getActiveViewOfType(MarkdownView);
 
 // Make sure the user is editing a Markdown file.
 if (view) {
-const cursor = view.editor.getCursor();
+  const cursor = view.editor.getCursor();
 
-// ...
+  // ...
 }
 ```
 
@@ -31,12 +31,9 @@ export default class ExamplePlugin extends Plugin {
   async onload() {
     this.addCommand({
       id: 'insert-todays-date',
-      name: 'Insert today\'s date',
+      name: "Insert today's date",
       editorCallback: (editor: Editor) => {
-        editor.replaceRange(
-          moment().format('YYYY-MM-DD'),
-          editor.getCursor()
-        );
+        editor.replaceRange(moment().format('YYYY-MM-DD'), editor.getCursor());
       },
     });
   }

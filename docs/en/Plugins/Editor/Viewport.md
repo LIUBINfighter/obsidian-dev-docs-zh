@@ -2,7 +2,7 @@ The Obsidian editor supports [huge documents](https://codemirror.net/examples/mi
 
 Imagine that you want to edit a document that is too big to fit on your monitor. The Obsidian editor creates a "window" that moves across the document, only rendering the content within the window (and ignoring what's outside). This window is known as the editor's _viewport_.
 
-![Viewport](viewport.svg)
+![Viewport](../../Assets/viewport.svg)
 
 Whenever the user scrolls through the document, or when the document itself changes, the viewport becomes out-of-date and needs to be recomputed.
 

@@ -1,10 +1,11 @@
 ---
-title: "在侧边栏附加新视图"
-source: "https://liamca.in/Obsidian/API+FAQ/views/attach+a+new+view+to+the+sidebar"
+title: '在侧边栏附加新视图'
+source: 'https://liamca.in/Obsidian/API+FAQ/views/attach+a+new+view+to+the+sidebar'
 created: 2025-03-26
 tags:
-  - "clippings"
+  - 'clippings'
 ---
+
 ## 如何在侧边栏附加视图？
 
 [#obsidian/api/faq](https://liamca.in/Obsidian/API+FAQ/views/#obsidian/api/faq)

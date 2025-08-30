@@ -3,16 +3,17 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 嵌入字体和图像
+
 ---
+
 本节主要讲述如何在主题中包含资源，例如字体和图像。
 
-
 > [!warning] 加载远程内容
-> 
+>
 > 为了使 Obsidian 能够离线工作并保护用户隐私，主题[不允许](https://docs.obsidian.md/Developer+policies)通过网络加载远程内容。有关更多信息，请参阅[主题指南 > 保留资源本地化](https://docs.obsidian.md/Themes/App+themes/Theme+guidelines#Keep%20resources%20local)
 
 ## 使用数据 URL
@@ -32,7 +33,7 @@ url("data:<MIME_TYPE>;base64,<BASE64_DATA>")
 
 ```css
 h1 {
-  background-image: url("data:image/gif;base64,R0lGODdhAQADAPABAP////8AACwAAAAAAQADAAACAgxQADs=")
+  background-image: url('data:image/gif;base64,R0lGODdhAQADAPABAP////8AACwAAAAAAQADAAACAgxQADs=');
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 cssclasses: hide-title
 ---
+
 # Obsidian Developer Docs
 
 Welcome to the official Obsidian Developer Documentation, where you can learn how to build plugins and themes for [Obsidian](https://obsidian.md/). For tips on how to use Obsidian, visit [the official Help site](https://help.obsidian.md/).

@@ -1,10 +1,11 @@
 ---
-title: "索引"
-source: "https://liamca.in/Obsidian/Plugin+Review+Guide/index"
+title: '索引'
+source: 'https://liamca.in/Obsidian/Plugin+Review+Guide/index'
 created: 2025-03-26
 tags:
-  - "clippings"
+  - 'clippings'
 ---
+
 # Obsidian 插件审查指南
 
 审查 Obsidian 插件时，主要关注点应是确保插件功能正常且不会破坏与应用程序或其他插件的兼容性。

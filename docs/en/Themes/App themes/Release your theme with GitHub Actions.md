@@ -8,7 +8,7 @@ Manually releasing your theme can be time-consuming and error-prone. In this gui
    on:
      push:
        tags:
-         - "*"
+         - '*'
 
    jobs:
      build:

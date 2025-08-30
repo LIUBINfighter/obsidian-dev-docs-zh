@@ -25,18 +25,18 @@ description: 学习如何查找、发现和添加新的类型定义。
 
 ```ts
 interface InternalPlugins extends Events {
-    // 变量
-    app: App;
-    config: Record<unknown, unknown>;
-    migration: unknown;
-    plugins: Record<unknown, unknown>;
+  // 变量
+  app: App;
+  config: Record<unknown, unknown>;
+  migration: unknown;
+  plugins: Record<unknown, unknown>;
 
-    // 方法
-    requestSaveConfig(): unknown;
-    enable(): unknown;
-    getEnabledPluginById(var1: unknown): unknown;
-    getEnabledPlugins(): unknown;
-    // ...
+  // 方法
+  requestSaveConfig(): unknown;
+  enable(): unknown;
+  getEnabledPluginById(var1: unknown): unknown;
+  getEnabledPlugins(): unknown;
+  // ...
 }
 ```
 
@@ -70,9 +70,9 @@ interface InternalPlugins extends Events {
 
 ```ts
 interface InternalPlugins extends Events {
-    // ...
-    config: Record<string, boolean>;
-    // ...
+  // ...
+  config: Record<string, boolean>;
+  // ...
 }
 ```
 
@@ -81,14 +81,14 @@ interface InternalPlugins extends Events {
 
 ```ts
 type InternalPluginName =
-    | 'audio-recorder'
-    | 'backlink'
-    | 'bookmarks'
-    | 'canvas' /*| ... */;
+  | 'audio-recorder'
+  | 'backlink'
+  | 'bookmarks'
+  | 'canvas' /*| ... */;
 interface InternalPlugins extends Events {
-    // ...
-    config: Record<InternalPluginName, boolean>;
-    // ...
+  // ...
+  config: Record<InternalPluginName, boolean>;
+  // ...
 }
 ```
 
@@ -99,15 +99,15 @@ interface InternalPlugins extends Events {
 
 ```ts
 interface InternalPlugin {
-    app: App;
-    commands: unknown;
-    // 等等（重复相同的过程）
+  app: App;
+  commands: unknown;
+  // 等等（重复相同的过程）
 }
 
 interface InternalPlugins extends Events {
-    // ...
-    plugins: Record<InternalPluginName, InternalPlugin>;
-    // ...
+  // ...
+  plugins: Record<InternalPluginName, InternalPlugin>;
+  // ...
 }
 ```
 
@@ -119,10 +119,10 @@ interface InternalPlugins extends Events {
 定义方法类型会更困难一些，因为除了需要知道方法的功能外，还需要知道预期的输入和输出是什么。
 
 你可以从那些不带参数且返回类型简单的方法开始。例如，`requestSaveConfig` 方法。
-从名称上，我们可以假设这个方法可能_不会_返回任何内容，因为它只是告诉
-应用程序应该保存配置，因此该方法_很可能_是 `void` 类型。
+从名称上，我们可以假设这个方法可能*不会*返回任何内容，因为它只是告诉
+应用程序应该保存配置，因此该方法*很可能*是 `void` 类型。
 
-然而，为了确保这个假设是否正确，你_**应该**_检查源代码（参见下一节）。
+然而，为了确保这个假设是否正确，你**_应该_**检查源代码（参见下一节）。
 如果可能的话，你也可以在控制台中运行该方法，看看会发生什么（在这种情况下，什么都没发生，所以很可能就是 `void`）。
 
 和之前一样，如果你不确定返回类型或函数的一般工作方式，
@@ -130,12 +130,12 @@ interface InternalPlugins extends Events {
 
 ```ts
 interface InternalPlugins extends Events {
-    // ...
-    /**
-     * @internal 请求保存插件配置
-     */
-    requestSaveConfig(): unknown;
-    // ...
+  // ...
+  /**
+   * @internal 请求保存插件配置
+   */
+  requestSaveConfig(): unknown;
+  // ...
 }
 ```
 
@@ -145,13 +145,13 @@ interface InternalPlugins extends Events {
 
 ```ts
 interface InternalPlugins extends Events {
-    // ...
-    /**
-     * 通过 ID 获取内部插件
-     * @param id - 要获取的插件 ID
-     * @returns 插件实例
-     */
-    getEnabledPluginById(id: InternalPluginName): InternalPlugin;
-    // ...
+  // ...
+  /**
+   * 通过 ID 获取内部插件
+   * @param id - 要获取的插件 ID
+   * @returns 插件实例
+   */
+  getEnabledPluginById(id: InternalPluginName): InternalPlugin;
+  // ...
 }
 ```

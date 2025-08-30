@@ -3,20 +3,21 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 状态字段
+
 ---
+
 状态字段是一种[编辑器扩展](./editor-extensions.md)，可用于管理自定义编辑器状态。本页将引导你通过实现计算器扩展来构建状态字段。
 
 计算器应能从当前状态中加减一个数字，并在您想重新开始时重置状态。
 
 在本节结束时，您将了解构建状态字段的基本概念。
 
-
 > [!NOTE]
-> 
+>
 > 本页旨在为Obsidian 插件开发人员提炼 CodeMirror 6 官方文档。有关状态字段的详细信息，请参阅[State Fields](https://codemirror.net/docs/guide/#state-fields) 。
 
 ## 先决条件

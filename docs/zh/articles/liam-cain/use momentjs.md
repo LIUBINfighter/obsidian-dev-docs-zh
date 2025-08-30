@@ -1,10 +1,11 @@
 ---
-title: "使用momentjs"
-source: "https://liamca.in/Obsidian/API+FAQ/third-party/use+momentjs"
+title: '使用momentjs'
+source: 'https://liamca.in/Obsidian/API+FAQ/third-party/use+momentjs'
 created: 2025-03-26
 tags:
-  - "clippings"
+  - 'clippings'
 ---
+
 ## 如何在不引起Typescript报错的情况下使用window.moment?
 
 [#obsidian/api/faq](https://liamca.in/Obsidian/API+FAQ/third-party/#obsidian/api/faq)
@@ -14,7 +15,7 @@ tags:
 你可以通过在你的插件主文件中添加以下代码来[`声明`](https://github.com/liamcain/obsidian-calendar-ui/blob/76febf71efc19f80496de9e9d3341220954c83a7/src/index.ts#L10):
 
 ```ts
-import type moment from "moment";
+import type moment from 'moment';
 
 declare global {
   interface Window {
@@ -60,14 +61,8 @@ yarn
     "noImplicitAny": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "lib": [
-      "dom",
-      "es5",
-      "scripthost",
-      "es2015"
-    ]
+    "lib": ["dom", "es5", "scripthost", "es2015"]
   },
-  "include": [
-    "**/*.ts"
-  ]
+  "include": ["**/*.ts"]
 }
+```

@@ -31,7 +31,6 @@ In this step, you'll prepare a release for your plugin that's ready to be submit
 2. [Create a GitHub release](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release). The "Tag version" of the release must match the version in your `manifest.json`.
 3. Enter a name for the release, and describe it in the description field. Obsidian doesn't use the release name for anything, so feel free to name it however you like.
 4. Upload the following plugin assets to the release as binary attachments:
-
    - `main.js`
    - `manifest.json`
    - `styles.css` (optional)

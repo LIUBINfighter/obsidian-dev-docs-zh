@@ -1,10 +1,11 @@
 ---
-title: "obsidian-calendar-ui"
-source: "https://liamca.in/Obsidian/Packages/obsidian-calendar-ui"
+title: 'obsidian-calendar-ui'
+source: 'https://liamca.in/Obsidian/Packages/obsidian-calendar-ui'
 created: 2025-03-26
 tags:
-  - "clippings"
+  - 'clippings'
 ---
+
 # calendar-ui
 
 [Repo](https://github.com/liamcain/obsidian-calendar-ui)
@@ -18,3 +19,4 @@ this.calendar = new Calendar({
   target: contentEl, // 你要附加到的HTML元素
   props: {},
 });
+```

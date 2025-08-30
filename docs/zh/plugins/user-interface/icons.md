@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 图标
+
 ---
+
 Obsidian API 中的一些用户界面组件可让您配置一个附带图标。您可以选择内置图标，也可以添加自己的图标。
 
 ## B浏览可用图标
@@ -21,12 +23,12 @@ Obsidian API 中的一些用户界面组件可让您配置一个附带图标。�
 如果想在自定义界面中使用图标，可使用 [setIcon()](https://docs.obsidian.md/Reference/TypeScript+API/setIcon) 实用程序函数为 [HTML element](https://docs.obsidian.md/Plugins/User+interface/HTML+elements) 添加图标。下面的示例为状态栏添加了图标：
 
 ```ts
-import { Plugin, setIcon } from "obsidian";
+import { Plugin, setIcon } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
     const item = this.addStatusBarItem();
-    setIcon(item, "info");
+    setIcon(item, 'info');
   }
 }
 ```
@@ -44,14 +46,14 @@ div {
 要为插件添加自定义图标，请使用 addIcon() ：
 
 ```ts
-import { addIcon, Plugin } from "obsidian";
+import { addIcon, Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    addIcon("circle", `<circle cx="50" cy="50" r="50" fill="currentColor" />`);
+    addIcon('circle', `<circle cx="50" cy="50" r="50" fill="currentColor" />`);
 
-    this.addRibbonIcon("circle", "Click me", () => {
-      console.log("Hello, you!");
+    this.addRibbonIcon('circle', 'Click me', () => {
+      console.log('Hello, you!');
     });
   }
 }

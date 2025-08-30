@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 设置
+
 ---
+
 如果想让用户自己配置插件的某些部分，可以将它们作为设置公开。
 
 在本指南中，您将学习如何创建这样的设置页面 👇
@@ -17,15 +19,15 @@
 在插件中添加设置的主要目的是存储配置，即使用户退出Obsidian 后，这些配置也会持续存在。下面的示例演示了如何从磁盘保存和加载设置：
 
 ```ts
-import { Plugin } from "obsidian";
-import { ExampleSettingTab } from "./settings";
+import { Plugin } from 'obsidian';
+import { ExampleSettingTab } from './settings';
 
 interface ExamplePluginSettings {
   dateFormat: string;
 }
 
 const DEFAULT_SETTINGS: Partial<ExamplePluginSettings> = {
-  dateFormat: "YYYY-MM-DD",
+  dateFormat: 'YYYY-MM-DD',
 };
 
 export default class ExamplePlugin extends Plugin {
@@ -47,9 +49,8 @@ export default class ExamplePlugin extends Plugin {
 }
 ```
 
-
 > [!warning] 设置中的嵌套属性
-> 
+>
 > `Object.assign()` 仅复制嵌套属性的引用（浅拷贝）。如果设置对象包含嵌套属性，则需要递归复制每个嵌套属性（深拷贝）。否则，对嵌套属性的任何更改都将应用于所有使用 `Object.assign()`复制的对象。
 
 这里发生了很多事情🤯，让我们仔细看看每个部分。
@@ -76,7 +77,6 @@ export default class ExamplePlugin extends Plugin {
 
 ```ts
 export default class ExamplePlugin extends Plugin {
-
   // ...
 
   async loadSettings() {
@@ -106,19 +106,19 @@ async onload() {
 要了解其工作原理，让我们看看下面的代码：
 
 ```ts
-Object.assign({}, DEFAULT_SETTINGS, await this.loadData())
+Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
 ```
 
 `Object.assign()` 是一个 JavaScript 函数，可将一个对象的所有属性复制到另一个对象中。所有通过 `loadData()` 返回的属性都会覆盖 `DEFAULT_SETTINGS` 中的属性。
 
 ```ts
 const DEFAULT_SETTINGS: Partial<ExamplePluginSettings> = {
-  dateFormat: "YYYY-MM-DD",
+  dateFormat: 'YYYY-MM-DD',
 };
 ```
 
 > [!tip]
-> 
+>
 > `Partial<Type>` 是一个 TypeScript 工具，它返回一个类型，其中 `Type`的所有属性都为可选。它启用了类型检查，同时可定义需要提供默认值的属性。
 
 ## 注册设置选项卡
@@ -132,8 +132,8 @@ this.addSettingTab(new ExampleSettingTab(this.app, this));
 在这里， `ExampleSettingTab` 是一个继承自 [PluginSettingTab](https://docs.obsidian.md/Reference/TypeScript+API/PluginSettingTab) 的类：
 
 ```ts
-import ExamplePlugin from "./main";
-import { App, PluginSettingTab, Setting } from "obsidian";
+import ExamplePlugin from './main';
+import { App, PluginSettingTab, Setting } from 'obsidian';
 
 export class ExampleSettingTab extends PluginSettingTab {
   plugin: ExamplePlugin;
@@ -149,16 +149,16 @@ export class ExampleSettingTab extends PluginSettingTab {
     containerEl.empty();
 
     new Setting(containerEl)
-      .setName("Date format")
-      .setDesc("Default date format")
+      .setName('Date format')
+      .setDesc('Default date format')
       .addText((text) =>
         text
-          .setPlaceholder("MMMM dd, yyyy")
+          .setPlaceholder('MMMM dd, yyyy')
           .setValue(this.plugin.settings.dateFormat)
           .onChange(async (value) => {
             this.plugin.settings.dateFormat = value;
             await this.plugin.saveSettings();
-          })
+          }),
       );
   }
 }

@@ -30,18 +30,18 @@ As a part of Obsidian's vault initialization process, it will call `create` for 
 
 ```ts
 class MyPlugin extends Plugin {
-    onload(app: App) {
-	    super(app);
-        this.registerEvent(this.app.vault.on('create', this.onCreate, this));
-    }
+  onload(app: App) {
+    super(app);
+    this.registerEvent(this.app.vault.on('create', this.onCreate, this));
+  }
 
-	onCreate() {
-	    if (!this.app.workspace.layoutReady) {
-	      // Workspace is still loading, do nothing
-	      return;
-	    }
-		// ...
-	}
+  onCreate() {
+    if (!this.app.workspace.layoutReady) {
+      // Workspace is still loading, do nothing
+      return;
+    }
+    // ...
+  }
 }
 ```
 
@@ -49,16 +49,16 @@ class MyPlugin extends Plugin {
 
 ```ts
 class MyPlugin extends Plugin {
-    onload(app: App) {
-	    super(app);
-	    this.app.workspace.onLayoutReady(() => {
-	        this.registerEvent(this.app.vault.on('create', this.onCreate, this));
-	    });
-    }
+  onload(app: App) {
+    super(app);
+    this.app.workspace.onLayoutReady(() => {
+      this.registerEvent(this.app.vault.on('create', this.onCreate, this));
+    });
+  }
 
-	onCreate() {
-		// ...
-	}
+  onCreate() {
+    // ...
+  }
 }
 ```
 

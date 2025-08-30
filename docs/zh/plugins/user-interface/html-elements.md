@@ -3,15 +3,17 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # HTML元素
+
 ---
+
 Obsidian API 中的一些组件（如 "[Settings](https://docs.obsidian.md/Plugins/User+interface/Settings)"）会公开容器元素：
 
 ```ts
-import { App, PluginSettingTab } from "obsidian";
+import { App, PluginSettingTab } from 'obsidian';
 
 class ExampleSettingTab extends PluginSettingTab {
   plugin: ExamplePlugin;
@@ -39,15 +41,15 @@ class ExampleSettingTab extends PluginSettingTab {
 例如，以下是在容器元素内添加 `<h1>` 标题元素的方法：
 
 ```ts
-containerEl.createEl("h1", { text: "Heading 1" });
+containerEl.createEl('h1', { text: 'Heading 1' });
 ```
 
 `createEl()` 返回对新元素的引用：
 
 ```ts
-const book = containerEl.createEl("div");
-book.createEl("div", { text: "How to Take Smart Notes" });
-book.createEl("small", { text: "Sönke Ahrens" });
+const book = containerEl.createEl('div');
+book.createEl('div', { text: 'How to Take Smart Notes' });
+book.createEl('small', { text: 'Sönke Ahrens' });
 ```
 
 ## 元素风格
@@ -69,17 +71,16 @@ book.createEl("small", { text: "Sönke Ahrens" });
 }
 ```
 
-> [!TIP] 
-> 
-`--background-modifier-border` 和 `--text-muted` 是由 Obsidian 定义和使用的 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) 如果您在样式中使用这些变量，即使用户使用不同的主题，您的插件也会非常美观！🌈  
-
+> [!TIP]
+>
+> `--background-modifier-border` 和 `--text-muted` 是由 Obsidian 定义和使用的 [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) 如果您在样式中使用这些变量，即使用户使用不同的主题，您的插件也会非常美观！🌈
 
 要使 HTML 元素使用样式，请为 HTML 元素设置 `cls` 属性：
 
 ```ts
-const book = containerEl.createEl("div", { cls: "book" });
-book.createEl("div", { text: "How to Take Smart Notes", cls: "book__title" });
-book.createEl("small", { text: "Sönke Ahrens", cls: "book__author" });
+const book = containerEl.createEl('div', { cls: 'book' });
+book.createEl('div', { text: 'How to Take Smart Notes', cls: 'book__title' });
+book.createEl('small', { text: 'Sönke Ahrens', cls: 'book__author' });
 ```
 
 现在看起来好多了！🎉
@@ -91,6 +92,5 @@ book.createEl("small", { text: "Sönke Ahrens", cls: "book__author" });
 如果要根据用户的设置或其他值更改元素的样式，请使用 `toggleClass` 方法：
 
 ```ts
-element.toggleClass("danger", status === "error");
+element.toggleClass('danger', status === 'error');
 ```
-

@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # Publish主题最佳实践
+
 ---
+
 ### Obsidian App和 Obsidian Publish是不同的上下文
 
 Obsidian Publish 与 Obsidian App共享共同的代码和 UI 原则，但也有一些在创建主题时应考虑的重要差异。需要记住的一些经验法则：
@@ -35,10 +37,10 @@ Publish 网站的访问者可能会使用与新 CSS 功能不兼容的旧版浏�
 
 Obsidian Publish 默认有两个断点：
 
-|断点 |Device 设备|Effect 影响|
-|---|---|---|
-|1000px |Tablet |右侧边栏被隐藏 |
-|750px |Mobile |左侧和右侧边栏被隐藏。如果启用，可以通过左上角的汉堡菜单访问导航 |
+| 断点   | Device 设备 | Effect 影响                                                      |
+| ------ | ----------- | ---------------------------------------------------------------- |
+| 1000px | Tablet      | 右侧边栏被隐藏                                                   |
+| 750px  | Mobile      | 左侧和右侧边栏被隐藏。如果启用，可以通过左上角的汉堡菜单访问导航 |
 
 您可以使用 CSS 定位这些设备。 `@media` 查询之外定义的任何规则都将应用于所有设备。
 

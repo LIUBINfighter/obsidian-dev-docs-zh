@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 关于界面
+
 ---
+
 本页概述了如何添加或更改 Obsidian 用户界面。
 
 首次打开 Obsidian 时，您可以看到一些用户界面组件。

@@ -5,7 +5,7 @@ While your plugin can access the file system like any other Node.js application,
 The following example recursively prints the paths of all Markdown files in a Vault:
 
 ```ts
-const files = this.app.vault.getMarkdownFiles()
+const files = this.app.vault.getMarkdownFiles();
 
 for (let i = 0; i < files.length; i++) {
   console.log(files[i].path);
@@ -42,7 +42,7 @@ export default class ExamplePlugin extends Plugin {
     const { vault } = this.app;
 
     const fileContents: string[] = await Promise.all(
-      vault.getMarkdownFiles().map((file) => vault.cachedRead(file))
+      vault.getMarkdownFiles().map((file) => vault.cachedRead(file)),
     );
 
     let totalLength = 0;
@@ -61,7 +61,10 @@ To write text content to an existing file, use [[modify|Vault.modify()]].
 
 ```ts
 function writeCurrentDate(vault: Vault, file: TFile): Promise<void> {
-  return vault.modify(file, `Today is ${new Intl.DateTimeFormat().format(new Date())}.`);
+  return vault.modify(
+    file,
+    `Today is ${new Intl.DateTimeFormat().format(new Date())}.`,
+  );
 }
 ```
 
@@ -72,7 +75,7 @@ If you want to modify a file based on its current content, use [[process|Vault.p
 function emojify(vault: Vault, file: TFile): Promise<string> {
   return vault.process(file, (data) => {
     return data.replace(':)', '🙂');
-  })
+  });
 }
 ```
 
@@ -95,7 +98,7 @@ There are two methods to delete a file, [[delete|delete()]], and [[trash|trash()
 - `delete()` removes the file without a trace.
 - `trash()` moves the file to the trash bin.
 
-When you use `trash()`, you have the option to move the file to the system's trash bin, or to a local  `.trash` folder at the root of the user's Vault.
+When you use `trash()`, you have the option to move the file to the system's trash bin, or to a local `.trash` folder at the root of the user's Vault.
 
 ## Is it a file or folder?
 
@@ -105,8 +108,8 @@ Some operations return or accept a [[TAbstractFile|TAbstractFile]] object, which
 const folderOrFile = this.app.vault.getAbstractFileByPath('folderOrFile');
 
 if (folderOrFile instanceof TFile) {
-  console.log('It\'s a file!');
+  console.log("It's a file!");
 } else if (folderOrFile instanceof TFolder) {
-  console.log('It\'s a folder!');
+  console.log("It's a folder!");
 }
 ```

@@ -3,28 +3,29 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 命令
+
 ---
+
 命令是用户可以通过 [命令面板](https://help.obsidian.md/Plugins/Command+palette) 或热键执行的操作。
 
 ![335e0](../../../public/images/335e0.png)
 
-
 要为插件注册新命令，请在 `onload()` 方法中调用  [addCommand()](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/addCommand) 方法：
 
 ```ts
-import { Plugin } from "obsidian";
+import { Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
     this.addCommand({
-      id: "print-greeting-to-console",
-      name: "Print greeting to console",
+      id: 'print-greeting-to-console',
+      name: 'Print greeting to console',
       callback: () => {
-        console.log("Hey, you!");
+        console.log('Hey, you!');
       },
     });
   }
@@ -59,7 +60,7 @@ this.addCommand({
         doCommand(value);
       }
 
-      return true
+      return true;
     }
 
     return false;
@@ -84,7 +85,7 @@ this.addCommand({
 ```
 
 > Note 备注
-> 
+>
 > 编辑器命令只有在编辑器可用时才会出现在命令面板上。
 
 如果编辑器回调只能在特定条件下运行，请考虑使用[editorCheckCallback()](https://docs.obsidian.md/Reference/TypeScript+API/Command/editorCheckCallback) 代替，更多信息请参阅[Conditional commands](https://docs.obsidian.md/Plugins/User+interface/Commands#Conditional%20commands)。
@@ -93,7 +94,11 @@ this.addCommand({
 this.addCommand({
   id: 'example-command',
   name: 'Example command',
-  editorCheckCallback: (checking: boolean, editor: Editor, view: MarkdownView) => {
+  editorCheckCallback: (
+    checking: boolean,
+    editor: Editor,
+    view: MarkdownView,
+  ) => {
     const value = getRequiredValue();
 
     if (value) {
@@ -101,7 +106,7 @@ this.addCommand({
         doCommand(value);
       }
 
-      return true
+      return true;
     }
 
     return false;
@@ -114,7 +119,7 @@ this.addCommand({
 用户可以使用键盘快捷键或热键运行命令。用户可以自行配置，也可以提供默认热键。
 
 > [!warning]
-> 
+>
 > 避免为插件设置默认热键。热键极有可能与其他插件或用户自己定义的热键发生冲突。
 
 在本例中，用户可以同时按住 Ctrl（或 Mac 上的 Cmd）和 Shift，然后按键盘上的字母 `a` 来运行命令。
@@ -123,7 +128,7 @@ this.addCommand({
 this.addCommand({
   id: 'example-command',
   name: 'Example command',
-  hotkeys: [{ modifiers: ["Mod", "Shift"], key: "a" }],
+  hotkeys: [{ modifiers: ['Mod', 'Shift'], key: 'a' }],
   callback: () => {
     console.log('Hey, you!');
   },
@@ -131,6 +136,5 @@ this.addCommand({
 ```
 
 > [!备注]
-> 
+>
 > Mod 键是一个特殊的修改键，在 Windows 和 Linux 系统中为 Ctrl 键，在 macOS 系统中为 Cmd 键。
-

@@ -40,11 +40,11 @@ One way would be to pass the entire document to an external spell checker which 
 
 Another way would be to only spellcheck what's visible in the viewport. The extension would need to continuously run a spell check as the user scrolls through the document, but you'd be able to spell check documents with millions of lines of text.
 
-![State field vs. view plugin](decorations.svg)
+![State field vs. view plugin](../../Assets/decorations.svg)
 
 ## Providing decorations
 
-Imagine that you want to build an editor extension that replaces the bullet list item with an emoji. You can accomplish this with either a view plugin or a state field, with some differences.  In this section, you'll see how to implement it with both types of extensions.
+Imagine that you want to build an editor extension that replaces the bullet list item with an emoji. You can accomplish this with either a view plugin or a state field, with some differences. In this section, you'll see how to implement it with both types of extensions.
 
 Both implementations share the same core logic:
 
@@ -75,7 +75,7 @@ To replace a range of content in your document with the emoji widget, use the [r
 
 ```ts
 const decoration = Decoration.replace({
-  widget: new EmojiWidget()
+  widget: new EmojiWidget(),
 });
 ```
 
@@ -126,7 +126,7 @@ export const emojiListField = StateField.define<DecorationSet>({
             listCharFrom + 1,
             Decoration.replace({
               widget: new EmojiWidget(),
-            })
+            }),
           );
         }
       },
@@ -198,7 +198,7 @@ class EmojiListPlugin implements PluginValue {
               listCharFrom + 1,
               Decoration.replace({
                 widget: new EmojiWidget(),
-              })
+              }),
             );
           }
         },
@@ -215,7 +215,7 @@ const pluginSpec: PluginSpec<EmojiListPlugin> = {
 
 export const emojiListPlugin = ViewPlugin.fromClass(
   EmojiListPlugin,
-  pluginSpec
+  pluginSpec,
 );
 ```
 

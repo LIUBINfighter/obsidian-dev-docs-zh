@@ -20,10 +20,9 @@ The following example embeds a GIF file as a background image:
 
 ```css
 h1 {
-  background-image: url("data:image/gif;base64,R0lGODdhAQADAPABAP////8AACwAAAAAAQADAAACAgxQADs=")
+  background-image: url('data:image/gif;base64,R0lGODdhAQADAPABAP////8AACwAAAAAAQADAAACAgxQADs=');
 }
 ```
-
 
 ## Encode your assets
 
@@ -41,7 +40,6 @@ For images:
 - [WebSemantics](https://websemantics.uk/tools/image-to-data-uri-converter/) converts JPEG, JPG, GIF, PNG, SVG
 - [Base64 Guru](https://base64.guru/converter/encode/image) supports a wide variety of image formats
 - [Yoksel URL-encoder for SVG](https://yoksel.github.io/url-encoder/) optimized for SVG files
-
 
 ## Consider file size
 

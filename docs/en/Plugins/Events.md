@@ -7,9 +7,11 @@ import { Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    this.registerEvent(this.app.vault.on('create', () => {
-      console.log('a new file has entered the arena')
-    }));
+    this.registerEvent(
+      this.app.vault.on('create', () => {
+        console.log('a new file has entered the arena');
+      }),
+    );
   }
 }
 ```
@@ -32,7 +34,7 @@ export default class ExamplePlugin extends Plugin {
     this.updateStatusBar();
 
     this.registerInterval(
-      window.setInterval(() => this.updateStatusBar(), 1000)
+      window.setInterval(() => this.updateStatusBar(), 1000),
     );
   }
 

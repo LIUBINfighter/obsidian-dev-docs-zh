@@ -1,9 +1,8 @@
-
 # 为什么你需要持久化你的视图到工作区？
 
 原文链接：[Why you should be persisting your view's state to the workspace ](https://liamca.in/Obsidian/API+FAQ/views/persisting+your+view+state)
 
-作者：[Liam Cain](https://github.com/liamcain)    *February 26, 2023*
+作者：[Liam Cain](https://github.com/liamcain) _February 26, 2023_
 
 > Jay: 作为译者会以这种形式加上自己的想法和批注，帮助大家理解。
 >
@@ -64,14 +63,17 @@ interface ICalendarPersistedState {
   selectedFilters: string[];
 }
 
-export default class CalendarView extends ItemView implements ICalendarPersistedState {
+export default class CalendarView
+  extends ItemView
+  implements ICalendarPersistedState
+{
   // 持久化状态
   displayedMonth: string;
   selectedFilters: string[];
 
   constructor(
     readonly leaf: WorkspaceLeaf,
-    readonly plugin: CalendarPlugin
+    readonly plugin: CalendarPlugin,
   ) {
     super(leaf);
 
@@ -86,7 +88,10 @@ export default class CalendarView extends ItemView implements ICalendarPersisted
   // - 使用序列化的数据调用 setViewState
   // - 叶子节点根据数据中序列化的 `type` 确定其"类型"。如果叶子节点没有匹配该类型的视图，则创建一个新的视图。
   // - 然后叶子节点在视图上调用 setState。
-  async setState(state: ICalendarPersistedState, result: ViewStateResult): Promise<void> {
+  async setState(
+    state: ICalendarPersistedState,
+    result: ViewStateResult,
+  ): Promise<void> {
     // 传入的 `state`
     if (state.displayedMonth) {
       this.displayedMonth = state.displayedMonth;

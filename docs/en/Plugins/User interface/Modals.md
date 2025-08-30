@@ -6,7 +6,7 @@ import { App, Modal } from 'obsidian';
 export class ExampleModal extends Modal {
   constructor(app: App) {
     super(app);
-	this.setContent('Look at me, I\'m a modal! 👀')
+    this.setContent("Look at me, I'm a modal! 👀");
   }
 }
 ```
@@ -42,25 +42,24 @@ import { App, Modal, Setting } from 'obsidian';
 export class ExampleModal extends Modal {
   constructor(app: App, onSubmit: (result: string) => void) {
     super(app);
-	this.setTitle('What\'s your name?');
+    this.setTitle("What's your name?");
 
-	let name = '';
-    new Setting(this.contentEl)
-      .setName('Name')
-      .addText((text) =>
-        text.onChange((value) => {
-          name = value;
-        }));
+    let name = '';
+    new Setting(this.contentEl).setName('Name').addText((text) =>
+      text.onChange((value) => {
+        name = value;
+      }),
+    );
 
-    new Setting(this.contentEl)
-      .addButton((btn) =>
-        btn
-          .setButtonText('Submit')
-          .setCta()
-          .onClick(() => {
-            this.close();
-            onSubmit(name);
-          }));
+    new Setting(this.contentEl).addButton((btn) =>
+      btn
+        .setButtonText('Submit')
+        .setCta()
+        .onClick(() => {
+          this.close();
+          onSubmit(name);
+        }),
+    );
   }
 }
 ```
@@ -106,7 +105,7 @@ export class ExampleModal extends SuggestModal<Book> {
   // Returns all available suggestions.
   getSuggestions(query: string): Book[] {
     return ALL_BOOKS.filter((book) =>
-      book.title.toLowerCase().includes(query.toLowerCase())
+      book.title.toLowerCase().includes(query.toLowerCase()),
     );
   }
 

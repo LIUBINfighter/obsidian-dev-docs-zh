@@ -24,9 +24,9 @@ description: 学习如何分析压缩后的源代码以理解未文档化函数�
 
 对于任何方法 "XYZ"，首先直接搜索 "XYZ"。通常，方法的定义方式有以下几种：
 
--   `t.XYZ = ...`（静态方法）
--   `t.prototype.XYZ = ...`（原型方法）
--   `function XYZ(`（内部/压缩方法）
+- `t.XYZ = ...`（静态方法）
+- `t.prototype.XYZ = ...`（原型方法）
+- `function XYZ(`（内部/压缩方法）
 
 在这个阶段，你可能会很幸运地找到单一的定义，或者可能会找到多个方法定义。
 在后一种情况下，
@@ -45,9 +45,9 @@ n.requestSaveConfig = at(n.saveConfig.bind(n), 1e3, !0),
 
 在这里，我们发现了以下三点：
 
--   `at` 是一个接受三个参数的压缩函数，其返回值就是该方法的返回值
--   `1e3` 是 `1000` 的简写表示法
--   `!0` 是 `true` 的简写表示法
+- `at` 是一个接受三个参数的压缩函数，其返回值就是该方法的返回值
+- `1e3` 是 `1000` 的简写表示法
+- `!0` 是 `true` 的简写表示法
 
 （在压缩代码中，你需要习惯很多这样的简写和结构变化）
 
@@ -56,17 +56,17 @@ n.requestSaveConfig = at(n.saveConfig.bind(n), 1e3, !0),
 
 ```js
 function at(e, t, n) {
-    void 0 === t && (t = 0), void 0 === n && (n = !1);
-    var i,
-        r = null,
-        o = null,
-        a = null,
-        s = 0,
-        l = function () {
-            var t = o,
-                n = a;
-            /*   ...    */
-        };
+  (void 0 === t && (t = 0), void 0 === n && (n = !1));
+  var i,
+    r = null,
+    o = null,
+    a = null,
+    s = 0,
+    l = function () {
+      var t = o,
+        n = a;
+      /*   ...    */
+    };
 }
 ```
 

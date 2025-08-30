@@ -3,7 +3,6 @@ title: 导入库，扩展和使用方法
 description: 了解如何在你的项目中导入和使用该库。
 ---
 
-
 # 导入库，扩展和使用方法
 
 > 原文链接：[Usage](https://fevol.github.io/obsidian-typings/usage/)
@@ -11,6 +10,7 @@ description: 了解如何在你的项目中导入和使用该库。
 在本页面中，你可以找到如何在项目中导入和使用该库的相关信息。
 
 ## 访问类型
+
 ### 从 `obsidian` 导入
 
 如果你想从 `obsidian` 模块访问类型，导入语法保持不变：
@@ -51,6 +51,7 @@ declare module 'obsidian-typings' {
 ```
 
 ## 使用实现
+
 ### 通过 `obsidian-typings/implementations`
 
 此包添加的额外辅助函数/类型/... 可以通过从 `obsidian-typings/implementations` 导入来添加：

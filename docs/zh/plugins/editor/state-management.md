@@ -3,16 +3,17 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 状态管理
+
 ---
+
 本节旨在介绍[编辑器扩展](./editor-extensions.md)的状态管理。
 
-
 > [!NOTE]
-> 
+>
 > 本页旨在为Obsidian插件开发人员提炼 CodeMirror 6 的官方文档。有关状态管理的更多详细信息，请参阅 [State and Updates](https://codemirror.net/docs/guide/#state-and-updates)。
 
 ## 状态更改
@@ -20,29 +21,29 @@
 在大多数应用程序中，通常通过为属性或变量分配新值来更新状态。然后旧值将被替代。
 
 ```ts
-let note = "";
-note = "Heading"
-note = "# Heading"
-note = "## Heading" // How to undo this?
+let note = '';
+note = 'Heading';
+note = '# Heading';
+note = '## Heading'; // How to undo this?
 ```
 
 为了支持撤消和重做对用户工作区的更改等功能，Obsidian会保留已进行的所有更改的历史记录。若要撤消更改，可以返回到进行更改之前的某个时间点。
 
-|  | 状态字段 |
-| ---- | ---- |
-| 0 |  |
-| 1 | Heading 标题 |
-| 2 | # Heading # 标题 |
-| 3 | ## Heading ## 标题 |
+|     | 状态字段           |
+| --- | ------------------ |
+| 0   |                    |
+| 1   | Heading 标题       |
+| 2   | # Heading # 标题   |
+| 3   | ## Heading ## 标题 |
 
 在 TypeScript 中，你会得到这样的结果：
 
 ```ts
 const changes: ChangeSpec[] = [];
 
-changes.push({ from: 0, insert: "Heading" });
-changes.push({ from: 0, insert: "# " });
-changes.push({ from: 0, insert: "#" });
+changes.push({ from: 0, insert: 'Heading' });
+changes.push({ from: 0, insert: '# ' });
+changes.push({ from: 0, insert: '#' });
 ```
 
 ## 事务
@@ -65,8 +66,8 @@ Imagine a feature where you select some text and press the double quote, `"` t
 view.dispatch({
   changes: [
     { from: selectionStart, insert: `"` },
-    { from: selectionEnd, insert: `"` }
-  ]
+    { from: selectionEnd, insert: `"` },
+  ],
 });
 ```
 

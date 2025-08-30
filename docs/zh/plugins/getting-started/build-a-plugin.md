@@ -3,19 +3,20 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 构建一个插件
 
-
 ---
+
 插件可让您使用自己的功能扩展 Obsidian，以创建自定义笔记体验。
 在本教程中，您将从源代码编译示例插件并将其加载到 Obsidian 中。
 
 ## 学习内容
 
 完成本教程后，您将能够：
+
 - 配置开发 Obsidian 插件的环境。
 - 从源代码编译插件。
 - 对插件进行更改后重新加载插件。
@@ -23,6 +24,7 @@
 ## 先决条件
 
 若要完成本教程，需要：
+
 - Git 已安装在本地计算机上。
 - 具备Node.js 本地开发环境。
 - 代码编辑器，例如 Visual Studio Code。
@@ -40,6 +42,7 @@
 您将在本教程中使用的示例插件位于 [GitHub 存储库](https://github.com/obsidianmd/obsidian-sample-plugin)中。
 
 1. 打开终端窗口，将项目目录更改为该 `plugins` 目录。
+
 ```shell
 cd path/to/vault
 mkdir .obsidian/plugins
@@ -47,36 +50,33 @@ cd .obsidian/plugins
 ```
 
 2. 使用 Git 克隆示例插件模板。
+
 ```shell
 git clone https://github.com/obsidianmd/obsidian-sample-plugin.git
 ```
 
 > GitHub 模板存储库
-> 
+>
 > 示例插件的存储库是 GitHub 模板存储库，这意味着您可以从示例插件创建自己的存储库。要了解如何操作，请参阅从[模板创建存储库](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)。
-> 
+>
 > 请记住在克隆示例插件时使用您自己的存储库的 URL。
-> 
 
 ## 第 2 步：构建插件
 
 在此步骤中，您将编译示例插件，以便 Obsidian 可以加载它。
 
 1. 导航到插件目录。
-    ```bash
-    cd obsidian-sample-plugin
-    ```
-    
+   ```bash
+   cd obsidian-sample-plugin
+   ```
 1. 安装依赖项。
-    ```bash
-    npm install
-    ```
-    
-3. 编译源代码。以下命令在终端中保持运行，并在您修改源代码时重新构建插件。
-    ```bash
-    npm run dev
-    ```
-    
+   ```bash
+   npm install
+   ```
+1. 编译源代码。以下命令在终端中保持运行，并在您修改源代码时重新构建插件。
+   ```bash
+   npm run dev
+   ```
 
 请注意，插件目录现在多了一个 `main.js` 文件，其中包含插件的编译版本。
 
@@ -109,34 +109,30 @@ git clone https://github.com/obsidianmd/obsidian-sample-plugin.git
 要让用户与您的插件交互，请添加一个功能区图标，在用户选择它时向用户弹出消息。
 
 1. 在代码编辑器中打开 `main.ts` 。
-   
 2. 将类名从 `MyPlugin` 重命名 `HelloWorldPlugin` 。
-   
 3. 导入`obsidian`包 中的依赖组件。
-   
-    ```ts
-    import { Notice, Plugin } from "obsidian";
-    ```
-    
+
+   ```ts
+   import { Notice, Plugin } from 'obsidian';
+   ```
+
 4. 在 `onload()`方法中 ，添加以下代码：
-   
-    ```ts
-    this.addRibbonIcon('dice', 'Greet', () => {
-      new Notice('Hello, world!');
-    });
-    ```
-    
+
+   ```ts
+   this.addRibbonIcon('dice', 'Greet', () => {
+     new Notice('Hello, world!');
+   });
+   ```
+
 5. 在Obsidian“命令”面板中，选择“重新加载Obsidian而不保存当前编辑内容”以重新加载插件。
-   
 
 您现在可以在Obsidian窗口左侧的功能区中看到一个骰子图标。选择它以在右上角显示一条消息。
 
 请记住，您需要在更改源代码后重新加载插件，方法是禁用它，然后在社区插件面板中再次启用它，或者使用命令面板，如本步骤的第 5 部分所述。
 
 > 热重载
-> 
+>
 > 安装 [Hot-Reload](https://github.com/pjeby/hot-reload) 插件以在开发时自动重新加载插件。
-> 
 
 ## 结论
 

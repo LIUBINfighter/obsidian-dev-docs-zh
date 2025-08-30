@@ -3,11 +3,13 @@
  * @Date: 2024-01-18 10:18:00
  * @LastEditors: Raistlind
  * @LastEditTime: 2024-01-18 10:18:00
- * @Description: 
+ * @Description:
 -->
 
 # 库
+
 ---
+
 Obsidian中的每个笔记集合都称为 Vault。Vault 由一个文件夹及其中的所有子文件夹组成。
 
 虽然您的插件可以像其他 Node.js 应用程序一样访问文件系统，但 [Vault](https://docs.obsidian.md/Reference/TypeScript+API/Vault/Vault) 模块能更轻松地处理 Vault 中的文件和文件夹。
@@ -15,16 +17,15 @@ Obsidian中的每个笔记集合都称为 Vault。Vault 由一个文件夹及其
 以下示例以递归方式打印 Vault 中所有 Markdown 文件的路径：
 
 ```ts
-const files = this.app.vault.getMarkdownFiles()
+const files = this.app.vault.getMarkdownFiles();
 
 for (let i = 0; i < files.length; i++) {
   console.log(files[i].path);
 }
 ```
 
-
-> [!NOTE] 
-> 
+> [!NOTE]
+>
 > 如果要列出所有文件，而不仅仅是 Markdown 文档，请改用 [getFiles()](https://docs.obsidian.md/Reference/TypeScript+API/Vault/getFiles)。
 
 ## 读取文件
@@ -34,19 +35,18 @@ for (let i = 0; i < files.length; i++) {
 - 如果只想向用户显示内容，则使用 `cachedRead()` 以避免多次从磁盘读取文件。
 - 如果要读取内容，更改内容，然后将其写回磁盘，请使用 `read()` 以避免使用过时的副本覆盖文件。
 
-
-> [!NOTE] 
-> 
-> `read()` 和 `cachedRead()` 唯一区别体现在插件即将读取文件，而文件在 Obsidian 外被修改了的时候。当文件系统通知 Obsidian 文件在外部被修改， `cachedRead()` 方法就会表现得 _完全_ 与 `read()` 方法一样。同样的，如果您在 Obsidian 内保存了文件，那么读取缓存也会被刷新。
+> [!NOTE]
+>
+> `read()` 和 `cachedRead()` 唯一区别体现在插件即将读取文件，而文件在 Obsidian 外被修改了的时候。当文件系统通知 Obsidian 文件在外部被修改， `cachedRead()` 方法就会表现得 *完全* 与 `read()` 方法一样。同样的，如果您在 Obsidian 内保存了文件，那么读取缓存也会被刷新。
 
 以下示例读取 Vault 中所有 Markdown 文件的内容，并返回平均文档大小：
 
 ```ts
-import { Notice, Plugin } from "obsidian";
+import { Notice, Plugin } from 'obsidian';
 
 export default class ExamplePlugin extends Plugin {
   async onload() {
-    this.addRibbonIcon("info", "Calculate average file length", async () => {
+    this.addRibbonIcon('info', 'Calculate average file length', async () => {
       const fileLength = await this.averageFileLength();
       new Notice(`The average file length is ${fileLength} characters.`);
     });
@@ -56,7 +56,7 @@ export default class ExamplePlugin extends Plugin {
     const { vault } = this.app;
 
     const fileContents: string[] = await Promise.all(
-      vault.getMarkdownFiles().map((file) => vault.cachedRead(file))
+      vault.getMarkdownFiles().map((file) => vault.cachedRead(file)),
     );
 
     let totalLength = 0;
@@ -75,7 +75,10 @@ export default class ExamplePlugin extends Plugin {
 
 ```ts
 function writeCurrentDate(vault: Vault, file: TFile): Promise<void> {
-  return vault.modify(file, `Today is ${new Intl.DateTimeFormat().format(new Date())}.`);
+  return vault.modify(
+    file,
+    `Today is ${new Intl.DateTimeFormat().format(new Date())}.`,
+  );
 }
 ```
 
@@ -85,8 +88,8 @@ function writeCurrentDate(vault: Vault, file: TFile): Promise<void> {
 // emojify replaces all occurrences of :) with 🙂.
 function emojify(vault: Vault, file: TFile): Promise<string> {
   return vault.process(file, (data) => {
-    return data.replace(":)", "🙂");
-  })
+    return data.replace(':)', '🙂');
+  });
 }
 ```
 
@@ -116,7 +119,7 @@ function emojify(vault: Vault, file: TFile): Promise<string> {
 某些操作返回或接受 [TAbstractFile](https://docs.obsidian.md/Reference/TypeScript+API/TAbstractFile) 对象 ，该对象可以是文件或文件夹。使用前务必检查 `TAbstractFile` 类型。
 
 ```ts
-const folderOrFile = this.app.vault.getAbstractFileByPath("folderOrFile");
+const folderOrFile = this.app.vault.getAbstractFileByPath('folderOrFile');
 
 if (folderOrFile instanceof TFile) {
   console.log("It's a file!");
