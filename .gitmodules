@@ -1,3 +1,6 @@
 [submodule "docs/en/official-develop-docs"]
 	path = docs/en/official-develop-docs
 	url = https://github.com/LIUBINfighter/obsidian-developer-docs.git
+[submodule "docs/en/obsidian-typings"]
+	path = docs/en/obsidian-typings
+	url = https://github.com/LIUBINfighter/obsidian-typings.git
