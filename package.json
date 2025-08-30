@@ -19,19 +19,23 @@
     "submodule:update": "git submodule update --remote docs/en/official-develop-docs",
     "submodule:pull": "cd docs/en/official-develop-docs && git pull origin main",
     "submodule:status": "git submodule status",
-    "translate:check": "git diff --name-only docs/en/official-develop-docs/"
+    "translate:check": "git diff --name-only docs/en/official-develop-docs/",
+    "translate:sync-ts-docs": "api-documenter markdown --input-folder node_modules/obsidian-typings/dist --output-folder docs/zh/reference/typescript-api"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.34.0",
+    "@microsoft/api-documenter": "^7.26.32",
+    "@microsoft/api-extractor": "^7.52.11",
     "@typescript-eslint/eslint-plugin": "^8.41.0",
     "@typescript-eslint/parser": "^8.41.0",
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-vue": "^10.4.0",
+    "obsidian-typings": "^4.47.0",
     "prettier": "^3.6.2",
     "vitepress": "1.0.0-rc.39"
   }

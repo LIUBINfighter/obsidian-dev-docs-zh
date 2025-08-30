@@ -1,3 +1,5 @@
+import { apiReferenceSidebar } from '../../scripts/generateApiSidebar.js';
+
 // Obsidian 开发者文档左侧导航栏
 export const contentsNote = [
   {
@@ -232,6 +234,12 @@ export const contentsNote = [
       {
         text: 'manifest.json 配置',
         link: '/zh/reference/manifest',
+      },
+      {
+        text: 'TypeScript API',
+        collapsible: true,
+        collapsed: true,
+        items: apiReferenceSidebar,
       },
     ],
   },
