@@ -15,7 +15,7 @@
 | Docs                                                                                                 | Github Repo                                                                                                                         |             |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [Raistlind翻译的开发者文档 (raistlind.github.io)](https://raistlind.github.io/obsidian-dev-docs-zh/) | [Raistlind/obsidian-dev-docs-zh](https://github.com/Raistlind/obsidian-dev-docs-zh)                                                 | 1 year ago  |
-| [luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)                | [luhaifeng666/obsidian-plugin-docs-zh: Obsidian 插件开发文档 (github.com)](https://github.com/luhaifeng666/obsidian-plugin-docs-zh) | 2 years ago |
+| [luhaifeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)                | [luhaifeng666/obsidian-plugin-docs-zh: Obsidian 插件开发文档 (github.com)](https://github.com/luhaifeng666/obsidian-plugin-docs-zh) | 2 years ago |
 
 ## 免责申明 Disclaim
 
@@ -45,7 +45,7 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 希望能成为更新快，内容丰富的中文文档。对于不能及时更新的部分，提供充足的资源整合导航。
 
-我会按照我的想法组织内容，可能和官方文档的方式存在出入。对于 Raistlind 和 luhuafeng666 两位前辈已翻译的部分，我不会进行删改，只会进行增量式的补充和链接引用。
+我会按照我的想法组织内容，可能和官方文档的方式存在出入。对于 Raistlind 和 luhaifeng666 两位前辈已翻译的部分，我不会进行删改，只会进行增量式的补充和链接引用。
 
 写作规范 [文档规范 - Obsidian 中文帮助 - Obsidian Publish](https://publish.obsidian.md/help-zh/%E5%8A%A9%E5%8A%9B+Obsidian/%E6%96%87%E6%A1%A3%E8%A7%84%E8%8C%83)
 
@@ -57,7 +57,7 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 官方文档翻译将会保持原来的结构（插件 主题 参考 三部分）。
 
-社区文档和我的文章将会另外单列出来。同时会引用原来[luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)的内容以及其他网络内容。
+社区文档和我的文章将会另外单列出来。同时会引用原来[luhaifeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)的内容以及其他网络内容。
 
 对于未能及时翻译的部分，请查看下面列出的网址。
 

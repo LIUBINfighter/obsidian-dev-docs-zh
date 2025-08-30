@@ -29,7 +29,7 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 希望能成为更新快，内容丰富的中文文档。对于不能及时更新的部分，提供充足的资源整合导航。
 
-我会按照我的想法组织内容，可能和官方文档的方式存在出入。对于 Raistlind 和 luhuafeng666 两位前辈已翻译的部分，我不会进行删改，只会进行增量式的补充和链接引用。
+我会按照我的想法组织内容，可能和官方文档的方式存在出入。对于 Raistlind 和 luhaifeng666 两位前辈已翻译的部分，我不会进行删改，只会进行增量式的补充和链接引用。
 
 写作规范 [文档规范 - Obsidian 中文帮助 - Obsidian Publish](https://publish.obsidian.md/help-zh/%E5%8A%A9%E5%8A%9B+Obsidian/%E6%96%87%E6%A1%A3%E8%A7%84%E8%8C%83)
 
@@ -41,7 +41,7 @@ Obsidian开发一般指 **Theme(主题)** 和 **Plugin(插件)** 开发。这也
 
 官方文档翻译将会保持原来的结构（插件 主题 参考 三部分）。
 
-社区文档和我的文章将会另外单列出来。同时会引用原来[luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)的内容以及其他网络内容。
+社区文档和我的文章将会另外单列出来。同时会引用原来[luhaifeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)的内容以及其他网络内容。
 
 > 2025-03-07 补充：正在致力于阅读与翻译 [liamca](https://liamca.in/hello)。作为一名经验丰富的开发者和插件审查者，他的文档非常有价值。
 
@@ -208,7 +208,7 @@ Issue和Pr都欢迎。接受网站/博客推荐，插件推荐（帮助解析一
 
 起初是因为受第二大脑方法论影响，在Obsidian里积累了不少文章，想通过插件自动发布到我的网站上。
 
-学习插件开发的过程中，发现网络上的中文开发文档挺分散，比较全面的是[luhuafeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)。但可惜的是因为原文作者停止维护（猜测可能是合入了Obsidian官方的文档中），luhuafeng666的项目目前也已归档，于是就缺少了最新的中文资料。
+学习插件开发的过程中，发现网络上的中文开发文档挺分散，比较全面的是[luhaifeng666翻译的插件文档](https://luhaifeng666.github.io/obsidian-plugin-docs-zh/)。但可惜的是因为原文作者停止维护（猜测可能是合入了Obsidian官方的文档中），luhaifeng666的项目目前也已归档，于是就缺少了最新的中文资料。
 
 此间，Obsidian也正式在官网上提供了开发者文档，补充完善了许多原理性的说明和例子，于是产生了顺便翻译一下的打算。因此产生了这个项目。
 
@@ -220,6 +220,6 @@ Issue和Pr都欢迎。接受网站/博客推荐，插件推荐（帮助解析一
 
 [官文文档](https://docs.obsidian.md/Home)
 
-[luhuafeng666插件开发文档](https://github.com/luhaifeng666/obsidian-plugin-docs-zh/blob/master/README.md)（新的Obsidian官方文档中去掉了使用Vue的例子在此项目中查阅）
+[luhaifeng666插件开发文档](https://github.com/luhaifeng666/obsidian-plugin-docs-zh/blob/master/README.md)（新的Obsidian官方文档中去掉了使用Vue的例子在此项目中查阅）
 
 -->
