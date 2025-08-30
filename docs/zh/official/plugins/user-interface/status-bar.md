@@ -51,4 +51,4 @@ export default class ExamplePlugin extends Plugin {
 
 上述示例的状态栏如下：
 
-![ek3px](../../../public/images/ek3px.png)
+![ek3px](../../../../public/images/ek3px.png)

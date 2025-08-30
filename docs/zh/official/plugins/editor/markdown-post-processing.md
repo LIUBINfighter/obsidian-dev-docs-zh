@@ -54,7 +54,7 @@ flowchart LR
 ````
 
 如果切换到预览模式，代码块中的文本就会变成下图：
-![](../../../public/images/Markdown后处理.png)
+![](../../../../public/images/Markdown后处理.png)
 
 如果你想添加类似Mermaid的自定义代码块，可以使用 [registerMarkdownCodeBlockProcessor()](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/registerMarkdownCodeBlockProcessor)。下面的示例以表格的形式呈现了一个包含 CSV 数据的代码块：
 

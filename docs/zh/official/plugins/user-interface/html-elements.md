@@ -85,7 +85,7 @@ book.createEl('small', { text: 'Sönke Ahrens', cls: 'book__author' });
 
 现在看起来好多了！🎉
 
-![](../../../public/images/HTML元素.png)
+![](../../../../public/images/HTML元素.png)
 
 ### 条件样式
 

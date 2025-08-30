@@ -12,7 +12,7 @@
 
 命令是用户可以通过 [命令面板](https://help.obsidian.md/Plugins/Command+palette) 或热键执行的操作。
 
-![335e0](../../../public/images/335e0.png)
+![335e0](../../../../public/images/335e0.png)
 
 要为插件注册新命令，请在 `onload()` 方法中调用  [addCommand()](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/addCommand) 方法：
 

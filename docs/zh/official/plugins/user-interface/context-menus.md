@@ -52,7 +52,7 @@ export default class ExamplePlugin extends Plugin {
 有关可以使用哪些图标的更多信息，请参阅 [Icons](https://docs.obsidian.md/Plugins/User+interface/Icons)。
 
 您还可以通过订阅 `file-menu` 和 `editor-menu` 工作区事件，在文件菜单或编辑器菜单中添加项目：
-![](../../../public/images/上下文菜单.png)
+![](../../../../public/images/上下文菜单.png)
 
 ```ts
 import { Notice, Plugin } from 'obsidian';

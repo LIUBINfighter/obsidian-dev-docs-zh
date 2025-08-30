@@ -53,7 +53,7 @@
 
 另一种方法是只对视窗中可见的内容进行拼写检查。扩展程序需要在用户滚动文档时持续运行拼写检查，但你可以对数百万行文本的文档进行拼写检查。
 
-![State field vs. view plugin](../../../public/images/decorations.svg)
+![State field vs. view plugin](../../../../public/images/decorations.svg)
 
 ## 提供装饰
 

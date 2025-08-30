@@ -58,7 +58,7 @@ export default class ExamplePlugin extends Plugin {
 
 上一个示例中的模态只显示了一些文本。让我们来看一个更复杂的示例，它可以处理用户的输入。
 
-![ttdgq](../../../public/images/ttdgq.png)
+![ttdgq](../../../../public/images/ttdgq.png)
 
 ```ts
 import { App, Modal, Setting } from 'obsidian';
@@ -113,7 +113,7 @@ new ExampleModal(this.app, (result) => {
 
 [SuggestModal](https://docs.obsidian.md/Reference/TypeScript+API/SuggestModal) 是一种特殊的模式，可让您向用户显示建议列表。
 
-![4hqsi](../../../public/images/4hqsi.gif)
+![4hqsi](../../../../public/images/4hqsi.gif)
 
 ```ts
 import { App, Notice, SuggestModal } from 'obsidian';
@@ -161,7 +161,7 @@ export class ExampleModal extends SuggestModal<Book> {
 
 除了 `SuggestModal` 之外，Obsidian API 还为建议提供了一种更为专业的模式： [FuzzySuggestModal](https://docs.obsidian.md/Reference/TypeScript+API/FuzzySuggestModal)。虽然它不能让您对每个项目的呈现方式进行相同的控制，但您可以获得开箱即用的模糊字符串搜索 [fuzzy string search](https://en.wikipedia.org/wiki/Approximate_string_matching) 。
 
-![4wo3c](../../../public/images/4wo3c.png)
+![4wo3c](../../../../public/images/4wo3c.png)
 
 ```ts
 export class ExampleModal extends FuzzySuggestModal<Book> {

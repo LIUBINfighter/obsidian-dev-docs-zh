@@ -19,4 +19,4 @@
 - [Status bar 状态栏](https://docs.obsidian.md/Plugins/User+interface/Status+bar)
 
 要修改编辑器，请参阅[编辑器](../editor/editor.md)和[编辑器扩展](../editor/editor-extensions.md)。
-![0waja](../../../public/images/0waja.png)
+![0waja](../../../../public/images/0waja.png)

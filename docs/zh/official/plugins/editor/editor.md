@@ -53,7 +53,7 @@ export default class ExamplePlugin extends Plugin {
 }
 ```
 
-![dl1hw](../../../public/images/dl1hw.gif)
+![dl1hw](../../../../public/images/dl1hw.gif)
 
 ## 替换当前选择
 
@@ -78,4 +78,4 @@ export default class ExamplePlugin extends Plugin {
 }
 ```
 
-![5xtta](../../../public/images/5xtta.gif)
+![5xtta](../../../../public/images/5xtta.gif)
