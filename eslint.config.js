@@ -100,6 +100,7 @@ export default [
       'docs/.vitepress/dist/',
       'docs/.vitepress/cache/',
       '.obsidian/',
+      'docs/en/', // 忽略英文参考文档子模块
     ],
   },
 ];
