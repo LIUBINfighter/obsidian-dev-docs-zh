@@ -1,0 +1,3 @@
+[submodule "docs/en/official-develop-docs"]
+	path = docs/en/official-develop-docs
+	url = https://github.com/LIUBINfighter/obsidian-developer-docs.git
