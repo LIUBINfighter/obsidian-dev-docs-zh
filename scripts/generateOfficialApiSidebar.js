@@ -20,10 +20,12 @@ function generateSidebar(dir) {
     if (entry.isDirectory()) {
       const dirName = entry.name;
       const mainFile = `${dirName}.md`;
-      
+
       // 检查是否存在对应的主文档
-      const hasMainFile = entries.some(e => e.isFile() && e.name === mainFile);
-      
+      const hasMainFile = entries.some(
+        (e) => e.isFile() && e.name === mainFile,
+      );
+
       if (hasMainFile) {
         // 这是一个API对象，有主文档和目录
         if (!sidebar[dirName]) {
@@ -34,16 +36,18 @@ function generateSidebar(dir) {
             items: [],
           };
         }
-        
+
         // 添加主文档
         sidebar[dirName].items.push({
           text: `${dirName} 概述`,
           link: `/zh/official/reference/typescript-api/${mainFile}`,
         });
-        
+
         // 添加目录下的所有文件
-        const subFiles = fs.readdirSync(path.join(dir, dirName), { withFileTypes: true });
-        subFiles.forEach(subFile => {
+        const subFiles = fs.readdirSync(path.join(dir, dirName), {
+          withFileTypes: true,
+        });
+        subFiles.forEach((subFile) => {
           if (subFile.isFile() && subFile.name.endsWith('.md')) {
             const fileName = subFile.name.replace('.md', '');
             sidebar[dirName].items.push({
@@ -54,7 +58,9 @@ function generateSidebar(dir) {
         });
       } else {
         // 这是一个独立的目录（如果没有对应的主文档）
-        const subFiles = fs.readdirSync(path.join(dir, dirName), { withFileTypes: true });
+        const subFiles = fs.readdirSync(path.join(dir, dirName), {
+          withFileTypes: true,
+        });
         if (subFiles.length > 0) {
           sidebar[dirName] = {
             text: dirName,
@@ -62,8 +68,8 @@ function generateSidebar(dir) {
             collapsed: true,
             items: [],
           };
-          
-          subFiles.forEach(subFile => {
+
+          subFiles.forEach((subFile) => {
             if (subFile.isFile() && subFile.name.endsWith('.md')) {
               const fileName = subFile.name.replace('.md', '');
               sidebar[dirName].items.push({
@@ -77,15 +83,17 @@ function generateSidebar(dir) {
     } else if (entry.isFile() && entry.name.endsWith('.md')) {
       const fileName = entry.name;
       const baseName = fileName.replace('.md', '');
-      
+
       // 跳过index文件和已经处理过的主文档
       if (fileName === 'index.md') {
         return;
       }
-      
+
       // 检查是否有对应的目录，如果有则跳过（已在上面处理）
-      const hasCorrespondingDir = entries.some(e => e.isDirectory() && e.name === baseName);
-      
+      const hasCorrespondingDir = entries.some(
+        (e) => e.isDirectory() && e.name === baseName,
+      );
+
       if (!hasCorrespondingDir) {
         // 这是独立的文件
         standaloneFiles.push({
@@ -110,8 +118,10 @@ function generateSidebar(dir) {
   standaloneFiles.sort((a, b) => a.text.localeCompare(b.text));
 
   // 构建最终结果
-  const result = Object.values(sidebar).sort((a, b) => a.text.localeCompare(b.text));
-  
+  const result = Object.values(sidebar).sort((a, b) =>
+    a.text.localeCompare(b.text),
+  );
+
   // 如果有独立文件，添加到最后
   if (standaloneFiles.length > 0) {
     result.push({
