@@ -21,3 +21,6 @@ Thumbs.db
 # Lock files
 package-lock.json
 yarn.lock
+
+# Reference documentation submodules
+docs/en/

@@ -15,7 +15,11 @@
     "lint:check": "eslint . --ext .js,.ts,.vue",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint:fix": "pnpm lint && pnpm format"
+    "lint:fix": "pnpm lint && pnpm format",
+    "submodule:update": "git submodule update --remote docs/en/official-develop-docs",
+    "submodule:pull": "cd docs/en/official-develop-docs && git pull origin main",
+    "submodule:status": "git submodule status",
+    "translate:check": "git diff --name-only docs/en/official-develop-docs/"
   },
   "keywords": [],
   "author": "",
