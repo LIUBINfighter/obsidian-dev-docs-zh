@@ -9,9 +9,9 @@ const view = this.app.workspace.getActiveViewOfType(MarkdownView);
 
 // Make sure the user is editing a Markdown file.
 if (view) {
-	const cursor = view.editor.getCursor();
+const cursor = view.editor.getCursor();
 
-	// ...
+// ...
 }
 ```
 
