@@ -1,6 +1,5 @@
 import { apiReferenceSidebar as typingsApiSidebar } from '../../scripts/generateApiSidebar.js';
-// 官方 API 文档暂时禁用，正在整合中
-// import { officialApiSidebar } from '../../scripts/generateOfficialApiSidebar.js';
+import { officialApiSidebar } from '../../scripts/generateOfficialApiSidebar.js';
 
 // Obsidian 开发者文档左侧导航栏
 export const contentsNote = [
@@ -242,13 +241,12 @@ export const contentsNote = [
             text: 'manifest.json 配置',
             link: '/zh/official/reference/manifest',
           },
-          // 官方 TypeScript API 文档暂时禁用，正在整合中
-          // {
-          //   text: 'TypeScript API',
-          //   collapsible: true,
-          //   collapsed: true,
-          //   items: officialApiSidebar,
-          // },
+          {
+            text: 'TypeScript API',
+            collapsible: true,
+            collapsed: true,
+            items: officialApiSidebar,
+          },
         ],
       },
       {

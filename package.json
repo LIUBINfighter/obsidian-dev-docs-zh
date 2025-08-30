@@ -20,7 +20,8 @@
     "submodule:pull": "cd docs/en/official-develop-docs && git pull origin main",
     "submodule:status": "git submodule status",
     "translate:check": "git diff --name-only docs/en/official-develop-docs/",
-    "translate:sync-ts-docs": "api-documenter markdown --input-folder node_modules/obsidian-typings/dist --output-folder docs/zh/reference/typescript-api"
+    "translate:sync-official-api": "api-documenter markdown --input-folder docs/en/official-develop-docs/config/input --output-folder docs/zh/official/reference/typescript-api",
+    "translate:sync-typings-api": "api-documenter markdown --input-folder node_modules/obsidian-typings/dist --output-folder docs/zh/typings/typescript-api"
   },
   "keywords": [],
   "author": "",

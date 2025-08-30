@@ -36,7 +36,7 @@ function generateSidebar(dir) {
       }
       sidebar[mainKey].items.push({
         text: subKey,
-        link: `/zh/reference/typescript-api/${file}`,
+        link: `/zh/official/reference/typescript-api/${file}`,
       });
     }
   });
@@ -51,7 +51,7 @@ function generateSidebar(dir) {
 }
 
 const officialApiSidebar = generateSidebar(
-  path.resolve(__dirname, '../docs/zh/reference/typescript-api'),
+  path.resolve(__dirname, '../docs/zh/official/reference/typescript-api'),
 );
 
 export { officialApiSidebar };
