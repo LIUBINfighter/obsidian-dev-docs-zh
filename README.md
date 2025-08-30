@@ -19,11 +19,11 @@
 
 ## 📚 文档导航
 
-| 文档类型 | 链接 | 说明 |
-| -------- | ---- | ---- |
-| 📖 **开发指南** | [DEVELOPMENT.md](./DEVELOPMENT.md) | 完整的项目开发指南，包含环境搭建、代码规范、翻译流程等 |
-| 🌐 **在线文档** | [liubinfighter.github.io](https://liubinfighter.github.io/obsidian-dev-docs-zh/) | 构建后的在线文档站点 |
-| 🤖 **AI 问答** | [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LIUBINfighter/obsidian-dev-docs-zh) | 使用 AI 询问仓库内文档内容 |
+| 文档类型        | 链接                                                                                                       | 说明                                                   |
+| --------------- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| 📖 **开发指南** | [DEVELOPMENT.md](./DEVELOPMENT.md)                                                                         | 完整的项目开发指南，包含环境搭建、代码规范、翻译流程等 |
+| 🌐 **在线文档** | [liubinfighter.github.io](https://liubinfighter.github.io/obsidian-dev-docs-zh/)                           | 构建后的在线文档站点                                   |
+| 🤖 **AI 问答**  | [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LIUBINfighter/obsidian-dev-docs-zh) | 使用 AI 询问仓库内文档内容                             |
 
 ## 前言
 

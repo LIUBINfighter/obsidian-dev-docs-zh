@@ -183,6 +183,7 @@ pnpm docs-serve
 **ESLint 忽略文件**: `docs/en/` (英文参考文档子模块)
 
 **Prettier 忽略文件**:
+
 ```ignore
 # .prettierignore
 node_modules/
@@ -291,16 +292,16 @@ git push origin feature/translate-new-api-docs
 ```json
 // package.json scripts
 {
-  "dev": "pnpm lint:fix && pnpm docs-dev",           // 完整开发工作流
-  "build": "pnpm lint:fix && pnpm docs-build",       // 完整构建流程
-  "docs-dev": "vitepress dev docs",                  // 启动开发服务器
-  "docs-build": "vitepress build docs",              // 构建文档
-  "docs-serve": "vitepress serve docs",              // 预览构建结果
-  "lint": "eslint . --ext .js,.ts,.vue --fix",       // ESLint 检查并修复
-  "lint:check": "eslint . --ext .js,.ts,.vue",       // 仅检查 ESLint
-  "format": "prettier --write .",                    // Prettier 格式化
-  "format:check": "prettier --check .",              // 检查格式化
-  "lint:fix": "pnpm lint && pnpm format",            // 代码质量检查和格式化
+  "dev": "pnpm lint:fix && pnpm docs-dev", // 完整开发工作流
+  "build": "pnpm lint:fix && pnpm docs-build", // 完整构建流程
+  "docs-dev": "vitepress dev docs", // 启动开发服务器
+  "docs-build": "vitepress build docs", // 构建文档
+  "docs-serve": "vitepress serve docs", // 预览构建结果
+  "lint": "eslint . --ext .js,.ts,.vue --fix", // ESLint 检查并修复
+  "lint:check": "eslint . --ext .js,.ts,.vue", // 仅检查 ESLint
+  "format": "prettier --write .", // Prettier 格式化
+  "format:check": "prettier --check .", // 检查格式化
+  "lint:fix": "pnpm lint && pnpm format", // 代码质量检查和格式化
   "submodule:update": "git submodule update --remote docs/en/official-develop-docs",
   "submodule:pull": "cd docs/en/official-develop-docs && git pull origin main",
   "submodule:status": "git submodule status",
@@ -315,8 +316,8 @@ git push origin feature/translate-new-api-docs
 ```javascript
 export default {
   title: 'Obsidian 开发者文档',
-  base: "/obsidian-dev-docs-zh/",
-  description: "根据Obsidian官方开发者文档进行翻译",
+  base: '/obsidian-dev-docs-zh/',
+  description: '根据Obsidian官方开发者文档进行翻译',
 
   // 排除英文文档目录，只构建中文文档
   srcExclude: ['**/en/**'],
@@ -328,11 +329,11 @@ export default {
 
   // 主题配置
   themeConfig: {
-    siteTitle: "Obsidian 开发者文档",
-    logo: "/logo.svg",
+    siteTitle: 'Obsidian 开发者文档',
+    logo: '/logo.svg',
     sidebar: contentsNote,
   },
-}
+};
 ```
 
 ### 构建优化
@@ -362,9 +363,9 @@ ls -la docs/.vitepress/dist/
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -372,7 +373,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true  # 重要：拉取子模块
+          submodules: true # 重要：拉取子模块
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
