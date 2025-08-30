@@ -1,5 +1,5 @@
 ---
-aliases: 'stringifyYaml'
+aliases: "stringifyYaml"
 cssclasses: hide-title
 ---
 
@@ -9,6 +9,7 @@ cssclasses: hide-title
 
 ## stringifyYaml() function
 
+
 **Signature:**
 
 ```typescript
@@ -17,10 +18,11 @@ export function stringifyYaml(obj: any): string;
 
 ## Parameters
 
-| Parameter        | Type             | Description |
-| ---------------- | ---------------- | ----------- |
-| <code>obj</code> | <code>any</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>obj</code> | <code>any</code> |  |
 
 **Returns:**
 
 `string`
+

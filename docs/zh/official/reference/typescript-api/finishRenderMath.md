@@ -1,5 +1,5 @@
 ---
-aliases: 'finishRenderMath'
+aliases: "finishRenderMath"
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Flush the MathJax stylesheet.
 ```typescript
 export function finishRenderMath(): Promise<void>;
 ```
-
 **Returns:**
 
 `Promise<void>`
+

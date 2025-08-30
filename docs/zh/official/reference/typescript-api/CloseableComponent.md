@@ -1,5 +1,5 @@
 ---
-aliases: 'CloseableComponent'
+aliases: "CloseableComponent"
 cssclasses: hide-title
 ---
 
@@ -14,11 +14,12 @@ A closeable component that can get dismissed via the Android 'back' button.
 **Signature:**
 
 ```typescript
-export interface CloseableComponent
+export interface CloseableComponent 
 ```
 
 ## Methods
 
-| Method                                | Description |
-| ------------------------------------- | ----------- |
-| [`close()`](CloseableComponent/close) |             |
+|  Method | Description |
+|  --- | --- |
+|  [`close()`](CloseableComponent/close) |  |
+

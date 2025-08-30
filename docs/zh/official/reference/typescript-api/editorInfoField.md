@@ -1,5 +1,5 @@
 ---
-aliases: 'editorInfoField'
+aliases: "editorInfoField"
 cssclasses: hide-title
 ---
 
@@ -14,5 +14,5 @@ Use this StateField to get information about this Markdown editor, such as the a
 **Signature:**
 
 ```typescript
-editorInfoField: StateField<MarkdownFileInfo>;
+editorInfoField: StateField<MarkdownFileInfo>
 ```

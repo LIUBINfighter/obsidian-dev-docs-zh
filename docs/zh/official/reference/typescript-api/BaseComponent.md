@@ -1,5 +1,5 @@
 ---
-aliases: 'BaseComponent'
+aliases: "BaseComponent"
 cssclasses: hide-title
 ---
 
@@ -9,21 +9,23 @@ cssclasses: hide-title
 
 ## BaseComponent class
 
+
 **Signature:**
 
 ```typescript
-export abstract class BaseComponent
+export abstract class BaseComponent 
 ```
 
 ## Properties
 
-| Property                             | Modifiers | Type                 | Description |
-| ------------------------------------ | --------- | -------------------- | ----------- |
-| [`disabled`](BaseComponent/disabled) |           | <code>boolean</code> |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> |  |
 
 ## Methods
 
-| Method                                               | Modifiers | Description          |
-| ---------------------------------------------------- | --------- | -------------------- |
-| [`setDisabled(disabled)`](BaseComponent/setDisabled) |           |                      |
-| [`then(cb)`](BaseComponent/then)                     |           | Facilitates chaining |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`setDisabled(disabled)`](BaseComponent/setDisabled) |  |  |
+|  [`then(cb)`](BaseComponent/then) |  | Facilitates chaining |
+

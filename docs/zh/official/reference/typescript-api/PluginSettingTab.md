@@ -1,5 +1,5 @@
 ---
-aliases: 'PluginSettingTab'
+aliases: "PluginSettingTab"
 cssclasses: hide-title
 ---
 
@@ -14,27 +14,27 @@ Provides a unified interface for users to configure the plugin.
 **Signature:**
 
 ```typescript
-export abstract class PluginSettingTab extends SettingTab
+export abstract class PluginSettingTab extends SettingTab 
 ```
-
 **Extends:** [`SettingTab`](SettingTab)
 
 ## Constructors
 
-| Constructor                                                         | Modifiers | Description                                                          |
-| ------------------------------------------------------------------- | --------- | -------------------------------------------------------------------- |
-| [`(constructor)(app, plugin)`](<PluginSettingTab/(constructor).md>) |           | Constructs a new instance of the <code>PluginSettingTab</code> class |
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [`(constructor)(app, plugin)`](PluginSettingTab/(constructor).md) |  | Constructs a new instance of the <code>PluginSettingTab</code> class |
 
 ## Properties
 
-| Property                                | Modifiers | Type                     | Description                                                                                               |
-| --------------------------------------- | --------- | ------------------------ | --------------------------------------------------------------------------------------------------------- |
-| [`app`](SettingTab/app)                 |           | [`App`](App)             | <p>Reference to the app instance.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p>             |
-| [`containerEl`](SettingTab/containerEl) |           | <code>HTMLElement</code> | <p>Outermost HTML element on the setting tab.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p> |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`app`](SettingTab/app) |  | [`App`](App) | <p>Reference to the app instance.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p> |
+|  [`containerEl`](SettingTab/containerEl) |  | <code>HTMLElement</code> | <p>Outermost HTML element on the setting tab.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p> |
 
 ## Methods
 
-| Method                            | Modifiers             | Description                                                                                                                                                                                                                          |
-| --------------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`display()`](SettingTab/display) | <code>abstract</code> | <p>Called when the settings tab should be rendered.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p>                                                                                                                      |
-| [`hide()`](SettingTab/hide)       |                       | <p>Hides the contents of the setting tab. Any registered components should be unloaded when the view is hidden. Override this if you need to perform additional cleanup.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p> |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`display()`](SettingTab/display) | <code>abstract</code> | <p>Called when the settings tab should be rendered.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p> |
+|  [`hide()`](SettingTab/hide) |  | <p>Hides the contents of the setting tab. Any registered components should be unloaded when the view is hidden. Override this if you need to perform additional cleanup.</p><p>(Inherited from [SettingTab](SettingTab)<!-- -->)</p> |
+

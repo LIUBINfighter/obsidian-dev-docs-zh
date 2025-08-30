@@ -1,5 +1,5 @@
 ---
-aliases: 'SearchMatchPart'
+aliases: "SearchMatchPart"
 cssclasses: hide-title
 ---
 

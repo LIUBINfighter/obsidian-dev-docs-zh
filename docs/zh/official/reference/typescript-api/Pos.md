@@ -1,5 +1,5 @@
 ---
-aliases: 'Pos'
+aliases: "Pos"
 cssclasses: hide-title
 ---
 
@@ -14,12 +14,13 @@ Describes a text range in a Markdown document.
 **Signature:**
 
 ```typescript
-export interface Pos
+export interface Pos 
 ```
 
 ## Properties
 
-| Property             | Modifiers | Type         | Description        |
-| -------------------- | --------- | ------------ | ------------------ |
-| [`end`](Pos/end)     |           | [`Loc`](Loc) | End location.      |
-| [`start`](Pos/start) |           | [`Loc`](Loc) | Starting location. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`end`](Pos/end) |  | [`Loc`](Loc) | End location. |
+|  [`start`](Pos/start) |  | [`Loc`](Loc) | Starting location. |
+

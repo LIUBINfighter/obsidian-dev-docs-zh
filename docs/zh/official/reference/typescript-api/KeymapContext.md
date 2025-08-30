@@ -1,5 +1,5 @@
 ---
-aliases: 'KeymapContext'
+aliases: "KeymapContext"
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,19 @@ cssclasses: hide-title
 
 ## KeymapContext interface
 
+
 **Signature:**
 
 ```typescript
-export interface KeymapContext extends KeymapInfo
+export interface KeymapContext extends KeymapInfo 
 ```
-
 **Extends:** [`KeymapInfo`](KeymapInfo)
 
 ## Properties
 
-| Property                            | Modifiers | Type                            | Description                                              |
-| ----------------------------------- | --------- | ------------------------------- | -------------------------------------------------------- |
-| [`key`](KeymapInfo/key)             |           | <code>string &#124; null</code> | <p>(Inherited from [KeymapInfo](KeymapInfo)<!-- -->)</p> |
-| [`modifiers`](KeymapInfo/modifiers) |           | <code>string &#124; null</code> | <p>(Inherited from [KeymapInfo](KeymapInfo)<!-- -->)</p> |
-| [`vkey`](KeymapContext/vkey)        |           | <code>string</code>             | Interpreted virtual key.                                 |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`key`](KeymapInfo/key) |  | <code>string &#124; null</code> | <p>(Inherited from [KeymapInfo](KeymapInfo)<!-- -->)</p> |
+|  [`modifiers`](KeymapInfo/modifiers) |  | <code>string &#124; null</code> | <p>(Inherited from [KeymapInfo](KeymapInfo)<!-- -->)</p> |
+|  [`vkey`](KeymapContext/vkey) |  | <code>string</code> | Interpreted virtual key. |
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'requireApiVersion'
+aliases: "requireApiVersion"
 cssclasses: hide-title
 ---
 
@@ -19,10 +19,11 @@ export function requireApiVersion(version: string): boolean;
 
 ## Parameters
 
-| Parameter            | Type                | Description |
-| -------------------- | ------------------- | ----------- |
-| <code>version</code> | <code>string</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>version</code> | <code>string</code> |  |
 
 **Returns:**
 
 `boolean`
+

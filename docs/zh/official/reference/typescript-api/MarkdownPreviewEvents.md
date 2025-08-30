@@ -1,5 +1,5 @@
 ---
-aliases: 'MarkdownPreviewEvents'
+aliases: "MarkdownPreviewEvents"
 cssclasses: hide-title
 ---
 
@@ -14,7 +14,7 @@ cssclasses: hide-title
 **Signature:**
 
 ```typescript
-export interface MarkdownPreviewEvents extends Component
+export interface MarkdownPreviewEvents extends Component 
 ```
-
 **Extends:** [`Component`](Component)
+

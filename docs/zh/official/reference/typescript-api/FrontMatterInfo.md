@@ -1,5 +1,5 @@
 ---
-aliases: 'FrontMatterInfo'
+aliases: "FrontMatterInfo"
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,20 @@ cssclasses: hide-title
 
 ## FrontMatterInfo interface
 
+
 **Signature:**
 
 ```typescript
-export interface FrontMatterInfo
+export interface FrontMatterInfo 
 ```
 
 ## Properties
 
-| Property                                       | Modifiers | Type                 | Description                                                    |
-| ---------------------------------------------- | --------- | -------------------- | -------------------------------------------------------------- |
-| [`contentStart`](FrontMatterInfo/contentStart) |           | <code>number</code>  | Offset where the frontmatter block ends (including the \-\-\-) |
-| [`exists`](FrontMatterInfo/exists)             |           | <code>boolean</code> | Whether this file has a frontmatter block                      |
-| [`from`](FrontMatterInfo/from)                 |           | <code>number</code>  | Start of the frontmatter contents (excluding the \-\-\-)       |
-| [`frontmatter`](FrontMatterInfo/frontmatter)   |           | <code>string</code>  | String representation of the frontmatter                       |
-| [`to`](FrontMatterInfo/to)                     |           | <code>number</code>  | End of the frontmatter contents (excluding the \-\-\-)         |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`contentStart`](FrontMatterInfo/contentStart) |  | <code>number</code> | Offset where the frontmatter block ends (including the \-\-\-) |
+|  [`exists`](FrontMatterInfo/exists) |  | <code>boolean</code> | Whether this file has a frontmatter block |
+|  [`from`](FrontMatterInfo/from) |  | <code>number</code> | Start of the frontmatter contents (excluding the \-\-\-) |
+|  [`frontmatter`](FrontMatterInfo/frontmatter) |  | <code>string</code> | String representation of the frontmatter |
+|  [`to`](FrontMatterInfo/to) |  | <code>number</code> | End of the frontmatter contents (excluding the \-\-\-) |
+

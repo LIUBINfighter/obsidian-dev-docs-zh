@@ -1,5 +1,5 @@
 ---
-aliases: 'parseFrontMatterEntry'
+aliases: "parseFrontMatterEntry"
 cssclasses: hide-title
 ---
 
@@ -9,22 +9,21 @@ cssclasses: hide-title
 
 ## parseFrontMatterEntry() function
 
+
 **Signature:**
 
 ```typescript
-export function parseFrontMatterEntry(
-  frontmatter: any | null,
-  key: string | RegExp,
-): any | null;
+export function parseFrontMatterEntry(frontmatter: any | null, key: string | RegExp): any | null;
 ```
 
 ## Parameters
 
-| Parameter                | Type                                           | Description |
-| ------------------------ | ---------------------------------------------- | ----------- |
-| <code>frontmatter</code> | <code>any &#124; null</code>                   |             |
-| <code>key</code>         | <code>string &#124; </code><code>RegExp</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>frontmatter</code> | <code>any &#124; null</code> |  |
+|  <code>key</code> | <code>string &#124; </code><code>RegExp</code> |  |
 
 **Returns:**
 
 `any | null`
+

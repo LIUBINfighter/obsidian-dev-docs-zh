@@ -1,5 +1,5 @@
 ---
-aliases: 'getLinkpath'
+aliases: "getLinkpath"
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,13 @@ export function getLinkpath(linktext: string): string;
 
 ## Parameters
 
-| Parameter             | Type                | Description                                           |
-| --------------------- | ------------------- | ----------------------------------------------------- |
-| <code>linktext</code> | <code>string</code> | A wikilink without the leading \[\[ and trailing \]\] |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>linktext</code> | <code>string</code> | A wikilink without the leading \[\[ and trailing \]\] |
 
 **Returns:**
 
 `string`
 
 the name of the file that is being linked to.
+

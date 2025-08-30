@@ -1,5 +1,5 @@
 ---
-aliases: 'MenuPositionDef'
+aliases: "MenuPositionDef"
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,20 @@ cssclasses: hide-title
 
 ## MenuPositionDef interface
 
+
 **Signature:**
 
 ```typescript
-export interface MenuPositionDef
+export interface MenuPositionDef 
 ```
 
 ## Properties
 
-| Property                              | Modifiers | Type                 | Description  |
-| ------------------------------------- | --------- | -------------------- | ------------ |
-| [`left?`](MenuPositionDef/left)       |           | <code>boolean</code> | _(Optional)_ |
-| [`overlap?`](MenuPositionDef/overlap) |           | <code>boolean</code> | _(Optional)_ |
-| [`width?`](MenuPositionDef/width)     |           | <code>number</code>  | _(Optional)_ |
-| [`x`](MenuPositionDef/x)              |           | <code>number</code>  |              |
-| [`y`](MenuPositionDef/y)              |           | <code>number</code>  |              |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`left?`](MenuPositionDef/left) |  | <code>boolean</code> | _(Optional)_ |
+|  [`overlap?`](MenuPositionDef/overlap) |  | <code>boolean</code> | _(Optional)_ |
+|  [`width?`](MenuPositionDef/width) |  | <code>number</code> | _(Optional)_ |
+|  [`x`](MenuPositionDef/x) |  | <code>number</code> |  |
+|  [`y`](MenuPositionDef/y) |  | <code>number</code> |  |
+

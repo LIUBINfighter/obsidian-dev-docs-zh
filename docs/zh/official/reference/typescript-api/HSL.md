@@ -1,5 +1,5 @@
 ---
-aliases: 'HSL'
+aliases: "HSL"
 cssclasses: hide-title
 ---
 
@@ -9,16 +9,18 @@ cssclasses: hide-title
 
 ## HSL interface
 
+
 **Signature:**
 
 ```typescript
-export interface HSL
+export interface HSL 
 ```
 
 ## Properties
 
-| Property     | Modifiers | Type                | Description                                |
-| ------------ | --------- | ------------------- | ------------------------------------------ |
-| [`h`](HSL/h) |           | <code>number</code> | Hue integer value between 0 and 360        |
-| [`l`](HSL/l) |           | <code>number</code> | Lightness integer value between 0 and 100  |
-| [`s`](HSL/s) |           | <code>number</code> | Saturation integer value between 0 and 100 |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`h`](HSL/h) |  | <code>number</code> | Hue integer value between 0 and 360 |
+|  [`l`](HSL/l) |  | <code>number</code> | Lightness integer value between 0 and 100 |
+|  [`s`](HSL/s) |  | <code>number</code> | Saturation integer value between 0 and 100 |
+

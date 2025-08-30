@@ -1,5 +1,5 @@
 ---
-aliases: 'PopoverState'
+aliases: "PopoverState"
 cssclasses: hide-title
 ---
 
@@ -9,8 +9,9 @@ cssclasses: hide-title
 
 ## PopoverState enum
 
+
 **Signature:**
 
 ```typescript
-export enum PopoverState
+export enum PopoverState 
 ```

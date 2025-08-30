@@ -1,5 +1,5 @@
 ---
-aliases: 'ListedFiles'
+aliases: "ListedFiles"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## ListedFiles interface
 
+
 **Signature:**
 
 ```typescript
-export interface ListedFiles
+export interface ListedFiles 
 ```
 
 ## Properties
 
-| Property                         | Modifiers | Type                  | Description |
-| -------------------------------- | --------- | --------------------- | ----------- |
-| [`files`](ListedFiles/files)     |           | <code>string[]</code> |             |
-| [`folders`](ListedFiles/folders) |           | <code>string[]</code> |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`files`](ListedFiles/files) |  | <code>string[]</code> |  |
+|  [`folders`](ListedFiles/folders) |  | <code>string[]</code> |  |
+

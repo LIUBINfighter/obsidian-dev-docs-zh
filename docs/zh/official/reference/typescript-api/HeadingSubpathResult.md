@@ -1,5 +1,5 @@
 ---
-aliases: 'HeadingSubpathResult'
+aliases: "HeadingSubpathResult"
 cssclasses: hide-title
 ---
 
@@ -9,20 +9,21 @@ cssclasses: hide-title
 
 ## HeadingSubpathResult interface
 
+
 **Signature:**
 
 ```typescript
-export interface HeadingSubpathResult extends SubpathResult
+export interface HeadingSubpathResult extends SubpathResult 
 ```
-
 **Extends:** [`SubpathResult`](SubpathResult)
 
 ## Properties
 
-| Property                                  | Modifiers | Type                                  | Description                                                    |
-| ----------------------------------------- | --------- | ------------------------------------- | -------------------------------------------------------------- |
-| [`current`](HeadingSubpathResult/current) |           | [`HeadingCache`](HeadingCache)        |                                                                |
-| [`end`](SubpathResult/end)                |           | [`Loc`](Loc)<code> &#124; null</code> | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
-| [`next`](HeadingSubpathResult/next)       |           | [`HeadingCache`](HeadingCache)        |                                                                |
-| [`start`](SubpathResult/start)            |           | [`Loc`](Loc)                          | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
-| [`type`](HeadingSubpathResult/type)       |           | <code>'heading'</code>                |                                                                |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`current`](HeadingSubpathResult/current) |  | [`HeadingCache`](HeadingCache) |  |
+|  [`end`](SubpathResult/end) |  | [`Loc`](Loc)<code> &#124; null</code> | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
+|  [`next`](HeadingSubpathResult/next) |  | [`HeadingCache`](HeadingCache) |  |
+|  [`start`](SubpathResult/start) |  | [`Loc`](Loc) | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
+|  [`type`](HeadingSubpathResult/type) |  | <code>'heading'</code> |  |
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'sortSearchResults'
+aliases: "sortSearchResults"
 cssclasses: hide-title
 ---
 
@@ -9,6 +9,7 @@ cssclasses: hide-title
 
 ## sortSearchResults() function
 
+
 **Signature:**
 
 ```typescript
@@ -17,10 +18,11 @@ export function sortSearchResults(results: SearchResultContainer[]): void;
 
 ## Parameters
 
-| Parameter            | Type                                                            | Description |
-| -------------------- | --------------------------------------------------------------- | ----------- |
-| <code>results</code> | [`SearchResultContainer`](SearchResultContainer)<code>[]</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>results</code> | [`SearchResultContainer`](SearchResultContainer)<code>[]</code> |  |
 
 **Returns:**
 
 `void`
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'displayTooltip'
+aliases: "displayTooltip"
 cssclasses: hide-title
 ---
 
@@ -16,21 +16,18 @@ To display a tooltip on hover, use [setTooltip()](setTooltip) instead.
 **Signature:**
 
 ```typescript
-export function displayTooltip(
-  newTargetEl: HTMLElement,
-  content: string | DocumentFragment,
-  options?: TooltipOptions,
-): void;
+export function displayTooltip(newTargetEl: HTMLElement, content: string | DocumentFragment, options?: TooltipOptions): void;
 ```
 
 ## Parameters
 
-| Parameter                | Type                                                     | Description  |
-| ------------------------ | -------------------------------------------------------- | ------------ |
-| <code>newTargetEl</code> | <code>HTMLElement</code>                                 |              |
-| <code>content</code>     | <code>string &#124; </code><code>DocumentFragment</code> |              |
-| <code>options</code>     | [`TooltipOptions`](TooltipOptions)                       | _(Optional)_ |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>newTargetEl</code> | <code>HTMLElement</code> |  |
+|  <code>content</code> | <code>string &#124; </code><code>DocumentFragment</code> |  |
+|  <code>options</code> | [`TooltipOptions`](TooltipOptions) | _(Optional)_ |
 
 **Returns:**
 
 `void`
+

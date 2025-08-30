@@ -1,5 +1,5 @@
 ---
-aliases: 'moment'
+aliases: "moment"
 cssclasses: hide-title
 ---
 
@@ -9,8 +9,9 @@ cssclasses: hide-title
 
 ## moment variable
 
+
 **Signature:**
 
 ```typescript
-moment: typeof Moment;
+moment: typeof Moment
 ```

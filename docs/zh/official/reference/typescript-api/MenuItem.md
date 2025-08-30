@@ -1,5 +1,5 @@
 ---
-aliases: 'MenuItem'
+aliases: "MenuItem"
 cssclasses: hide-title
 ---
 
@@ -9,20 +9,22 @@ cssclasses: hide-title
 
 ## MenuItem class
 
+
 **Signature:**
 
 ```typescript
-export class MenuItem
+export class MenuItem 
 ```
 
 ## Methods
 
-| Method                                          | Modifiers | Description                                                                                                                                                               |
-| ----------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`onClick(callback)`](MenuItem/onClick)         |           |                                                                                                                                                                           |
-| [`setChecked(checked)`](MenuItem/setChecked)    |           |                                                                                                                                                                           |
-| [`setDisabled(disabled)`](MenuItem/setDisabled) |           |                                                                                                                                                                           |
-| [`setIcon(icon)`](MenuItem/setIcon)             |           |                                                                                                                                                                           |
-| [`setIsLabel(isLabel)`](MenuItem/setIsLabel)    |           |                                                                                                                                                                           |
-| [`setSection(section)`](MenuItem/setSection)    |           | Sets the section this menu item should belong in. To find the section IDs of an existing menu, inspect the DOM elements to see their <code>data-section</code> attribute. |
-| [`setTitle(title)`](MenuItem/setTitle)          |           |                                                                                                                                                                           |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`onClick(callback)`](MenuItem/onClick) |  |  |
+|  [`setChecked(checked)`](MenuItem/setChecked) |  |  |
+|  [`setDisabled(disabled)`](MenuItem/setDisabled) |  |  |
+|  [`setIcon(icon)`](MenuItem/setIcon) |  |  |
+|  [`setIsLabel(isLabel)`](MenuItem/setIsLabel) |  |  |
+|  [`setSection(section)`](MenuItem/setSection) |  | Sets the section this menu item should belong in. To find the section IDs of an existing menu, inspect the DOM elements to see their <code>data-section</code> attribute. |
+|  [`setTitle(title)`](MenuItem/setTitle) |  |  |
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'EditorSelectionOrCaret'
+aliases: "EditorSelectionOrCaret"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## EditorSelectionOrCaret interface
 
+
 **Signature:**
 
 ```typescript
-export interface EditorSelectionOrCaret
+export interface EditorSelectionOrCaret 
 ```
 
 ## Properties
 
-| Property                                  | Modifiers | Type                               | Description  |
-| ----------------------------------------- | --------- | ---------------------------------- | ------------ |
-| [`anchor`](EditorSelectionOrCaret/anchor) |           | [`EditorPosition`](EditorPosition) |              |
-| [`head?`](EditorSelectionOrCaret/head)    |           | [`EditorPosition`](EditorPosition) | _(Optional)_ |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`anchor`](EditorSelectionOrCaret/anchor) |  | [`EditorPosition`](EditorPosition) |  |
+|  [`head?`](EditorSelectionOrCaret/head) |  | [`EditorPosition`](EditorPosition) | _(Optional)_ |
+

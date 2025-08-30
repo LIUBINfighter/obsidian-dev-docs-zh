@@ -1,5 +1,5 @@
 ---
-aliases: 'EditorRange'
+aliases: "EditorRange"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## EditorRange interface
 
+
 **Signature:**
 
 ```typescript
-export interface EditorRange
+export interface EditorRange 
 ```
 
 ## Properties
 
-| Property                   | Modifiers | Type                               | Description |
-| -------------------------- | --------- | ---------------------------------- | ----------- |
-| [`from`](EditorRange/from) |           | [`EditorPosition`](EditorPosition) |             |
-| [`to`](EditorRange/to)     |           | [`EditorPosition`](EditorPosition) |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`from`](EditorRange/from) |  | [`EditorPosition`](EditorPosition) |  |
+|  [`to`](EditorRange/to) |  | [`EditorPosition`](EditorPosition) |  |
+

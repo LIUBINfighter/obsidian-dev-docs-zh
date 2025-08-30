@@ -1,5 +1,5 @@
 ---
-aliases: 'SettingTab'
+aliases: "SettingTab"
 cssclasses: hide-title
 ---
 
@@ -12,19 +12,20 @@ cssclasses: hide-title
 **Signature:**
 
 ```typescript
-export abstract class SettingTab
+export abstract class SettingTab 
 ```
 
 ## Properties
 
-| Property                                | Modifiers | Type                     | Description                                |
-| --------------------------------------- | --------- | ------------------------ | ------------------------------------------ |
-| [`app`](SettingTab/app)                 |           | [`App`](App)             | Reference to the app instance.             |
-| [`containerEl`](SettingTab/containerEl) |           | <code>HTMLElement</code> | Outermost HTML element on the setting tab. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`app`](SettingTab/app) |  | [`App`](App) | Reference to the app instance. |
+|  [`containerEl`](SettingTab/containerEl) |  | <code>HTMLElement</code> | Outermost HTML element on the setting tab. |
 
 ## Methods
 
-| Method                            | Modifiers             | Description                                                                                                                                                           |
-| --------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`display()`](SettingTab/display) | <code>abstract</code> | Called when the settings tab should be rendered.                                                                                                                      |
-| [`hide()`](SettingTab/hide)       |                       | Hides the contents of the setting tab. Any registered components should be unloaded when the view is hidden. Override this if you need to perform additional cleanup. |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`display()`](SettingTab/display) | <code>abstract</code> | Called when the settings tab should be rendered. |
+|  [`hide()`](SettingTab/hide) |  | Hides the contents of the setting tab. Any registered components should be unloaded when the view is hidden. Override this if you need to perform additional cleanup. |
+

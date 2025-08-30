@@ -1,5 +1,5 @@
 ---
-aliases: 'addIcon'
+aliases: "addIcon"
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,12 @@ export function addIcon(iconId: string, svgContent: string): void;
 
 ## Parameters
 
-| Parameter               | Type                | Description             |
-| ----------------------- | ------------------- | ----------------------- |
-| <code>iconId</code>     | <code>string</code> | the icon ID             |
-| <code>svgContent</code> | <code>string</code> | the content of the SVG. |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>iconId</code> | <code>string</code> | the icon ID |
+|  <code>svgContent</code> | <code>string</code> | the content of the SVG. |
 
 **Returns:**
 
 `void`
+

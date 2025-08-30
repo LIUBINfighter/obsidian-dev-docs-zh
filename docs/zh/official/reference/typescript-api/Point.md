@@ -1,5 +1,5 @@
 ---
-aliases: 'Point'
+aliases: "Point"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## Point interface
 
+
 **Signature:**
 
 ```typescript
-export interface Point
+export interface Point 
 ```
 
 ## Properties
 
-| Property       | Modifiers | Type                | Description |
-| -------------- | --------- | ------------------- | ----------- |
-| [`x`](Point/x) |           | <code>number</code> |             |
-| [`y`](Point/y) |           | <code>number</code> |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`x`](Point/x) |  | <code>number</code> |  |
+|  [`y`](Point/y) |  | <code>number</code> |  |
+

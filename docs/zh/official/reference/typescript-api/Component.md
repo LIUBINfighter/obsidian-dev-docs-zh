@@ -1,5 +1,5 @@
 ---
-aliases: 'Component'
+aliases: "Component"
 cssclasses: hide-title
 ---
 
@@ -9,25 +9,27 @@ cssclasses: hide-title
 
 ## Component class
 
+
 **Signature:**
 
 ```typescript
-export class Component
+export class Component 
 ```
 
 ## Methods
 
-| Method                                                                          | Modifiers | Description                                                                                                                                        |
-| ------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`addChild(component)`](Component/addChild)                                     |           | Adds a child component, loading it if this component is loaded                                                                                     |
-| [`load()`](Component/load)                                                      |           | Load this component and its children                                                                                                               |
-| [`onload()`](Component/onload)                                                  |           | Override this to load your component                                                                                                               |
-| [`onunload()`](Component/onunload)                                              |           | Override this to unload your component                                                                                                             |
-| [`register(cb)`](Component/register)                                            |           | Registers a callback to be called when unloading                                                                                                   |
-| [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent)   |           | Registers an DOM event to be detached when unloading                                                                                               |
-| [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_1) |           | Registers an DOM event to be detached when unloading                                                                                               |
-| [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_2) |           | Registers an DOM event to be detached when unloading                                                                                               |
-| [`registerEvent(eventRef)`](Component/registerEvent)                            |           | Registers an event to be detached when unloading                                                                                                   |
-| [`registerInterval(id)`](Component/registerInterval)                            |           | Registers an interval (from setInterval) to be cancelled when unloading Use instead of to avoid TypeScript confusing between NodeJS vs Browser API |
-| [`removeChild(component)`](Component/removeChild)                               |           | Removes a child component, unloading it                                                                                                            |
-| [`unload()`](Component/unload)                                                  |           | Unload this component and its children                                                                                                             |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`addChild(component)`](Component/addChild) |  | Adds a child component, loading it if this component is loaded |
+|  [`load()`](Component/load) |  | Load this component and its children |
+|  [`onload()`](Component/onload) |  | Override this to load your component |
+|  [`onunload()`](Component/onunload) |  | Override this to unload your component |
+|  [`register(cb)`](Component/register) |  | Registers a callback to be called when unloading |
+|  [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent) |  | Registers an DOM event to be detached when unloading |
+|  [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_1) |  | Registers an DOM event to be detached when unloading |
+|  [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_2) |  | Registers an DOM event to be detached when unloading |
+|  [`registerEvent(eventRef)`](Component/registerEvent) |  | Registers an event to be detached when unloading |
+|  [`registerInterval(id)`](Component/registerInterval) |  | Registers an interval (from setInterval) to be cancelled when unloading Use  instead of  to avoid TypeScript confusing between NodeJS vs Browser API |
+|  [`removeChild(component)`](Component/removeChild) |  | Removes a child component, unloading it |
+|  [`unload()`](Component/unload) |  | Unload this component and its children |
+

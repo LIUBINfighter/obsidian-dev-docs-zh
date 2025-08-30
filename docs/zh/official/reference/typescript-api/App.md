@@ -1,5 +1,5 @@
 ---
-aliases: 'App'
+aliases: "App"
 cssclasses: hide-title
 ---
 
@@ -9,27 +9,29 @@ cssclasses: hide-title
 
 ## App class
 
+
 **Signature:**
 
 ```typescript
-export class App
+export class App 
 ```
 
 ## Properties
 
-| Property                             | Modifiers | Type                                              | Description                                                                                      |
-| ------------------------------------ | --------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [`fileManager`](App/fileManager)     |           | [`FileManager`](FileManager)                      |                                                                                                  |
-| [`keymap`](App/keymap)               |           | [`Keymap`](Keymap)                                |                                                                                                  |
-| [`lastEvent`](App/lastEvent)         |           | [`UserEvent`](UserEvent)<code> &#124; null</code> | The last known user interaction event, to help commands find out what modifier keys are pressed. |
-| [`metadataCache`](App/metadataCache) |           | [`MetadataCache`](MetadataCache)                  |                                                                                                  |
-| [`scope`](App/scope)                 |           | [`Scope`](Scope)                                  |                                                                                                  |
-| [`vault`](App/vault)                 |           | [`Vault`](Vault)                                  |                                                                                                  |
-| [`workspace`](App/workspace)         |           | [`Workspace`](Workspace)                          |                                                                                                  |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`fileManager`](App/fileManager) |  | [`FileManager`](FileManager) |  |
+|  [`keymap`](App/keymap) |  | [`Keymap`](Keymap) |  |
+|  [`lastEvent`](App/lastEvent) |  | [`UserEvent`](UserEvent)<code> &#124; null</code> | The last known user interaction event, to help commands find out what modifier keys are pressed. |
+|  [`metadataCache`](App/metadataCache) |  | [`MetadataCache`](MetadataCache) |  |
+|  [`scope`](App/scope) |  | [`Scope`](Scope) |  |
+|  [`vault`](App/vault) |  | [`Vault`](Vault) |  |
+|  [`workspace`](App/workspace) |  | [`Workspace`](Workspace) |  |
 
 ## Methods
 
-| Method                                                | Modifiers | Description                                                                                                      |
-| ----------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------- |
-| [`loadLocalStorage(key)`](App/loadLocalStorage)       |           | Retrieve value from <code>localStorage</code> for this vault.                                                    |
-| [`saveLocalStorage(key, data)`](App/saveLocalStorage) |           | Save vault-specific value to <code>localStorage</code>. If data is <code>null</code>, the entry will be cleared. |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`loadLocalStorage(key)`](App/loadLocalStorage) |  | Retrieve value from <code>localStorage</code> for this vault. |
+|  [`saveLocalStorage(key, data)`](App/saveLocalStorage) |  | Save vault-specific value to <code>localStorage</code>. If data is <code>null</code>, the entry will be cleared. |
+

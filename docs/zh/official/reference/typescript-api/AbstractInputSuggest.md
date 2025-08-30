@@ -1,5 +1,5 @@
 ---
-aliases: 'AbstractInputSuggest'
+aliases: "AbstractInputSuggest"
 cssclasses: hide-title
 ---
 
@@ -14,34 +14,34 @@ Attach to an `<input>` element or a `<div contentEditable>` to add type-ahead su
 **Signature:**
 
 ```typescript
-export abstract class AbstractInputSuggest<T> extends PopoverSuggest<T>
+export abstract class AbstractInputSuggest<T> extends PopoverSuggest<T> 
 ```
-
 **Extends:** [`PopoverSuggest`](PopoverSuggest)`<T>`
 
 ## Constructors
 
-| Constructor                                                                  | Modifiers | Description                                                              |
-| ---------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------ |
-| [`(constructor)(app, textInputEl)`](<AbstractInputSuggest/(constructor).md>) |           | Accepts an <code>&lt;input&gt;</code> text box or a contenteditable div. |
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [`(constructor)(app, textInputEl)`](AbstractInputSuggest/(constructor).md) |  | Accepts an <code>&lt;input&gt;</code> text box or a contenteditable div. |
 
 ## Properties
 
-| Property                              | Modifiers | Type                | Description                                                                             |
-| ------------------------------------- | --------- | ------------------- | --------------------------------------------------------------------------------------- |
-| [`app`](PopoverSuggest/app)           |           | [`App`](App)        | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p>                        |
-| [`limit`](AbstractInputSuggest/limit) |           | <code>number</code> | Limit to the number of elements rendered at once. Set to 0 to disable. Defaults to 100. |
-| [`scope`](PopoverSuggest/scope)       |           | [`Scope`](Scope)    | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p>                        |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`app`](PopoverSuggest/app) |  | [`App`](App) | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p> |
+|  [`limit`](AbstractInputSuggest/limit) |  | <code>number</code> | Limit to the number of elements rendered at once. Set to 0 to disable. Defaults to 100. |
+|  [`scope`](PopoverSuggest/scope) |  | [`Scope`](Scope) | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p> |
 
 ## Methods
 
-| Method                                                                  | Modifiers                                                 | Description                                                               |
-| ----------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [`close()`](PopoverSuggest/close)                                       |                                                           | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p>          |
-| [`getSuggestions(query)`](AbstractInputSuggest/getSuggestions)          | <p><code>protected</code></p><p><code>abstract</code></p> |                                                                           |
-| [`getValue()`](AbstractInputSuggest/getValue)                           |                                                           | Gets the value from the input element.                                    |
-| [`onSelect(callback)`](AbstractInputSuggest/onSelect)                   |                                                           | Registers a callback to handle when a suggestion is selected by the user. |
-| [`open()`](PopoverSuggest/open)                                         |                                                           | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p>          |
-| [`renderSuggestion(value, el)`](PopoverSuggest/renderSuggestion)        | <code>abstract</code>                                     | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p>          |
-| [`selectSuggestion(value, evt)`](AbstractInputSuggest/selectSuggestion) |                                                           |                                                                           |
-| [`setValue(value)`](AbstractInputSuggest/setValue)                      |                                                           | Sets the value into the input element.                                    |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`close()`](PopoverSuggest/close) |  | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p> |
+|  [`getSuggestions(query)`](AbstractInputSuggest/getSuggestions) | <p><code>protected</code></p><p><code>abstract</code></p> |  |
+|  [`getValue()`](AbstractInputSuggest/getValue) |  | Gets the value from the input element. |
+|  [`onSelect(callback)`](AbstractInputSuggest/onSelect) |  | Registers a callback to handle when a suggestion is selected by the user. |
+|  [`open()`](PopoverSuggest/open) |  | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p> |
+|  [`renderSuggestion(value, el)`](PopoverSuggest/renderSuggestion) | <code>abstract</code> | <p>(Inherited from [PopoverSuggest](PopoverSuggest)<!-- -->)</p> |
+|  [`selectSuggestion(value, evt)`](AbstractInputSuggest/selectSuggestion) |  |  |
+|  [`setValue(value)`](AbstractInputSuggest/setValue) |  | Sets the value into the input element. |
+

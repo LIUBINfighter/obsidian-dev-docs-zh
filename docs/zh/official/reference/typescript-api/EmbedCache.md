@@ -1,5 +1,5 @@
 ---
-aliases: 'EmbedCache'
+aliases: "EmbedCache"
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,20 @@ cssclasses: hide-title
 
 ## EmbedCache interface
 
+
 **Signature:**
 
 ```typescript
-export interface EmbedCache extends ReferenceCache
+export interface EmbedCache extends ReferenceCache 
 ```
-
 **Extends:** [`ReferenceCache`](ReferenceCache)
 
 ## Properties
 
-| Property                                | Modifiers | Type                | Description                                                                                                                                                                                                                      |
-| --------------------------------------- | --------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`displayText?`](Reference/displayText) |           | <code>string</code> | <p>_(Optional)_ Available if title is different from link text, in the case of <code>[[page name&#124;display name]]</code> this will return <code>display name</code></p><p>(Inherited from [Reference](Reference)<!-- -->)</p> |
-| [`link`](Reference/link)                |           | <code>string</code> | <p>Link destination.</p><p>(Inherited from [Reference](Reference)<!-- -->)</p>                                                                                                                                                   |
-| [`original`](Reference/original)        |           | <code>string</code> | <p>Contains the text as it's written in the document. Not available on Publish.</p><p>(Inherited from [Reference](Reference)<!-- -->)</p>                                                                                        |
-| [`position`](CacheItem/position)        |           | [`Pos`](Pos)        | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p>                                                                                                                                  |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`displayText?`](Reference/displayText) |  | <code>string</code> | <p>_(Optional)_ Available if title is different from link text, in the case of <code>[[page name&#124;display name]]</code> this will return <code>display name</code></p><p>(Inherited from [Reference](Reference)<!-- -->)</p> |
+|  [`link`](Reference/link) |  | <code>string</code> | <p>Link destination.</p><p>(Inherited from [Reference](Reference)<!-- -->)</p> |
+|  [`original`](Reference/original) |  | <code>string</code> | <p>Contains the text as it's written in the document. Not available on Publish.</p><p>(Inherited from [Reference](Reference)<!-- -->)</p> |
+|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
+

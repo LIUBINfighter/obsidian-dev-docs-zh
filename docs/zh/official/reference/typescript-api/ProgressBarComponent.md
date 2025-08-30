@@ -1,5 +1,5 @@
 ---
-aliases: 'ProgressBarComponent'
+aliases: "ProgressBarComponent"
 cssclasses: hide-title
 ---
 
@@ -9,32 +9,33 @@ cssclasses: hide-title
 
 ## ProgressBarComponent class
 
+
 **Signature:**
 
 ```typescript
-export class ProgressBarComponent extends ValueComponent<number>
+export class ProgressBarComponent extends ValueComponent<number> 
 ```
-
 **Extends:** [`ValueComponent`](ValueComponent)`<number>`
 
 ## Constructors
 
-| Constructor                                                             | Modifiers | Description                                                              |
-| ----------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------ |
-| [`(constructor)(containerEl)`](<ProgressBarComponent/(constructor).md>) |           | Constructs a new instance of the <code>ProgressBarComponent</code> class |
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [`(constructor)(containerEl)`](ProgressBarComponent/(constructor).md) |  | Constructs a new instance of the <code>ProgressBarComponent</code> class |
 
 ## Properties
 
-| Property                             | Modifiers | Type                 | Description                                                    |
-| ------------------------------------ | --------- | -------------------- | -------------------------------------------------------------- |
-| [`disabled`](BaseComponent/disabled) |           | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
 
 ## Methods
 
-| Method                                                                            | Modifiers | Description                                                                               |
-| --------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
-| [`getValue()`](ProgressBarComponent/getValue)                                     |           |                                                                                           |
-| [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |           | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p>                          |
-| [`setDisabled(disabled)`](BaseComponent/setDisabled)                              |           | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p>                            |
-| [`setValue(value)`](ProgressBarComponent/setValue)                                |           |                                                                                           |
-| [`then(cb)`](BaseComponent/then)                                                  |           | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`getValue()`](ProgressBarComponent/getValue) |  |  |
+|  [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |  | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p> |
+|  [`setDisabled(disabled)`](BaseComponent/setDisabled) |  | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+|  [`setValue(value)`](ProgressBarComponent/setValue) |  |  |
+|  [`then(cb)`](BaseComponent/then) |  | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+

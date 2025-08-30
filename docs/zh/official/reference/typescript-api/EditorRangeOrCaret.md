@@ -1,5 +1,5 @@
 ---
-aliases: 'EditorRangeOrCaret'
+aliases: "EditorRangeOrCaret"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## EditorRangeOrCaret interface
 
+
 **Signature:**
 
 ```typescript
-export interface EditorRangeOrCaret
+export interface EditorRangeOrCaret 
 ```
 
 ## Properties
 
-| Property                          | Modifiers | Type                               | Description  |
-| --------------------------------- | --------- | ---------------------------------- | ------------ |
-| [`from`](EditorRangeOrCaret/from) |           | [`EditorPosition`](EditorPosition) |              |
-| [`to?`](EditorRangeOrCaret/to)    |           | [`EditorPosition`](EditorPosition) | _(Optional)_ |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`from`](EditorRangeOrCaret/from) |  | [`EditorPosition`](EditorPosition) |  |
+|  [`to?`](EditorRangeOrCaret/to) |  | [`EditorPosition`](EditorPosition) | _(Optional)_ |
+

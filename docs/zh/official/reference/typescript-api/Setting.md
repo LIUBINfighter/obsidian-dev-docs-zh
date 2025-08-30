@@ -1,5 +1,5 @@
 ---
-aliases: 'Setting'
+aliases: "Setting"
 cssclasses: hide-title
 ---
 
@@ -9,49 +9,51 @@ cssclasses: hide-title
 
 ## Setting class
 
+
 **Signature:**
 
 ```typescript
-export class Setting
+export class Setting 
 ```
 
 ## Constructors
 
-| Constructor                                                | Modifiers | Description                                                 |
-| ---------------------------------------------------------- | --------- | ----------------------------------------------------------- |
-| [`(constructor)(containerEl)`](<Setting/(constructor).md>) |           | Constructs a new instance of the <code>Setting</code> class |
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [`(constructor)(containerEl)`](Setting/(constructor).md) |  | Constructs a new instance of the <code>Setting</code> class |
 
 ## Properties
 
-| Property                           | Modifiers | Type                                            | Description |
-| ---------------------------------- | --------- | ----------------------------------------------- | ----------- |
-| [`components`](Setting/components) |           | [`BaseComponent`](BaseComponent)<code>[]</code> |             |
-| [`controlEl`](Setting/controlEl)   |           | <code>HTMLElement</code>                        |             |
-| [`descEl`](Setting/descEl)         |           | <code>HTMLElement</code>                        |             |
-| [`infoEl`](Setting/infoEl)         |           | <code>HTMLElement</code>                        |             |
-| [`nameEl`](Setting/nameEl)         |           | <code>HTMLElement</code>                        |             |
-| [`settingEl`](Setting/settingEl)   |           | <code>HTMLElement</code>                        |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`components`](Setting/components) |  | [`BaseComponent`](BaseComponent)<code>[]</code> |  |
+|  [`controlEl`](Setting/controlEl) |  | <code>HTMLElement</code> |  |
+|  [`descEl`](Setting/descEl) |  | <code>HTMLElement</code> |  |
+|  [`infoEl`](Setting/infoEl) |  | <code>HTMLElement</code> |  |
+|  [`nameEl`](Setting/nameEl) |  | <code>HTMLElement</code> |  |
+|  [`settingEl`](Setting/settingEl) |  | <code>HTMLElement</code> |  |
 
 ## Methods
 
-| Method                                               | Modifiers | Description          |
-| ---------------------------------------------------- | --------- | -------------------- |
-| [`addButton(cb)`](Setting/addButton)                 |           |                      |
-| [`addColorPicker(cb)`](Setting/addColorPicker)       |           |                      |
-| [`addDropdown(cb)`](Setting/addDropdown)             |           |                      |
-| [`addExtraButton(cb)`](Setting/addExtraButton)       |           |                      |
-| [`addMomentFormat(cb)`](Setting/addMomentFormat)     |           |                      |
-| [`addProgressBar(cb)`](Setting/addProgressBar)       |           |                      |
-| [`addSearch(cb)`](Setting/addSearch)                 |           |                      |
-| [`addSlider(cb)`](Setting/addSlider)                 |           |                      |
-| [`addText(cb)`](Setting/addText)                     |           |                      |
-| [`addTextArea(cb)`](Setting/addTextArea)             |           |                      |
-| [`addToggle(cb)`](Setting/addToggle)                 |           |                      |
-| [`clear()`](Setting/clear)                           |           |                      |
-| [`setClass(cls)`](Setting/setClass)                  |           |                      |
-| [`setDesc(desc)`](Setting/setDesc)                   |           |                      |
-| [`setDisabled(disabled)`](Setting/setDisabled)       |           |                      |
-| [`setHeading()`](Setting/setHeading)                 |           |                      |
-| [`setName(name)`](Setting/setName)                   |           |                      |
-| [`setTooltip(tooltip, options)`](Setting/setTooltip) |           |                      |
-| [`then(cb)`](Setting/then)                           |           | Facilitates chaining |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`addButton(cb)`](Setting/addButton) |  |  |
+|  [`addColorPicker(cb)`](Setting/addColorPicker) |  |  |
+|  [`addDropdown(cb)`](Setting/addDropdown) |  |  |
+|  [`addExtraButton(cb)`](Setting/addExtraButton) |  |  |
+|  [`addMomentFormat(cb)`](Setting/addMomentFormat) |  |  |
+|  [`addProgressBar(cb)`](Setting/addProgressBar) |  |  |
+|  [`addSearch(cb)`](Setting/addSearch) |  |  |
+|  [`addSlider(cb)`](Setting/addSlider) |  |  |
+|  [`addText(cb)`](Setting/addText) |  |  |
+|  [`addTextArea(cb)`](Setting/addTextArea) |  |  |
+|  [`addToggle(cb)`](Setting/addToggle) |  |  |
+|  [`clear()`](Setting/clear) |  |  |
+|  [`setClass(cls)`](Setting/setClass) |  |  |
+|  [`setDesc(desc)`](Setting/setDesc) |  |  |
+|  [`setDisabled(disabled)`](Setting/setDisabled) |  |  |
+|  [`setHeading()`](Setting/setHeading) |  |  |
+|  [`setName(name)`](Setting/setName) |  |  |
+|  [`setTooltip(tooltip, options)`](Setting/setTooltip) |  |  |
+|  [`then(cb)`](Setting/then) |  | Facilitates chaining |
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'FuzzyMatch'
+aliases: "FuzzyMatch"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## FuzzyMatch interface
 
+
 **Signature:**
 
 ```typescript
-export interface FuzzyMatch<T>
+export interface FuzzyMatch<T> 
 ```
 
 ## Properties
 
-| Property                    | Modifiers | Type                           | Description |
-| --------------------------- | --------- | ------------------------------ | ----------- |
-| [`item`](FuzzyMatch/item)   |           | <code>T</code>                 |             |
-| [`match`](FuzzyMatch/match) |           | [`SearchResult`](SearchResult) |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`item`](FuzzyMatch/item) |  | <code>T</code> |  |
+|  [`match`](FuzzyMatch/match) |  | [`SearchResult`](SearchResult) |  |
+

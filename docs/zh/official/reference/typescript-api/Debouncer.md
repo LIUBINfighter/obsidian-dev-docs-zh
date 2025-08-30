@@ -1,5 +1,5 @@
 ---
-aliases: 'Debouncer'
+aliases: "Debouncer"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## Debouncer interface
 
+
 **Signature:**
 
 ```typescript
-export interface Debouncer<T extends unknown[], V>
+export interface Debouncer<T extends unknown[], V> 
 ```
 
 ## Methods
 
-| Method                         | Description                                                                               |
-| ------------------------------ | ----------------------------------------------------------------------------------------- |
-| [`cancel()`](Debouncer/cancel) | Cancel any pending debounced function call.                                               |
-| [`run()`](Debouncer/run)       | If there is any pending function call, clear the timer and call the function immediately. |
+|  Method | Description |
+|  --- | --- |
+|  [`cancel()`](Debouncer/cancel) | Cancel any pending debounced function call. |
+|  [`run()`](Debouncer/run) | If there is any pending function call, clear the timer and call the function immediately. |
+

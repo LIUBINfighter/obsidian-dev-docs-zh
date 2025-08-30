@@ -1,5 +1,5 @@
 ---
-aliases: 'Modifier'
+aliases: "Modifier"
 cssclasses: hide-title
 ---
 

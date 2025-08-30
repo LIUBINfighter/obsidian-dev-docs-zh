@@ -1,5 +1,5 @@
 ---
-aliases: 'Events'
+aliases: "Events"
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,20 @@ cssclasses: hide-title
 
 ## Events class
 
+
 **Signature:**
 
 ```typescript
-export class Events
+export class Events 
 ```
 
 ## Methods
 
-| Method                                         | Modifiers | Description |
-| ---------------------------------------------- | --------- | ----------- |
-| [`off(name, callback)`](Events/off)            |           |             |
-| [`offref(ref)`](Events/offref)                 |           |             |
-| [`on(name: string, callback, ctx)`](Events/on) |           |             |
-| [`trigger(name, data)`](Events/trigger)        |           |             |
-| [`tryTrigger(evt, args)`](Events/tryTrigger)   |           |             |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`off(name, callback)`](Events/off) |  |  |
+|  [`offref(ref)`](Events/offref) |  |  |
+|  [`on(name: string, callback, ctx)`](Events/on) |  |  |
+|  [`trigger(name, data)`](Events/trigger) |  |  |
+|  [`tryTrigger(evt, args)`](Events/tryTrigger) |  |  |
+

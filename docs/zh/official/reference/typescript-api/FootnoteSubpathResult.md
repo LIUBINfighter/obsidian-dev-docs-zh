@@ -1,5 +1,5 @@
 ---
-aliases: 'FootnoteSubpathResult'
+aliases: "FootnoteSubpathResult"
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,20 @@ cssclasses: hide-title
 
 ## FootnoteSubpathResult interface
 
+
 **Signature:**
 
 ```typescript
-export interface FootnoteSubpathResult extends SubpathResult
+export interface FootnoteSubpathResult extends SubpathResult 
 ```
-
 **Extends:** [`SubpathResult`](SubpathResult)
 
 ## Properties
 
-| Property                                     | Modifiers | Type                                  | Description                                                    |
-| -------------------------------------------- | --------- | ------------------------------------- | -------------------------------------------------------------- |
-| [`end`](SubpathResult/end)                   |           | [`Loc`](Loc)<code> &#124; null</code> | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
-| [`footnote`](FootnoteSubpathResult/footnote) |           | [`FootnoteCache`](FootnoteCache)      |                                                                |
-| [`start`](SubpathResult/start)               |           | [`Loc`](Loc)                          | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
-| [`type`](FootnoteSubpathResult/type)         |           | <code>'footnote'</code>               |                                                                |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`end`](SubpathResult/end) |  | [`Loc`](Loc)<code> &#124; null</code> | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
+|  [`footnote`](FootnoteSubpathResult/footnote) |  | [`FootnoteCache`](FootnoteCache) |  |
+|  [`start`](SubpathResult/start) |  | [`Loc`](Loc) | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
+|  [`type`](FootnoteSubpathResult/type) |  | <code>'footnote'</code> |  |
+

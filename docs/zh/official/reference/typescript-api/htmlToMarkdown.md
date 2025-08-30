@@ -1,5 +1,5 @@
 ---
-aliases: 'htmlToMarkdown'
+aliases: "htmlToMarkdown"
 cssclasses: hide-title
 ---
 
@@ -14,17 +14,16 @@ Converts HTML to a Markdown string.
 **Signature:**
 
 ```typescript
-export function htmlToMarkdown(
-  html: string | HTMLElement | Document | DocumentFragment,
-): string;
+export function htmlToMarkdown(html: string | HTMLElement | Document | DocumentFragment): string;
 ```
 
 ## Parameters
 
-| Parameter         | Type                                                                                                                                            | Description |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| <code>html</code> | <code>string &#124; </code><code>HTMLElement</code><code> &#124; </code><code>Document</code><code> &#124; </code><code>DocumentFragment</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>html</code> | <code>string &#124; </code><code>HTMLElement</code><code> &#124; </code><code>Document</code><code> &#124; </code><code>DocumentFragment</code> |  |
 
 **Returns:**
 
 `string`
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'removeIcon'
+aliases: "removeIcon"
 cssclasses: hide-title
 ---
 
@@ -19,10 +19,11 @@ export function removeIcon(iconId: string): void;
 
 ## Parameters
 
-| Parameter           | Type                | Description |
-| ------------------- | ------------------- | ----------- |
-| <code>iconId</code> | <code>string</code> | the icon ID |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>iconId</code> | <code>string</code> | the icon ID |
 
 **Returns:**
 
 `void`
+

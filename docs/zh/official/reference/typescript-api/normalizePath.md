@@ -1,5 +1,5 @@
 ---
-aliases: 'normalizePath'
+aliases: "normalizePath"
 cssclasses: hide-title
 ---
 
@@ -9,6 +9,7 @@ cssclasses: hide-title
 
 ## normalizePath() function
 
+
 **Signature:**
 
 ```typescript
@@ -17,10 +18,11 @@ export function normalizePath(path: string): string;
 
 ## Parameters
 
-| Parameter         | Type                | Description |
-| ----------------- | ------------------- | ----------- |
-| <code>path</code> | <code>string</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>path</code> | <code>string</code> |  |
 
 **Returns:**
 
 `string`
+

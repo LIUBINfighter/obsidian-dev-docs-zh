@@ -1,5 +1,5 @@
 ---
-aliases: 'resolveSubpath'
+aliases: "resolveSubpath"
 cssclasses: hide-title
 ---
 
@@ -14,19 +14,17 @@ Resolve the given subpath to a reference in the MetadataCache.
 **Signature:**
 
 ```typescript
-export function resolveSubpath(
-  cache: CachedMetadata,
-  subpath: string,
-): HeadingSubpathResult | BlockSubpathResult | FootnoteSubpathResult | null;
+export function resolveSubpath(cache: CachedMetadata, subpath: string): HeadingSubpathResult | BlockSubpathResult | FootnoteSubpathResult | null;
 ```
 
 ## Parameters
 
-| Parameter            | Type                               | Description |
-| -------------------- | ---------------------------------- | ----------- |
-| <code>cache</code>   | [`CachedMetadata`](CachedMetadata) |             |
-| <code>subpath</code> | <code>string</code>                |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>cache</code> | [`CachedMetadata`](CachedMetadata) |  |
+|  <code>subpath</code> | <code>string</code> |  |
 
 **Returns:**
 
-[`HeadingSubpathResult`](HeadingSubpathResult)`|`[`BlockSubpathResult`](BlockSubpathResult)`|`[`FootnoteSubpathResult`](FootnoteSubpathResult)` | null`
+[`HeadingSubpathResult`](HeadingSubpathResult)` | `[`BlockSubpathResult`](BlockSubpathResult)` | `[`FootnoteSubpathResult`](FootnoteSubpathResult)` | null`
+

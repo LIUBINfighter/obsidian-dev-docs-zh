@@ -1,5 +1,5 @@
 ---
-aliases: 'Modal'
+aliases: "Modal"
 cssclasses: hide-title
 ---
 
@@ -9,39 +9,40 @@ cssclasses: hide-title
 
 ## Modal class
 
+
 **Signature:**
 
 ```typescript
-export class Modal implements CloseableComponent
+export class Modal implements CloseableComponent 
 ```
-
 **Implements:** [`CloseableComponent`](CloseableComponent)
 
 ## Constructors
 
-| Constructor                                      | Modifiers | Description                                               |
-| ------------------------------------------------ | --------- | --------------------------------------------------------- |
-| [`(constructor)(app)`](<Modal/(constructor).md>) |           | Constructs a new instance of the <code>Modal</code> class |
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [`(constructor)(app)`](Modal/(constructor).md) |  | Constructs a new instance of the <code>Modal</code> class |
 
 ## Properties
 
-| Property                                                 | Modifiers | Type                     | Description |
-| -------------------------------------------------------- | --------- | ------------------------ | ----------- |
-| [`app`](Modal/app)                                       |           | [`App`](App)             |             |
-| [`containerEl`](Modal/containerEl)                       |           | <code>HTMLElement</code> |             |
-| [`contentEl`](Modal/contentEl)                           |           | <code>HTMLElement</code> |             |
-| [`modalEl`](Modal/modalEl)                               |           | <code>HTMLElement</code> |             |
-| [`scope`](Modal/scope)                                   |           | [`Scope`](Scope)         |             |
-| [`shouldRestoreSelection`](Modal/shouldRestoreSelection) |           | <code>boolean</code>     |             |
-| [`titleEl`](Modal/titleEl)                               |           | <code>HTMLElement</code> |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`app`](Modal/app) |  | [`App`](App) |  |
+|  [`containerEl`](Modal/containerEl) |  | <code>HTMLElement</code> |  |
+|  [`contentEl`](Modal/contentEl) |  | <code>HTMLElement</code> |  |
+|  [`modalEl`](Modal/modalEl) |  | <code>HTMLElement</code> |  |
+|  [`scope`](Modal/scope) |  | [`Scope`](Scope) |  |
+|  [`shouldRestoreSelection`](Modal/shouldRestoreSelection) |  | <code>boolean</code> |  |
+|  [`titleEl`](Modal/titleEl) |  | <code>HTMLElement</code> |  |
 
 ## Methods
 
-| Method                                    | Modifiers | Description                                                                           |
-| ----------------------------------------- | --------- | ------------------------------------------------------------------------------------- |
-| [`close()`](Modal/close)                  |           | Hide the modal.                                                                       |
-| [`onClose()`](Modal/onClose)              |           |                                                                                       |
-| [`onOpen()`](Modal/onOpen)                |           |                                                                                       |
-| [`open()`](Modal/open)                    |           | Show the modal on the the active window. On mobile, the modal will animate on screen. |
-| [`setContent(content)`](Modal/setContent) |           |                                                                                       |
-| [`setTitle(title)`](Modal/setTitle)       |           |                                                                                       |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`close()`](Modal/close) |  | Hide the modal. |
+|  [`onClose()`](Modal/onClose) |  |  |
+|  [`onOpen()`](Modal/onOpen) |  |  |
+|  [`open()`](Modal/open) |  | Show the modal on the the active window. On mobile, the modal will animate on screen. |
+|  [`setContent(content)`](Modal/setContent) |  |  |
+|  [`setTitle(title)`](Modal/setTitle) |  |  |
+

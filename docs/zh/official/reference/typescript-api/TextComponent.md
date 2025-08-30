@@ -1,5 +1,5 @@
 ---
-aliases: 'TextComponent'
+aliases: "TextComponent"
 cssclasses: hide-title
 ---
 
@@ -9,36 +9,37 @@ cssclasses: hide-title
 
 ## TextComponent class
 
+
 **Signature:**
 
 ```typescript
-export class TextComponent extends AbstractTextComponent<HTMLInputElement>
+export class TextComponent extends AbstractTextComponent<HTMLInputElement> 
 ```
-
 **Extends:** [`AbstractTextComponent`](AbstractTextComponent)`<``HTMLInputElement``>`
 
 ## Constructors
 
-| Constructor                                                      | Modifiers | Description                                                       |
-| ---------------------------------------------------------------- | --------- | ----------------------------------------------------------------- |
-| [`(constructor)(containerEl)`](<TextComponent/(constructor).md>) |           | Constructs a new instance of the <code>TextComponent</code> class |
+|  Constructor | Modifiers | Description |
+|  --- | --- | --- |
+|  [`(constructor)(containerEl)`](TextComponent/(constructor).md) |  | Constructs a new instance of the <code>TextComponent</code> class |
 
 ## Properties
 
-| Property                                   | Modifiers | Type                 | Description                                                                    |
-| ------------------------------------------ | --------- | -------------------- | ------------------------------------------------------------------------------ |
-| [`disabled`](BaseComponent/disabled)       |           | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p>                 |
-| [`inputEl`](AbstractTextComponent/inputEl) |           | <code>T</code>       | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+|  [`inputEl`](AbstractTextComponent/inputEl) |  | <code>T</code> | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
 
 ## Methods
 
-| Method                                                                            | Modifiers | Description                                                                               |
-| --------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
-| [`getValue()`](AbstractTextComponent/getValue)                                    |           | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p>            |
-| [`onChange(callback)`](AbstractTextComponent/onChange)                            |           | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p>            |
-| [`onChanged()`](AbstractTextComponent/onChanged)                                  |           | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p>            |
-| [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |           | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p>                          |
-| [`setDisabled(disabled)`](AbstractTextComponent/setDisabled)                      |           | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p>            |
-| [`setPlaceholder(placeholder)`](AbstractTextComponent/setPlaceholder)             |           | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p>            |
-| [`setValue(value)`](AbstractTextComponent/setValue)                               |           | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p>            |
-| [`then(cb)`](BaseComponent/then)                                                  |           | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`getValue()`](AbstractTextComponent/getValue) |  | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  [`onChange(callback)`](AbstractTextComponent/onChange) |  | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  [`onChanged()`](AbstractTextComponent/onChanged) |  | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |  | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p> |
+|  [`setDisabled(disabled)`](AbstractTextComponent/setDisabled) |  | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  [`setPlaceholder(placeholder)`](AbstractTextComponent/setPlaceholder) |  | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  [`setValue(value)`](AbstractTextComponent/setValue) |  | <p>(Inherited from [AbstractTextComponent](AbstractTextComponent)<!-- -->)</p> |
+|  [`then(cb)`](BaseComponent/then) |  | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+

@@ -1,5 +1,5 @@
 ---
-aliases: 'UserEvent'
+aliases: "UserEvent"
 cssclasses: hide-title
 ---
 
@@ -8,6 +8,7 @@ cssclasses: hide-title
 [`UserEvent`](UserEvent)
 
 ## UserEvent type
+
 
 **Signature:**
 

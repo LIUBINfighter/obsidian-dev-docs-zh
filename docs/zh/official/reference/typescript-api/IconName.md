@@ -1,5 +1,5 @@
 ---
-aliases: 'IconName'
+aliases: "IconName"
 cssclasses: hide-title
 ---
 
@@ -8,6 +8,7 @@ cssclasses: hide-title
 [`IconName`](IconName)
 
 ## IconName type
+
 
 **Signature:**
 

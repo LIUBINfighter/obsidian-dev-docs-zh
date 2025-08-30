@@ -1,5 +1,5 @@
 ---
-aliases: 'parseLinktext'
+aliases: "parseLinktext"
 cssclasses: hide-title
 ---
 
@@ -15,19 +15,20 @@ Parses the linktext of a wikilink into its component parts.
 
 ```typescript
 export function parseLinktext(linktext: string): {
-  path: string;
-  subpath: string;
+    path: string;
+    subpath: string;
 };
 ```
 
 ## Parameters
 
-| Parameter             | Type                | Description                                           |
-| --------------------- | ------------------- | ----------------------------------------------------- |
-| <code>linktext</code> | <code>string</code> | A wikilink without the leading \[\[ and trailing \]\] |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>linktext</code> | <code>string</code> | A wikilink without the leading \[\[ and trailing \]\] |
 
 **Returns:**
 
 `{     path: string;     subpath: string; }`
 
 filepath and subpath (subpath can refer either to a block id, or a heading)
+

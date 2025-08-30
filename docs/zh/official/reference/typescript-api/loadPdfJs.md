@@ -1,5 +1,5 @@
 ---
-aliases: 'loadPdfJs'
+aliases: "loadPdfJs"
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Load PDF.js and return a promise to the global pdfjsLib object. Can also use `wi
 ```typescript
 export function loadPdfJs(): Promise<any>;
 ```
-
 **Returns:**
 
 `Promise<any>`
+

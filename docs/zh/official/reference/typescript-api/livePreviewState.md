@@ -1,5 +1,5 @@
 ---
-aliases: 'livePreviewState'
+aliases: "livePreviewState"
 cssclasses: hide-title
 ---
 
@@ -9,8 +9,9 @@ cssclasses: hide-title
 
 ## livePreviewState variable
 
+
 **Signature:**
 
 ```typescript
-livePreviewState: ViewPlugin<LivePreviewStateType>;
+livePreviewState: ViewPlugin<LivePreviewStateType>
 ```

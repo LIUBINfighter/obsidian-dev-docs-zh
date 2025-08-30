@@ -1,5 +1,5 @@
 ---
-aliases: 'Stat'
+aliases: "Stat"
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,19 @@ cssclasses: hide-title
 
 ## Stat interface
 
+
 **Signature:**
 
 ```typescript
-export interface Stat
+export interface Stat 
 ```
 
 ## Properties
 
-| Property              | Modifiers | Type                                | Description                                                 |
-| --------------------- | --------- | ----------------------------------- | ----------------------------------------------------------- |
-| [`ctime`](Stat/ctime) |           | <code>number</code>                 | Time of creation, represented as a unix timestamp.          |
-| [`mtime`](Stat/mtime) |           | <code>number</code>                 | Time of last modification, represented as a unix timestamp. |
-| [`size`](Stat/size)   |           | <code>number</code>                 | Size on disk, as bytes.                                     |
-| [`type`](Stat/type)   |           | <code>'file' &#124; 'folder'</code> |                                                             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`ctime`](Stat/ctime) |  | <code>number</code> | Time of creation, represented as a unix timestamp. |
+|  [`mtime`](Stat/mtime) |  | <code>number</code> | Time of last modification, represented as a unix timestamp. |
+|  [`size`](Stat/size) |  | <code>number</code> | Size on disk, as bytes. |
+|  [`type`](Stat/type) |  | <code>'file' &#124; 'folder'</code> |  |
+

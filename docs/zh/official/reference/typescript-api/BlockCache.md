@@ -1,5 +1,5 @@
 ---
-aliases: 'BlockCache'
+aliases: "BlockCache"
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,18 @@ cssclasses: hide-title
 
 ## BlockCache interface
 
+
 **Signature:**
 
 ```typescript
-export interface BlockCache extends CacheItem
+export interface BlockCache extends CacheItem 
 ```
-
 **Extends:** [`CacheItem`](CacheItem)
 
 ## Properties
 
-| Property                         | Modifiers | Type                | Description                                                                                     |
-| -------------------------------- | --------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| [`id`](BlockCache/id)            |           | <code>string</code> |                                                                                                 |
-| [`position`](CacheItem/position) |           | [`Pos`](Pos)        | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`id`](BlockCache/id) |  | <code>string</code> |  |
+|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
+

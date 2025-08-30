@@ -1,5 +1,5 @@
 ---
-aliases: 'WorkspaceSidedock'
+aliases: "WorkspaceSidedock"
 cssclasses: hide-title
 ---
 
@@ -9,32 +9,33 @@ cssclasses: hide-title
 
 ## WorkspaceSidedock class
 
+
 **Signature:**
 
 ```typescript
-export class WorkspaceSidedock extends WorkspaceSplit
+export class WorkspaceSidedock extends WorkspaceSplit 
 ```
-
 **Extends:** [`WorkspaceSplit`](WorkspaceSplit)
 
 ## Properties
 
-| Property                                   | Modifiers | Type                                 | Description                                                      |
-| ------------------------------------------ | --------- | ------------------------------------ | ---------------------------------------------------------------- |
-| [`collapsed`](WorkspaceSidedock/collapsed) |           | <code>boolean</code>                 |                                                                  |
-| [`parent`](WorkspaceSplit/parent)          |           | [`WorkspaceParent`](WorkspaceParent) | <p>(Inherited from [WorkspaceSplit](WorkspaceSplit)<!-- -->)</p> |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`collapsed`](WorkspaceSidedock/collapsed) |  | <code>boolean</code> |  |
+|  [`parent`](WorkspaceSplit/parent) |  | [`WorkspaceParent`](WorkspaceParent) | <p>(Inherited from [WorkspaceSplit](WorkspaceSplit)<!-- -->)</p> |
 
 ## Methods
 
-| Method                                         | Modifiers | Description                                                                                                                                                                                         |
-| ---------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`collapse()`](WorkspaceSidedock/collapse)     |           |                                                                                                                                                                                                     |
-| [`expand()`](WorkspaceSidedock/expand)         |           |                                                                                                                                                                                                     |
-| [`getContainer()`](WorkspaceItem/getContainer) |           | <p>Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow)</p><p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
-| [`getRoot()`](WorkspaceItem/getRoot)           |           | <p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p>                                                                                                                                      |
-| [`off(name, callback)`](Events/off)            |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
-| [`offref(ref)`](Events/offref)                 |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
-| [`on(name: string, callback, ctx)`](Events/on) |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
-| [`toggle()`](WorkspaceSidedock/toggle)         |           |                                                                                                                                                                                                     |
-| [`trigger(name, data)`](Events/trigger)        |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
-| [`tryTrigger(evt, args)`](Events/tryTrigger)   |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+|  Method | Modifiers | Description |
+|  --- | --- | --- |
+|  [`collapse()`](WorkspaceSidedock/collapse) |  |  |
+|  [`expand()`](WorkspaceSidedock/expand) |  |  |
+|  [`getContainer()`](WorkspaceItem/getContainer) |  | <p>Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow)</p><p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
+|  [`getRoot()`](WorkspaceItem/getRoot) |  | <p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
+|  [`off(name, callback)`](Events/off) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
+|  [`offref(ref)`](Events/offref) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
+|  [`on(name: string, callback, ctx)`](Events/on) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
+|  [`toggle()`](WorkspaceSidedock/toggle) |  |  |
+|  [`trigger(name, data)`](Events/trigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
+|  [`tryTrigger(evt, args)`](Events/tryTrigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
+

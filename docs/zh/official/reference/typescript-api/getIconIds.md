@@ -1,5 +1,5 @@
 ---
-aliases: 'getIconIds'
+aliases: "getIconIds"
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get the list of registered icons.
 ```typescript
 export function getIconIds(): IconName[];
 ```
-
 **Returns:**
 
 [`IconName`](IconName)`[]`
+

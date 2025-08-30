@@ -1,5 +1,5 @@
 ---
-aliases: 'renderMath'
+aliases: "renderMath"
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,12 @@ export function renderMath(source: string, display: boolean): HTMLElement;
 
 ## Parameters
 
-| Parameter            | Type                 | Description |
-| -------------------- | -------------------- | ----------- |
-| <code>source</code>  | <code>string</code>  |             |
-| <code>display</code> | <code>boolean</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>source</code> | <code>string</code> |  |
+|  <code>display</code> | <code>boolean</code> |  |
 
 **Returns:**
 
 `HTMLElement`
+

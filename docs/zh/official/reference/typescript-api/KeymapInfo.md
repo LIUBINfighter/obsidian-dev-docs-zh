@@ -1,5 +1,5 @@
 ---
-aliases: 'KeymapInfo'
+aliases: "KeymapInfo"
 cssclasses: hide-title
 ---
 
@@ -9,15 +9,17 @@ cssclasses: hide-title
 
 ## KeymapInfo interface
 
+
 **Signature:**
 
 ```typescript
-export interface KeymapInfo
+export interface KeymapInfo 
 ```
 
 ## Properties
 
-| Property                            | Modifiers | Type                            | Description |
-| ----------------------------------- | --------- | ------------------------------- | ----------- |
-| [`key`](KeymapInfo/key)             |           | <code>string &#124; null</code> |             |
-| [`modifiers`](KeymapInfo/modifiers) |           | <code>string &#124; null</code> |             |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`key`](KeymapInfo/key) |  | <code>string &#124; null</code> |  |
+|  [`modifiers`](KeymapInfo/modifiers) |  | <code>string &#124; null</code> |  |
+

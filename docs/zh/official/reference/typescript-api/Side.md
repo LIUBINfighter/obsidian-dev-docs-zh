@@ -1,5 +1,5 @@
 ---
-aliases: 'Side'
+aliases: "Side"
 cssclasses: hide-title
 ---
 
@@ -8,6 +8,7 @@ cssclasses: hide-title
 [`Side`](Side)
 
 ## Side type
+
 
 **Signature:**
 

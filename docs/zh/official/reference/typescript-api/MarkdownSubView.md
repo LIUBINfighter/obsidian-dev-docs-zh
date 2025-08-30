@@ -1,5 +1,5 @@
 ---
-aliases: 'MarkdownSubView'
+aliases: "MarkdownSubView"
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,19 @@ cssclasses: hide-title
 
 ## MarkdownSubView interface
 
+
 **Signature:**
 
 ```typescript
-export interface MarkdownSubView
+export interface MarkdownSubView 
 ```
 
 ## Methods
 
-| Method                                               | Description |
-| ---------------------------------------------------- | ----------- |
-| [`applyScroll(scroll)`](MarkdownSubView/applyScroll) |             |
-| [`get()`](MarkdownSubView/get)                       |             |
-| [`getScroll()`](MarkdownSubView/getScroll)           |             |
-| [`set(data, clear)`](MarkdownSubView/set)            |             |
+|  Method | Description |
+|  --- | --- |
+|  [`applyScroll(scroll)`](MarkdownSubView/applyScroll) |  |
+|  [`get()`](MarkdownSubView/get) |  |
+|  [`getScroll()`](MarkdownSubView/getScroll) |  |
+|  [`set(data, clear)`](MarkdownSubView/set) |  |
+

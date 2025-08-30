@@ -1,5 +1,5 @@
 ---
-aliases: 'BlockSubpathResult'
+aliases: "BlockSubpathResult"
 cssclasses: hide-title
 ---
 
@@ -9,20 +9,21 @@ cssclasses: hide-title
 
 ## BlockSubpathResult interface
 
+
 **Signature:**
 
 ```typescript
-export interface BlockSubpathResult extends SubpathResult
+export interface BlockSubpathResult extends SubpathResult 
 ```
-
 **Extends:** [`SubpathResult`](SubpathResult)
 
 ## Properties
 
-| Property                            | Modifiers | Type                                  | Description                                                    |
-| ----------------------------------- | --------- | ------------------------------------- | -------------------------------------------------------------- |
-| [`block`](BlockSubpathResult/block) |           | [`BlockCache`](BlockCache)            |                                                                |
-| [`end`](SubpathResult/end)          |           | [`Loc`](Loc)<code> &#124; null</code> | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
-| [`list?`](BlockSubpathResult/list)  |           | [`ListItemCache`](ListItemCache)      | _(Optional)_                                                   |
-| [`start`](SubpathResult/start)      |           | [`Loc`](Loc)                          | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
-| [`type`](BlockSubpathResult/type)   |           | <code>'block'</code>                  |                                                                |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`block`](BlockSubpathResult/block) |  | [`BlockCache`](BlockCache) |  |
+|  [`end`](SubpathResult/end) |  | [`Loc`](Loc)<code> &#124; null</code> | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
+|  [`list?`](BlockSubpathResult/list) |  | [`ListItemCache`](ListItemCache) | _(Optional)_ |
+|  [`start`](SubpathResult/start) |  | [`Loc`](Loc) | <p>(Inherited from [SubpathResult](SubpathResult)<!-- -->)</p> |
+|  [`type`](BlockSubpathResult/type) |  | <code>'block'</code> |  |
+

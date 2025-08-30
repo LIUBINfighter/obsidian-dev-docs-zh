@@ -1,5 +1,5 @@
 ---
-aliases: 'ViewStateResult'
+aliases: "ViewStateResult"
 cssclasses: hide-title
 ---
 
@@ -9,14 +9,16 @@ cssclasses: hide-title
 
 ## ViewStateResult interface
 
+
 **Signature:**
 
 ```typescript
-export interface ViewStateResult
+export interface ViewStateResult 
 ```
 
 ## Properties
 
-| Property                             | Modifiers | Type                 | Description                                                                                                   |
-| ------------------------------------ | --------- | -------------------- | ------------------------------------------------------------------------------------------------------------- |
-| [`history`](ViewStateResult/history) |           | <code>boolean</code> | Set this to true to indicate that there is a state change which should be recorded in the navigation history. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`history`](ViewStateResult/history) |  | <code>boolean</code> | Set this to true to indicate that there is a state change which should be recorded in the navigation history. |
+

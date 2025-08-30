@@ -1,5 +1,5 @@
 ---
-aliases: 'stripHeadingForLink'
+aliases: "stripHeadingForLink"
 cssclasses: hide-title
 ---
 
@@ -19,10 +19,11 @@ export function stripHeadingForLink(heading: string): string;
 
 ## Parameters
 
-| Parameter            | Type                | Description |
-| -------------------- | ------------------- | ----------- |
-| <code>heading</code> | <code>string</code> |             |
+|  Parameter | Type | Description |
+|  --- | --- | --- |
+|  <code>heading</code> | <code>string</code> |  |
 
 **Returns:**
 
 `string`
+

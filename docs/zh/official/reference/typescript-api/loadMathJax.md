@@ -1,5 +1,5 @@
 ---
-aliases: 'loadMathJax'
+aliases: "loadMathJax"
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Load MathJax.
 ```typescript
 export function loadMathJax(): Promise<void>;
 ```
-
 **Returns:**
 
 `Promise<void>`
+

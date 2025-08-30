@@ -1,5 +1,5 @@
 ---
-aliases: 'FrontMatterCache'
+aliases: "FrontMatterCache"
 cssclasses: hide-title
 ---
 
@@ -9,8 +9,9 @@ cssclasses: hide-title
 
 ## FrontMatterCache interface
 
+
 **Signature:**
 
 ```typescript
-export interface FrontMatterCache
+export interface FrontMatterCache 
 ```

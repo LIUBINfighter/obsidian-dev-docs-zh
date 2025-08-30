@@ -1,5 +1,5 @@
 ---
-aliases: 'EditorTransaction'
+aliases: "EditorTransaction"
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,19 @@ cssclasses: hide-title
 
 ## EditorTransaction interface
 
+
 **Signature:**
 
 ```typescript
-export interface EditorTransaction
+export interface EditorTransaction 
 ```
 
 ## Properties
 
-| Property                                                  | Modifiers | Type                                                      | Description                                                         |
-| --------------------------------------------------------- | --------- | --------------------------------------------------------- | ------------------------------------------------------------------- |
-| [`changes?`](EditorTransaction/changes)                   |           | [`EditorChange`](EditorChange)<code>[]</code>             | _(Optional)_                                                        |
-| [`replaceSelection?`](EditorTransaction/replaceSelection) |           | <code>string</code>                                       | _(Optional)_                                                        |
-| [`selection?`](EditorTransaction/selection)               |           | [`EditorRangeOrCaret`](EditorRangeOrCaret)                | _(Optional)_                                                        |
-| [`selections?`](EditorTransaction/selections)             |           | [`EditorRangeOrCaret`](EditorRangeOrCaret)<code>[]</code> | _(Optional)_ Multiple selections, overrides <code>selection</code>. |
+|  Property | Modifiers | Type | Description |
+|  --- | --- | --- | --- |
+|  [`changes?`](EditorTransaction/changes) |  | [`EditorChange`](EditorChange)<code>[]</code> | _(Optional)_ |
+|  [`replaceSelection?`](EditorTransaction/replaceSelection) |  | <code>string</code> | _(Optional)_ |
+|  [`selection?`](EditorTransaction/selection) |  | [`EditorRangeOrCaret`](EditorRangeOrCaret) | _(Optional)_ |
+|  [`selections?`](EditorTransaction/selections) |  | [`EditorRangeOrCaret`](EditorRangeOrCaret)<code>[]</code> | _(Optional)_ Multiple selections, overrides <code>selection</code>. |
+
