@@ -10,6 +10,7 @@
     "// 主要命令": "",
     "dev": "pnpm sync:all && pnpm lint:fix && pnpm docs:dev",
     "build": "pnpm sync:all && pnpm lint:fix && pnpm docs:build",
+    "build:timer": "node scripts/build-with-timer.js",
     "preview": "pnpm docs:serve",
     
     "// 文档服务": "",
@@ -29,6 +30,10 @@
     "submodule:update": "git submodule update --remote docs/en/official-develop-docs",
     "submodule:pull": "cd docs/en/official-develop-docs && git pull origin main",
     "submodule:sync": "pnpm submodule:update && pnpm sync:all",
+    
+    "// CI/CD 相关": "",
+    "ci:check": "pnpm lint && pnpm format:check",
+    "ci:build": "pnpm sync:all && pnpm ci:check && pnpm build:timer",
     
     "// API 文档同步": "",
     "sync:official": "node scripts/syncOfficialApiDocs-simple.js",
