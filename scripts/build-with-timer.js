@@ -43,8 +43,8 @@ function buildWithTimer() {
   console.log('═'.repeat(60));
 
   return new Promise((resolve, reject) => {
-    // 使用 spawn 执行 pnpm build
-    const buildProcess = spawn('pnpm', ['build'], {
+    // 使用 spawn 执行 pnpm astro:build
+    const buildProcess = spawn('pnpm', ['astro:build'], {
       cwd: path.resolve(__dirname, '..'),
       stdio: 'inherit', // 继承父进程的输入输出
       shell: true, // 在 Windows 上需要 shell

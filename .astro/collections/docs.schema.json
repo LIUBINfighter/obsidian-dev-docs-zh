@@ -1,0 +1,45 @@
+{
+  "$ref": "#/definitions/docs",
+  "definitions": {
+    "docs": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "template": {
+          "type": "string"
+        },
+        "hero": {},
+        "sidebar": {
+          "type": "object",
+          "properties": {
+            "hidden": {
+              "type": "boolean"
+            },
+            "order": {
+              "type": "number"
+            },
+            "label": {
+              "type": "string"
+            },
+            "badge": {},
+            "attrs": {
+              "type": "object",
+              "additionalProperties": {}
+            }
+          },
+          "additionalProperties": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

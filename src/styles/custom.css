@@ -1,0 +1,78 @@
+/* 自定义样式 */
+:root {
+  --sl-color-accent-low: #1e3a8a;
+  --sl-color-accent: #3b82f6;
+  --sl-color-accent-high: #1d4ed8;
+  --sl-color-text-accent: #1e40af;
+}
+
+/* 优化中文字体显示 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+
+/* 代码块优化 */
+pre {
+  font-family: 'SF Mono', 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+}
+
+/* 链接样式 */
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* 图片居中 */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* 表格样式优化 */
+table {
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.5rem;
+  border: 1px solid var(--sl-color-gray-3);
+  text-align: left;
+}
+
+th {
+  background-color: var(--sl-color-gray-1);
+  font-weight: 600;
+}
+
+/* 代码高亮优化 */
+code {
+  background-color: var(--sl-color-gray-1);
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+
+/* 警告框样式 */
+.starlight-aside {
+  margin: 1rem 0;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  table {
+    font-size: 0.875rem;
+  }
+  
+  th, td {
+    padding: 0.375rem;
+  }
+}
