@@ -1,0 +1,89 @@
+---
+import DocumentationLayout from '../layouts/DocumentationLayout.astro';
+import Sidebar from '../components/Sidebar.astro';
+import { getFullSidebar } from '../utils/sidebar.ts';
+
+const sidebarItems = getFullSidebar();
+---
+
+<DocumentationLayout title="首页">
+  <Sidebar slot="sidebar" items={sidebarItems} />
+  
+  <div>
+    <h1>Obsidian 开发者中文文档</h1>
+    
+    <p>欢迎来到 Obsidian 开发者中文文档！这里是学习 Obsidian 插件和主题开发的最佳资源。</p>
+    
+    <h2>开始使用</h2>
+    
+    <div class="features">
+      <div class="feature">
+        <h3>📖 官方文档</h3>
+        <p>基于 Obsidian 官方开发者文档的完整中文翻译</p>
+      </div>
+      
+      <div class="feature">
+        <h3>🛠️ API 参考</h3>
+        <p>详细的 TypeScript API 文档和类型定义</p>
+      </div>
+      
+      <div class="feature">
+        <h3>🎨 主题开发</h3>
+        <p>学习如何创建和发布 Obsidian 主题</p>
+      </div>
+      
+      <div class="feature">
+        <h3>🔌 插件开发</h3>
+        <p>从入门到进阶的插件开发指南</p>
+      </div>
+    </div>
+    
+    <h2>快速链接</h2>
+    
+    <ul>
+      <li><a href="/zh/official/plugins/getting-started/build-a-plugin">构建你的第一个插件</a></li>
+      <li><a href="/zh/official/reference/typescript-api/">TypeScript API 参考</a></li>
+      <li><a href="/zh/about">关于本文档</a></li>
+    </ul>
+  </div>
+</DocumentationLayout>
+
+<style>
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .feature {
+    padding: 1.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .feature p {
+    margin-bottom: 0;
+    color: #64748b;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

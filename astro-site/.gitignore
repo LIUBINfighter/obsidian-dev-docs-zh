@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+.output/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# macOS
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Astro
+.astro/
+
+# Temporary files
+tmp/
+temp/
+
+# Logs
+*.log
