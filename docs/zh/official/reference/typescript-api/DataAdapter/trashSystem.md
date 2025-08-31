@@ -21,7 +21,7 @@ trashSystem(normalizedPath: string): Promise<boolean>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](normalizePath) to normalize beforehand. |
+|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 

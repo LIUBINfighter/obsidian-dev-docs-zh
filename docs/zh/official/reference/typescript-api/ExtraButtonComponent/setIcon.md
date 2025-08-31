@@ -19,7 +19,7 @@ setIcon(icon: IconName): this;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>icon</code> | [`IconName`](../IconName) | ID of the icon, can use any icon loaded with [addIcon()](addIcon) or from the inbuilt library. |
+|  <code>icon</code> | [`IconName`](../IconName) | ID of the icon, can use any icon loaded with [addIcon()](../addIcon) or from the inbuilt library. |
 
 **Returns:**
 

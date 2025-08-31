@@ -21,7 +21,7 @@ mkdir(normalizedPath: string): Promise<void>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to use for new folder, use [normalizePath()](normalizePath) to normalize beforehand. |
+|  <code>normalizedPath</code> | <code>string</code> | path to use for new folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 

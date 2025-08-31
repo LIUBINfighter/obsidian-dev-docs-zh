@@ -21,7 +21,7 @@ append(normalizedPath: string, data: string, options?: DataWriteOptions): Promis
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](normalizePath) to normalize beforehand. |
+|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
 |  <code>data</code> | <code>string</code> | the text to append. |
 |  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
 

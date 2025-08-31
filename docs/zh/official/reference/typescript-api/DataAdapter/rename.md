@@ -21,8 +21,8 @@ rename(normalizedPath: string, normalizedNewPath: string): Promise<void>;
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | current path to file/folder, use [normalizePath()](normalizePath) to normalize beforehand. |
-|  <code>normalizedNewPath</code> | <code>string</code> | new path to file/folder, use [normalizePath()](normalizePath) to normalize beforehand. |
+|  <code>normalizedPath</code> | <code>string</code> | current path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
+|  <code>normalizedNewPath</code> | <code>string</code> | new path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 

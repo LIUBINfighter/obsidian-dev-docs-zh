@@ -21,7 +21,7 @@ process(normalizedPath: string, fn: (data: string) => string, options?: DataWrit
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](normalizePath) to normalize beforehand. |
+|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 |  <code>fn</code> | <code>(data: string) =&gt; string</code> | a callback function which returns the new content of the file synchronously. |
 |  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ write options. |
 

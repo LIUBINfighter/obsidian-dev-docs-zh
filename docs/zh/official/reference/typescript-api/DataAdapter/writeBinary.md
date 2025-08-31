@@ -21,7 +21,7 @@ writeBinary(normalizedPath: string, data: ArrayBuffer, options?: DataWriteOption
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](normalizePath) to normalize beforehand. |
+|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
 |  <code>data</code> | <code>ArrayBuffer</code> | the new file content |
 |  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
 
