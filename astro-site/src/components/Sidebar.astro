@@ -1,0 +1,118 @@
+---
+// Sidebar component for navigation
+export interface SidebarItem {
+  text: string;
+  link?: string;
+  items?: SidebarItem[];
+  collapsible?: boolean;
+  collapsed?: boolean;
+}
+
+export interface Props {
+  items: SidebarItem[];
+}
+
+const { items } = Astro.props;
+
+function renderSidebarItem(item: SidebarItem, level: number = 0): string {
+  const indent = '  '.repeat(level);
+  let html = '';
+  
+  if (item.link) {
+    html += `${indent}<li><a href="${item.link}" class="sidebar-link">${item.text}</a></li>\n`;
+  } else {
+    html += `${indent}<li class="sidebar-group">\n`;
+    html += `${indent}  <span class="sidebar-group-title">${item.text}</span>\n`;
+    
+    if (item.items && item.items.length > 0) {
+      html += `${indent}  <ul class="sidebar-group-items ${item.collapsed ? 'collapsed' : ''}">\n`;
+      for (const subItem of item.items) {
+        html += renderSidebarItem(subItem, level + 2);
+      }
+      html += `${indent}  </ul>\n`;
+    }
+    html += `${indent}</li>\n`;
+  }
+  
+  return html;
+}
+
+const sidebarHtml = items.map(item => renderSidebarItem(item)).join('');
+---
+
+<nav class="sidebar-nav">
+  <ul class="sidebar-list" set:html={sidebarHtml}></ul>
+</nav>
+
+<style>
+  .sidebar-nav {
+    font-size: 0.9rem;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-list li {
+    margin: 0;
+  }
+  
+  .sidebar-link {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    color: #64748b;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.2s;
+  }
+  
+  .sidebar-link:hover {
+    color: #3b82f6;
+    background-color: #f1f5f9;
+  }
+  
+  .sidebar-group {
+    margin: 0.5rem 0;
+  }
+  
+  .sidebar-group-title {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: #374151;
+    cursor: pointer;
+  }
+  
+  .sidebar-group-items {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0.25rem 0;
+  }
+  
+  .sidebar-group-items.collapsed {
+    display: none;
+  }
+  
+  .sidebar-group-items .sidebar-link {
+    padding-left: 1rem;
+    font-size: 0.875rem;
+  }
+</style>
+
+<script>
+  // Add interactivity for collapsible groups
+  document.addEventListener('DOMContentLoaded', () => {
+    const groupTitles = document.querySelectorAll('.sidebar-group-title');
+    
+    groupTitles.forEach(title => {
+      title.addEventListener('click', () => {
+        const items = title.parentElement?.querySelector('.sidebar-group-items');
+        if (items) {
+          items.classList.toggle('collapsed');
+        }
+      });
+    });
+  });
+</script>

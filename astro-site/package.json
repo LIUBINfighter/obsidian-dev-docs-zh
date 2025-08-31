@@ -1,0 +1,24 @@
+{
+  "name": "astro-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sync:core": "node scripts/syncCorePages.js",
+    "sync:api": "node scripts/syncOfficialApiForAstro.js",
+    "sync:content": "node scripts/syncMarkdownContent.js"
+  },
+  "dependencies": {
+    "astro": "^4.15.7",
+    "@astrojs/markdown-remark": "^5.2.0",
+    "@astrojs/mdx": "^3.1.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.3",
+    "typescript": "^5.6.2"
+  }
+}
