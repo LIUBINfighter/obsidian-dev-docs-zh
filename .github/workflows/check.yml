@@ -16,8 +16,8 @@ jobs:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
         with:
-          # 获取子模块
-          submodules: recursive
+          # 获取子模块（非递归，避免嵌套子模块问题）
+          submodules: true
           # 获取完整历史以支持子模块更新
           fetch-depth: 0
 
@@ -38,7 +38,7 @@ jobs:
       - name: 🔄 Update Submodules
         run: |
           echo "📡 更新子模块..."
-          git submodule update --remote --merge
+          pnpm submodule:update
           echo "✅ 子模块更新完成"
 
       - name: 📋 Check Sync Status
@@ -86,7 +86,7 @@ jobs:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
 
       - name: 📦 Setup pnpm
         uses: pnpm/action-setup@v2
