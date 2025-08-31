@@ -16,9 +16,7 @@ jobs:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
         with:
-          # 获取子模块（非递归，避免嵌套子模块问题）
-          submodules: true
-          # 获取完整历史以支持子模块更新
+          # 获取完整历史
           fetch-depth: 0
 
       - name: 📦 Setup pnpm
@@ -35,19 +33,7 @@ jobs:
       - name: 📚 Install Dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: 🔄 Update Submodules
-        run: |
-          echo "📡 更新子模块..."
-          pnpm submodule:update
-          echo "✅ 子模块更新完成"
-
-      - name: 📋 Check Sync Status
-        run: |
-          echo "📊 检查同步状态..."
-          pnpm sync:status
-          echo "✅ 同步状态检查完成"
-
-      - name: 🔧 Code Quality Check
+      - name:  Code Quality Check
         run: |
           echo "🔍 运行代码质量检查..."
           pnpm lint
