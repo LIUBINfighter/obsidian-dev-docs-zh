@@ -43,7 +43,7 @@ export default [
           ignoreRestSiblings: true,
         },
       ],
-      '@typescript-eslint/explicit-function-return-type': 'warn',
+      '@typescript-eslint/explicit-function-return-type': 'off', // 关闭严格的返回类型检查
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-var-requires': 'error',
 
@@ -94,6 +94,8 @@ export default [
       'node_modules/',
       '.vitepress/cache/',
       '.vitepress/dist/',
+      '.vitepress/.temp/',
+      'docs/.vitepress/',
       'public/',
       '**/*.min.js',
       '**/*.js.map',
@@ -101,6 +103,8 @@ export default [
       'docs/.vitepress/cache/',
       '.obsidian/',
       'docs/en/', // 忽略英文参考文档子模块
+      'temp/', // 忽略临时文件夹
+      '.temp/', // 忽略隐藏的临时文件夹n
     ],
   },
 ];

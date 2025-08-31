@@ -16,15 +16,15 @@
 
 使用TypeScript构建插件，以扩展Obsidian中的现有功能。
 
-- [构建您的第一个插件](./plugins/getting-started/build-a-plugin.md)
-- [提交您的插件](./plugins/releasing/submit-your-plugin.md)
+- [构建您的第一个插件](./official/plugins/getting-started/build-a-plugin.md)
+- [提交您的插件](./official/plugins/releasing/submit-your-plugin.md)
 
 # 主题
 
 使用 CSS 为 Obsidian 设计精美的主题和片段。
 
-- [构建您的第一个主题](./themes/app-themes/build-a-theme.md)
-- [提交您的主题](./themes/app-themes/submit-your-theme.md)
+- [构建您的第一个主题](./official/themes/app-themes/build-a-theme.md)
+- [提交您的主题](./official/themes/app-themes/submit-your-theme.md)
 - CSS变量
 
 # 加入开发者社区
