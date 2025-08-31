@@ -1,5 +1,5 @@
 ---
-aliases: "request"
+aliases: 'request'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ export function request(request: RequestUrlParam | string): Promise<string>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>request</code> | [`RequestUrlParam`](RequestUrlParam)<code> &#124; string</code> |  |
+| Parameter            | Type                                                            | Description |
+| -------------------- | --------------------------------------------------------------- | ----------- |
+| <code>request</code> | [`RequestUrlParam`](RequestUrlParam)<code> &#124; string</code> |             |
 
 **Returns:**
 
 `Promise<string>`
-

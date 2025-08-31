@@ -1,5 +1,5 @@
 ---
-aliases: "MetadataCache.getCache"
+aliases: 'MetadataCache.getCache'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MetadataCache.getCache() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ getCache(path: string): CachedMetadata | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>path</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`CachedMetadata`](../CachedMetadata)` | null`
-

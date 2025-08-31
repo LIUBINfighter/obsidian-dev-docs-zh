@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.wordAt"
+aliases: 'Editor.wordAt'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.wordAt() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract wordAt(pos: EditorPosition): EditorRange | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>pos</code> | [`EditorPosition`](../EditorPosition) |  |
+| Parameter        | Type                                  | Description |
+| ---------------- | ------------------------------------- | ----------- |
+| <code>pos</code> | [`EditorPosition`](../EditorPosition) |             |
 
 **Returns:**
 
 [`EditorRange`](../EditorRange)` | null`
-

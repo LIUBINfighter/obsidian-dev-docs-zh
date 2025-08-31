@@ -1,5 +1,5 @@
 ---
-aliases: "KeymapInfo.modifiers"
+aliases: 'KeymapInfo.modifiers'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`KeymapInfo`](../KeymapInfo) › [`modifiers`](./modifiers)
 
 ## KeymapInfo.modifiers property
-
 
 **Signature:**
 

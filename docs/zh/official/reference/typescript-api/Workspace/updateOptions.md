@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.updateOptions"
+aliases: 'Workspace.updateOptions'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Calling this function will update/reconfigure the options of all Markdown views.
 ```typescript
 updateOptions(): void;
 ```
+
 **Returns:**
 
 `void`
-

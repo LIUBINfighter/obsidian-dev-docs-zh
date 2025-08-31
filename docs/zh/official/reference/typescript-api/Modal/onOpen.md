@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.onOpen"
+aliases: 'Modal.onOpen'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Modal.onOpen() method
 
-
 **Signature:**
 
 ```typescript
 onOpen(): void;
 ```
+
 **Returns:**
 
 `void`
-

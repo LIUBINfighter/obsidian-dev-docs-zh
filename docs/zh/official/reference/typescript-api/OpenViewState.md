@@ -1,5 +1,5 @@
 ---
-aliases: "OpenViewState"
+aliases: 'OpenViewState'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,17 @@ cssclasses: hide-title
 
 ## OpenViewState interface
 
-
 **Signature:**
 
 ```typescript
-export interface OpenViewState 
+export interface OpenViewState
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`active?`](OpenViewState/active) |  | <code>boolean</code> | _(Optional)_ |
-|  [`eState?`](OpenViewState/eState) |  | <code>Record</code><code>&lt;string, unknown&gt;</code> | _(Optional)_ |
-|  [`group?`](OpenViewState/group) |  | [`WorkspaceLeaf`](WorkspaceLeaf) | _(Optional)_ |
-|  [`state?`](OpenViewState/state) |  | <code>Record</code><code>&lt;string, unknown&gt;</code> | _(Optional)_ |
-
+| Property                          | Modifiers | Type                                                    | Description  |
+| --------------------------------- | --------- | ------------------------------------------------------- | ------------ |
+| [`active?`](OpenViewState/active) |           | <code>boolean</code>                                    | _(Optional)_ |
+| [`eState?`](OpenViewState/eState) |           | <code>Record</code><code>&lt;string, unknown&gt;</code> | _(Optional)_ |
+| [`group?`](OpenViewState/group)   |           | [`WorkspaceLeaf`](WorkspaceLeaf)                        | _(Optional)_ |
+| [`state?`](OpenViewState/state)   |           | <code>Record</code><code>&lt;string, unknown&gt;</code> | _(Optional)_ |

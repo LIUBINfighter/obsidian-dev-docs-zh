@@ -1,5 +1,5 @@
 ---
-aliases: "View.onOpen"
+aliases: 'View.onOpen'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.onOpen() method
 
-
 **Signature:**
 
 ```typescript
 protected onOpen(): Promise<void>;
 ```
+
 **Returns:**
 
 `Promise<void>`
-

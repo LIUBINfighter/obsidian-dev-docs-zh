@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getMostRecentLeaf"
+aliases: 'Workspace.getMostRecentLeaf'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getMostRecentLeaf(root?: WorkspaceParent): WorkspaceLeaf | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>root</code> | [`WorkspaceParent`](../WorkspaceParent) | _(Optional)_ Root for the leaves you want to search. If a root is not provided, the <code>rootSplit</code> and leaves within pop-outs will be searched. |
+| Parameter         | Type                                    | Description                                                                                                                                             |
+| ----------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <code>root</code> | [`WorkspaceParent`](../WorkspaceParent) | _(Optional)_ Root for the leaves you want to search. If a root is not provided, the <code>rootSplit</code> and leaves within pop-outs will be searched. |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)` | null`
-

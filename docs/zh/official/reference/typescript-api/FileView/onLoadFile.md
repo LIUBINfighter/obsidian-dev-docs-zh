@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.onLoadFile"
+aliases: 'FileView.onLoadFile'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileView.onLoadFile() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onLoadFile(file: TFile): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 `Promise<void>`
-

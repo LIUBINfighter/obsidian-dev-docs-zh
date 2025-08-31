@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.modify"
+aliases: 'Vault.modify'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ modify(file: TFile, data: string, options?: DataWriteOptions): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) | The file |
-|  <code>data</code> | <code>string</code> | The new file content |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
+| Parameter            | Type                                      | Description             |
+| -------------------- | ----------------------------------------- | ----------------------- |
+| <code>file</code>    | [`TFile`](../TFile)                       | The file                |
+| <code>data</code>    | <code>string</code>                       | The new file content    |
+| <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
 
 **Returns:**
 
 `Promise<void>`
-

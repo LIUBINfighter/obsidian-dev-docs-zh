@@ -1,5 +1,5 @@
 ---
-aliases: "Point.x"
+aliases: 'Point.x'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Point`](../Point) › [`x`](./x)
 
 ## Point.x property
-
 
 **Signature:**
 

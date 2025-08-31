@@ -1,5 +1,5 @@
 ---
-aliases: "MenuPositionDef.width"
+aliases: 'MenuPositionDef.width'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MenuPositionDef`](../MenuPositionDef) › [`width`](./width)
 
 ## MenuPositionDef.width property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.setContent"
+aliases: 'Modal.setContent'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Modal.setContent() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setContent(content: string | DocumentFragment): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>content</code> | <code>string &#124; </code><code>DocumentFragment</code> |  |
+| Parameter            | Type                                                     | Description |
+| -------------------- | -------------------------------------------------------- | ----------- |
+| <code>content</code> | <code>string &#124; </code><code>DocumentFragment</code> |             |
 
 **Returns:**
 
 `this`
-

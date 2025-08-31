@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.setDisabled"
+aliases: 'SliderComponent.setDisabled'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SliderComponent.setDisabled() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setDisabled(disabled: boolean): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>disabled</code> | <code>boolean</code> |  |
+| Parameter             | Type                 | Description |
+| --------------------- | -------------------- | ----------- |
+| <code>disabled</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `this`
-

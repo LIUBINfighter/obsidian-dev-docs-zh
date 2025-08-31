@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSectionInformation"
+aliases: 'MarkdownSectionInformation'
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,16 @@ cssclasses: hide-title
 
 ## MarkdownSectionInformation interface
 
-
 **Signature:**
 
 ```typescript
-export interface MarkdownSectionInformation 
+export interface MarkdownSectionInformation
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`lineEnd`](MarkdownSectionInformation/lineEnd) |  | <code>number</code> |  |
-|  [`lineStart`](MarkdownSectionInformation/lineStart) |  | <code>number</code> |  |
-|  [`text`](MarkdownSectionInformation/text) |  | <code>string</code> |  |
-
+| Property                                            | Modifiers | Type                | Description |
+| --------------------------------------------------- | --------- | ------------------- | ----------- |
+| [`lineEnd`](MarkdownSectionInformation/lineEnd)     |           | <code>number</code> |             |
+| [`lineStart`](MarkdownSectionInformation/lineStart) |           | <code>number</code> |             |
+| [`text`](MarkdownSectionInformation/text)           |           | <code>string</code> |             |

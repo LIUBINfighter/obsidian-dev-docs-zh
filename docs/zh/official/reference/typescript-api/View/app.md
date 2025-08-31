@@ -1,5 +1,5 @@
 ---
-aliases: "View.app"
+aliases: 'View.app'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`View`](../View) › [`app`](./app)
 
 ## View.app property
-
 
 **Signature:**
 

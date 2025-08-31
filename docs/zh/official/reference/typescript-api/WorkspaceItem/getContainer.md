@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceItem.getContainer"
+aliases: 'WorkspaceItem.getContainer'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get the root container parent item, which can be one of: - [WorkspaceRoot](../Wo
 ```typescript
 getContainer(): WorkspaceContainer;
 ```
+
 **Returns:**
 
 [`WorkspaceContainer`](../WorkspaceContainer)
-

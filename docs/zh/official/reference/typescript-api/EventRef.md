@@ -1,5 +1,5 @@
 ---
-aliases: "EventRef"
+aliases: 'EventRef'
 cssclasses: hide-title
 ---
 
@@ -9,9 +9,8 @@ cssclasses: hide-title
 
 ## EventRef interface
 
-
 **Signature:**
 
 ```typescript
-export interface EventRef 
+export interface EventRef
 ```

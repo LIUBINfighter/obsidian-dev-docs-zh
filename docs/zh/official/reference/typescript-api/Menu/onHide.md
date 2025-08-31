@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.onHide"
+aliases: 'Menu.onHide'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Menu.onHide() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onHide(callback: () => any): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>() =&gt; any</code> |  |
+| Parameter             | Type                      | Description |
+| --------------------- | ------------------------- | ----------- |
+| <code>callback</code> | <code>() =&gt; any</code> |             |
 
 **Returns:**
 
 `void`
-

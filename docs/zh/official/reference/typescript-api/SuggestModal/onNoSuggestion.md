@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.onNoSuggestion"
+aliases: 'SuggestModal.onNoSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## SuggestModal.onNoSuggestion() method
 
-
 **Signature:**
 
 ```typescript
 onNoSuggestion(): void;
 ```
+
 **Returns:**
 
 `void`
-

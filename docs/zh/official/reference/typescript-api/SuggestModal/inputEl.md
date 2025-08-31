@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.inputEl"
+aliases: 'SuggestModal.inputEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SuggestModal`](../SuggestModal) › [`inputEl`](./inputEl)
 
 ## SuggestModal.inputEl property
-
 
 **Signature:**
 

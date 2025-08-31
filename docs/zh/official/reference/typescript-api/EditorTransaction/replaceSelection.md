@@ -1,5 +1,5 @@
 ---
-aliases: "EditorTransaction.replaceSelection"
+aliases: 'EditorTransaction.replaceSelection'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorTransaction`](../EditorTransaction) › [`replaceSelection`](./replaceSelection)
 
 ## EditorTransaction.replaceSelection property
-
 
 **Signature:**
 

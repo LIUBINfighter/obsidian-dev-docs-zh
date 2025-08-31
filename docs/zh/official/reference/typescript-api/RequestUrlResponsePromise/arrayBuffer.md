@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlResponsePromise.arrayBuffer"
+aliases: 'RequestUrlResponsePromise.arrayBuffer'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlResponsePromise`](../RequestUrlResponsePromise) › [`arrayBuffer`](./arrayBuffer)
 
 ## RequestUrlResponsePromise.arrayBuffer property
-
 
 **Signature:**
 

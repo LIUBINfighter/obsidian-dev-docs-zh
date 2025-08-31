@@ -1,5 +1,5 @@
 ---
-aliases: "MenuPositionDef.y"
+aliases: 'MenuPositionDef.y'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MenuPositionDef`](../MenuPositionDef) › [`y`](./y)
 
 ## MenuPositionDef.y property
-
 
 **Signature:**
 

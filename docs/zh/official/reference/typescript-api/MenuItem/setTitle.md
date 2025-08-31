@@ -1,5 +1,5 @@
 ---
-aliases: "MenuItem.setTitle"
+aliases: 'MenuItem.setTitle'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MenuItem.setTitle() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setTitle(title: string | DocumentFragment): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>title</code> | <code>string &#124; </code><code>DocumentFragment</code> |  |
+| Parameter          | Type                                                     | Description |
+| ------------------ | -------------------------------------------------------- | ----------- |
+| <code>title</code> | <code>string &#124; </code><code>DocumentFragment</code> |             |
 
 **Returns:**
 
 `this`
-

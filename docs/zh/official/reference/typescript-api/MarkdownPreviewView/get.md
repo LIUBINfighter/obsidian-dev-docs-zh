@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewView.get"
+aliases: 'MarkdownPreviewView.get'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownPreviewView.get() method
 
-
 **Signature:**
 
 ```typescript
 get(): string;
 ```
+
 **Returns:**
 
 `string`
-

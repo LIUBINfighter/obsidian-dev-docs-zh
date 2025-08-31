@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.navigation"
+aliases: 'FileView.navigation'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,7 @@ cssclasses: hide-title
 
 ## FileView.navigation property
 
-File views can be navigated by default. 
+File views can be navigated by default.
 
 **Signature:**
 

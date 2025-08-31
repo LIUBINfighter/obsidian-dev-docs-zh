@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getLeftLeaf"
+aliases: 'Workspace.getLeftLeaf'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getLeftLeaf(split: boolean): WorkspaceLeaf | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>split</code> | <code>boolean</code> | Should the existing split be split up? |
+| Parameter          | Type                 | Description                            |
+| ------------------ | -------------------- | -------------------------------------- |
+| <code>split</code> | <code>boolean</code> | Should the existing split be split up? |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)` | null`
-

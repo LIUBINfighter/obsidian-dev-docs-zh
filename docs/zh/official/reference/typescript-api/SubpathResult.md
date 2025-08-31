@@ -1,5 +1,5 @@
 ---
-aliases: "SubpathResult"
+aliases: 'SubpathResult'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## SubpathResult interface
 
-
 **Signature:**
 
 ```typescript
-export interface SubpathResult 
+export interface SubpathResult
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`end`](SubpathResult/end) |  | [`Loc`](Loc)<code> &#124; null</code> |  |
-|  [`start`](SubpathResult/start) |  | [`Loc`](Loc) |  |
-
+| Property                       | Modifiers | Type                                  | Description |
+| ------------------------------ | --------- | ------------------------------------- | ----------- |
+| [`end`](SubpathResult/end)     |           | [`Loc`](Loc)<code> &#124; null</code> |             |
+| [`start`](SubpathResult/start) |           | [`Loc`](Loc)                          |             |

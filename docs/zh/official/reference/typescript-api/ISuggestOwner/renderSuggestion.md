@@ -1,5 +1,5 @@
 ---
-aliases: "ISuggestOwner.renderSuggestion"
+aliases: 'ISuggestOwner.renderSuggestion'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ renderSuggestion(value: T, el: HTMLElement): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>T</code> |  |
-|  <code>el</code> | <code>HTMLElement</code> |  |
+| Parameter          | Type                     | Description |
+| ------------------ | ------------------------ | ----------- |
+| <code>value</code> | <code>T</code>           |             |
+| <code>el</code>    | <code>HTMLElement</code> |             |
 
 **Returns:**
 
 `void`
-

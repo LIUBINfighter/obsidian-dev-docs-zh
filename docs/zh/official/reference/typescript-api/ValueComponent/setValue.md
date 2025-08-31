@@ -1,5 +1,5 @@
 ---
-aliases: "ValueComponent.setValue"
+aliases: 'ValueComponent.setValue'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ValueComponent.setValue() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract setValue(value: T): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>T</code> |  |
+| Parameter          | Type           | Description |
+| ------------------ | -------------- | ----------- |
+| <code>value</code> | <code>T</code> |             |
 
 **Returns:**
 
 `this`
-

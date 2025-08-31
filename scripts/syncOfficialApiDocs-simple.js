@@ -17,17 +17,17 @@ const __dirname = path.dirname(__filename);
 function fixMarkdownLinks(content, currentFileDir, baseDir) {
   // 检查是否在子目录中
   const isInSubDir = currentFileDir !== baseDir;
-  
+
   console.log(`  🔍 检查文件目录: ${currentFileDir} (子目录: ${isInSubDir})`);
-  
+
   if (!isInSubDir) {
     return content; // 根目录文件不需要修复
   }
-  
+
   let fixedContent = content;
   let hasChanges = false;
   const currentDirName = path.basename(currentFileDir);
-  
+
   // 1. 修复 ./ClassName 格式的链接 (指向父级类)
   // 例如：./Workspace -> ../Workspace
   fixedContent = fixedContent.replace(
@@ -41,9 +41,9 @@ function fixMarkdownLinks(content, currentFileDir, baseDir) {
         return `[${text}](../${className})`;
       }
       return match;
-    }
+    },
   );
-  
+
   // 2. 修复 ./ClassName/methodName 格式的链接 (指向同级方法)
   // 例如：./Workspace/activeEditor -> ./activeEditor
   fixedContent = fixedContent.replace(
@@ -56,19 +56,23 @@ function fixMarkdownLinks(content, currentFileDir, baseDir) {
         return `[${text}](./${methodName})`;
       }
       return match;
-    }
+    },
   );
-  
+
   // 3. 修复无前缀的 ClassName 格式链接 (指向父级类)
   // 例如：[`Workspace`](Workspace) -> [`Workspace`](../Workspace)
   fixedContent = fixedContent.replace(
-    /\[([^\]]+)\]\(([A-Z][a-zA-Z0-9]*)\)(?!\))/g, 
+    /\[([^\]]+)\]\(([A-Z][a-zA-Z0-9]*)\)(?!\))/g,
     (match, text, link) => {
       // 跳过已经有路径前缀的链接
-      if (link.includes('/') || link.startsWith('./') || link.startsWith('../')) {
+      if (
+        link.includes('/') ||
+        link.startsWith('./') ||
+        link.startsWith('../')
+      ) {
         return match;
       }
-      
+
       // 检查目标文件是否存在于父目录
       const parentFile = path.join(baseDir, `${link}.md`);
       if (fs.existsSync(parentFile)) {
@@ -77,9 +81,9 @@ function fixMarkdownLinks(content, currentFileDir, baseDir) {
         return `[${text}](../${link})`;
       }
       return match;
-    }
+    },
   );
-  
+
   // 4. 修复 ClassName/methodName 格式的链接 (指向同级方法)
   // 例如：[`activeEditor`](Workspace/activeEditor) -> [`activeEditor`](./activeEditor)
   fixedContent = fixedContent.replace(
@@ -92,30 +96,36 @@ function fixMarkdownLinks(content, currentFileDir, baseDir) {
         return `[${text}](./${methodName})`;
       }
       return match;
-    }
+    },
   );
-  
+
   // 5. 修复全局函数链接 (如 normalizePath, addIcon 等)
   // 例在子目录中：[normalizePath()](normalizePath) -> [normalizePath()](../normalizePath)
   fixedContent = fixedContent.replace(
     /\[([^\]]+)\]\(([a-z][a-zA-Z0-9]*)\)/g,
     (match, text, functionName) => {
       // 跳过已经有路径前缀的链接
-      if (functionName.includes('/') || functionName.startsWith('./') || functionName.startsWith('../')) {
+      if (
+        functionName.includes('/') ||
+        functionName.startsWith('./') ||
+        functionName.startsWith('../')
+      ) {
         return match;
       }
-      
+
       // 检查目标文件是否存在于父目录（全局函数）
       const parentFile = path.join(baseDir, `${functionName}.md`);
       if (fs.existsSync(parentFile)) {
-        console.log(`    🔧 修复全局函数链接: ${match} -> [${text}](../${functionName})`);
+        console.log(
+          `    🔧 修复全局函数链接: ${match} -> [${text}](../${functionName})`,
+        );
         hasChanges = true;
         return `[${text}](../${functionName})`;
       }
       return match;
-    }
+    },
   );
-  
+
   // 6. 修复跨类引用链接
   // 例如：./Vault/getAbstractFileByPath -> ../Vault/getAbstractFileByPath
   fixedContent = fixedContent.replace(
@@ -126,19 +136,21 @@ function fixMarkdownLinks(content, currentFileDir, baseDir) {
         // 检查目标类是否存在于父目录
         const parentClassFile = path.join(baseDir, `${className}.md`);
         if (fs.existsSync(parentClassFile)) {
-          console.log(`    🔧 修复跨类引用链接: ${match} -> [${text}](../${className}/${methodName})`);
+          console.log(
+            `    🔧 修复跨类引用链接: ${match} -> [${text}](../${className}/${methodName})`,
+          );
           hasChanges = true;
           return `[${text}](../${className}/${methodName})`;
         }
       }
       return match;
-    }
+    },
   );
-  
+
   if (hasChanges) {
     console.log(`  ✅ 文件链接已修复`);
   }
-  
+
   return fixedContent;
 }
 
@@ -163,7 +175,7 @@ async function syncOfficialApiDocs() {
       console.error('🔍 请检查子模块是否正确初始化');
       return;
     }
-    
+
     console.log('✅ 源目录存在');
     console.log('🔍 检查目标目录...');
 
@@ -171,7 +183,7 @@ async function syncOfficialApiDocs() {
       console.log('🗑️  删除现有目标目录...');
       fs.rmSync(targetDir, { recursive: true });
     }
-    
+
     console.log('📁 创建目标目录...');
     fs.mkdirSync(targetDir, { recursive: true });
 
@@ -189,7 +201,13 @@ async function syncOfficialApiDocs() {
   }
 }
 
-async function copyMdFiles(currentSrc, currentDest, baseSrc, copiedCount, fixedCount) {
+async function copyMdFiles(
+  currentSrc,
+  currentDest,
+  baseSrc,
+  copiedCount,
+  fixedCount,
+) {
   const entries = fs.readdirSync(currentSrc, { withFileTypes: true });
 
   for (const entry of entries) {
@@ -202,18 +220,18 @@ async function copyMdFiles(currentSrc, currentDest, baseSrc, copiedCount, fixedC
     } else if (entry.isFile() && entry.name.endsWith('.md')) {
       // 读取源文件内容
       const content = fs.readFileSync(srcPath, 'utf8');
-      
+
       // 修复链接，传递文件所在的目录路径
       const fixedContent = fixMarkdownLinks(content, currentSrc, baseSrc);
-      
+
       // 检查是否有修复
       if (content !== fixedContent) {
         fixedCount.count++;
       }
-      
+
       // 写入目标文件
       fs.writeFileSync(destPath, fixedContent, 'utf8');
-      
+
       copiedCount.count++;
 
       const relativePath = path.relative(baseSrc, srcPath);
@@ -223,13 +241,18 @@ async function copyMdFiles(currentSrc, currentDest, baseSrc, copiedCount, fixedC
 }
 
 // 直接执行或通过命令行调用时运行
-if (import.meta.url === `file://${process.argv[1]}` || process.argv[1].endsWith('syncOfficialApiDocs-simple.js')) {
+if (
+  import.meta.url === `file://${process.argv[1]}` ||
+  process.argv[1].endsWith('syncOfficialApiDocs-simple.js')
+) {
   console.log('🚀 脚本开始执行...');
-  syncOfficialApiDocs().then(() => {
-    console.log('🎉 脚本执行完成');
-  }).catch((error) => {
-    console.error('💥 脚本执行失败:', error);
-  });
+  syncOfficialApiDocs()
+    .then(() => {
+      console.log('🎉 脚本执行完成');
+    })
+    .catch((error) => {
+      console.error('💥 脚本执行失败:', error);
+    });
 }
 
 export default syncOfficialApiDocs;

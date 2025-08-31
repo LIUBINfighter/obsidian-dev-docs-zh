@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownView.showSearch"
+aliases: 'MarkdownView.showSearch'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownView.showSearch() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ showSearch(replace?: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>replace</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter            | Type                 | Description  |
+| -------------------- | -------------------- | ------------ |
+| <code>replace</code> | <code>boolean</code> | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

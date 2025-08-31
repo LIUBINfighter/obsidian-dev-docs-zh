@@ -1,5 +1,5 @@
 ---
-aliases: "getBlobArrayBuffer"
+aliases: 'getBlobArrayBuffer'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## getBlobArrayBuffer() function
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ export function getBlobArrayBuffer(blob: Blob): Promise<ArrayBuffer>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>blob</code> | <code>Blob</code> |  |
+| Parameter         | Type              | Description |
+| ----------------- | ----------------- | ----------- |
+| <code>blob</code> | <code>Blob</code> |             |
 
 **Returns:**
 
 `Promise<``ArrayBuffer``>`
-

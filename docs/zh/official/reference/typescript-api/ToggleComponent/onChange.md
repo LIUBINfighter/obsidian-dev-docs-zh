@@ -1,5 +1,5 @@
 ---
-aliases: "ToggleComponent.onChange"
+aliases: 'ToggleComponent.onChange'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ToggleComponent.onChange() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onChange(callback: (value: boolean) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(value: boolean) =&gt; any</code> |  |
+| Parameter             | Type                                    | Description |
+| --------------------- | --------------------------------------- | ----------- |
+| <code>callback</code> | <code>(value: boolean) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractTextComponent.onChange"
+aliases: 'AbstractTextComponent.onChange'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## AbstractTextComponent.onChange() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onChange(callback: (value: string) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(value: string) =&gt; any</code> |  |
+| Parameter             | Type                                   | Description |
+| --------------------- | -------------------------------------- | ----------- |
+| <code>callback</code> | <code>(value: string) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

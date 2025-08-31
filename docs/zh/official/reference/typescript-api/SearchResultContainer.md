@@ -1,5 +1,5 @@
 ---
-aliases: "SearchResultContainer"
+aliases: 'SearchResultContainer'
 cssclasses: hide-title
 ---
 
@@ -9,16 +9,14 @@ cssclasses: hide-title
 
 ## SearchResultContainer interface
 
-
 **Signature:**
 
 ```typescript
-export interface SearchResultContainer 
+export interface SearchResultContainer
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`match`](SearchResultContainer/match) |  | [`SearchResult`](SearchResult) |  |
-
+| Property                               | Modifiers | Type                           | Description |
+| -------------------------------------- | --------- | ------------------------------ | ----------- |
+| [`match`](SearchResultContainer/match) |           | [`SearchResult`](SearchResult) |             |

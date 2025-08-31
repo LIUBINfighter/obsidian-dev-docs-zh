@@ -1,5 +1,5 @@
 ---
-aliases: "Keymap.pushScope"
+aliases: 'Keymap.pushScope'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ pushScope(scope: Scope): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>scope</code> | [`Scope`](../Scope) |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>scope</code> | [`Scope`](../Scope) |             |
 
 **Returns:**
 
 `void`
-

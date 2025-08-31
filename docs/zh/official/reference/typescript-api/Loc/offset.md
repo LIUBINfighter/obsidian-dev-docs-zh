@@ -1,5 +1,5 @@
 ---
-aliases: "Loc.offset"
+aliases: 'Loc.offset'
 cssclasses: hide-title
 ---
 

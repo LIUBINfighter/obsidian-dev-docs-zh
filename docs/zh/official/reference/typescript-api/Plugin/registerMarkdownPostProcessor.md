@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerMarkdownPostProcessor"
+aliases: 'Plugin.registerMarkdownPostProcessor'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ registerMarkdownPostProcessor(postProcessor: MarkdownPostProcessor, sortOrder?: 
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>postProcessor</code> | [`MarkdownPostProcessor`](../MarkdownPostProcessor) |  |
-|  <code>sortOrder</code> | <code>number</code> | _(Optional)_ |
+| Parameter                  | Type                                                | Description  |
+| -------------------------- | --------------------------------------------------- | ------------ |
+| <code>postProcessor</code> | [`MarkdownPostProcessor`](../MarkdownPostProcessor) |              |
+| <code>sortOrder</code>     | <code>number</code>                                 | _(Optional)_ |
 
 **Returns:**
 
 [`MarkdownPostProcessor`](../MarkdownPostProcessor)
-

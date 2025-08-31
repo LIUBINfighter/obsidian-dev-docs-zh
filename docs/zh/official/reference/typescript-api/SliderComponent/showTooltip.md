@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.showTooltip"
+aliases: 'SliderComponent.showTooltip'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## SliderComponent.showTooltip() method
 
-
 **Signature:**
 
 ```typescript
 showTooltip(): void;
 ```
+
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "TextFileView.setViewData"
+aliases: 'TextFileView.setViewData'
 cssclasses: hide-title
 ---
 
@@ -21,12 +21,11 @@ abstract setViewData(data: string, clear: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>data</code> | <code>string</code> |  |
-|  <code>clear</code> | <code>boolean</code> |  |
+| Parameter          | Type                 | Description |
+| ------------------ | -------------------- | ----------- |
+| <code>data</code>  | <code>string</code>  |             |
+| <code>clear</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `void`
-

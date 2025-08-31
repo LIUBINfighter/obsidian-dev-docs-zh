@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewRenderer"
+aliases: 'MarkdownPreviewRenderer'
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,16 @@ cssclasses: hide-title
 
 ## MarkdownPreviewRenderer class
 
-
 **Signature:**
 
 ```typescript
-export class MarkdownPreviewRenderer 
+export class MarkdownPreviewRenderer
 ```
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`createCodeBlockPostProcessor(language, handler)`](MarkdownPreviewRenderer/createCodeBlockPostProcessor) | <code>static</code> |  |
-|  [`registerPostProcessor(postProcessor, sortOrder)`](MarkdownPreviewRenderer/registerPostProcessor) | <code>static</code> |  |
-|  [`unregisterPostProcessor(postProcessor)`](MarkdownPreviewRenderer/unregisterPostProcessor) | <code>static</code> |  |
-
+| Method                                                                                                    | Modifiers           | Description |
+| --------------------------------------------------------------------------------------------------------- | ------------------- | ----------- |
+| [`createCodeBlockPostProcessor(language, handler)`](MarkdownPreviewRenderer/createCodeBlockPostProcessor) | <code>static</code> |             |
+| [`registerPostProcessor(postProcessor, sortOrder)`](MarkdownPreviewRenderer/registerPostProcessor)        | <code>static</code> |             |
+| [`unregisterPostProcessor(postProcessor)`](MarkdownPreviewRenderer/unregisterPostProcessor)               | <code>static</code> |             |

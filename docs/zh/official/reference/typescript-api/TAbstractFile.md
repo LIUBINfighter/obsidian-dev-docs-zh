@@ -1,5 +1,5 @@
 ---
-aliases: "TAbstractFile"
+aliases: 'TAbstractFile'
 cssclasses: hide-title
 ---
 
@@ -14,15 +14,14 @@ This can be either a `TFile` or a `TFolder`<!-- -->.
 **Signature:**
 
 ```typescript
-export abstract class TAbstractFile 
+export abstract class TAbstractFile
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`name`](TAbstractFile/name) |  | <code>string</code> |  |
-|  [`parent`](TAbstractFile/parent) |  | [`TFolder`](TFolder)<code> &#124; null</code> |  |
-|  [`path`](TAbstractFile/path) |  | <code>string</code> |  |
-|  [`vault`](TAbstractFile/vault) |  | [`Vault`](Vault) |  |
-
+| Property                         | Modifiers | Type                                          | Description |
+| -------------------------------- | --------- | --------------------------------------------- | ----------- |
+| [`name`](TAbstractFile/name)     |           | <code>string</code>                           |             |
+| [`parent`](TAbstractFile/parent) |           | [`TFolder`](TFolder)<code> &#124; null</code> |             |
+| [`path`](TAbstractFile/path)     |           | <code>string</code>                           |             |
+| [`vault`](TAbstractFile/vault)   |           | [`Vault`](Vault)                              |             |

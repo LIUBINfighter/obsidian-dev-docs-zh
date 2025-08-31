@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownEditView.getSelection"
+aliases: 'MarkdownEditView.getSelection'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownEditView.getSelection() method
 
-
 **Signature:**
 
 ```typescript
 getSelection(): string;
 ```
+
 **Returns:**
 
 `string`
-

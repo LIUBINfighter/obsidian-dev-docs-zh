@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.onClose"
+aliases: 'Modal.onClose'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Modal.onClose() method
 
-
 **Signature:**
 
 ```typescript
 onClose(): void;
 ```
+
 **Returns:**
 
 `void`
-

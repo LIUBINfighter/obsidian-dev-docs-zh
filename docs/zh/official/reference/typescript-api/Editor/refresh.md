@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.refresh"
+aliases: 'Editor.refresh'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.refresh() method
 
-
 **Signature:**
 
 ```typescript
 abstract refresh(): void;
 ```
+
 **Returns:**
 
 `void`
-

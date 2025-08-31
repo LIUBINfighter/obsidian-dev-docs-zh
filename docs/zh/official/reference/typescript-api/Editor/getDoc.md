@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getDoc"
+aliases: 'Editor.getDoc'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.getDoc() method
 
-
 **Signature:**
 
 ```typescript
 getDoc(): this;
 ```
+
 **Returns:**
 
 `this`
-

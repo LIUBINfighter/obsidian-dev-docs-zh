@@ -1,5 +1,5 @@
 ---
-aliases: "Command.mobileOnly"
+aliases: 'Command.mobileOnly'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Command`](../Command) › [`mobileOnly`](./mobileOnly)
 
 ## Command.mobileOnly property
-
 
 **Signature:**
 

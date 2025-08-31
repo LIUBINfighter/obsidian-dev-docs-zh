@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.trashLocal"
+aliases: 'CapacitorAdapter.trashLocal'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.trashLocal() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ trashLocal(normalizedPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

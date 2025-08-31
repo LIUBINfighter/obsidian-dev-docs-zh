@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.setSelection"
+aliases: 'Editor.setSelection'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.setSelection() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract setSelection(anchor: EditorPosition, head?: EditorPosition): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>anchor</code> | [`EditorPosition`](../EditorPosition) |  |
-|  <code>head</code> | [`EditorPosition`](../EditorPosition) | _(Optional)_ |
+| Parameter           | Type                                  | Description  |
+| ------------------- | ------------------------------------- | ------------ |
+| <code>anchor</code> | [`EditorPosition`](../EditorPosition) |              |
+| <code>head</code>   | [`EditorPosition`](../EditorPosition) | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

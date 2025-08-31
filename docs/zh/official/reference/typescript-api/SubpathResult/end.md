@@ -1,5 +1,5 @@
 ---
-aliases: "SubpathResult.end"
+aliases: 'SubpathResult.end'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SubpathResult`](../SubpathResult) › [`end`](./end)
 
 ## SubpathResult.end property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownRenderer.hoverPopover"
+aliases: 'MarkdownRenderer.hoverPopover'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownRenderer`](../MarkdownRenderer) › [`hoverPopover`](./hoverPopover)
 
 ## MarkdownRenderer.hoverPopover property
-
 
 **Signature:**
 

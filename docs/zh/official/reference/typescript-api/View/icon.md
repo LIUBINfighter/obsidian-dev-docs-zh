@@ -1,5 +1,5 @@
 ---
-aliases: "View.icon"
+aliases: 'View.icon'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`View`](../View) › [`icon`](./icon)
 
 ## View.icon property
-
 
 **Signature:**
 

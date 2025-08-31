@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getLastOpenFiles"
+aliases: 'Workspace.getLastOpenFiles'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get the filenames of the 10 most recently opened files.
 ```typescript
 getLastOpenFiles(): string[];
 ```
+
 **Returns:**
 
 `string[]`
-

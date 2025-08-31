@@ -1,5 +1,5 @@
 ---
-aliases: "TFolder.children"
+aliases: 'TFolder.children'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TFolder`](../TFolder) › [`children`](./children)
 
 ## TFolder.children property
-
 
 **Signature:**
 

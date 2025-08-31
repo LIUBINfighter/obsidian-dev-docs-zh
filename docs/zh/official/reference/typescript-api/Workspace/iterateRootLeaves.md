@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.iterateRootLeaves"
+aliases: 'Workspace.iterateRootLeaves'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ iterateRootLeaves(callback: (leaf: WorkspaceLeaf) => any): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(leaf: </code>[`WorkspaceLeaf`](../WorkspaceLeaf)<code>) =&gt; any</code> |  |
+| Parameter             | Type                                                                            | Description |
+| --------------------- | ------------------------------------------------------------------------------- | ----------- |
+| <code>callback</code> | <code>(leaf: </code>[`WorkspaceLeaf`](../WorkspaceLeaf)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `void`
-

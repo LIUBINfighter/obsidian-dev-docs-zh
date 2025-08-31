@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.showAtMouseEvent"
+aliases: 'Menu.showAtMouseEvent'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Menu.showAtMouseEvent() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ showAtMouseEvent(evt: MouseEvent): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>evt</code> | <code>MouseEvent</code> |  |
+| Parameter        | Type                    | Description |
+| ---------------- | ----------------------- | ----------- |
+| <code>evt</code> | <code>MouseEvent</code> |             |
 
 **Returns:**
 
 `this`
-

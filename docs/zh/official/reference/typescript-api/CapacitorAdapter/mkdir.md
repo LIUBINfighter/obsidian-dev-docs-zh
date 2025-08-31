@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.mkdir"
+aliases: 'CapacitorAdapter.mkdir'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.mkdir() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ mkdir(normalizedPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

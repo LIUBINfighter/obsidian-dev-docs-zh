@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceMobileDrawer.parent"
+aliases: 'WorkspaceMobileDrawer.parent'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceMobileDrawer`](../WorkspaceMobileDrawer) › [`parent`](./parent)
 
 ## WorkspaceMobileDrawer.parent property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.setPlaceholder"
+aliases: 'SuggestModal.setPlaceholder'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SuggestModal.setPlaceholder() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setPlaceholder(placeholder: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>placeholder</code> | <code>string</code> |  |
+| Parameter                | Type                | Description |
+| ------------------------ | ------------------- | ----------- |
+| <code>placeholder</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

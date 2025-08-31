@@ -1,5 +1,5 @@
 ---
-aliases: "SettingTab.display"
+aliases: 'SettingTab.display'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Called when the settings tab should be rendered.
 ```typescript
 abstract display(): void;
 ```
+
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Command.editorCheckCallback"
+aliases: 'Command.editorCheckCallback'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,15 @@ editorCheckCallback?: (checking: boolean, editor: Editor, ctx: MarkdownView | Ma
 
 ## Example
 
-
 ```ts
 this.addCommand({
   id: 'example-command',
   name: 'Example command',
-  editorCheckCallback: (checking: boolean, editor: Editor, view: MarkdownView) => {
+  editorCheckCallback: (
+    checking: boolean,
+    editor: Editor,
+    view: MarkdownView,
+  ) => {
     const value = getRequiredValue();
 
     if (value) {
@@ -36,7 +39,6 @@ this.addCommand({
     }
 
     return false;
-  }
+  },
 });
 ```
-

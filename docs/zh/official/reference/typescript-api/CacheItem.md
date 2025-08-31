@@ -1,5 +1,5 @@
 ---
-aliases: "CacheItem"
+aliases: 'CacheItem'
 cssclasses: hide-title
 ---
 
@@ -9,16 +9,14 @@ cssclasses: hide-title
 
 ## CacheItem interface
 
-
 **Signature:**
 
 ```typescript
-export interface CacheItem 
+export interface CacheItem
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | Position of this item in the note. |
-
+| Property                         | Modifiers | Type         | Description                        |
+| -------------------------------- | --------- | ------------ | ---------------------------------- |
+| [`position`](CacheItem/position) |           | [`Pos`](Pos) | Position of this item in the note. |

@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractInputSuggest.selectSuggestion"
+aliases: 'AbstractInputSuggest.selectSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## AbstractInputSuggest.selectSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ selectSuggestion(value: T, evt: MouseEvent | KeyboardEvent): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>T</code> |  |
-|  <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |  |
+| Parameter          | Type                                                                   | Description |
+| ------------------ | ---------------------------------------------------------------------- | ----------- |
+| <code>value</code> | <code>T</code>                                                         |             |
+| <code>evt</code>   | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |             |
 
 **Returns:**
 
 `void`
-

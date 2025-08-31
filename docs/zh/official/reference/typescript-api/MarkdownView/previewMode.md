@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownView.previewMode"
+aliases: 'MarkdownView.previewMode'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownView`](../MarkdownView) › [`previewMode`](./previewMode)
 
 ## MarkdownView.previewMode property
-
 
 **Signature:**
 

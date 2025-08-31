@@ -1,5 +1,5 @@
 ---
-aliases: "SearchResultContainer.match"
+aliases: 'SearchResultContainer.match'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SearchResultContainer`](../SearchResultContainer) › [`match`](./match)
 
 ## SearchResultContainer.match property
-
 
 **Signature:**
 

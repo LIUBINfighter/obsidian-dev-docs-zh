@@ -1,5 +1,5 @@
 ---
-aliases: "FuzzySuggestModal.onChooseSuggestion"
+aliases: 'FuzzySuggestModal.onChooseSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FuzzySuggestModal.onChooseSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ onChooseSuggestion(item: FuzzyMatch<T>, evt: MouseEvent | KeyboardEvent): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>item</code> | [`FuzzyMatch`](../FuzzyMatch)<code>&lt;T&gt;</code> |  |
-|  <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |  |
+| Parameter         | Type                                                                   | Description |
+| ----------------- | ---------------------------------------------------------------------- | ----------- |
+| <code>item</code> | [`FuzzyMatch`](../FuzzyMatch)<code>&lt;T&gt;</code>                    |             |
+| <code>evt</code>  | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |             |
 
 **Returns:**
 
 `void`
-

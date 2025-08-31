@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownEditView.file"
+aliases: 'MarkdownEditView.file'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownEditView`](../MarkdownEditView) › [`file`](./file)
 
 ## MarkdownEditView.file property
-
 
 **Signature:**
 

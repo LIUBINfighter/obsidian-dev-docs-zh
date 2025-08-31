@@ -14,7 +14,10 @@ const __dirname = path.dirname(__filename);
 async function syncTypingsApiDocs() {
   const configPath = path.resolve(__dirname, '../config/api-extractor.json');
   const tempPath = path.resolve(__dirname, '../temp');
-  const targetDir = path.resolve(__dirname, '../docs/zh/typings/typescript-api');
+  const targetDir = path.resolve(
+    __dirname,
+    '../docs/zh/typings/typescript-api',
+  );
 
   console.log('🔄 开始同步Typings API文档...');
   console.log('配置文件:', configPath);
@@ -34,10 +37,13 @@ async function syncTypingsApiDocs() {
     // 运行 api-extractor
     console.log('📦 运行 API Extractor...');
     try {
-      const { stderr } = await execAsync(`npx api-extractor run --config "${configPath}"`, {
-        cwd: path.resolve(__dirname, '..')
-      });
-      
+      const { stderr } = await execAsync(
+        `npx api-extractor run --config "${configPath}"`,
+        {
+          cwd: path.resolve(__dirname, '..'),
+        },
+      );
+
       if (stderr) {
         console.warn('⚠️  API Extractor 警告:', stderr);
       }
@@ -50,12 +56,15 @@ async function syncTypingsApiDocs() {
     // 运行 api-documenter 生成 markdown
     console.log('📝 生成 Markdown 文档...');
     const apiJsonPath = path.join(tempPath, 'obsidian-typings.api.json');
-    
+
     if (fs.existsSync(apiJsonPath)) {
       try {
-        await execAsync(`npx api-documenter markdown --input-folder "${tempPath}" --output-folder "${targetDir}"`, {
-          cwd: path.resolve(__dirname, '..')
-        });
+        await execAsync(
+          `npx api-documenter markdown --input-folder "${tempPath}" --output-folder "${targetDir}"`,
+          {
+            cwd: path.resolve(__dirname, '..'),
+          },
+        );
         console.log('✅ Markdown 文档生成完成');
       } catch (error) {
         console.warn('⚠️  API Documenter 运行时有警告，但文档可能已生成');
@@ -67,9 +76,8 @@ async function syncTypingsApiDocs() {
     }
 
     // 检查生成的文件数量
-    const files = fs.readdirSync(targetDir).filter(f => f.endsWith('.md'));
+    const files = fs.readdirSync(targetDir).filter((f) => f.endsWith('.md'));
     console.log(`✅ Typings API 同步完成！共生成 ${files.length} 个文档文件`);
-    
   } catch (error) {
     console.error('❌ 同步失败:', error.message);
     process.exit(1);

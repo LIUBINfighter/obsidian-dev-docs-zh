@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceTabs"
+aliases: 'WorkspaceTabs'
 cssclasses: hide-title
 ---
 
@@ -9,29 +9,28 @@ cssclasses: hide-title
 
 ## WorkspaceTabs class
 
-
 **Signature:**
 
 ```typescript
-export class WorkspaceTabs extends WorkspaceParent 
+export class WorkspaceTabs extends WorkspaceParent
 ```
+
 **Extends:** [`WorkspaceParent`](WorkspaceParent)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`parent`](WorkspaceTabs/parent) |  | [`WorkspaceSplit`](WorkspaceSplit) |  |
+| Property                         | Modifiers | Type                               | Description |
+| -------------------------------- | --------- | ---------------------------------- | ----------- |
+| [`parent`](WorkspaceTabs/parent) |           | [`WorkspaceSplit`](WorkspaceSplit) |             |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`getContainer()`](WorkspaceItem/getContainer) |  | <p>Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow)</p><p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
-|  [`getRoot()`](WorkspaceItem/getRoot) |  | <p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
-|  [`off(name, callback)`](Events/off) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`offref(ref)`](Events/offref) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`on(name: string, callback, ctx)`](Events/on) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`trigger(name, data)`](Events/trigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`tryTrigger(evt, args)`](Events/tryTrigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-
+| Method                                         | Modifiers | Description                                                                                                                                                                                         |
+| ---------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`getContainer()`](WorkspaceItem/getContainer) |           | <p>Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow)</p><p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
+| [`getRoot()`](WorkspaceItem/getRoot)           |           | <p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p>                                                                                                                                      |
+| [`off(name, callback)`](Events/off)            |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`offref(ref)`](Events/offref)                 |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`on(name: string, callback, ctx)`](Events/on) |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`trigger(name, data)`](Events/trigger)        |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`tryTrigger(evt, args)`](Events/tryTrigger)   |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |

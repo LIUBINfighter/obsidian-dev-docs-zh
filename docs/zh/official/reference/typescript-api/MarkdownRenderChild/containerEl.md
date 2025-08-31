@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownRenderChild.containerEl"
+aliases: 'MarkdownRenderChild.containerEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownRenderChild`](../MarkdownRenderChild) › [`containerEl`](./containerEl)
 
 ## MarkdownRenderChild.containerEl property
-
 
 **Signature:**
 

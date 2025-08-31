@@ -1,5 +1,5 @@
 ---
-aliases: "PaneType"
+aliases: 'PaneType'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`PaneType`](PaneType)
 
 ## PaneType type
-
 
 **Signature:**
 

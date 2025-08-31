@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getLeavesOfType"
+aliases: 'Workspace.getLeavesOfType'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getLeavesOfType(viewType: string): WorkspaceLeaf[];
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>viewType</code> | <code>string</code> |  |
+| Parameter             | Type                | Description |
+| --------------------- | ------------------- | ----------- |
+| <code>viewType</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)`[]`
-

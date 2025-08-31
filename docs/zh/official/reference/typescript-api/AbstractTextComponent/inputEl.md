@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractTextComponent.inputEl"
+aliases: 'AbstractTextComponent.inputEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`AbstractTextComponent`](../AbstractTextComponent) › [`inputEl`](./inputEl)
 
 ## AbstractTextComponent.inputEl property
-
 
 **Signature:**
 

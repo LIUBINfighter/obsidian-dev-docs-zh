@@ -1,5 +1,5 @@
 ---
-aliases: "Tasks.promise"
+aliases: 'Tasks.promise'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Tasks.promise() method
 
-
 **Signature:**
 
 ```typescript
 promise(): Promise<any>;
 ```
+
 **Returns:**
 
 `Promise<any>`
-

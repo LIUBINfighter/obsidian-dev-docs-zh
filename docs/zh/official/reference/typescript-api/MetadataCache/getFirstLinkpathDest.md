@@ -1,5 +1,5 @@
 ---
-aliases: "MetadataCache.getFirstLinkpathDest"
+aliases: 'MetadataCache.getFirstLinkpathDest'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ getFirstLinkpathDest(linkpath: string, sourcePath: string): TFile | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>linkpath</code> | <code>string</code> |  |
-|  <code>sourcePath</code> | <code>string</code> |  |
+| Parameter               | Type                | Description |
+| ----------------------- | ------------------- | ----------- |
+| <code>linkpath</code>   | <code>string</code> |             |
+| <code>sourcePath</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`TFile`](../TFile)` | null`
-

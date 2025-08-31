@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceWindowInitData.y"
+aliases: 'WorkspaceWindowInitData.y'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceWindowInitData`](../WorkspaceWindowInitData) › [`y`](./y)
 
 ## WorkspaceWindowInitData.y property
-
 
 **Signature:**
 

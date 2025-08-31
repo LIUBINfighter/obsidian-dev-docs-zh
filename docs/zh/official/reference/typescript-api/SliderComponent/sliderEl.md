@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.sliderEl"
+aliases: 'SliderComponent.sliderEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SliderComponent`](../SliderComponent) › [`sliderEl`](./sliderEl)
 
 ## SliderComponent.sliderEl property
-
 
 **Signature:**
 

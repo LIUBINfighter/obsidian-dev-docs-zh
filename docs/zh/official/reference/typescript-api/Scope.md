@@ -1,5 +1,5 @@
 ---
-aliases: "Scope"
+aliases: 'Scope'
 cssclasses: hide-title
 ---
 
@@ -14,19 +14,18 @@ A scope receives keyboard events and binds callbacks to given hotkeys. Only one 
 **Signature:**
 
 ```typescript
-export class Scope 
+export class Scope
 ```
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(parent)`](Scope/(constructor).md) |  | Constructs a new instance of the <code>Scope</code> class |
+| Constructor                                         | Modifiers | Description                                               |
+| --------------------------------------------------- | --------- | --------------------------------------------------------- |
+| [`(constructor)(parent)`](<Scope/(constructor).md>) |           | Constructs a new instance of the <code>Scope</code> class |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`register(modifiers, key, func)`](Scope/register) |  | Add a keymap event handler to this scope. |
-|  [`unregister(handler)`](Scope/unregister) |  | Remove an existing keymap event handler. |
-
+| Method                                             | Modifiers | Description                               |
+| -------------------------------------------------- | --------- | ----------------------------------------- |
+| [`register(modifiers, key, func)`](Scope/register) |           | Add a keymap event handler to this scope. |
+| [`unregister(handler)`](Scope/unregister)          |           | Remove an existing keymap event handler.  |

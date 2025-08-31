@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerHoverLinkSource"
+aliases: 'Plugin.registerHoverLinkSource'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ registerHoverLinkSource(id: string, info: HoverLinkSource): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>id</code> | <code>string</code> |  |
-|  <code>info</code> | [`HoverLinkSource`](../HoverLinkSource) |  |
+| Parameter         | Type                                    | Description |
+| ----------------- | --------------------------------------- | ----------- |
+| <code>id</code>   | <code>string</code>                     |             |
+| <code>info</code> | [`HoverLinkSource`](../HoverLinkSource) |             |
 
 **Returns:**
 
 `void`
-

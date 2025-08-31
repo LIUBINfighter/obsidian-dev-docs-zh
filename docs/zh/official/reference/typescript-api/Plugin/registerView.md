@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerView"
+aliases: 'Plugin.registerView'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Plugin.registerView() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ registerView(type: string, viewCreator: ViewCreator): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>type</code> | <code>string</code> |  |
-|  <code>viewCreator</code> | [`ViewCreator`](../ViewCreator) |  |
+| Parameter                | Type                            | Description |
+| ------------------------ | ------------------------------- | ----------- |
+| <code>type</code>        | <code>string</code>             |             |
+| <code>viewCreator</code> | [`ViewCreator`](../ViewCreator) |             |
 
 **Returns:**
 
 `void`
-

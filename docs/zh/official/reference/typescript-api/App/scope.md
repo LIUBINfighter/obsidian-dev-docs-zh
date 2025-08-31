@@ -1,5 +1,5 @@
 ---
-aliases: "App.scope"
+aliases: 'App.scope'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`App`](../App) › [`scope`](./scope)
 
 ## App.scope property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "ReferenceLinkCache.id"
+aliases: 'ReferenceLinkCache.id'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ReferenceLinkCache`](../ReferenceLinkCache) › [`id`](./id)
 
 ## ReferenceLinkCache.id property
-
 
 **Signature:**
 

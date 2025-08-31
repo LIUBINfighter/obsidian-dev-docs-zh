@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSubView.getScroll"
+aliases: 'MarkdownSubView.getScroll'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownSubView.getScroll() method
 
-
 **Signature:**
 
 ```typescript
 getScroll(): number;
 ```
+
 **Returns:**
 
 `number`
-

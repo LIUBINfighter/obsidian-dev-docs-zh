@@ -1,5 +1,5 @@
 ---
-aliases: "MomentFormatComponent.updateSample"
+aliases: 'MomentFormatComponent.updateSample'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MomentFormatComponent.updateSample() method
 
-
 **Signature:**
 
 ```typescript
 updateSample(): void;
 ```
+
 **Returns:**
 
 `void`
-

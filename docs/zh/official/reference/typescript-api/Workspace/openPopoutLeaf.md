@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.openPopoutLeaf"
+aliases: 'Workspace.openPopoutLeaf'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ openPopoutLeaf(data?: WorkspaceWindowInitData): WorkspaceLeaf;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>data</code> | [`WorkspaceWindowInitData`](../WorkspaceWindowInitData) | _(Optional)_ |
+| Parameter         | Type                                                    | Description  |
+| ----------------- | ------------------------------------------------------- | ------------ |
+| <code>data</code> | [`WorkspaceWindowInitData`](../WorkspaceWindowInitData) | _(Optional)_ |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)
-

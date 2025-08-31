@@ -1,5 +1,5 @@
 ---
-aliases: "HeadingSubpathResult.type"
+aliases: 'HeadingSubpathResult.type'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`HeadingSubpathResult`](../HeadingSubpathResult) › [`type`](./type)
 
 ## HeadingSubpathResult.type property
-
 
 **Signature:**
 

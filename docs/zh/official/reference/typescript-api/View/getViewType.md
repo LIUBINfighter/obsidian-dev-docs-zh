@@ -1,5 +1,5 @@
 ---
-aliases: "View.getViewType"
+aliases: 'View.getViewType'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.getViewType() method
 
-
 **Signature:**
 
 ```typescript
 abstract getViewType(): string;
 ```
+
 **Returns:**
 
 `string`
-

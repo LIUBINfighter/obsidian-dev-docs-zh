@@ -1,5 +1,5 @@
 ---
-aliases: "EditorScrollInfo.clientHeight"
+aliases: 'EditorScrollInfo.clientHeight'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorScrollInfo`](../EditorScrollInfo) › [`clientHeight`](./clientHeight)
 
 ## EditorScrollInfo.clientHeight property
-
 
 **Signature:**
 

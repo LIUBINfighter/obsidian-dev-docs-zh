@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.setGroup"
+aliases: 'WorkspaceLeaf.setGroup'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.setGroup() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setGroup(group: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>group</code> | <code>string</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>group</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "MetadataCache.resolvedLinks"
+aliases: 'MetadataCache.resolvedLinks'
 cssclasses: hide-title
 ---
 

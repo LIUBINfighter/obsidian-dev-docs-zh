@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceMobileDrawer.expand"
+aliases: 'WorkspaceMobileDrawer.expand'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceMobileDrawer.expand() method
 
-
 **Signature:**
 
 ```typescript
 expand(): void;
 ```
+
 **Returns:**
 
 `void`
-

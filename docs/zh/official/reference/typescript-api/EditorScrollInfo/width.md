@@ -1,5 +1,5 @@
 ---
-aliases: "EditorScrollInfo.width"
+aliases: 'EditorScrollInfo.width'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorScrollInfo`](../EditorScrollInfo) › [`width`](./width)
 
 ## EditorScrollInfo.width property
-
 
 **Signature:**
 

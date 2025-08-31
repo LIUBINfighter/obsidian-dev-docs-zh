@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.setLimits"
+aliases: 'SliderComponent.setLimits'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SliderComponent.setLimits() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ setLimits(min: number, max: number, step: number | 'any'): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>min</code> | <code>number</code> |  |
-|  <code>max</code> | <code>number</code> |  |
-|  <code>step</code> | <code>number &#124; 'any'</code> |  |
+| Parameter         | Type                             | Description |
+| ----------------- | -------------------------------- | ----------- |
+| <code>min</code>  | <code>number</code>              |             |
+| <code>max</code>  | <code>number</code>              |             |
+| <code>step</code> | <code>number &#124; 'any'</code> |             |
 
 **Returns:**
 
 `this`
-

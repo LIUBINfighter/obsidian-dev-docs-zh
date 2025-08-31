@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPostProcessorContext.getSectionInfo"
+aliases: 'MarkdownPostProcessorContext.getSectionInfo'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getSectionInfo(el: HTMLElement): MarkdownSectionInformation | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>el</code> | <code>HTMLElement</code> |  |
+| Parameter       | Type                     | Description |
+| --------------- | ------------------------ | ----------- |
+| <code>el</code> | <code>HTMLElement</code> |             |
 
 **Returns:**
 
 [`MarkdownSectionInformation`](../MarkdownSectionInformation)` | null`
-

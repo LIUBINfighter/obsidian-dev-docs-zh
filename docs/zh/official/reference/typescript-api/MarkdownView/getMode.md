@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownView.getMode"
+aliases: 'MarkdownView.getMode'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownView.getMode() method
 
-
 **Signature:**
 
 ```typescript
 getMode(): MarkdownViewModeType;
 ```
+
 **Returns:**
 
 [`MarkdownViewModeType`](../MarkdownViewModeType)
-

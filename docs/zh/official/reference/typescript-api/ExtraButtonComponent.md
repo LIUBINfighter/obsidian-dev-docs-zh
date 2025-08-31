@@ -1,5 +1,5 @@
 ---
-aliases: "ExtraButtonComponent"
+aliases: 'ExtraButtonComponent'
 cssclasses: hide-title
 ---
 
@@ -9,34 +9,33 @@ cssclasses: hide-title
 
 ## ExtraButtonComponent class
 
-
 **Signature:**
 
 ```typescript
-export class ExtraButtonComponent extends BaseComponent 
+export class ExtraButtonComponent extends BaseComponent
 ```
+
 **Extends:** [`BaseComponent`](BaseComponent)
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(containerEl)`](ExtraButtonComponent/(constructor).md) |  | Constructs a new instance of the <code>ExtraButtonComponent</code> class |
+| Constructor                                                             | Modifiers | Description                                                              |
+| ----------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------ |
+| [`(constructor)(containerEl)`](<ExtraButtonComponent/(constructor).md>) |           | Constructs a new instance of the <code>ExtraButtonComponent</code> class |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-|  [`extraSettingsEl`](ExtraButtonComponent/extraSettingsEl) |  | <code>HTMLElement</code> |  |
+| Property                                                  | Modifiers | Type                     | Description                                                    |
+| --------------------------------------------------------- | --------- | ------------------------ | -------------------------------------------------------------- |
+| [`disabled`](BaseComponent/disabled)                      |           | <code>boolean</code>     | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+| [`extraSettingsEl`](ExtraButtonComponent/extraSettingsEl) |           | <code>HTMLElement</code> |                                                                |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`onClick(callback)`](ExtraButtonComponent/onClick) |  |  |
-|  [`setDisabled(disabled)`](ExtraButtonComponent/setDisabled) |  |  |
-|  [`setIcon(icon)`](ExtraButtonComponent/setIcon) |  |  |
-|  [`setTooltip(tooltip, options)`](ExtraButtonComponent/setTooltip) |  |  |
-|  [`then(cb)`](BaseComponent/then) |  | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-
+| Method                                                            | Modifiers | Description                                                                               |
+| ----------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
+| [`onClick(callback)`](ExtraButtonComponent/onClick)               |           |                                                                                           |
+| [`setDisabled(disabled)`](ExtraButtonComponent/setDisabled)       |           |                                                                                           |
+| [`setIcon(icon)`](ExtraButtonComponent/setIcon)                   |           |                                                                                           |
+| [`setTooltip(tooltip, options)`](ExtraButtonComponent/setTooltip) |           |                                                                                           |
+| [`then(cb)`](BaseComponent/then)                                  |           | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |

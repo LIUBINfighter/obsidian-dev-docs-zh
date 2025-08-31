@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.setActiveLeaf_1"
+aliases: 'Workspace.setActiveLeaf_1'
 cssclasses: hide-title
 ---
 
@@ -10,9 +10,8 @@ cssclasses: hide-title
 ## Workspace.setActiveLeaf() method
 
 > Warning: This API is now obsolete.
-> 
+>
 > - function signature changed. Use other form instead
-> 
 
 **Signature:**
 
@@ -22,13 +21,12 @@ setActiveLeaf(leaf: WorkspaceLeaf, pushHistory: boolean, focus: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |  |
-|  <code>pushHistory</code> | <code>boolean</code> |  |
-|  <code>focus</code> | <code>boolean</code> |  |
+| Parameter                | Type                                | Description |
+| ------------------------ | ----------------------------------- | ----------- |
+| <code>leaf</code>        | [`WorkspaceLeaf`](../WorkspaceLeaf) |             |
+| <code>pushHistory</code> | <code>boolean</code>                |             |
+| <code>focus</code>       | <code>boolean</code>                |             |
 
 **Returns:**
 
 `void`
-

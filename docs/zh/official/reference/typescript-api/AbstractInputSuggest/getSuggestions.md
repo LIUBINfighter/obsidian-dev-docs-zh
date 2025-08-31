@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractInputSuggest.getSuggestions"
+aliases: 'AbstractInputSuggest.getSuggestions'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## AbstractInputSuggest.getSuggestions() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ protected abstract getSuggestions(query: string): T[] | Promise<T[]>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>query</code> | <code>string</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>query</code> | <code>string</code> |             |
 
 **Returns:**
 
 `T[] | ``Promise<T[]>`
-

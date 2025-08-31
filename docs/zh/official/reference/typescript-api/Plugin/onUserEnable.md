@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.onUserEnable"
+aliases: 'Plugin.onUserEnable'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Perform any initial setup code. The user has explicitly interacted with the plug
 ```typescript
 onUserEnable(): void;
 ```
+
 **Returns:**
 
 `void`
-

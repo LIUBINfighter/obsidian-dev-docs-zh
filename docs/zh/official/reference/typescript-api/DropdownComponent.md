@@ -1,5 +1,5 @@
 ---
-aliases: "DropdownComponent"
+aliases: 'DropdownComponent'
 cssclasses: hide-title
 ---
 
@@ -9,37 +9,36 @@ cssclasses: hide-title
 
 ## DropdownComponent class
 
-
 **Signature:**
 
 ```typescript
-export class DropdownComponent extends ValueComponent<string> 
+export class DropdownComponent extends ValueComponent<string>
 ```
+
 **Extends:** [`ValueComponent`](ValueComponent)`<string>`
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(containerEl)`](DropdownComponent/(constructor).md) |  | Constructs a new instance of the <code>DropdownComponent</code> class |
+| Constructor                                                          | Modifiers | Description                                                           |
+| -------------------------------------------------------------------- | --------- | --------------------------------------------------------------------- |
+| [`(constructor)(containerEl)`](<DropdownComponent/(constructor).md>) |           | Constructs a new instance of the <code>DropdownComponent</code> class |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-|  [`selectEl`](DropdownComponent/selectEl) |  | <code>HTMLSelectElement</code> |  |
+| Property                                 | Modifiers | Type                           | Description                                                    |
+| ---------------------------------------- | --------- | ------------------------------ | -------------------------------------------------------------- |
+| [`disabled`](BaseComponent/disabled)     |           | <code>boolean</code>           | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+| [`selectEl`](DropdownComponent/selectEl) |           | <code>HTMLSelectElement</code> |                                                                |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`addOption(value, display)`](DropdownComponent/addOption) |  |  |
-|  [`addOptions(options)`](DropdownComponent/addOptions) |  |  |
-|  [`getValue()`](DropdownComponent/getValue) |  |  |
-|  [`onChange(callback)`](DropdownComponent/onChange) |  |  |
-|  [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |  | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p> |
-|  [`setDisabled(disabled)`](DropdownComponent/setDisabled) |  |  |
-|  [`setValue(value)`](DropdownComponent/setValue) |  |  |
-|  [`then(cb)`](BaseComponent/then) |  | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-
+| Method                                                                            | Modifiers | Description                                                                               |
+| --------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
+| [`addOption(value, display)`](DropdownComponent/addOption)                        |           |                                                                                           |
+| [`addOptions(options)`](DropdownComponent/addOptions)                             |           |                                                                                           |
+| [`getValue()`](DropdownComponent/getValue)                                        |           |                                                                                           |
+| [`onChange(callback)`](DropdownComponent/onChange)                                |           |                                                                                           |
+| [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |           | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p>                          |
+| [`setDisabled(disabled)`](DropdownComponent/setDisabled)                          |           |                                                                                           |
+| [`setValue(value)`](DropdownComponent/setValue)                                   |           |                                                                                           |
+| [`then(cb)`](BaseComponent/then)                                                  |           | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |

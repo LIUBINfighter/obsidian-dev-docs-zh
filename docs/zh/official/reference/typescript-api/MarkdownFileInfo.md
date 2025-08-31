@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownFileInfo"
+aliases: 'MarkdownFileInfo'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,18 @@ cssclasses: hide-title
 
 ## MarkdownFileInfo interface
 
-
 **Signature:**
 
 ```typescript
-export interface MarkdownFileInfo extends HoverParent 
+export interface MarkdownFileInfo extends HoverParent
 ```
+
 **Extends:** [`HoverParent`](HoverParent)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`app`](MarkdownFileInfo/app) |  | [`App`](App) |  |
-|  [`editor?`](MarkdownFileInfo/editor) |  | [`Editor`](Editor) | _(Optional)_ |
-|  [`hoverPopover`](HoverParent/hoverPopover) |  | [`HoverPopover`](HoverPopover)<code> &#124; null</code> | <p>(Inherited from [HoverParent](HoverParent)<!-- -->)</p> |
-
+| Property                                   | Modifiers | Type                                                    | Description                                                |
+| ------------------------------------------ | --------- | ------------------------------------------------------- | ---------------------------------------------------------- |
+| [`app`](MarkdownFileInfo/app)              |           | [`App`](App)                                            |                                                            |
+| [`editor?`](MarkdownFileInfo/editor)       |           | [`Editor`](Editor)                                      | _(Optional)_                                               |
+| [`hoverPopover`](HoverParent/hoverPopover) |           | [`HoverPopover`](HoverPopover)<code> &#124; null</code> | <p>(Inherited from [HoverParent](HoverParent)<!-- -->)</p> |

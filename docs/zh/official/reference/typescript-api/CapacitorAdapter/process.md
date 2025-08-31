@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.process"
+aliases: 'CapacitorAdapter.process'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.process() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ process(normalizedPath: string, fn: (data: string) => string, options?: DataWrit
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
-|  <code>fn</code> | <code>(data: string) =&gt; string</code> |  |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ |
+| Parameter                   | Type                                      | Description  |
+| --------------------------- | ----------------------------------------- | ------------ |
+| <code>normalizedPath</code> | <code>string</code>                       |              |
+| <code>fn</code>             | <code>(data: string) =&gt; string</code>  |              |
+| <code>options</code>        | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ |
 
 **Returns:**
 
 `Promise<string>`
-

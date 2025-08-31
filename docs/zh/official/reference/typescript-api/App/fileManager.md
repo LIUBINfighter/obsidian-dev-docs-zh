@@ -1,5 +1,5 @@
 ---
-aliases: "App.fileManager"
+aliases: 'App.fileManager'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`App`](../App) › [`fileManager`](./fileManager)
 
 ## App.fileManager property
-
 
 **Signature:**
 

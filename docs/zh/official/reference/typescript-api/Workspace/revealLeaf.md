@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.revealLeaf"
+aliases: 'Workspace.revealLeaf'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ revealLeaf(leaf: WorkspaceLeaf): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |  |
+| Parameter         | Type                                | Description |
+| ----------------- | ----------------------------------- | ----------- |
+| <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |             |
 
 **Returns:**
 
 `Promise<void>`
-

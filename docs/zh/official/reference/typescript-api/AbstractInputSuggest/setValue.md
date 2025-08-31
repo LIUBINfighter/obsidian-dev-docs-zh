@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractInputSuggest.setValue"
+aliases: 'AbstractInputSuggest.setValue'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ setValue(value: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>string</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>value</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

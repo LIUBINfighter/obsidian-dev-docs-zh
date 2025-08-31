@@ -1,5 +1,5 @@
 ---
-aliases: "MenuPositionDef.overlap"
+aliases: 'MenuPositionDef.overlap'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MenuPositionDef`](../MenuPositionDef) › [`overlap`](./overlap)
 
 ## MenuPositionDef.overlap property
-
 
 **Signature:**
 

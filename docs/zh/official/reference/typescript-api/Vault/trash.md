@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.trash"
+aliases: 'Vault.trash'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ trash(file: TAbstractFile, system: boolean): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TAbstractFile`](../TAbstractFile) | The file or folder to be deleted |
-|  <code>system</code> | <code>boolean</code> | Set to <code>false</code> to use local trash by default. |
+| Parameter           | Type                                | Description                                              |
+| ------------------- | ----------------------------------- | -------------------------------------------------------- |
+| <code>file</code>   | [`TAbstractFile`](../TAbstractFile) | The file or folder to be deleted                         |
+| <code>system</code> | <code>boolean</code>                | Set to <code>false</code> to use local trash by default. |
 
 **Returns:**
 
 `Promise<void>`
-

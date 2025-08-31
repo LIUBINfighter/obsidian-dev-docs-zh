@@ -1,5 +1,5 @@
 ---
-aliases: "Keymap.popScope"
+aliases: 'Keymap.popScope'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ popScope(scope: Scope): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>scope</code> | [`Scope`](../Scope) |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>scope</code> | [`Scope`](../Scope) |             |
 
 **Returns:**
 
 `void`
-

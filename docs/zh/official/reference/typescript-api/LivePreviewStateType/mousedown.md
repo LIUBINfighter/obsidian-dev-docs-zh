@@ -1,5 +1,5 @@
 ---
-aliases: "LivePreviewStateType.mousedown"
+aliases: 'LivePreviewStateType.mousedown'
 cssclasses: hide-title
 ---
 

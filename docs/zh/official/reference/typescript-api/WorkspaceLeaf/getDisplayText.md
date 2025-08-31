@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.getDisplayText"
+aliases: 'WorkspaceLeaf.getDisplayText'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.getDisplayText() method
 
-
 **Signature:**
 
 ```typescript
 getDisplayText(): string;
 ```
+
 **Returns:**
 
 `string`
-

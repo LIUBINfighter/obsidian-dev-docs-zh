@@ -1,5 +1,5 @@
 ---
-aliases: "MenuItem.setIsLabel"
+aliases: 'MenuItem.setIsLabel'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MenuItem.setIsLabel() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setIsLabel(isLabel: boolean): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>isLabel</code> | <code>boolean</code> |  |
+| Parameter            | Type                 | Description |
+| -------------------- | -------------------- | ----------- |
+| <code>isLabel</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `this`
-

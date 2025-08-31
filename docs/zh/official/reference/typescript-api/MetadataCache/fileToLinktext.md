@@ -1,5 +1,5 @@
 ---
-aliases: "MetadataCache.fileToLinktext"
+aliases: 'MetadataCache.fileToLinktext'
 cssclasses: hide-title
 ---
 
@@ -21,13 +21,12 @@ fileToLinktext(file: TFile, sourcePath: string, omitMdExtension?: boolean): stri
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
-|  <code>sourcePath</code> | <code>string</code> |  |
-|  <code>omitMdExtension</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter                    | Type                 | Description  |
+| ---------------------------- | -------------------- | ------------ |
+| <code>file</code>            | [`TFile`](../TFile)  |              |
+| <code>sourcePath</code>      | <code>string</code>  |              |
+| <code>omitMdExtension</code> | <code>boolean</code> | _(Optional)_ |
 
 **Returns:**
 
 `string`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "SettingTab.hide"
+aliases: 'SettingTab.hide'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Hides the contents of the setting tab. Any registered components should be unloa
 ```typescript
 hide(): void;
 ```
+
 **Returns:**
 
 `void`
-

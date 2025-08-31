@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.close"
+aliases: 'Modal.close'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Hide the modal.
 ```typescript
 close(): void;
 ```
+
 **Returns:**
 
 `void`
-

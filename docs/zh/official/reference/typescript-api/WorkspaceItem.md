@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceItem"
+aliases: 'WorkspaceItem'
 cssclasses: hide-title
 ---
 
@@ -9,29 +9,28 @@ cssclasses: hide-title
 
 ## WorkspaceItem class
 
-
 **Signature:**
 
 ```typescript
-export abstract class WorkspaceItem extends Events 
+export abstract class WorkspaceItem extends Events
 ```
+
 **Extends:** [`Events`](Events)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`parent`](WorkspaceItem/parent) | <code>abstract</code> | [`WorkspaceParent`](WorkspaceParent) | The direct parent of the leaf. |
+| Property                         | Modifiers             | Type                                 | Description                    |
+| -------------------------------- | --------------------- | ------------------------------------ | ------------------------------ |
+| [`parent`](WorkspaceItem/parent) | <code>abstract</code> | [`WorkspaceParent`](WorkspaceParent) | The direct parent of the leaf. |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`getContainer()`](WorkspaceItem/getContainer) |  | Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow) |
-|  [`getRoot()`](WorkspaceItem/getRoot) |  |  |
-|  [`off(name, callback)`](Events/off) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`offref(ref)`](Events/offref) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`on(name: string, callback, ctx)`](Events/on) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`trigger(name, data)`](Events/trigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`tryTrigger(evt, args)`](Events/tryTrigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-
+| Method                                         | Modifiers | Description                                                                                                                    |
+| ---------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [`getContainer()`](WorkspaceItem/getContainer) |           | Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow) |
+| [`getRoot()`](WorkspaceItem/getRoot)           |           |                                                                                                                                |
+| [`off(name, callback)`](Events/off)            |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                               |
+| [`offref(ref)`](Events/offref)                 |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                               |
+| [`on(name: string, callback, ctx)`](Events/on) |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                               |
+| [`trigger(name, data)`](Events/trigger)        |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                               |
+| [`tryTrigger(evt, args)`](Events/tryTrigger)   |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                               |

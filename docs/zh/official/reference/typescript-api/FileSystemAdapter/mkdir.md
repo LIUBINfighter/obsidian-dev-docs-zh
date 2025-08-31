@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.mkdir"
+aliases: 'FileSystemAdapter.mkdir'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.mkdir() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ static mkdir(path: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>path</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

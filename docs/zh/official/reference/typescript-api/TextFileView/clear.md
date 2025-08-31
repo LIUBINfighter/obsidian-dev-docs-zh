@@ -1,5 +1,5 @@
 ---
-aliases: "TextFileView.clear"
+aliases: 'TextFileView.clear'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Clear the editor. This is usually called when we're about to open a completely d
 ```typescript
 abstract clear(): void;
 ```
+
 **Returns:**
 
 `void`
-

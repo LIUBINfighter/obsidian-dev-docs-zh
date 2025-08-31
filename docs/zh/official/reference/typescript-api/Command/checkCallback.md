@@ -1,5 +1,5 @@
 ---
-aliases: "Command.checkCallback"
+aliases: 'Command.checkCallback'
 cssclasses: hide-title
 ---
 
@@ -19,7 +19,6 @@ checkCallback?: (checking: boolean) => boolean | void;
 
 ## Example
 
-
 ```ts
 this.addCommand({
   id: 'example-command',
@@ -35,7 +34,6 @@ this.addCommand({
     }
 
     return false;
-  }
+  },
 });
 ```
-

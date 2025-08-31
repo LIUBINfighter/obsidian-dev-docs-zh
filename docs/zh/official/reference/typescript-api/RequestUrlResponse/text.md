@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlResponse.text"
+aliases: 'RequestUrlResponse.text'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlResponse`](../RequestUrlResponse) › [`text`](./text)
 
 ## RequestUrlResponse.text property
-
 
 **Signature:**
 

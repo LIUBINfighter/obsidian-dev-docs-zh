@@ -1,5 +1,5 @@
 ---
-aliases: "EditorChange"
+aliases: 'EditorChange'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,18 @@ cssclasses: hide-title
 
 ## EditorChange interface
 
-
 **Signature:**
 
 ```typescript
-export interface EditorChange extends EditorRangeOrCaret 
+export interface EditorChange extends EditorRangeOrCaret
 ```
+
 **Extends:** [`EditorRangeOrCaret`](EditorRangeOrCaret)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`from`](EditorRangeOrCaret/from) |  | [`EditorPosition`](EditorPosition) | <p>(Inherited from [EditorRangeOrCaret](EditorRangeOrCaret)<!-- -->)</p> |
-|  [`text`](EditorChange/text) |  | <code>string</code> |  |
-|  [`to?`](EditorRangeOrCaret/to) |  | [`EditorPosition`](EditorPosition) | <p>_(Optional)_</p><p>(Inherited from [EditorRangeOrCaret](EditorRangeOrCaret)<!-- -->)</p> |
-
+| Property                          | Modifiers | Type                               | Description                                                                                 |
+| --------------------------------- | --------- | ---------------------------------- | ------------------------------------------------------------------------------------------- |
+| [`from`](EditorRangeOrCaret/from) |           | [`EditorPosition`](EditorPosition) | <p>(Inherited from [EditorRangeOrCaret](EditorRangeOrCaret)<!-- -->)</p>                    |
+| [`text`](EditorChange/text)       |           | <code>string</code>                |                                                                                             |
+| [`to?`](EditorRangeOrCaret/to)    |           | [`EditorPosition`](EditorPosition) | <p>_(Optional)_</p><p>(Inherited from [EditorRangeOrCaret](EditorRangeOrCaret)<!-- -->)</p> |

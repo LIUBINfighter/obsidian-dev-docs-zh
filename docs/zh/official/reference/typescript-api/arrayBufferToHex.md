@@ -1,5 +1,5 @@
 ---
-aliases: "arrayBufferToHex"
+aliases: 'arrayBufferToHex'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## arrayBufferToHex() function
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ export function arrayBufferToHex(data: ArrayBuffer): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>data</code> | <code>ArrayBuffer</code> |  |
+| Parameter         | Type                     | Description |
+| ----------------- | ------------------------ | ----------- |
+| <code>data</code> | <code>ArrayBuffer</code> |             |
 
 **Returns:**
 
 `string`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownRenderer.file"
+aliases: 'MarkdownRenderer.file'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownRenderer`](../MarkdownRenderer) › [`file`](./file)
 
 ## MarkdownRenderer.file property
-
 
 **Signature:**
 

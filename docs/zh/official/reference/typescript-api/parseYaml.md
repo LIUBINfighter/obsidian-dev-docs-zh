@@ -1,5 +1,5 @@
 ---
-aliases: "parseYaml"
+aliases: 'parseYaml'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## parseYaml() function
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ export function parseYaml(yaml: string): any;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>yaml</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>yaml</code> | <code>string</code> |             |
 
 **Returns:**
 
 `any`
-

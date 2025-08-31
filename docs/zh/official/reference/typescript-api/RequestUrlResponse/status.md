@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlResponse.status"
+aliases: 'RequestUrlResponse.status'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlResponse`](../RequestUrlResponse) › [`status`](./status)
 
 ## RequestUrlResponse.status property
-
 
 **Signature:**
 

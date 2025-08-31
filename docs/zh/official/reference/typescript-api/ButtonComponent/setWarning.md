@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.setWarning"
+aliases: 'ButtonComponent.setWarning'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ButtonComponent.setWarning() method
 
-
 **Signature:**
 
 ```typescript
 setWarning(): this;
 ```
+
 **Returns:**
 
 `this`
-

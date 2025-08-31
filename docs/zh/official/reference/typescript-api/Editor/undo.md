@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.undo"
+aliases: 'Editor.undo'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.undo() method
 
-
 **Signature:**
 
 ```typescript
 abstract undo(): void;
 ```
+
 **Returns:**
 
 `void`
-

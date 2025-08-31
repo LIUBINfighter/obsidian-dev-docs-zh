@@ -1,5 +1,5 @@
 ---
-aliases: "BlockSubpathResult.type"
+aliases: 'BlockSubpathResult.type'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`BlockSubpathResult`](../BlockSubpathResult) › [`type`](./type)
 
 ## BlockSubpathResult.type property
-
 
 **Signature:**
 

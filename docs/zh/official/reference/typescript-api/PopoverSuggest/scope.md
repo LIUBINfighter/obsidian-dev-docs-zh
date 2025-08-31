@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest.scope"
+aliases: 'PopoverSuggest.scope'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`PopoverSuggest`](../PopoverSuggest) › [`scope`](./scope)
 
 ## PopoverSuggest.scope property
-
 
 **Signature:**
 

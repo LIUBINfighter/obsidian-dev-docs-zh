@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractTextComponent.setPlaceholder"
+aliases: 'AbstractTextComponent.setPlaceholder'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## AbstractTextComponent.setPlaceholder() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setPlaceholder(placeholder: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>placeholder</code> | <code>string</code> |  |
+| Parameter                | Type                | Description |
+| ------------------------ | ------------------- | ----------- |
+| <code>placeholder</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

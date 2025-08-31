@@ -1,5 +1,5 @@
 ---
-aliases: "App.metadataCache"
+aliases: 'App.metadataCache'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`App`](../App) › [`metadataCache`](./metadataCache)
 
 ## App.metadataCache property
-
 
 **Signature:**
 

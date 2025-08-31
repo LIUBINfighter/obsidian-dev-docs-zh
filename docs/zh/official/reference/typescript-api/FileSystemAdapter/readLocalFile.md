@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.readLocalFile"
+aliases: 'FileSystemAdapter.readLocalFile'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.readLocalFile() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ static readLocalFile(path: string): Promise<ArrayBuffer>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>path</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<``ArrayBuffer``>`
-

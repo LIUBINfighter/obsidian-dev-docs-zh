@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSectionInformation.lineStart"
+aliases: 'MarkdownSectionInformation.lineStart'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownSectionInformation`](../MarkdownSectionInformation) › [`lineStart`](./lineStart)
 
 ## MarkdownSectionInformation.lineStart property
-
 
 **Signature:**
 

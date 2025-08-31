@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.setNoIcon"
+aliases: 'Menu.setNoIcon'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Menu.setNoIcon() method
 
-
 **Signature:**
 
 ```typescript
 setNoIcon(): this;
 ```
+
 **Returns:**
 
 `this`
-

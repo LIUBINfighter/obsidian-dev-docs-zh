@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.setSelections"
+aliases: 'Editor.setSelections'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.setSelections() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract setSelections(ranges: EditorSelectionOrCaret[], main?: number): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>ranges</code> | [`EditorSelectionOrCaret`](../EditorSelectionOrCaret)<code>[]</code> |  |
-|  <code>main</code> | <code>number</code> | _(Optional)_ |
+| Parameter           | Type                                                                 | Description  |
+| ------------------- | -------------------------------------------------------------------- | ------------ |
+| <code>ranges</code> | [`EditorSelectionOrCaret`](../EditorSelectionOrCaret)<code>[]</code> |              |
+| <code>main</code>   | <code>number</code>                                                  | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

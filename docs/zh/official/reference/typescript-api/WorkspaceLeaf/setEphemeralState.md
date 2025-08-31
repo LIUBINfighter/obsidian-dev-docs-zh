@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.setEphemeralState"
+aliases: 'WorkspaceLeaf.setEphemeralState'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.setEphemeralState() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setEphemeralState(state: any): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>state</code> | <code>any</code> |  |
+| Parameter          | Type             | Description |
+| ------------------ | ---------------- | ----------- |
+| <code>state</code> | <code>any</code> |             |
 
 **Returns:**
 
 `void`
-

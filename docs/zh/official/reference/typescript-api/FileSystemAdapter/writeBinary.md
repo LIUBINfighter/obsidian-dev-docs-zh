@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.writeBinary"
+aliases: 'FileSystemAdapter.writeBinary'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.writeBinary() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ writeBinary(normalizedPath: string, data: ArrayBuffer, options?: DataWriteOption
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
-|  <code>data</code> | <code>ArrayBuffer</code> |  |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ |
+| Parameter                   | Type                                      | Description  |
+| --------------------------- | ----------------------------------------- | ------------ |
+| <code>normalizedPath</code> | <code>string</code>                       |              |
+| <code>data</code>           | <code>ArrayBuffer</code>                  |              |
+| <code>options</code>        | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ |
 
 **Returns:**
 
 `Promise<void>`
-

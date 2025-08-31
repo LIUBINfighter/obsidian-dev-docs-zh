@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.onload"
+aliases: 'FileView.onload'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## FileView.onload() method
 
-
 **Signature:**
 
 ```typescript
 onload(): void;
 ```
+
 **Returns:**
 
 `void`
-

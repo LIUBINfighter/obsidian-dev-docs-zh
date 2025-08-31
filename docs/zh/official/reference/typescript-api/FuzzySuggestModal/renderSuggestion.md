@@ -1,5 +1,5 @@
 ---
-aliases: "FuzzySuggestModal.renderSuggestion"
+aliases: 'FuzzySuggestModal.renderSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FuzzySuggestModal.renderSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ renderSuggestion(item: FuzzyMatch<T>, el: HTMLElement): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>item</code> | [`FuzzyMatch`](../FuzzyMatch)<code>&lt;T&gt;</code> |  |
-|  <code>el</code> | <code>HTMLElement</code> |  |
+| Parameter         | Type                                                | Description |
+| ----------------- | --------------------------------------------------- | ----------- |
+| <code>item</code> | [`FuzzyMatch`](../FuzzyMatch)<code>&lt;T&gt;</code> |             |
+| <code>el</code>   | <code>HTMLElement</code>                            |             |
 
 **Returns:**
 
 `void`
-

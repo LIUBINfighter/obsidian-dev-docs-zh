@@ -1,5 +1,5 @@
 ---
-aliases: "FootnoteCache"
+aliases: 'FootnoteCache'
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,17 @@ cssclasses: hide-title
 
 ## FootnoteCache interface
 
-
 **Signature:**
 
 ```typescript
-export interface FootnoteCache extends CacheItem 
+export interface FootnoteCache extends CacheItem
 ```
+
 **Extends:** [`CacheItem`](CacheItem)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`id`](FootnoteCache/id) |  | <code>string</code> |  |
-|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
-
+| Property                         | Modifiers | Type                | Description                                                                                     |
+| -------------------------------- | --------- | ------------------- | ----------------------------------------------------------------------------------------------- |
+| [`id`](FootnoteCache/id)         |           | <code>string</code> |                                                                                                 |
+| [`position`](CacheItem/position) |           | [`Pos`](Pos)        | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |

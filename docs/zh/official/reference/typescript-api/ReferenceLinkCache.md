@@ -1,5 +1,5 @@
 ---
-aliases: "ReferenceLinkCache"
+aliases: 'ReferenceLinkCache'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,18 @@ cssclasses: hide-title
 
 ## ReferenceLinkCache interface
 
-
 **Signature:**
 
 ```typescript
-export interface ReferenceLinkCache extends CacheItem 
+export interface ReferenceLinkCache extends CacheItem
 ```
+
 **Extends:** [`CacheItem`](CacheItem)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`id`](ReferenceLinkCache/id) |  | <code>string</code> |  |
-|  [`link`](ReferenceLinkCache/link) |  | <code>string</code> |  |
-|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
-
+| Property                          | Modifiers | Type                | Description                                                                                     |
+| --------------------------------- | --------- | ------------------- | ----------------------------------------------------------------------------------------------- |
+| [`id`](ReferenceLinkCache/id)     |           | <code>string</code> |                                                                                                 |
+| [`link`](ReferenceLinkCache/link) |           | <code>string</code> |                                                                                                 |
+| [`position`](CacheItem/position)  |           | [`Pos`](Pos)        | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |

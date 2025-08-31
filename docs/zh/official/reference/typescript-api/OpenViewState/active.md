@@ -1,5 +1,5 @@
 ---
-aliases: "OpenViewState.active"
+aliases: 'OpenViewState.active'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`OpenViewState`](../OpenViewState) › [`active`](./active)
 
 ## OpenViewState.active property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "EditorRangeOrCaret.to"
+aliases: 'EditorRangeOrCaret.to'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorRangeOrCaret`](../EditorRangeOrCaret) › [`to`](./to)
 
 ## EditorRangeOrCaret.to property
-
 
 **Signature:**
 

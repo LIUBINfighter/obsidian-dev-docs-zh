@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerObsidianProtocolHandler"
+aliases: 'Plugin.registerObsidianProtocolHandler'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ registerObsidianProtocolHandler(action: string, handler: ObsidianProtocolHandler
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>action</code> | <code>string</code> | the action string. For example, 'open' corresponds to <code>obsidian://open</code>. |
-|  <code>handler</code> | [`ObsidianProtocolHandler`](../ObsidianProtocolHandler) | the callback to trigger. A key-value pair that is decoded from the query will be passed in. For example, <code>obsidian://open?key=value</code> would generate <code>{'action': 'open', 'key': 'value'}</code>. |
+| Parameter            | Type                                                    | Description                                                                                                                                                                                                     |
+| -------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <code>action</code>  | <code>string</code>                                     | the action string. For example, 'open' corresponds to <code>obsidian://open</code>.                                                                                                                             |
+| <code>handler</code> | [`ObsidianProtocolHandler`](../ObsidianProtocolHandler) | the callback to trigger. A key-value pair that is decoded from the query will be passed in. For example, <code>obsidian://open?key=value</code> would generate <code>{'action': 'open', 'key': 'value'}</code>. |
 
 **Returns:**
 
 `void`
-

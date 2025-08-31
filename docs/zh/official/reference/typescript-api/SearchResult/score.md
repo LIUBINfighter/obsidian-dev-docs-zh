@@ -1,5 +1,5 @@
 ---
-aliases: "SearchResult.score"
+aliases: 'SearchResult.score'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SearchResult`](../SearchResult) › [`score`](./score)
 
 ## SearchResult.score property
-
 
 **Signature:**
 

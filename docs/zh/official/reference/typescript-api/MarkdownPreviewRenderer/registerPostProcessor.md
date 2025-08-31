@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewRenderer.registerPostProcessor"
+aliases: 'MarkdownPreviewRenderer.registerPostProcessor'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownPreviewRenderer.registerPostProcessor() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ static registerPostProcessor(postProcessor: MarkdownPostProcessor, sortOrder?: n
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>postProcessor</code> | [`MarkdownPostProcessor`](../MarkdownPostProcessor) |  |
-|  <code>sortOrder</code> | <code>number</code> | _(Optional)_ |
+| Parameter                  | Type                                                | Description  |
+| -------------------------- | --------------------------------------------------- | ------------ |
+| <code>postProcessor</code> | [`MarkdownPostProcessor`](../MarkdownPostProcessor) |              |
+| <code>sortOrder</code>     | <code>number</code>                                 | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

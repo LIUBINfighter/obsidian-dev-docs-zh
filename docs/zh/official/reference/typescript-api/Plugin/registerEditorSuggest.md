@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerEditorSuggest"
+aliases: 'Plugin.registerEditorSuggest'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ registerEditorSuggest(editorSuggest: EditorSuggest<any>): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>editorSuggest</code> | [`EditorSuggest`](../EditorSuggest)<code>&lt;any&gt;</code> |  |
+| Parameter                  | Type                                                        | Description |
+| -------------------------- | ----------------------------------------------------------- | ----------- |
+| <code>editorSuggest</code> | [`EditorSuggest`](../EditorSuggest)<code>&lt;any&gt;</code> |             |
 
 **Returns:**
 
 `void`
-

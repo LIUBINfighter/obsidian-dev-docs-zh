@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.setButtonText"
+aliases: 'ButtonComponent.setButtonText'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ButtonComponent.setButtonText() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setButtonText(name: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>name</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>name</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

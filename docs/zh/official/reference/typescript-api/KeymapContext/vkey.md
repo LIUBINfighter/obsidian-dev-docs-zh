@@ -1,5 +1,5 @@
 ---
-aliases: "KeymapContext.vkey"
+aliases: 'KeymapContext.vkey'
 cssclasses: hide-title
 ---
 

@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.loadData"
+aliases: 'Plugin.loadData'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Load settings data from disk. Data is stored in `data.json` in the plugin folder
 ```typescript
 loadData(): Promise<any>;
 ```
+
 **Returns:**
 
 `Promise<any>`
-

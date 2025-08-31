@@ -1,5 +1,5 @@
 ---
-aliases: "TextFileView.getViewData"
+aliases: 'TextFileView.getViewData'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Gets the data from the editor. This will be called to save the editor contents t
 ```typescript
 abstract getViewData(): string;
 ```
+
 **Returns:**
 
 `string`
-

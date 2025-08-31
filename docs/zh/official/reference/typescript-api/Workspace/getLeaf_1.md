@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getLeaf_1"
+aliases: 'Workspace.getLeaf_1'
 cssclasses: hide-title
 ---
 
@@ -25,11 +25,10 @@ getLeaf(newLeaf?: PaneType | boolean): WorkspaceLeaf;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>newLeaf</code> | [`PaneType`](../PaneType)<code> &#124; boolean</code> | _(Optional)_ |
+| Parameter            | Type                                                  | Description  |
+| -------------------- | ----------------------------------------------------- | ------------ |
+| <code>newLeaf</code> | [`PaneType`](../PaneType)<code> &#124; boolean</code> | _(Optional)_ |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)
-

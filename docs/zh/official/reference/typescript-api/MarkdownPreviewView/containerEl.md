@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewView.containerEl"
+aliases: 'MarkdownPreviewView.containerEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownPreviewView`](../MarkdownPreviewView) › [`containerEl`](./containerEl)
 
 ## MarkdownPreviewView.containerEl property
-
 
 **Signature:**
 

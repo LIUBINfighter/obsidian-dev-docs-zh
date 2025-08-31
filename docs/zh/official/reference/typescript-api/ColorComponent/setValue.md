@@ -1,5 +1,5 @@
 ---
-aliases: "ColorComponent.setValue"
+aliases: 'ColorComponent.setValue'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ColorComponent.setValue() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setValue(value: HexString): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | [`HexString`](../HexString) |  |
+| Parameter          | Type                        | Description |
+| ------------------ | --------------------------- | ----------- |
+| <code>value</code> | [`HexString`](../HexString) |             |
 
 **Returns:**
 
 `this`
-

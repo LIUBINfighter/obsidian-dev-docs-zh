@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getFolderByPath"
+aliases: 'Vault.getFolderByPath'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getFolderByPath(path: string): TFolder | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>path</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`TFolder`](../TFolder)` | null`
-

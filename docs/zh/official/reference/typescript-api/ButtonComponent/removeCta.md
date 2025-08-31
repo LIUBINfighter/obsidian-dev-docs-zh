@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.removeCta"
+aliases: 'ButtonComponent.removeCta'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ButtonComponent.removeCta() method
 
-
 **Signature:**
 
 ```typescript
 removeCta(): this;
 ```
+
 **Returns:**
 
 `this`
-

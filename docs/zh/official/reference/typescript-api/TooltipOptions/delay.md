@@ -1,5 +1,5 @@
 ---
-aliases: "TooltipOptions.delay"
+aliases: 'TooltipOptions.delay'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TooltipOptions`](../TooltipOptions) › [`delay`](./delay)
 
 ## TooltipOptions.delay property
-
 
 **Signature:**
 

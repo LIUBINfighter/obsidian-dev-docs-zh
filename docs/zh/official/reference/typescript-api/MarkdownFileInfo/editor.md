@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownFileInfo.editor"
+aliases: 'MarkdownFileInfo.editor'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownFileInfo`](../MarkdownFileInfo) › [`editor`](./editor)
 
 ## MarkdownFileInfo.editor property
-
 
 **Signature:**
 

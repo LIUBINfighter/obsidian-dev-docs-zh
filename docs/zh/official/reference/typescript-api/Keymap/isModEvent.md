@@ -1,5 +1,5 @@
 ---
-aliases: "Keymap.isModEvent"
+aliases: 'Keymap.isModEvent'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ static isModEvent(evt?: UserEvent | null): PaneType | boolean;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>evt</code> | [`UserEvent`](../UserEvent)<code> &#124; null</code> | _(Optional)_ |
+| Parameter        | Type                                                 | Description  |
+| ---------------- | ---------------------------------------------------- | ------------ |
+| <code>evt</code> | [`UserEvent`](../UserEvent)<code> &#124; null</code> | _(Optional)_ |
 
 **Returns:**
 
 [`PaneType`](../PaneType)` | boolean`
-

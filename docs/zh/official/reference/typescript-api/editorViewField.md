@@ -1,5 +1,5 @@
 ---
-aliases: "editorViewField"
+aliases: 'editorViewField'
 cssclasses: hide-title
 ---
 
@@ -10,14 +10,13 @@ cssclasses: hide-title
 ## editorViewField variable
 
 > Warning: This API is now obsolete.
-> 
+>
 > use [editorInfoField](editorInfoField) instead.
-> 
 
 This is now deprecated - it is now mapped directly to `editorInfoField`<!-- -->, which return a MarkdownFileInfo, which may be a MarkdownView but not necessarily.
 
 **Signature:**
 
 ```typescript
-editorViewField: StateField<MarkdownFileInfo>
+editorViewField: StateField<MarkdownFileInfo>;
 ```

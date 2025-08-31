@@ -1,5 +1,5 @@
 ---
-aliases: "Instruction"
+aliases: 'Instruction'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## Instruction interface
 
-
 **Signature:**
 
 ```typescript
-export interface Instruction 
+export interface Instruction
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`command`](Instruction/command) |  | <code>string</code> |  |
-|  [`purpose`](Instruction/purpose) |  | <code>string</code> |  |
-
+| Property                         | Modifiers | Type                | Description |
+| -------------------------------- | --------- | ------------------- | ----------- |
+| [`command`](Instruction/command) |           | <code>string</code> |             |
+| [`purpose`](Instruction/purpose) |           | <code>string</code> |             |

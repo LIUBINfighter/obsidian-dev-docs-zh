@@ -1,5 +1,5 @@
 ---
-aliases: "TooltipOptions.gap"
+aliases: 'TooltipOptions.gap'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TooltipOptions`](../TooltipOptions) › [`gap`](./gap)
 
 ## TooltipOptions.gap property
-
 
 **Signature:**
 

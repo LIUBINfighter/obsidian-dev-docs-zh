@@ -1,5 +1,5 @@
 ---
-aliases: "Notice.setMessage"
+aliases: 'Notice.setMessage'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ setMessage(message: string | DocumentFragment): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>message</code> | <code>string &#124; </code><code>DocumentFragment</code> |  |
+| Parameter            | Type                                                     | Description |
+| -------------------- | -------------------------------------------------------- | ----------- |
+| <code>message</code> | <code>string &#124; </code><code>DocumentFragment</code> |             |
 
 **Returns:**
 
 `this`
-

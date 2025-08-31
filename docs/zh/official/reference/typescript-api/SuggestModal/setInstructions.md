@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.setInstructions"
+aliases: 'SuggestModal.setInstructions'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SuggestModal.setInstructions() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setInstructions(instructions: Instruction[]): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>instructions</code> | [`Instruction`](../Instruction)<code>[]</code> |  |
+| Parameter                 | Type                                           | Description |
+| ------------------------- | ---------------------------------------------- | ----------- |
+| <code>instructions</code> | [`Instruction`](../Instruction)<code>[]</code> |             |
 
 **Returns:**
 
 `void`
-

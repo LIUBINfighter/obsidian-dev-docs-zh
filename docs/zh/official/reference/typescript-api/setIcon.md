@@ -1,5 +1,5 @@
 ---
-aliases: "setIcon"
+aliases: 'setIcon'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ export function setIcon(parent: HTMLElement, iconId: IconName): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>parent</code> | <code>HTMLElement</code> | the HTML element to insert the icon |
-|  <code>iconId</code> | [`IconName`](IconName) | the icon ID |
+| Parameter           | Type                     | Description                         |
+| ------------------- | ------------------------ | ----------------------------------- |
+| <code>parent</code> | <code>HTMLElement</code> | the HTML element to insert the icon |
+| <code>iconId</code> | [`IconName`](IconName)   | the icon ID                         |
 
 **Returns:**
 
 `void`
-

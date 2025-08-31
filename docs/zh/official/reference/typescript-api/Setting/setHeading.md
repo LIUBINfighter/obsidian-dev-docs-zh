@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.setHeading"
+aliases: 'Setting.setHeading'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Setting.setHeading() method
 
-
 **Signature:**
 
 ```typescript
 setHeading(): this;
 ```
+
 **Returns:**
 
 `this`
-

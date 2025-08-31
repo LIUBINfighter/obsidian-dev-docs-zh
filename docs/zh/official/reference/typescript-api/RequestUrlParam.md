@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlParam"
+aliases: 'RequestUrlParam'
 cssclasses: hide-title
 ---
 
@@ -9,21 +9,19 @@ cssclasses: hide-title
 
 ## RequestUrlParam interface
 
-
 **Signature:**
 
 ```typescript
-export interface RequestUrlParam 
+export interface RequestUrlParam
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`body?`](RequestUrlParam/body) |  | <code>string &#124; </code><code>ArrayBuffer</code> | _(Optional)_ |
-|  [`contentType?`](RequestUrlParam/contentType) |  | <code>string</code> | _(Optional)_ |
-|  [`headers?`](RequestUrlParam/headers) |  | <code>Record</code><code>&lt;string, string&gt;</code> | _(Optional)_ |
-|  [`method?`](RequestUrlParam/method) |  | <code>string</code> | _(Optional)_ |
-|  [`throw?`](RequestUrlParam/throw) |  | <code>boolean</code> | _(Optional)_ Whether to throw an error when the status code is 400+ Defaults to true |
-|  [`url`](RequestUrlParam/url) |  | <code>string</code> |  |
-
+| Property                                      | Modifiers | Type                                                   | Description                                                                          |
+| --------------------------------------------- | --------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| [`body?`](RequestUrlParam/body)               |           | <code>string &#124; </code><code>ArrayBuffer</code>    | _(Optional)_                                                                         |
+| [`contentType?`](RequestUrlParam/contentType) |           | <code>string</code>                                    | _(Optional)_                                                                         |
+| [`headers?`](RequestUrlParam/headers)         |           | <code>Record</code><code>&lt;string, string&gt;</code> | _(Optional)_                                                                         |
+| [`method?`](RequestUrlParam/method)           |           | <code>string</code>                                    | _(Optional)_                                                                         |
+| [`throw?`](RequestUrlParam/throw)             |           | <code>boolean</code>                                   | _(Optional)_ Whether to throw an error when the status code is 400+ Defaults to true |
+| [`url`](RequestUrlParam/url)                  |           | <code>string</code>                                    |                                                                                      |

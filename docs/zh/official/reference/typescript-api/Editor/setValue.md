@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.setValue"
+aliases: 'Editor.setValue'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.setValue() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract setValue(content: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>content</code> | <code>string</code> |  |
+| Parameter            | Type                | Description |
+| -------------------- | ------------------- | ----------- |
+| <code>content</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

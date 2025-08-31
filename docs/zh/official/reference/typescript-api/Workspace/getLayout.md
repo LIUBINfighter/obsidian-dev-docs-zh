@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getLayout"
+aliases: 'Workspace.getLayout'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Workspace.getLayout() method
 
-
 **Signature:**
 
 ```typescript
 getLayout(): Record<string, unknown>;
 ```
+
 **Returns:**
 
 `Record<string, unknown>`
-

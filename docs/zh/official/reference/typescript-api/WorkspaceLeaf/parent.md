@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.parent"
+aliases: 'WorkspaceLeaf.parent'
 cssclasses: hide-title
 ---
 

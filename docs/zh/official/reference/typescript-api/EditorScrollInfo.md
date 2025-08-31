@@ -1,5 +1,5 @@
 ---
-aliases: "EditorScrollInfo"
+aliases: 'EditorScrollInfo'
 cssclasses: hide-title
 ---
 
@@ -9,21 +9,19 @@ cssclasses: hide-title
 
 ## EditorScrollInfo interface
 
-
 **Signature:**
 
 ```typescript
-export interface EditorScrollInfo 
+export interface EditorScrollInfo
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`clientHeight`](EditorScrollInfo/clientHeight) |  | <code>number</code> |  |
-|  [`clientWidth`](EditorScrollInfo/clientWidth) |  | <code>number</code> |  |
-|  [`height`](EditorScrollInfo/height) |  | <code>number</code> |  |
-|  [`left`](EditorScrollInfo/left) |  | <code>number</code> |  |
-|  [`top`](EditorScrollInfo/top) |  | <code>number</code> |  |
-|  [`width`](EditorScrollInfo/width) |  | <code>number</code> |  |
-
+| Property                                        | Modifiers | Type                | Description |
+| ----------------------------------------------- | --------- | ------------------- | ----------- |
+| [`clientHeight`](EditorScrollInfo/clientHeight) |           | <code>number</code> |             |
+| [`clientWidth`](EditorScrollInfo/clientWidth)   |           | <code>number</code> |             |
+| [`height`](EditorScrollInfo/height)             |           | <code>number</code> |             |
+| [`left`](EditorScrollInfo/left)                 |           | <code>number</code> |             |
+| [`top`](EditorScrollInfo/top)                   |           | <code>number</code> |             |
+| [`width`](EditorScrollInfo/width)               |           | <code>number</code> |             |

@@ -1,5 +1,5 @@
 ---
-aliases: "debounce"
+aliases: 'debounce'
 cssclasses: hide-title
 ---
 
@@ -14,16 +14,20 @@ A standard debounce function. Use this to have a time-delayed function only be c
 **Signature:**
 
 ```typescript
-export function debounce<T extends unknown[], V>(cb: (...args: [...T]) => V, timeout?: number, resetTimer?: boolean): Debouncer<T, V>;
+export function debounce<T extends unknown[], V>(
+  cb: (...args: [...T]) => V,
+  timeout?: number,
+  resetTimer?: boolean,
+): Debouncer<T, V>;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(...args: [...T]) =&gt; V</code> | The function to call. |
-|  <code>timeout</code> | <code>number</code> | _(Optional)_ The timeout to wait, in milliseconds |
-|  <code>resetTimer</code> | <code>boolean</code> | _(Optional)_ Whether to reset the timeout when the debouncer is called again. |
+| Parameter               | Type                                   | Description                                                                   |
+| ----------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
+| <code>cb</code>         | <code>(...args: [...T]) =&gt; V</code> | The function to call.                                                         |
+| <code>timeout</code>    | <code>number</code>                    | _(Optional)_ The timeout to wait, in milliseconds                             |
+| <code>resetTimer</code> | <code>boolean</code>                   | _(Optional)_ Whether to reset the timeout when the debouncer is called again. |
 
 **Returns:**
 
@@ -33,13 +37,15 @@ a debounced function that takes the same parameter as the original function.
 
 ## Example
 
-
 ```ts
-const debounced = debounce((text: string) => {
+const debounced = debounce(
+  (text: string) => {
     console.log(text);
-}, 1000, true);
+  },
+  1000,
+  true,
+);
 debounced('Hello world'); // this will not be printed
 await sleep(500);
 debounced('World, hello'); // this will be printed to the console.
 ```
-

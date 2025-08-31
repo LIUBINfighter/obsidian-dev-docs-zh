@@ -1,5 +1,5 @@
 ---
-aliases: "Hotkey"
+aliases: 'Hotkey'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## Hotkey interface
 
-
 **Signature:**
 
 ```typescript
-export interface Hotkey 
+export interface Hotkey
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`key`](Hotkey/key) |  | <code>string</code> |  |
-|  [`modifiers`](Hotkey/modifiers) |  | [`Modifier`](Modifier)<code>[]</code> |  |
-
+| Property                        | Modifiers | Type                                  | Description |
+| ------------------------------- | --------- | ------------------------------------- | ----------- |
+| [`key`](Hotkey/key)             |           | <code>string</code>                   |             |
+| [`modifiers`](Hotkey/modifiers) |           | [`Modifier`](Modifier)<code>[]</code> |             |

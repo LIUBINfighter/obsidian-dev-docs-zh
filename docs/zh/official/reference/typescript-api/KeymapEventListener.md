@@ -1,5 +1,5 @@
 ---
-aliases: "KeymapEventListener"
+aliases: 'KeymapEventListener'
 cssclasses: hide-title
 ---
 
@@ -14,7 +14,10 @@ Return `false` to automatically preventDefault
 **Signature:**
 
 ```typescript
-export type KeymapEventListener = (evt: KeyboardEvent, ctx: KeymapContext) => false | any;
+export type KeymapEventListener = (
+  evt: KeyboardEvent,
+  ctx: KeymapContext,
+) => false | any;
 ```
-**References:** [`KeymapContext`](KeymapContext)
 
+**References:** [`KeymapContext`](KeymapContext)

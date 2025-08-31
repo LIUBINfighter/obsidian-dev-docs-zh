@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewView.file"
+aliases: 'MarkdownPreviewView.file'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownPreviewView`](../MarkdownPreviewView) › [`file`](./file)
 
 ## MarkdownPreviewView.file property
-
 
 **Signature:**
 

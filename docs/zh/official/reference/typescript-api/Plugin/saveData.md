@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.saveData"
+aliases: 'Plugin.saveData'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ saveData(data: any): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>data</code> | <code>any</code> |  |
+| Parameter         | Type             | Description |
+| ----------------- | ---------------- | ----------- |
+| <code>data</code> | <code>any</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.rename"
+aliases: 'FileSystemAdapter.rename'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.rename() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ rename(normalizedPath: string, normalizedNewPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
-|  <code>normalizedNewPath</code> | <code>string</code> |  |
+| Parameter                      | Type                | Description |
+| ------------------------------ | ------------------- | ----------- |
+| <code>normalizedPath</code>    | <code>string</code> |             |
+| <code>normalizedNewPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

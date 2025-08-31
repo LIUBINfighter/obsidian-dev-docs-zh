@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest.selectSuggestion"
+aliases: 'PopoverSuggest.selectSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## PopoverSuggest.selectSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract selectSuggestion(value: T, evt: MouseEvent | KeyboardEvent): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>T</code> |  |
-|  <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |  |
+| Parameter          | Type                                                                   | Description |
+| ------------------ | ---------------------------------------------------------------------- | ----------- |
+| <code>value</code> | <code>T</code>                                                         |             |
+| <code>evt</code>   | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |             |
 
 **Returns:**
 
 `void`
-

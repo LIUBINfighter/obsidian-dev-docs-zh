@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.addStatusBarItem"
+aliases: 'Plugin.addStatusBarItem'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Adds a status bar item to the bottom of the app. Not available on mobile.
 ```typescript
 addStatusBarItem(): HTMLElement;
 ```
+
 **Returns:**
 
 `HTMLElement`
-

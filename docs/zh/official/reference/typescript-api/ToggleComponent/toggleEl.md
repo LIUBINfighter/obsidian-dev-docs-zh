@@ -1,5 +1,5 @@
 ---
-aliases: "ToggleComponent.toggleEl"
+aliases: 'ToggleComponent.toggleEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ToggleComponent`](../ToggleComponent) › [`toggleEl`](./toggleEl)
 
 ## ToggleComponent.toggleEl property
-
 
 **Signature:**
 

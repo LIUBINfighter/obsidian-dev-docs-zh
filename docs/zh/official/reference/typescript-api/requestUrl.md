@@ -1,5 +1,5 @@
 ---
-aliases: "requestUrl"
+aliases: 'requestUrl'
 cssclasses: hide-title
 ---
 
@@ -14,16 +14,17 @@ Similar to `fetch()`<!-- -->, request a URL using HTTP/HTTPS, without any CORS r
 **Signature:**
 
 ```typescript
-export function requestUrl(request: RequestUrlParam | string): RequestUrlResponsePromise;
+export function requestUrl(
+  request: RequestUrlParam | string,
+): RequestUrlResponsePromise;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>request</code> | [`RequestUrlParam`](RequestUrlParam)<code> &#124; string</code> |  |
+| Parameter            | Type                                                            | Description |
+| -------------------- | --------------------------------------------------------------- | ----------- |
+| <code>request</code> | [`RequestUrlParam`](RequestUrlParam)<code> &#124; string</code> |             |
 
 **Returns:**
 
 [`RequestUrlResponsePromise`](RequestUrlResponsePromise)
-

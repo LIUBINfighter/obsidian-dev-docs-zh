@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.hasFocus"
+aliases: 'Editor.hasFocus'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.hasFocus() method
 
-
 **Signature:**
 
 ```typescript
 abstract hasFocus(): boolean;
 ```
+
 **Returns:**
 
 `boolean`
-

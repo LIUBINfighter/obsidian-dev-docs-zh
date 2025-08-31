@@ -1,5 +1,5 @@
 ---
-aliases: "sanitizeHTMLToDom"
+aliases: 'sanitizeHTMLToDom'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## sanitizeHTMLToDom() function
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ export function sanitizeHTMLToDom(html: string): DocumentFragment;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>html</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>html</code> | <code>string</code> |             |
 
 **Returns:**
 
 `DocumentFragment`
-

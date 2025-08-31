@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.onload"
+aliases: 'Plugin.onload'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Plugin.onload() method
 
-
 **Signature:**
 
 ```typescript
 onload(): Promise<void> | void;
 ```
+
 **Returns:**
 
 `Promise<void> | void`
-

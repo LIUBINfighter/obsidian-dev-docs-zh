@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSelection"
+aliases: 'EditorSelection'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## EditorSelection interface
 
-
 **Signature:**
 
 ```typescript
-export interface EditorSelection 
+export interface EditorSelection
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`anchor`](EditorSelection/anchor) |  | [`EditorPosition`](EditorPosition) |  |
-|  [`head`](EditorSelection/head) |  | [`EditorPosition`](EditorPosition) |  |
-
+| Property                           | Modifiers | Type                               | Description |
+| ---------------------------------- | --------- | ---------------------------------- | ----------- |
+| [`anchor`](EditorSelection/anchor) |           | [`EditorPosition`](EditorPosition) |             |
+| [`head`](EditorSelection/head)     |           | [`EditorPosition`](EditorPosition) |             |

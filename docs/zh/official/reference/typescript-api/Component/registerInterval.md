@@ -1,5 +1,5 @@
 ---
-aliases: "Component.registerInterval"
+aliases: 'Component.registerInterval'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,7 @@ cssclasses: hide-title
 
 ## Component.registerInterval() method
 
-Registers an interval (from setInterval) to be cancelled when unloading Use  instead of  to avoid TypeScript confusing between NodeJS vs Browser API
+Registers an interval (from setInterval) to be cancelled when unloading Use instead of to avoid TypeScript confusing between NodeJS vs Browser API
 
 **Signature:**
 
@@ -19,11 +19,10 @@ registerInterval(id: number): number;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>id</code> | <code>number</code> |  |
+| Parameter       | Type                | Description |
+| --------------- | ------------------- | ----------- |
+| <code>id</code> | <code>number</code> |             |
 
 **Returns:**
 
 `number`
-

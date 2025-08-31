@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggest.onTrigger"
+aliases: 'EditorSuggest.onTrigger'
 cssclasses: hide-title
 ---
 
@@ -21,13 +21,12 @@ abstract onTrigger(cursor: EditorPosition, editor: Editor, file: TFile | null): 
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cursor</code> | [`EditorPosition`](../EditorPosition) |  |
-|  <code>editor</code> | [`Editor`](../Editor) |  |
-|  <code>file</code> | [`TFile`](../TFile)<code> &#124; null</code> |  |
+| Parameter           | Type                                         | Description |
+| ------------------- | -------------------------------------------- | ----------- |
+| <code>cursor</code> | [`EditorPosition`](../EditorPosition)        |             |
+| <code>editor</code> | [`Editor`](../Editor)                        |             |
+| <code>file</code>   | [`TFile`](../TFile)<code> &#124; null</code> |             |
 
 **Returns:**
 
 [`EditorSuggestTriggerInfo`](../EditorSuggestTriggerInfo)` | null`
-

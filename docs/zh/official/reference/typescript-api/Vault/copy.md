@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.copy"
+aliases: 'Vault.copy'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ copy<T extends TAbstractFile>(file: T, newPath: string): Promise<T>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | <code>T</code> | The file or folder. |
-|  <code>newPath</code> | <code>string</code> | Vault absolute path for the new copy. |
+| Parameter            | Type                | Description                           |
+| -------------------- | ------------------- | ------------------------------------- |
+| <code>file</code>    | <code>T</code>      | The file or folder.                   |
+| <code>newPath</code> | <code>string</code> | Vault absolute path for the new copy. |
 
 **Returns:**
 
 `Promise<T>`
-

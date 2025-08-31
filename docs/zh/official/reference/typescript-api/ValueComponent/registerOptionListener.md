@@ -1,5 +1,5 @@
 ---
-aliases: "ValueComponent.registerOptionListener"
+aliases: 'ValueComponent.registerOptionListener'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ValueComponent.registerOptionListener() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ registerOptionListener(listeners: Record<string, (value?: T) => T>, key: string)
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>listeners</code> | <code>Record</code><code>&lt;string, (value?: T) =&gt; T&gt;</code> |  |
-|  <code>key</code> | <code>string</code> |  |
+| Parameter              | Type                                                                | Description |
+| ---------------------- | ------------------------------------------------------------------- | ----------- |
+| <code>listeners</code> | <code>Record</code><code>&lt;string, (value?: T) =&gt; T&gt;</code> |             |
+| <code>key</code>       | <code>string</code>                                                 |             |
 
 **Returns:**
 
 `this`
-

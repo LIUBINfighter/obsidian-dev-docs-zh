@@ -1,5 +1,5 @@
 ---
-aliases: "SearchComponent.clearButtonEl"
+aliases: 'SearchComponent.clearButtonEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SearchComponent`](../SearchComponent) › [`clearButtonEl`](./clearButtonEl)
 
 ## SearchComponent.clearButtonEl property
-
 
 **Signature:**
 

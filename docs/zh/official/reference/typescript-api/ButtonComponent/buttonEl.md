@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.buttonEl"
+aliases: 'ButtonComponent.buttonEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ButtonComponent`](../ButtonComponent) › [`buttonEl`](./buttonEl)
 
 ## ButtonComponent.buttonEl property
-
 
 **Signature:**
 

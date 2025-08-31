@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.exists"
+aliases: 'DataAdapter.exists'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ exists(normalizedPath: string, sensitive?: boolean): Promise<boolean>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
-|  <code>sensitive</code> | <code>boolean</code> | _(Optional)_ Some file systems/operating systems are case-insensitive, set to true to force a case-sensitivity check. |
+| Parameter                   | Type                 | Description                                                                                                           |
+| --------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| <code>normalizedPath</code> | <code>string</code>  | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand.                                 |
+| <code>sensitive</code>      | <code>boolean</code> | _(Optional)_ Some file systems/operating systems are case-insensitive, set to true to force a case-sensitivity check. |
 
 **Returns:**
 
 `Promise<boolean>`
-

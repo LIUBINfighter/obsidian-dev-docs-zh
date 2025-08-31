@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.scope"
+aliases: 'Modal.scope'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Modal`](../Modal) › [`scope`](./scope)
 
 ## Modal.scope property
-
 
 **Signature:**
 

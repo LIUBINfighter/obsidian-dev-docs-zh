@@ -1,5 +1,5 @@
 ---
-aliases: "Keymap.isModifier"
+aliases: 'Keymap.isModifier'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ static isModifier(evt: MouseEvent | TouchEvent | KeyboardEvent, modifier: Modifi
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>TouchEvent</code><code> &#124; </code><code>KeyboardEvent</code> |  |
-|  <code>modifier</code> | [`Modifier`](../Modifier) |  |
+| Parameter             | Type                                                                                                               | Description |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------- |
+| <code>evt</code>      | <code>MouseEvent</code><code> &#124; </code><code>TouchEvent</code><code> &#124; </code><code>KeyboardEvent</code> |             |
+| <code>modifier</code> | [`Modifier`](../Modifier)                                                                                          |             |
 
 **Returns:**
 
 `boolean`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.setUseNativeMenu"
+aliases: 'Menu.setUseNativeMenu'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ setUseNativeMenu(useNativeMenu: boolean): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>useNativeMenu</code> | <code>boolean</code> |  |
+| Parameter                  | Type                 | Description |
+| -------------------------- | -------------------- | ----------- |
+| <code>useNativeMenu</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `this`
-

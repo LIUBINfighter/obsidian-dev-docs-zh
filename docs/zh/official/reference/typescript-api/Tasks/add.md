@@ -1,5 +1,5 @@
 ---
-aliases: "Tasks.add"
+aliases: 'Tasks.add'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Tasks.add() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ add(callback: () => Promise<any>): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>() =&gt; </code><code>Promise</code><code>&lt;any&gt;</code> |  |
+| Parameter             | Type                                                               | Description |
+| --------------------- | ------------------------------------------------------------------ | ----------- |
+| <code>callback</code> | <code>() =&gt; </code><code>Promise</code><code>&lt;any&gt;</code> |             |
 
 **Returns:**
 
 `void`
-

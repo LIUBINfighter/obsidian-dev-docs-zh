@@ -1,5 +1,5 @@
 ---
-aliases: "PluginManifest.authorUrl"
+aliases: 'PluginManifest.authorUrl'
 cssclasses: hide-title
 ---
 

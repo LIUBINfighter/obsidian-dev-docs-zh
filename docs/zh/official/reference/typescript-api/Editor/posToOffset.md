@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.posToOffset"
+aliases: 'Editor.posToOffset'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.posToOffset() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract posToOffset(pos: EditorPosition): number;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>pos</code> | [`EditorPosition`](../EditorPosition) |  |
+| Parameter        | Type                                  | Description |
+| ---------------- | ------------------------------------- | ----------- |
+| <code>pos</code> | [`EditorPosition`](../EditorPosition) |             |
 
 **Returns:**
 
 `number`
-

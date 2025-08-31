@@ -1,5 +1,5 @@
 ---
-aliases: "View.leaf"
+aliases: 'View.leaf'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`View`](../View) › [`leaf`](./leaf)
 
 ## View.leaf property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest.app"
+aliases: 'PopoverSuggest.app'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`PopoverSuggest`](../PopoverSuggest) › [`app`](./app)
 
 ## PopoverSuggest.app property
-
 
 **Signature:**
 

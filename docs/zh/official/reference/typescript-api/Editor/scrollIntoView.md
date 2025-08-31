@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.scrollIntoView"
+aliases: 'Editor.scrollIntoView'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.scrollIntoView() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract scrollIntoView(range: EditorRange, center?: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>range</code> | [`EditorRange`](../EditorRange) |  |
-|  <code>center</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter           | Type                            | Description  |
+| ------------------- | ------------------------------- | ------------ |
+| <code>range</code>  | [`EditorRange`](../EditorRange) |              |
+| <code>center</code> | <code>boolean</code>            | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

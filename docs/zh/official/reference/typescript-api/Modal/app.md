@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.app"
+aliases: 'Modal.app'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Modal`](../Modal) › [`app`](./app)
 
 ## Modal.app property
-
 
 **Signature:**
 

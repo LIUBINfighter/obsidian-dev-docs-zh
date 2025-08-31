@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.list"
+aliases: 'FileSystemAdapter.list'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.list() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ list(normalizedPath: string): Promise<ListedFiles>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<`[`ListedFiles`](../ListedFiles)`>`
-

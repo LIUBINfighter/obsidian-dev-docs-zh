@@ -1,5 +1,5 @@
 ---
-aliases: "CacheItem.position"
+aliases: 'CacheItem.position'
 cssclasses: hide-title
 ---
 

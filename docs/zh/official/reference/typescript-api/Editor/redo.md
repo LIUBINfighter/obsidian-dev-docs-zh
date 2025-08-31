@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.redo"
+aliases: 'Editor.redo'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.redo() method
 
-
 **Signature:**
 
 ```typescript
 abstract redo(): void;
 ```
+
 **Returns:**
 
 `void`
-

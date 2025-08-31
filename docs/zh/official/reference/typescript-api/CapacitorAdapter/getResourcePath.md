@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.getResourcePath"
+aliases: 'CapacitorAdapter.getResourcePath'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.getResourcePath() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ getResourcePath(normalizedPath: string): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `string`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addButton"
+aliases: 'Setting.addButton'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addButton() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addButton(cb: (component: ButtonComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`ButtonComponent`](../ButtonComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                     | Description |
+| --------------- | ---------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`ButtonComponent`](../ButtonComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

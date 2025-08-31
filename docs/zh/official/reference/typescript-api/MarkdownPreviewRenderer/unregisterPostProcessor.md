@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewRenderer.unregisterPostProcessor"
+aliases: 'MarkdownPreviewRenderer.unregisterPostProcessor'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownPreviewRenderer.unregisterPostProcessor() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ static unregisterPostProcessor(postProcessor: MarkdownPostProcessor): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>postProcessor</code> | [`MarkdownPostProcessor`](../MarkdownPostProcessor) |  |
+| Parameter                  | Type                                                | Description |
+| -------------------------- | --------------------------------------------------- | ----------- |
+| <code>postProcessor</code> | [`MarkdownPostProcessor`](../MarkdownPostProcessor) |             |
 
 **Returns:**
 
 `void`
-

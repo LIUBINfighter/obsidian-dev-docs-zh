@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.transaction"
+aliases: 'Editor.transaction'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.transaction() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract transaction(tx: EditorTransaction, origin?: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>tx</code> | [`EditorTransaction`](../EditorTransaction) |  |
-|  <code>origin</code> | <code>string</code> | _(Optional)_ |
+| Parameter           | Type                                        | Description  |
+| ------------------- | ------------------------------------------- | ------------ |
+| <code>tx</code>     | [`EditorTransaction`](../EditorTransaction) |              |
+| <code>origin</code> | <code>string</code>                         | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

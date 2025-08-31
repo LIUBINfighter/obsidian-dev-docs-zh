@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 function formatTime(seconds) {
   const minutes = Math.floor(seconds / 60);
   const remainingSeconds = Math.floor(seconds % 60);
-  
+
   if (minutes > 0) {
     return `${minutes}分${remainingSeconds}秒`;
   } else {
@@ -37,7 +37,7 @@ function getCurrentTime() {
 function buildWithTimer() {
   const startTime = getCurrentTime();
   const startDate = new Date(startTime);
-  
+
   console.log('🚀 开始构建...');
   console.log(`⏰ 开始时间: ${startDate.toLocaleString('zh-CN')}`);
   console.log('═'.repeat(60));
@@ -47,18 +47,18 @@ function buildWithTimer() {
     const buildProcess = spawn('pnpm', ['build'], {
       cwd: path.resolve(__dirname, '..'),
       stdio: 'inherit', // 继承父进程的输入输出
-      shell: true // 在 Windows 上需要 shell
+      shell: true, // 在 Windows 上需要 shell
     });
 
     buildProcess.on('close', (code) => {
       const endTime = getCurrentTime();
       const endDate = new Date(endTime);
       const duration = (endTime - startTime) / 1000; // 转换为秒
-      
+
       console.log('═'.repeat(60));
       console.log(`⏰ 结束时间: ${endDate.toLocaleString('zh-CN')}`);
       console.log(`⏱️  构建耗时: ${formatTime(duration)}`);
-      
+
       if (code === 0) {
         console.log('✅ 构建成功！');
         console.log(`🎉 总用时: ${formatTime(duration)}`);
@@ -73,7 +73,7 @@ function buildWithTimer() {
     buildProcess.on('error', (error) => {
       const endTime = getCurrentTime();
       const duration = (endTime - startTime) / 1000;
-      
+
       console.log('═'.repeat(60));
       console.log('❌ 构建过程出错！');
       console.log(`💥 错误用时: ${formatTime(duration)}`);
@@ -84,7 +84,10 @@ function buildWithTimer() {
 }
 
 // 如果直接运行此脚本
-if (import.meta.url === `file://${process.argv[1]}` || process.argv[1].endsWith('build-with-timer.js')) {
+if (
+  import.meta.url === `file://${process.argv[1]}` ||
+  process.argv[1].endsWith('build-with-timer.js')
+) {
   buildWithTimer()
     .then(() => {
       process.exit(0);

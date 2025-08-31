@@ -1,5 +1,5 @@
 ---
-aliases: "OpenViewState.group"
+aliases: 'OpenViewState.group'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`OpenViewState`](../OpenViewState) › [`group`](./group)
 
 ## OpenViewState.group property
-
 
 **Signature:**
 

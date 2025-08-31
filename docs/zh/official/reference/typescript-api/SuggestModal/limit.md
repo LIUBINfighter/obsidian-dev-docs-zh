@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.limit"
+aliases: 'SuggestModal.limit'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SuggestModal`](../SuggestModal) › [`limit`](./limit)
 
 ## SuggestModal.limit property
-
 
 **Signature:**
 

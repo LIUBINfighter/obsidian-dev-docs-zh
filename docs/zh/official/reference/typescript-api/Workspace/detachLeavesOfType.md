@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.detachLeavesOfType"
+aliases: 'Workspace.detachLeavesOfType'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ detachLeavesOfType(viewType: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>viewType</code> | <code>string</code> |  |
+| Parameter             | Type                | Description |
+| --------------------- | ------------------- | ----------- |
+| <code>viewType</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

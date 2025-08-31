@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.components"
+aliases: 'Setting.components'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Setting`](../Setting) › [`components`](./components)
 
 ## Setting.components property
-
 
 **Signature:**
 

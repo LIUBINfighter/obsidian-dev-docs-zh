@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.somethingSelected"
+aliases: 'Editor.somethingSelected'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.somethingSelected() method
 
-
 **Signature:**
 
 ```typescript
 somethingSelected(): boolean;
 ```
+
 **Returns:**
 
 `boolean`
-

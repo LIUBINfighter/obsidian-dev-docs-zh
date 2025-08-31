@@ -1,5 +1,5 @@
 ---
-aliases: "BlockSubpathResult.list"
+aliases: 'BlockSubpathResult.list'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`BlockSubpathResult`](../BlockSubpathResult) › [`list`](./list)
 
 ## BlockSubpathResult.list property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSelection.anchor"
+aliases: 'EditorSelection.anchor'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorSelection`](../EditorSelection) › [`anchor`](./anchor)
 
 ## EditorSelection.anchor property
-
 
 **Signature:**
 

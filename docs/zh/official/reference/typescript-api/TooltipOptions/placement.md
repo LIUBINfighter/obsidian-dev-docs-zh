@@ -1,5 +1,5 @@
 ---
-aliases: "TooltipOptions.placement"
+aliases: 'TooltipOptions.placement'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TooltipOptions`](../TooltipOptions) › [`placement`](./placement)
 
 ## TooltipOptions.placement property
-
 
 **Signature:**
 

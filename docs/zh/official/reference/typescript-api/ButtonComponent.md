@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent"
+aliases: 'ButtonComponent'
 cssclasses: hide-title
 ---
 
@@ -9,39 +9,38 @@ cssclasses: hide-title
 
 ## ButtonComponent class
 
-
 **Signature:**
 
 ```typescript
-export class ButtonComponent extends BaseComponent 
+export class ButtonComponent extends BaseComponent
 ```
+
 **Extends:** [`BaseComponent`](BaseComponent)
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(containerEl)`](ButtonComponent/(constructor).md) |  | Constructs a new instance of the <code>ButtonComponent</code> class |
+| Constructor                                                        | Modifiers | Description                                                         |
+| ------------------------------------------------------------------ | --------- | ------------------------------------------------------------------- |
+| [`(constructor)(containerEl)`](<ButtonComponent/(constructor).md>) |           | Constructs a new instance of the <code>ButtonComponent</code> class |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`buttonEl`](ButtonComponent/buttonEl) |  | <code>HTMLButtonElement</code> |  |
-|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+| Property                               | Modifiers | Type                           | Description                                                    |
+| -------------------------------------- | --------- | ------------------------------ | -------------------------------------------------------------- |
+| [`buttonEl`](ButtonComponent/buttonEl) |           | <code>HTMLButtonElement</code> |                                                                |
+| [`disabled`](BaseComponent/disabled)   |           | <code>boolean</code>           | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`onClick(callback)`](ButtonComponent/onClick) |  |  |
-|  [`removeCta()`](ButtonComponent/removeCta) |  |  |
-|  [`setButtonText(name)`](ButtonComponent/setButtonText) |  |  |
-|  [`setClass(cls)`](ButtonComponent/setClass) |  |  |
-|  [`setCta()`](ButtonComponent/setCta) |  |  |
-|  [`setDisabled(disabled)`](ButtonComponent/setDisabled) |  |  |
-|  [`setIcon(icon)`](ButtonComponent/setIcon) |  |  |
-|  [`setTooltip(tooltip, options)`](ButtonComponent/setTooltip) |  |  |
-|  [`setWarning()`](ButtonComponent/setWarning) |  |  |
-|  [`then(cb)`](BaseComponent/then) |  | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-
+| Method                                                       | Modifiers | Description                                                                               |
+| ------------------------------------------------------------ | --------- | ----------------------------------------------------------------------------------------- |
+| [`onClick(callback)`](ButtonComponent/onClick)               |           |                                                                                           |
+| [`removeCta()`](ButtonComponent/removeCta)                   |           |                                                                                           |
+| [`setButtonText(name)`](ButtonComponent/setButtonText)       |           |                                                                                           |
+| [`setClass(cls)`](ButtonComponent/setClass)                  |           |                                                                                           |
+| [`setCta()`](ButtonComponent/setCta)                         |           |                                                                                           |
+| [`setDisabled(disabled)`](ButtonComponent/setDisabled)       |           |                                                                                           |
+| [`setIcon(icon)`](ButtonComponent/setIcon)                   |           |                                                                                           |
+| [`setTooltip(tooltip, options)`](ButtonComponent/setTooltip) |           |                                                                                           |
+| [`setWarning()`](ButtonComponent/setWarning)                 |           |                                                                                           |
+| [`then(cb)`](BaseComponent/then)                             |           | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |

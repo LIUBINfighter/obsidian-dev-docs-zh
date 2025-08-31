@@ -1,5 +1,5 @@
 ---
-aliases: "EditorPosition"
+aliases: 'EditorPosition'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## EditorPosition interface
 
-
 **Signature:**
 
 ```typescript
-export interface EditorPosition 
+export interface EditorPosition
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`ch`](EditorPosition/ch) |  | <code>number</code> |  |
-|  [`line`](EditorPosition/line) |  | <code>number</code> |  |
-
+| Property                      | Modifiers | Type                | Description |
+| ----------------------------- | --------- | ------------------- | ----------- |
+| [`ch`](EditorPosition/ch)     |           | <code>number</code> |             |
+| [`line`](EditorPosition/line) |           | <code>number</code> |             |

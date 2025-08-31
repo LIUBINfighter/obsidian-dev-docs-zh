@@ -1,5 +1,5 @@
 ---
-aliases: "DropdownComponent.addOption"
+aliases: 'DropdownComponent.addOption'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## DropdownComponent.addOption() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ addOption(value: string, display: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>string</code> |  |
-|  <code>display</code> | <code>string</code> |  |
+| Parameter            | Type                | Description |
+| -------------------- | ------------------- | ----------- |
+| <code>value</code>   | <code>string</code> |             |
+| <code>display</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "ISuggestOwner"
+aliases: 'ISuggestOwner'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## ISuggestOwner interface
 
-
 **Signature:**
 
 ```typescript
-export interface ISuggestOwner<T> 
+export interface ISuggestOwner<T>
 ```
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [`renderSuggestion(value, el)`](ISuggestOwner/renderSuggestion) | Render the suggestion item into DOM. |
-|  [`selectSuggestion(value, evt)`](ISuggestOwner/selectSuggestion) | Called when the user makes a selection. |
-
+| Method                                                           | Description                             |
+| ---------------------------------------------------------------- | --------------------------------------- |
+| [`renderSuggestion(value, el)`](ISuggestOwner/renderSuggestion)  | Render the suggestion item into DOM.    |
+| [`selectSuggestion(value, evt)`](ISuggestOwner/selectSuggestion) | Called when the user makes a selection. |

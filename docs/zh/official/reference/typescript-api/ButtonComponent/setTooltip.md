@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.setTooltip"
+aliases: 'ButtonComponent.setTooltip'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ButtonComponent.setTooltip() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ setTooltip(tooltip: string, options?: TooltipOptions): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>tooltip</code> | <code>string</code> |  |
-|  <code>options</code> | [`TooltipOptions`](../TooltipOptions) | _(Optional)_ |
+| Parameter            | Type                                  | Description  |
+| -------------------- | ------------------------------------- | ------------ |
+| <code>tooltip</code> | <code>string</code>                   |              |
+| <code>options</code> | [`TooltipOptions`](../TooltipOptions) | _(Optional)_ |
 
 **Returns:**
 
 `this`
-

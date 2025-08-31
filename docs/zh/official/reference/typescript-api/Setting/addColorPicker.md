@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addColorPicker"
+aliases: 'Setting.addColorPicker'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addColorPicker() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addColorPicker(cb: (component: ColorComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`ColorComponent`](../ColorComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                   | Description |
+| --------------- | -------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`ColorComponent`](../ColorComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

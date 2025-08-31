@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownViewModeType"
+aliases: 'MarkdownViewModeType'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownViewModeType`](MarkdownViewModeType)
 
 ## MarkdownViewModeType type
-
 
 **Signature:**
 

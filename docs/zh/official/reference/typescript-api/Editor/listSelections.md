@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.listSelections"
+aliases: 'Editor.listSelections'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.listSelections() method
 
-
 **Signature:**
 
 ```typescript
 abstract listSelections(): EditorSelection[];
 ```
+
 **Returns:**
 
 [`EditorSelection`](../EditorSelection)`[]`
-

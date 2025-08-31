@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.readBinary"
+aliases: 'CapacitorAdapter.readBinary'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.readBinary() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ readBinary(normalizedPath: string): Promise<ArrayBuffer>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<``ArrayBuffer``>`
-

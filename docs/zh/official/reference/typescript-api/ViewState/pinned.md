@@ -1,5 +1,5 @@
 ---
-aliases: "ViewState.pinned"
+aliases: 'ViewState.pinned'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ViewState`](../ViewState) › [`pinned`](./pinned)
 
 ## ViewState.pinned property
-
 
 **Signature:**
 

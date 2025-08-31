@@ -1,5 +1,5 @@
 ---
-aliases: "loadMermaid"
+aliases: 'loadMermaid'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Load Mermaid and return a promise to the global mermaid object. Can also use `me
 ```typescript
 export function loadMermaid(): Promise<any>;
 ```
+
 **Returns:**
 
 `Promise<any>`
-

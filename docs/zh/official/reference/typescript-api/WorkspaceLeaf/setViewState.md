@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.setViewState"
+aliases: 'WorkspaceLeaf.setViewState'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.setViewState() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ setViewState(viewState: ViewState, eState?: any): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>viewState</code> | [`ViewState`](../ViewState) |  |
-|  <code>eState</code> | <code>any</code> | _(Optional)_ |
+| Parameter              | Type                        | Description  |
+| ---------------------- | --------------------------- | ------------ |
+| <code>viewState</code> | [`ViewState`](../ViewState) |              |
+| <code>eState</code>    | <code>any</code>            | _(Optional)_ |
 
 **Returns:**
 
 `Promise<void>`
-

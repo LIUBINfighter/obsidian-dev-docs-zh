@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addProgressBar"
+aliases: 'Setting.addProgressBar'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addProgressBar() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addProgressBar(cb: (component: ProgressBarComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`ProgressBarComponent`](../ProgressBarComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                               | Description |
+| --------------- | -------------------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`ProgressBarComponent`](../ProgressBarComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

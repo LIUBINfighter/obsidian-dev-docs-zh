@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.onChange"
+aliases: 'SliderComponent.onChange'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SliderComponent.onChange() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onChange(callback: (value: number) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(value: number) =&gt; any</code> |  |
+| Parameter             | Type                                   | Description |
+| --------------------- | -------------------------------------- | ----------- |
+| <code>callback</code> | <code>(value: number) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

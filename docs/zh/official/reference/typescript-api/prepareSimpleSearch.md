@@ -1,5 +1,5 @@
 ---
-aliases: "prepareSimpleSearch"
+aliases: 'prepareSimpleSearch'
 cssclasses: hide-title
 ---
 
@@ -14,16 +14,17 @@ Construct a simple search callback that runs on a target string.
 **Signature:**
 
 ```typescript
-export function prepareSimpleSearch(query: string): (text: string) => SearchResult | null;
+export function prepareSimpleSearch(
+  query: string,
+): (text: string) => SearchResult | null;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>query</code> | <code>string</code> | the space-separated words  fn - the callback function to apply the search on |
+| Parameter          | Type                | Description                                                                 |
+| ------------------ | ------------------- | --------------------------------------------------------------------------- |
+| <code>query</code> | <code>string</code> | the space-separated words fn - the callback function to apply the search on |
 
 **Returns:**
 
 `(text: string) => `[`SearchResult`](SearchResult)` | null`
-

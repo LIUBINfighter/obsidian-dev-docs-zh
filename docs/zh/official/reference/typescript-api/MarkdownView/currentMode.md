@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownView.currentMode"
+aliases: 'MarkdownView.currentMode'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownView`](../MarkdownView) › [`currentMode`](./currentMode)
 
 ## MarkdownView.currentMode property
-
 
 **Signature:**
 

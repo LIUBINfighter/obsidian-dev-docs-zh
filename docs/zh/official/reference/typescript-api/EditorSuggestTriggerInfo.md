@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggestTriggerInfo"
+aliases: 'EditorSuggestTriggerInfo'
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,16 @@ cssclasses: hide-title
 
 ## EditorSuggestTriggerInfo interface
 
-
 **Signature:**
 
 ```typescript
-export interface EditorSuggestTriggerInfo 
+export interface EditorSuggestTriggerInfo
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`end`](EditorSuggestTriggerInfo/end) |  | [`EditorPosition`](EditorPosition) | The end position of the triggering text. This is used to position the popover. |
-|  [`query`](EditorSuggestTriggerInfo/query) |  | <code>string</code> | They query string (usually the text between start and end) that will be used to generate the suggestion content. |
-|  [`start`](EditorSuggestTriggerInfo/start) |  | [`EditorPosition`](EditorPosition) | The start position of the triggering text. This is used to position the popover. |
-
+| Property                                  | Modifiers | Type                               | Description                                                                                                      |
+| ----------------------------------------- | --------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [`end`](EditorSuggestTriggerInfo/end)     |           | [`EditorPosition`](EditorPosition) | The end position of the triggering text. This is used to position the popover.                                   |
+| [`query`](EditorSuggestTriggerInfo/query) |           | <code>string</code>                | They query string (usually the text between start and end) that will be used to generate the suggestion content. |
+| [`start`](EditorSuggestTriggerInfo/start) |           | [`EditorPosition`](EditorPosition) | The start position of the triggering text. This is used to position the popover.                                 |

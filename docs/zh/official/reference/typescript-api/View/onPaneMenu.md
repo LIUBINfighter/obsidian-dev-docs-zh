@@ -1,5 +1,5 @@
 ---
-aliases: "View.onPaneMenu"
+aliases: 'View.onPaneMenu'
 cssclasses: hide-title
 ---
 
@@ -21,12 +21,11 @@ onPaneMenu(menu: Menu, source: 'more-options' | 'tab-header' | string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>menu</code> | [`Menu`](../Menu) |  |
-|  <code>source</code> | <code>'more-options' &#124; 'tab-header' &#124; string</code> |  |
+| Parameter           | Type                                                          | Description |
+| ------------------- | ------------------------------------------------------------- | ----------- |
+| <code>menu</code>   | [`Menu`](../Menu)                                             |             |
+| <code>source</code> | <code>'more-options' &#124; 'tab-header' &#124; string</code> |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getName"
+aliases: 'Vault.getName'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Gets the name of the vault.
 ```typescript
 getName(): string;
 ```
+
 **Returns:**
 
 `string`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.setActiveLeaf"
+aliases: 'Workspace.setActiveLeaf'
 cssclasses: hide-title
 ---
 
@@ -21,12 +21,11 @@ setActiveLeaf(leaf: WorkspaceLeaf, params?: {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) | The new active leaf |
-|  <code>params</code> | <code>{         focus?: boolean;     }</code> | _(Optional)_ Parameter object of whether to set the focus. |
+| Parameter           | Type                                | Description                                                |
+| ------------------- | ----------------------------------- | ---------------------------------------------------------- |
+| <code>leaf</code>   | [`WorkspaceLeaf`](../WorkspaceLeaf) | The new active leaf                                        |
+| <code>params</code> | <code>{ focus?: boolean; }</code>   | _(Optional)_ Parameter object of whether to set the focus. |
 
 **Returns:**
 
 `void`
-

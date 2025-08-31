@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addTextArea"
+aliases: 'Setting.addTextArea'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addTextArea() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addTextArea(cb: (component: TextAreaComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`TextAreaComponent`](../TextAreaComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                         | Description |
+| --------------- | -------------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`TextAreaComponent`](../TextAreaComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

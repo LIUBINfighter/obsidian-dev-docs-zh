@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.setState"
+aliases: 'FileView.setState'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileView.setState() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ setState(state: any, result: ViewStateResult): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>state</code> | <code>any</code> |  |
-|  <code>result</code> | [`ViewStateResult`](../ViewStateResult) |  |
+| Parameter           | Type                                    | Description |
+| ------------------- | --------------------------------------- | ----------- |
+| <code>state</code>  | <code>any</code>                        |             |
+| <code>result</code> | [`ViewStateResult`](../ViewStateResult) |             |
 
 **Returns:**
 
 `Promise<void>`
-

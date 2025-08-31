@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerEditorExtension"
+aliases: 'Plugin.registerEditorExtension'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ registerEditorExtension(extension: Extension): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>extension</code> | <code>Extension</code> | must be a CodeMirror 6 <code>Extension</code>, or an array of Extensions. |
+| Parameter              | Type                   | Description                                                               |
+| ---------------------- | ---------------------- | ------------------------------------------------------------------------- |
+| <code>extension</code> | <code>Extension</code> | must be a CodeMirror 6 <code>Extension</code>, or an array of Extensions. |
 
 **Returns:**
 
 `void`
-

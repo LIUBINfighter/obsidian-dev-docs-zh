@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.clear"
+aliases: 'Setting.clear'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Setting.clear() method
 
-
 **Signature:**
 
 ```typescript
 clear(): this;
 ```
+
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "CachedMetadata.footnotes"
+aliases: 'CachedMetadata.footnotes'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`CachedMetadata`](../CachedMetadata) › [`footnotes`](./footnotes)
 
 ## CachedMetadata.footnotes property
-
 
 **Signature:**
 

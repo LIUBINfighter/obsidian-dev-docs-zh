@@ -1,5 +1,5 @@
 ---
-aliases: "HeadingCache.heading"
+aliases: 'HeadingCache.heading'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`HeadingCache`](../HeadingCache) › [`heading`](./heading)
 
 ## HeadingCache.heading property
-
 
 **Signature:**
 

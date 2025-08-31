@@ -1,5 +1,5 @@
 ---
-aliases: "SettingTab.containerEl"
+aliases: 'SettingTab.containerEl'
 cssclasses: hide-title
 ---
 

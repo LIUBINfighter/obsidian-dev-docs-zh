@@ -1,5 +1,5 @@
 ---
-aliases: "TFile.extension"
+aliases: 'TFile.extension'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TFile`](../TFile) › [`extension`](./extension)
 
 ## TFile.extension property
-
 
 **Signature:**
 

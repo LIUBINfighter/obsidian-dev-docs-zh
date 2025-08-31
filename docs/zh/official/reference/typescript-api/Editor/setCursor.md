@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.setCursor"
+aliases: 'Editor.setCursor'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.setCursor() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ setCursor(pos: EditorPosition | number, ch?: number): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>pos</code> | [`EditorPosition`](../EditorPosition)<code> &#124; number</code> |  |
-|  <code>ch</code> | <code>number</code> | _(Optional)_ |
+| Parameter        | Type                                                             | Description  |
+| ---------------- | ---------------------------------------------------------------- | ------------ |
+| <code>pos</code> | [`EditorPosition`](../EditorPosition)<code> &#124; number</code> |              |
+| <code>ch</code>  | <code>number</code>                                              | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

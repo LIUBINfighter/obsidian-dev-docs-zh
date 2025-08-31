@@ -1,5 +1,5 @@
 ---
-aliases: "View.scope"
+aliases: 'View.scope'
 cssclasses: hide-title
 ---
 
@@ -19,9 +19,8 @@ scope: Scope | null;
 
 ## Example
 
-
 ```ts
 this.scope = new Scope(this.app.scope);
 ```
- null
 
+null

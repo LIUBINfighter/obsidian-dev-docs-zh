@@ -1,5 +1,5 @@
 ---
-aliases: "HeadingSubpathResult.next"
+aliases: 'HeadingSubpathResult.next'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`HeadingSubpathResult`](../HeadingSubpathResult) › [`next`](./next)
 
 ## HeadingSubpathResult.next property
-
 
 **Signature:**
 

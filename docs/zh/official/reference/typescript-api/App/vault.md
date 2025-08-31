@@ -1,5 +1,5 @@
 ---
-aliases: "App.vault"
+aliases: 'App.vault'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`App`](../App) › [`vault`](./vault)
 
 ## App.vault property
-
 
 **Signature:**
 

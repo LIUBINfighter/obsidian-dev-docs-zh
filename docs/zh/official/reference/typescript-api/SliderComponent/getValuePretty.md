@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.getValuePretty"
+aliases: 'SliderComponent.getValuePretty'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## SliderComponent.getValuePretty() method
 
-
 **Signature:**
 
 ```typescript
 getValuePretty(): string;
 ```
+
 **Returns:**
 
 `string`
-

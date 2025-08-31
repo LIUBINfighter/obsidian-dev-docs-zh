@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.lineCount"
+aliases: 'Editor.lineCount'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Gets the number of lines in the document
 ```typescript
 abstract lineCount(): number;
 ```
+
 **Returns:**
 
 `number`
-

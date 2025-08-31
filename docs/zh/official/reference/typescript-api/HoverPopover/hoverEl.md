@@ -1,5 +1,5 @@
 ---
-aliases: "HoverPopover.hoverEl"
+aliases: 'HoverPopover.hoverEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`HoverPopover`](../HoverPopover) › [`hoverEl`](./hoverEl)
 
 ## HoverPopover.hoverEl property
-
 
 **Signature:**
 

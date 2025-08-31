@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.then"
+aliases: 'Setting.then'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ then(cb: (setting: this) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(setting: this) =&gt; any</code> |  |
+| Parameter       | Type                                   | Description |
+| --------------- | -------------------------------------- | ----------- |
+| <code>cb</code> | <code>(setting: this) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

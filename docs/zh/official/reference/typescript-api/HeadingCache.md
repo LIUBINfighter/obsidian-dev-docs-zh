@@ -1,5 +1,5 @@
 ---
-aliases: "HeadingCache"
+aliases: 'HeadingCache'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,18 @@ cssclasses: hide-title
 
 ## HeadingCache interface
 
-
 **Signature:**
 
 ```typescript
-export interface HeadingCache extends CacheItem 
+export interface HeadingCache extends CacheItem
 ```
+
 **Extends:** [`CacheItem`](CacheItem)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`heading`](HeadingCache/heading) |  | <code>string</code> |  |
-|  [`level`](HeadingCache/level) |  | <code>number</code> | Number between 1 and 6. |
-|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
-
+| Property                          | Modifiers | Type                | Description                                                                                     |
+| --------------------------------- | --------- | ------------------- | ----------------------------------------------------------------------------------------------- |
+| [`heading`](HeadingCache/heading) |           | <code>string</code> |                                                                                                 |
+| [`level`](HeadingCache/level)     |           | <code>number</code> | Number between 1 and 6.                                                                         |
+| [`position`](CacheItem/position)  |           | [`Pos`](Pos)        | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |

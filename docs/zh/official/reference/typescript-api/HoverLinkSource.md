@@ -1,5 +1,5 @@
 ---
-aliases: "HoverLinkSource"
+aliases: 'HoverLinkSource'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## HoverLinkSource interface
 
-
 **Signature:**
 
 ```typescript
-export interface HoverLinkSource 
+export interface HoverLinkSource
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`defaultMod`](HoverLinkSource/defaultMod) |  | <code>boolean</code> | Whether the <code>hover-link</code> event requires the 'Mod' key to be pressed to trigger. |
-|  [`display`](HoverLinkSource/display) |  | <code>string</code> | Text displayed in the 'Page preview' plugin settings. It should match the plugin's display name. |
-
+| Property                                   | Modifiers | Type                 | Description                                                                                      |
+| ------------------------------------------ | --------- | -------------------- | ------------------------------------------------------------------------------------------------ |
+| [`defaultMod`](HoverLinkSource/defaultMod) |           | <code>boolean</code> | Whether the <code>hover-link</code> event requires the 'Mod' key to be pressed to trigger.       |
+| [`display`](HoverLinkSource/display)       |           | <code>string</code>  | Text displayed in the 'Page preview' plugin settings. It should match the plugin's display name. |

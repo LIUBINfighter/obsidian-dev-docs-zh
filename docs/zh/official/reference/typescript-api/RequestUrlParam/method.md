@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlParam.method"
+aliases: 'RequestUrlParam.method'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlParam`](../RequestUrlParam) › [`method`](./method)
 
 ## RequestUrlParam.method property
-
 
 **Signature:**
 

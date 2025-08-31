@@ -1,5 +1,5 @@
 ---
-aliases: "ListItemCache.parent"
+aliases: 'ListItemCache.parent'
 cssclasses: hide-title
 ---
 

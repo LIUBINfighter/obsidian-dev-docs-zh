@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.togglePinned"
+aliases: 'WorkspaceLeaf.togglePinned'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.togglePinned() method
 
-
 **Signature:**
 
 ```typescript
 togglePinned(): void;
 ```
+
 **Returns:**
 
 `void`
-

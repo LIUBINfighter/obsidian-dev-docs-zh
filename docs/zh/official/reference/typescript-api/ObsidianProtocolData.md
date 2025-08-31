@@ -1,5 +1,5 @@
 ---
-aliases: "ObsidianProtocolData"
+aliases: 'ObsidianProtocolData'
 cssclasses: hide-title
 ---
 
@@ -9,16 +9,14 @@ cssclasses: hide-title
 
 ## ObsidianProtocolData interface
 
-
 **Signature:**
 
 ```typescript
-export interface ObsidianProtocolData 
+export interface ObsidianProtocolData
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`action`](ObsidianProtocolData/action) |  | <code>string</code> |  |
-
+| Property                                | Modifiers | Type                | Description |
+| --------------------------------------- | --------- | ------------------- | ----------- |
+| [`action`](ObsidianProtocolData/action) |           | <code>string</code> |             |

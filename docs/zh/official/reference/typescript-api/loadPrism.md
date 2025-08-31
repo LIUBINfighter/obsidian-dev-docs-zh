@@ -1,5 +1,5 @@
 ---
-aliases: "loadPrism"
+aliases: 'loadPrism'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Load Prism.js and return a promise to the global Prism object. Can also use `Pri
 ```typescript
 export function loadPrism(): Promise<any>;
 ```
+
 **Returns:**
 
 `Promise<any>`
-

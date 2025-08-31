@@ -1,5 +1,5 @@
 ---
-aliases: "MetadataCache.getFileCache"
+aliases: 'MetadataCache.getFileCache'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MetadataCache.getFileCache() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ getFileCache(file: TFile): CachedMetadata | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 [`CachedMetadata`](../CachedMetadata)` | null`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getMarkdownFiles"
+aliases: 'Vault.getMarkdownFiles'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get all Markdown files in the vault.
 ```typescript
 getMarkdownFiles(): TFile[];
 ```
+
 **Returns:**
 
 [`TFile`](../TFile)`[]`
-

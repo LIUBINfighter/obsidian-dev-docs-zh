@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addSlider"
+aliases: 'Setting.addSlider'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addSlider() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addSlider(cb: (component: SliderComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`SliderComponent`](../SliderComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                     | Description |
+| --------------- | ---------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`SliderComponent`](../SliderComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

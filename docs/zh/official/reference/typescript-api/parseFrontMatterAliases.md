@@ -1,5 +1,5 @@
 ---
-aliases: "parseFrontMatterAliases"
+aliases: 'parseFrontMatterAliases'
 cssclasses: hide-title
 ---
 
@@ -9,20 +9,20 @@ cssclasses: hide-title
 
 ## parseFrontMatterAliases() function
 
-
 **Signature:**
 
 ```typescript
-export function parseFrontMatterAliases(frontmatter: any | null): string[] | null;
+export function parseFrontMatterAliases(
+  frontmatter: any | null,
+): string[] | null;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>frontmatter</code> | <code>any &#124; null</code> |  |
+| Parameter                | Type                         | Description |
+| ------------------------ | ---------------------------- | ----------- |
+| <code>frontmatter</code> | <code>any &#124; null</code> |             |
 
 **Returns:**
 
 `string[] | null`
-

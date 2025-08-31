@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.resultContainerEl"
+aliases: 'SuggestModal.resultContainerEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SuggestModal`](../SuggestModal) › [`resultContainerEl`](./resultContainerEl)
 
 ## SuggestModal.resultContainerEl property
-
 
 **Signature:**
 

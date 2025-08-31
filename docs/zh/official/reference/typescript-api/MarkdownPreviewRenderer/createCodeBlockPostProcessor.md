@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewRenderer.createCodeBlockPostProcessor"
+aliases: 'MarkdownPreviewRenderer.createCodeBlockPostProcessor'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownPreviewRenderer.createCodeBlockPostProcessor() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ static createCodeBlockPostProcessor(language: string, handler: (source: string, 
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>language</code> | <code>string</code> |  |
-|  <code>handler</code> | <code>(source: string, el: </code><code>HTMLElement</code><code>, ctx: </code>[`MarkdownPostProcessorContext`](../MarkdownPostProcessorContext)<code>) =&gt; </code><code>Promise</code><code>&lt;any&gt; &#124; void</code> |  |
+| Parameter             | Type                                                                                                                                                                                                                         | Description |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| <code>language</code> | <code>string</code>                                                                                                                                                                                                          |             |
+| <code>handler</code>  | <code>(source: string, el: </code><code>HTMLElement</code><code>, ctx: </code>[`MarkdownPostProcessorContext`](../MarkdownPostProcessorContext)<code>) =&gt; </code><code>Promise</code><code>&lt;any&gt; &#124; void</code> |             |
 
 **Returns:**
 
 `(el: ``HTMLElement``, ctx: `[`MarkdownPostProcessorContext`](../MarkdownPostProcessorContext)`) => void`
-

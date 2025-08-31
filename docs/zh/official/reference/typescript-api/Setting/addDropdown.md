@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addDropdown"
+aliases: 'Setting.addDropdown'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addDropdown() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addDropdown(cb: (component: DropdownComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`DropdownComponent`](../DropdownComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                         | Description |
+| --------------- | -------------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`DropdownComponent`](../DropdownComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

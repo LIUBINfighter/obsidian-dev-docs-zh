@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownEditView.applyScroll"
+aliases: 'MarkdownEditView.applyScroll'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownEditView.applyScroll() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ applyScroll(scroll: number): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>scroll</code> | <code>number</code> |  |
+| Parameter           | Type                | Description |
+| ------------------- | ------------------- | ----------- |
+| <code>scroll</code> | <code>number</code> |             |
 
 **Returns:**
 
 `void`
-

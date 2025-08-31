@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getRange"
+aliases: 'Editor.getRange'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.getRange() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract getRange(from: EditorPosition, to: EditorPosition): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>from</code> | [`EditorPosition`](../EditorPosition) |  |
-|  <code>to</code> | [`EditorPosition`](../EditorPosition) |  |
+| Parameter         | Type                                  | Description |
+| ----------------- | ------------------------------------- | ----------- |
+| <code>from</code> | [`EditorPosition`](../EditorPosition) |             |
+| <code>to</code>   | [`EditorPosition`](../EditorPosition) |             |
 
 **Returns:**
 
 `string`
-

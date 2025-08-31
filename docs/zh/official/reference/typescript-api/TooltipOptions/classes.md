@@ -1,5 +1,5 @@
 ---
-aliases: "TooltipOptions.classes"
+aliases: 'TooltipOptions.classes'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TooltipOptions`](../TooltipOptions) › [`classes`](./classes)
 
 ## TooltipOptions.classes property
-
 
 **Signature:**
 

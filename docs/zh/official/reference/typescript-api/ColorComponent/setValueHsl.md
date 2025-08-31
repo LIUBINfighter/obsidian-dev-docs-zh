@@ -1,5 +1,5 @@
 ---
-aliases: "ColorComponent.setValueHsl"
+aliases: 'ColorComponent.setValueHsl'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ColorComponent.setValueHsl() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setValueHsl(hsl: HSL): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>hsl</code> | [`HSL`](../HSL) |  |
+| Parameter        | Type            | Description |
+| ---------------- | --------------- | ----------- |
+| <code>hsl</code> | [`HSL`](../HSL) |             |
 
 **Returns:**
 
 `this`
-

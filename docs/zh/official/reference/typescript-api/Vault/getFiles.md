@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getFiles"
+aliases: 'Vault.getFiles'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get all files in the vault.
 ```typescript
 getFiles(): TFile[];
 ```
+
 **Returns:**
 
 [`TFile`](../TFile)`[]`
-

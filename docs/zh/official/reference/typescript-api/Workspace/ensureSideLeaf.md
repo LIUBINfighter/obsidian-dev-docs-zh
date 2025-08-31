@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.ensureSideLeaf"
+aliases: 'Workspace.ensureSideLeaf'
 cssclasses: hide-title
 ---
 
@@ -24,13 +24,12 @@ ensureSideLeaf(type: string, side: Side, options?: {
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>type</code> | <code>string</code> |  |
-|  <code>side</code> | [`Side`](../Side) |  |
-|  <code>options</code> | <code>{         active?: boolean;         split?: boolean;         reveal?: boolean;         state?: any;     }</code> | _(Optional)_ |
+| Parameter            | Type                                                                               | Description  |
+| -------------------- | ---------------------------------------------------------------------------------- | ------------ |
+| <code>type</code>    | <code>string</code>                                                                |              |
+| <code>side</code>    | [`Side`](../Side)                                                                  |              |
+| <code>options</code> | <code>{ active?: boolean; split?: boolean; reveal?: boolean; state?: any; }</code> | _(Optional)_ |
 
 **Returns:**
 
 `Promise<`[`WorkspaceLeaf`](../WorkspaceLeaf)`>`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.descEl"
+aliases: 'Setting.descEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Setting`](../Setting) › [`descEl`](./descEl)
 
 ## Setting.descEl property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.read"
+aliases: 'CapacitorAdapter.read'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.read() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ read(normalizedPath: string): Promise<string>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<string>`
-

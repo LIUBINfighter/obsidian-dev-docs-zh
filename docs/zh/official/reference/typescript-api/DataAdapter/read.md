@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.read"
+aliases: 'DataAdapter.read'
 cssclasses: hide-title
 ---
 
@@ -17,11 +17,10 @@ read(normalizedPath: string): Promise<string>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                    |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------------ |
+| <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<string>`
-

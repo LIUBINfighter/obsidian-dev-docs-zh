@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.onLayoutReady"
+aliases: 'Workspace.onLayoutReady'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ onLayoutReady(callback: () => any): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>() =&gt; any</code> |  |
+| Parameter             | Type                      | Description |
+| --------------------- | ------------------------- | ----------- |
+| <code>callback</code> | <code>() =&gt; any</code> |             |
 
 **Returns:**
 
 `void`
-

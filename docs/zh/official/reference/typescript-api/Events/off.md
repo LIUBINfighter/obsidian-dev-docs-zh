@@ -1,5 +1,5 @@
 ---
-aliases: "Events.off"
+aliases: 'Events.off'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Events.off() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ off(name: string, callback: (...data: unknown[]) => unknown): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>name</code> | <code>string</code> |  |
-|  <code>callback</code> | <code>(...data: unknown[]) =&gt; unknown</code> |  |
+| Parameter             | Type                                            | Description |
+| --------------------- | ----------------------------------------------- | ----------- |
+| <code>name</code>     | <code>string</code>                             |             |
+| <code>callback</code> | <code>(...data: unknown[]) =&gt; unknown</code> |             |
 
 **Returns:**
 
 `void`
-

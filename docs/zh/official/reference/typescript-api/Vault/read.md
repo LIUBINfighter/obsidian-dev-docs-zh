@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.read"
+aliases: 'Vault.read'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ read(file: TFile): Promise<string>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 `Promise<string>`
-

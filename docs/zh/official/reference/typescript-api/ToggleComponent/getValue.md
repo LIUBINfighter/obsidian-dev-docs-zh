@@ -1,5 +1,5 @@
 ---
-aliases: "ToggleComponent.getValue"
+aliases: 'ToggleComponent.getValue'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ToggleComponent.getValue() method
 
-
 **Signature:**
 
 ```typescript
 getValue(): boolean;
 ```
+
 **Returns:**
 
 `boolean`
-

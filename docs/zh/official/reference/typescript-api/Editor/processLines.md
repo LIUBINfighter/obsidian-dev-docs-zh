@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.processLines"
+aliases: 'Editor.processLines'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.processLines() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ processLines<T>(read: (line: number, lineText: string) => T | null, write: (line
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>read</code> | <code>(line: number, lineText: string) =&gt; T &#124; null</code> |  |
-|  <code>write</code> | <code>(line: number, lineText: string, value: T &#124; null) =&gt; </code>[`EditorChange`](../EditorChange)<code> &#124; void</code> |  |
-|  <code>ignoreEmpty</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter                | Type                                                                                                                                 | Description  |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| <code>read</code>        | <code>(line: number, lineText: string) =&gt; T &#124; null</code>                                                                    |              |
+| <code>write</code>       | <code>(line: number, lineText: string, value: T &#124; null) =&gt; </code>[`EditorChange`](../EditorChange)<code> &#124; void</code> |              |
+| <code>ignoreEmpty</code> | <code>boolean</code>                                                                                                                 | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

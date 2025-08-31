@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.activeEditor"
+aliases: 'Workspace.activeEditor'
 cssclasses: hide-title
 ---
 

@@ -1,5 +1,5 @@
 ---
-aliases: "EditorScrollInfo.top"
+aliases: 'EditorScrollInfo.top'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorScrollInfo`](../EditorScrollInfo) › [`top`](./top)
 
 ## EditorScrollInfo.top property
-
 
 **Signature:**
 

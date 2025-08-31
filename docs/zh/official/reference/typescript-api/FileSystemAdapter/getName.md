@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.getName"
+aliases: 'FileSystemAdapter.getName'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.getName() method
 
-
 **Signature:**
 
 ```typescript
 getName(): string;
 ```
+
 **Returns:**
 
 `string`
-

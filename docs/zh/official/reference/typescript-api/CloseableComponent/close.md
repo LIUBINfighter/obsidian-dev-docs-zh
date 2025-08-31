@@ -1,5 +1,5 @@
 ---
-aliases: "CloseableComponent.close"
+aliases: 'CloseableComponent.close'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## CloseableComponent.close() method
 
-
 **Signature:**
 
 ```typescript
 close(): void;
 ```
+
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "MomentFormatComponent.onChanged"
+aliases: 'MomentFormatComponent.onChanged'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MomentFormatComponent.onChanged() method
 
-
 **Signature:**
 
 ```typescript
 onChanged(): void;
 ```
+
 **Returns:**
 
 `void`
-

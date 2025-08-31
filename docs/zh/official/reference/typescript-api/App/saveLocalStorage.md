@@ -1,5 +1,5 @@
 ---
-aliases: "App.saveLocalStorage"
+aliases: 'App.saveLocalStorage'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ saveLocalStorage(key: string, data: unknown | null): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>key</code> | <code>string</code> |  |
-|  <code>data</code> | <code>unknown &#124; null</code> | value being saved to localStorage. Must be serializable. |
+| Parameter         | Type                             | Description                                              |
+| ----------------- | -------------------------------- | -------------------------------------------------------- |
+| <code>key</code>  | <code>string</code>              |                                                          |
+| <code>data</code> | <code>unknown &#124; null</code> | value being saved to localStorage. Must be serializable. |
 
 **Returns:**
 
 `void`
-

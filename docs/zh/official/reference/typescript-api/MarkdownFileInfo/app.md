@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownFileInfo.app"
+aliases: 'MarkdownFileInfo.app'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownFileInfo`](../MarkdownFileInfo) › [`app`](./app)
 
 ## MarkdownFileInfo.app property
-
 
 **Signature:**
 

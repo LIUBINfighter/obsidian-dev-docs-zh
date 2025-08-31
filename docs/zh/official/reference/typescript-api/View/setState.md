@@ -1,5 +1,5 @@
 ---
-aliases: "View.setState"
+aliases: 'View.setState'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## View.setState() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ setState(state: unknown, result: ViewStateResult): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>state</code> | <code>unknown</code> |  |
-|  <code>result</code> | [`ViewStateResult`](../ViewStateResult) |  |
+| Parameter           | Type                                    | Description |
+| ------------------- | --------------------------------------- | ----------- |
+| <code>state</code>  | <code>unknown</code>                    |             |
+| <code>result</code> | [`ViewStateResult`](../ViewStateResult) |             |
 
 **Returns:**
 
 `Promise<void>`
-

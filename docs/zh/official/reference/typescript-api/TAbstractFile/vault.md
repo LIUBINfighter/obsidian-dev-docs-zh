@@ -1,5 +1,5 @@
 ---
-aliases: "TAbstractFile.vault"
+aliases: 'TAbstractFile.vault'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TAbstractFile`](../TAbstractFile) › [`vault`](./vault)
 
 ## TAbstractFile.vault property
-
 
 **Signature:**
 

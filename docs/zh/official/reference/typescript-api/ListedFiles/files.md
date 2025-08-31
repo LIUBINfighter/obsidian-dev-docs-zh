@@ -1,5 +1,5 @@
 ---
-aliases: "ListedFiles.files"
+aliases: 'ListedFiles.files'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ListedFiles`](../ListedFiles) › [`files`](./files)
 
 ## ListedFiles.files property
-
 
 **Signature:**
 

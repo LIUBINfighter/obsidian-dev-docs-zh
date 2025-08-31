@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.duplicateLeaf_1"
+aliases: 'Workspace.duplicateLeaf_1'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Workspace.duplicateLeaf() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ duplicateLeaf(leaf: WorkspaceLeaf, leafType: PaneType | boolean, direction?: Spl
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |  |
-|  <code>leafType</code> | [`PaneType`](../PaneType)<code> &#124; boolean</code> |  |
-|  <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
+| Parameter              | Type                                                  | Description  |
+| ---------------------- | ----------------------------------------------------- | ------------ |
+| <code>leaf</code>      | [`WorkspaceLeaf`](../WorkspaceLeaf)                   |              |
+| <code>leafType</code>  | [`PaneType`](../PaneType)<code> &#124; boolean</code> |              |
+| <code>direction</code> | [`SplitDirection`](../SplitDirection)                 | _(Optional)_ |
 
 **Returns:**
 
 `Promise<`[`WorkspaceLeaf`](../WorkspaceLeaf)`>`
-

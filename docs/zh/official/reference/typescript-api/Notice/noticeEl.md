@@ -1,5 +1,5 @@
 ---
-aliases: "Notice.noticeEl"
+aliases: 'Notice.noticeEl'
 cssclasses: hide-title
 ---
 
@@ -10,9 +10,8 @@ cssclasses: hide-title
 ## Notice.noticeEl property
 
 > Warning: This API is now obsolete.
-> 
+>
 > Use `messageEl` instead
-> 
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.onExternalSettingsChange"
+aliases: 'Plugin.onExternalSettingsChange'
 cssclasses: hide-title
 ---
 
@@ -18,7 +18,7 @@ Implement this method to reload plugin settings when they have changed externall
 ```typescript
 onExternalSettingsChange?(): any;
 ```
+
 **Returns:**
 
 `any`
-

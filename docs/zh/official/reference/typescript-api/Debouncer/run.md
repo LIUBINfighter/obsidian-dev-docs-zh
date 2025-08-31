@@ -1,5 +1,5 @@
 ---
-aliases: "Debouncer.run"
+aliases: 'Debouncer.run'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ If there is any pending function call, clear the timer and call the function imm
 ```typescript
 run(): V | void;
 ```
+
 **Returns:**
 
 `V | void`
-

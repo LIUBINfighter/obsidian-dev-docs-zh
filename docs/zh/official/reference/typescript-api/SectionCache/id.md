@@ -1,5 +1,5 @@
 ---
-aliases: "SectionCache.id"
+aliases: 'SectionCache.id'
 cssclasses: hide-title
 ---
 

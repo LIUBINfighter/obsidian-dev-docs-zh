@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.getEphemeralState"
+aliases: 'WorkspaceLeaf.getEphemeralState'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.getEphemeralState() method
 
-
 **Signature:**
 
 ```typescript
 getEphemeralState(): any;
 ```
+
 **Returns:**
 
 `any`
-

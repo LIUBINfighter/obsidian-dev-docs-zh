@@ -1,5 +1,5 @@
 ---
-aliases: "Component.load"
+aliases: 'Component.load'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Load this component and its children
 ```typescript
 load(): void;
 ```
+
 **Returns:**
 
 `void`
-

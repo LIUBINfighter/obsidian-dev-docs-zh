@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceContainer.win"
+aliases: 'WorkspaceContainer.win'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceContainer`](../WorkspaceContainer) › [`win`](./win)
 
 ## WorkspaceContainer.win property
-
 
 **Signature:**
 

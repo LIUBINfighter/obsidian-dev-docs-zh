@@ -1,5 +1,5 @@
 ---
-aliases: "prepareFuzzySearch"
+aliases: 'prepareFuzzySearch'
 cssclasses: hide-title
 ---
 
@@ -14,16 +14,17 @@ Construct a fuzzy search callback that runs on a target string. Performance may 
 **Signature:**
 
 ```typescript
-export function prepareFuzzySearch(query: string): (text: string) => SearchResult | null;
+export function prepareFuzzySearch(
+  query: string,
+): (text: string) => SearchResult | null;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>query</code> | <code>string</code> | the fuzzy query.  fn - the callback function to apply the search on. |
+| Parameter          | Type                | Description                                                         |
+| ------------------ | ------------------- | ------------------------------------------------------------------- |
+| <code>query</code> | <code>string</code> | the fuzzy query. fn - the callback function to apply the search on. |
 
 **Returns:**
 
 `(text: string) => `[`SearchResult`](SearchResult)` | null`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.activeLeaf"
+aliases: 'Workspace.activeLeaf'
 cssclasses: hide-title
 ---
 
@@ -10,9 +10,8 @@ cssclasses: hide-title
 ## Workspace.activeLeaf property
 
 > Warning: This API is now obsolete.
-> 
+>
 > The use of this field is discouraged. The recommended alternatives are: - If you need information about the current view, use [Workspace.getActiveViewOfType()](./getActiveViewOfType)<!-- -->. - If you need to open a new file or navigate a view, use [Workspace.getLeaf](obsidian.workspace.getleaf_1.md).
-> 
 
 Indicates the currently focused leaf, if one exists.
 

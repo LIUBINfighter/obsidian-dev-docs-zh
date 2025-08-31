@@ -1,5 +1,5 @@
 ---
-aliases: "MomentFormatComponent.sampleEl"
+aliases: 'MomentFormatComponent.sampleEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MomentFormatComponent`](../MomentFormatComponent) › [`sampleEl`](./sampleEl)
 
 ## MomentFormatComponent.sampleEl property
-
 
 **Signature:**
 

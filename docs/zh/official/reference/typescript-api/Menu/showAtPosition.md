@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.showAtPosition"
+aliases: 'Menu.showAtPosition'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Menu.showAtPosition() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ showAtPosition(position: MenuPositionDef, doc?: Document): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>position</code> | [`MenuPositionDef`](../MenuPositionDef) |  |
-|  <code>doc</code> | <code>Document</code> | _(Optional)_ |
+| Parameter             | Type                                    | Description  |
+| --------------------- | --------------------------------------- | ------------ |
+| <code>position</code> | [`MenuPositionDef`](../MenuPositionDef) |              |
+| <code>doc</code>      | <code>Document</code>                   | _(Optional)_ |
 
 **Returns:**
 
 `this`
-

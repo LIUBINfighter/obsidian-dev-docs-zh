@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.getName"
+aliases: 'CapacitorAdapter.getName'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.getName() method
 
-
 **Signature:**
 
 ```typescript
 getName(): string;
 ```
+
 **Returns:**
 
 `string`
-

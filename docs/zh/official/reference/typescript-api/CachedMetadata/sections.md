@@ -1,5 +1,5 @@
 ---
-aliases: "CachedMetadata.sections"
+aliases: 'CachedMetadata.sections'
 cssclasses: hide-title
 ---
 

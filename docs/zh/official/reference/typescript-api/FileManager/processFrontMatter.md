@@ -1,5 +1,5 @@
 ---
-aliases: "FileManager.processFrontMatter"
+aliases: 'FileManager.processFrontMatter'
 cssclasses: hide-title
 ---
 
@@ -21,11 +21,11 @@ processFrontMatter(file: TFile, fn: (frontmatter: any) => void, options?: DataWr
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) | the file to be modified. Must be a Markdown file. |
-|  <code>fn</code> | <code>(frontmatter: any) =&gt; void</code> | a callback function which mutates the frontmatter object synchronously. |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ write options. |
+| Parameter            | Type                                       | Description                                                             |
+| -------------------- | ------------------------------------------ | ----------------------------------------------------------------------- |
+| <code>file</code>    | [`TFile`](../TFile)                        | the file to be modified. Must be a Markdown file.                       |
+| <code>fn</code>      | <code>(frontmatter: any) =&gt; void</code> | a callback function which mutates the frontmatter object synchronously. |
+| <code>options</code> | [`DataWriteOptions`](../DataWriteOptions)  | _(Optional)_ write options.                                             |
 
 **Returns:**
 
@@ -39,11 +39,9 @@ any errors that your callback function throws
 
 ## Example
 
-
 ```ts
 app.fileManager.processFrontMatter(file, (frontmatter) => {
-    frontmatter['key1'] = value;
-    delete frontmatter['key2'];
+  frontmatter['key1'] = value;
+  delete frontmatter['key2'];
 });
 ```
-

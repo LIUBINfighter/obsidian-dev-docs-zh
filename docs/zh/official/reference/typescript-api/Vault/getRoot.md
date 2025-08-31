@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getRoot"
+aliases: 'Vault.getRoot'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get the root folder of the current vault.
 ```typescript
 getRoot(): TFolder;
 ```
+
 **Returns:**
 
 [`TFolder`](../TFolder)
-

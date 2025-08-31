@@ -1,5 +1,5 @@
 ---
-aliases: "parseFrontMatterStringArray"
+aliases: 'parseFrontMatterStringArray'
 cssclasses: hide-title
 ---
 
@@ -9,22 +9,24 @@ cssclasses: hide-title
 
 ## parseFrontMatterStringArray() function
 
-
 **Signature:**
 
 ```typescript
-export function parseFrontMatterStringArray(frontmatter: any | null, key: string | RegExp, nospaces?: boolean): string[] | null;
+export function parseFrontMatterStringArray(
+  frontmatter: any | null,
+  key: string | RegExp,
+  nospaces?: boolean,
+): string[] | null;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>frontmatter</code> | <code>any &#124; null</code> |  |
-|  <code>key</code> | <code>string &#124; </code><code>RegExp</code> |  |
-|  <code>nospaces</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter                | Type                                           | Description  |
+| ------------------------ | ---------------------------------------------- | ------------ |
+| <code>frontmatter</code> | <code>any &#124; null</code>                   |              |
+| <code>key</code>         | <code>string &#124; </code><code>RegExp</code> |              |
+| <code>nospaces</code>    | <code>boolean</code>                           | _(Optional)_ |
 
 **Returns:**
 
 `string[] | null`
-

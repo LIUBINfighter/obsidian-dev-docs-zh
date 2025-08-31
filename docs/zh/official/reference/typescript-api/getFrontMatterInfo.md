@@ -1,5 +1,5 @@
 ---
-aliases: "getFrontMatterInfo"
+aliases: 'getFrontMatterInfo'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ export function getFrontMatterInfo(content: string): FrontMatterInfo;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>content</code> | <code>string</code> |  |
+| Parameter            | Type                | Description |
+| -------------------- | ------------------- | ----------- |
+| <code>content</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`FrontMatterInfo`](FrontMatterInfo)
-

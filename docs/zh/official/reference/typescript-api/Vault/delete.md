@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.delete"
+aliases: 'Vault.delete'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ delete(file: TAbstractFile, force?: boolean): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TAbstractFile`](../TAbstractFile) | The file or folder to be deleted |
-|  <code>force</code> | <code>boolean</code> | _(Optional)_ Should attempt to delete folder even if it has hidden children |
+| Parameter          | Type                                | Description                                                                 |
+| ------------------ | ----------------------------------- | --------------------------------------------------------------------------- |
+| <code>file</code>  | [`TAbstractFile`](../TAbstractFile) | The file or folder to be deleted                                            |
+| <code>force</code> | <code>boolean</code>                | _(Optional)_ Should attempt to delete folder even if it has hidden children |
 
 **Returns:**
 
 `Promise<void>`
-

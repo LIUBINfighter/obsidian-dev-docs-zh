@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.onUnloadFile"
+aliases: 'FileView.onUnloadFile'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileView.onUnloadFile() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onUnloadFile(file: TFile): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 `Promise<void>`
-

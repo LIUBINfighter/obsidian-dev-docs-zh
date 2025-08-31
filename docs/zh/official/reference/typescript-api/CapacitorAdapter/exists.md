@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.exists"
+aliases: 'CapacitorAdapter.exists'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.exists() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ exists(normalizedPath: string, sensitive?: boolean): Promise<boolean>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
-|  <code>sensitive</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter                   | Type                 | Description  |
+| --------------------------- | -------------------- | ------------ |
+| <code>normalizedPath</code> | <code>string</code>  |              |
+| <code>sensitive</code>      | <code>boolean</code> | _(Optional)_ |
 
 **Returns:**
 
 `Promise<boolean>`
-

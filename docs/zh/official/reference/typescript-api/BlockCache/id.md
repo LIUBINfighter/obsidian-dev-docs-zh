@@ -1,5 +1,5 @@
 ---
-aliases: "BlockCache.id"
+aliases: 'BlockCache.id'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`BlockCache`](../BlockCache) › [`id`](./id)
 
 ## BlockCache.id property
-
 
 **Signature:**
 

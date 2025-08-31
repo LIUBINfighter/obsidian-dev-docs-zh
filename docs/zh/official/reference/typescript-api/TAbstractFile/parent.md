@@ -1,5 +1,5 @@
 ---
-aliases: "TAbstractFile.parent"
+aliases: 'TAbstractFile.parent'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TAbstractFile`](../TAbstractFile) › [`parent`](./parent)
 
 ## TAbstractFile.parent property
-
 
 **Signature:**
 

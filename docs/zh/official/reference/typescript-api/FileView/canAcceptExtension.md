@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.canAcceptExtension"
+aliases: 'FileView.canAcceptExtension'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileView.canAcceptExtension() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ canAcceptExtension(extension: string): boolean;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>extension</code> | <code>string</code> |  |
+| Parameter              | Type                | Description |
+| ---------------------- | ------------------- | ----------- |
+| <code>extension</code> | <code>string</code> |             |
 
 **Returns:**
 
 `boolean`
-

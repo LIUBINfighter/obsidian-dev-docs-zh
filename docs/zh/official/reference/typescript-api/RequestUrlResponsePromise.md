@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlResponsePromise"
+aliases: 'RequestUrlResponsePromise'
 cssclasses: hide-title
 ---
 
@@ -9,21 +9,20 @@ cssclasses: hide-title
 
 ## RequestUrlResponsePromise interface
 
-
 **Signature:**
 
 ```typescript
-export interface RequestUrlResponsePromise extends Promise<RequestUrlResponse> 
+export interface RequestUrlResponsePromise extends Promise<RequestUrlResponse>
 ```
+
 **Extends:** `Promise<`[`RequestUrlResponse`](RequestUrlResponse)`>`
 
 _(Some inherited members may not be shown because they are not represented in the documentation.)_
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`arrayBuffer`](RequestUrlResponsePromise/arrayBuffer) |  | <code>Promise</code><code>&lt;</code><code>ArrayBuffer</code><code>&gt;</code> |  |
-|  [`json`](RequestUrlResponsePromise/json) |  | <code>Promise</code><code>&lt;any&gt;</code> |  |
-|  [`text`](RequestUrlResponsePromise/text) |  | <code>Promise</code><code>&lt;string&gt;</code> |  |
-
+| Property                                               | Modifiers | Type                                                                           | Description |
+| ------------------------------------------------------ | --------- | ------------------------------------------------------------------------------ | ----------- |
+| [`arrayBuffer`](RequestUrlResponsePromise/arrayBuffer) |           | <code>Promise</code><code>&lt;</code><code>ArrayBuffer</code><code>&gt;</code> |             |
+| [`json`](RequestUrlResponsePromise/json)               |           | <code>Promise</code><code>&lt;any&gt;</code>                                   |             |
+| [`text`](RequestUrlResponsePromise/text)               |           | <code>Promise</code><code>&lt;string&gt;</code>                                |             |

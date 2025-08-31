@@ -1,5 +1,5 @@
 ---
-aliases: "ColorComponent.getValueHsl"
+aliases: 'ColorComponent.getValueHsl'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ColorComponent.getValueHsl() method
 
-
 **Signature:**
 
 ```typescript
 getValueHsl(): HSL;
 ```
+
 **Returns:**
 
 [`HSL`](../HSL)
-

@@ -1,5 +1,5 @@
 ---
-aliases: "FuzzyMatch.match"
+aliases: 'FuzzyMatch.match'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`FuzzyMatch`](../FuzzyMatch) › [`match`](./match)
 
 ## FuzzyMatch.match property
-
 
 **Signature:**
 

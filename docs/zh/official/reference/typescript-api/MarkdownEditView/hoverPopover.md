@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownEditView.hoverPopover"
+aliases: 'MarkdownEditView.hoverPopover'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownEditView`](../MarkdownEditView) › [`hoverPopover`](./hoverPopover)
 
 ## MarkdownEditView.hoverPopover property
-
 
 **Signature:**
 

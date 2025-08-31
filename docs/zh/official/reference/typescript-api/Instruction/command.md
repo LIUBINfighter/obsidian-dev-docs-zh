@@ -1,5 +1,5 @@
 ---
-aliases: "Instruction.command"
+aliases: 'Instruction.command'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Instruction`](../Instruction) › [`command`](./command)
 
 ## Instruction.command property
-
 
 **Signature:**
 

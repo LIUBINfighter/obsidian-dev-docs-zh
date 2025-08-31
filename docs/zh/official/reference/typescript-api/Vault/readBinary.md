@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.readBinary"
+aliases: 'Vault.readBinary'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ readBinary(file: TFile): Promise<ArrayBuffer>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 `Promise<``ArrayBuffer``>`
-

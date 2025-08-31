@@ -1,5 +1,5 @@
 ---
-aliases: "EditorCommandName"
+aliases: 'EditorCommandName'
 cssclasses: hide-title
 ---
 
@@ -9,9 +9,25 @@ cssclasses: hide-title
 
 ## EditorCommandName type
 
-
 **Signature:**
 
 ```typescript
-export type EditorCommandName = 'goUp' | 'goDown' | 'goLeft' | 'goRight' | 'goStart' | 'goEnd' | 'goWordLeft' | 'goWordRight' | 'indentMore' | 'indentLess' | 'newlineAndIndent' | 'swapLineUp' | 'swapLineDown' | 'deleteLine' | 'toggleFold' | 'foldAll' | 'unfoldAll';
+export type EditorCommandName =
+  | 'goUp'
+  | 'goDown'
+  | 'goLeft'
+  | 'goRight'
+  | 'goStart'
+  | 'goEnd'
+  | 'goWordLeft'
+  | 'goWordRight'
+  | 'indentMore'
+  | 'indentLess'
+  | 'newlineAndIndent'
+  | 'swapLineUp'
+  | 'swapLineDown'
+  | 'deleteLine'
+  | 'toggleFold'
+  | 'foldAll'
+  | 'unfoldAll';
 ```

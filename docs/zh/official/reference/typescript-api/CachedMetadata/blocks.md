@@ -1,5 +1,5 @@
 ---
-aliases: "CachedMetadata.blocks"
+aliases: 'CachedMetadata.blocks'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`CachedMetadata`](../CachedMetadata) › [`blocks`](./blocks)
 
 ## CachedMetadata.blocks property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceRibbon"
+aliases: 'WorkspaceRibbon'
 cssclasses: hide-title
 ---
 
@@ -9,9 +9,8 @@ cssclasses: hide-title
 
 ## WorkspaceRibbon class
 
-
 **Signature:**
 
 ```typescript
-export class WorkspaceRibbon 
+export class WorkspaceRibbon
 ```

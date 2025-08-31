@@ -1,5 +1,5 @@
 ---
-aliases: "SearchComponent.onChanged"
+aliases: 'SearchComponent.onChanged'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## SearchComponent.onChanged() method
 
-
 **Signature:**
 
 ```typescript
 onChanged(): void;
 ```
+
 **Returns:**
 
 `void`
-

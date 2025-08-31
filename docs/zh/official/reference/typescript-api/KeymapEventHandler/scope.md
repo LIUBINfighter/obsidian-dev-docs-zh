@@ -1,5 +1,5 @@
 ---
-aliases: "KeymapEventHandler.scope"
+aliases: 'KeymapEventHandler.scope'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`KeymapEventHandler`](../KeymapEventHandler) › [`scope`](./scope)
 
 ## KeymapEventHandler.scope property
-
 
 **Signature:**
 

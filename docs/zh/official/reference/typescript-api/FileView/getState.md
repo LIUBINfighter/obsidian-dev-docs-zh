@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.getState"
+aliases: 'FileView.getState'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## FileView.getState() method
 
-
 **Signature:**
 
 ```typescript
 getState(): Record<string, unknown>;
 ```
+
 **Returns:**
 
 `Record<string, unknown>`
-

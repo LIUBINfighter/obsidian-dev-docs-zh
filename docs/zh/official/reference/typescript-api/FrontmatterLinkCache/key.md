@@ -1,5 +1,5 @@
 ---
-aliases: "FrontmatterLinkCache.key"
+aliases: 'FrontmatterLinkCache.key'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`FrontmatterLinkCache`](../FrontmatterLinkCache) › [`key`](./key)
 
 ## FrontmatterLinkCache.key property
-
 
 **Signature:**
 

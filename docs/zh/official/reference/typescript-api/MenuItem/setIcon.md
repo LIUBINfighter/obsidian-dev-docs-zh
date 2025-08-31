@@ -1,5 +1,5 @@
 ---
-aliases: "MenuItem.setIcon"
+aliases: 'MenuItem.setIcon'
 cssclasses: hide-title
 ---
 
@@ -17,11 +17,10 @@ setIcon(icon: IconName | null): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>icon</code> | [`IconName`](../IconName)<code> &#124; null</code> | ID of the icon, can use any icon loaded with [addIcon()](../addIcon) or from the built-in lucide library. |
+| Parameter         | Type                                               | Description                                                                                               |
+| ----------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| <code>icon</code> | [`IconName`](../IconName)<code> &#124; null</code> | ID of the icon, can use any icon loaded with [addIcon()](../addIcon) or from the built-in lucide library. |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.setPinned"
+aliases: 'WorkspaceLeaf.setPinned'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.setPinned() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setPinned(pinned: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>pinned</code> | <code>boolean</code> |  |
+| Parameter           | Type                 | Description |
+| ------------------- | -------------------- | ----------- |
+| <code>pinned</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `void`
-

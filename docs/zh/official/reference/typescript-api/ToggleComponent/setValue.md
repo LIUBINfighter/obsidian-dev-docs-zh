@@ -1,5 +1,5 @@
 ---
-aliases: "ToggleComponent.setValue"
+aliases: 'ToggleComponent.setValue'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ToggleComponent.setValue() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setValue(on: boolean): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>on</code> | <code>boolean</code> |  |
+| Parameter       | Type                 | Description |
+| --------------- | -------------------- | ----------- |
+| <code>on</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `this`
-

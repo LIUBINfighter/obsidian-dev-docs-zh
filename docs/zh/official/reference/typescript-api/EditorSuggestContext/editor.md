@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggestContext.editor"
+aliases: 'EditorSuggestContext.editor'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorSuggestContext`](../EditorSuggestContext) › [`editor`](./editor)
 
 ## EditorSuggestContext.editor property
-
 
 **Signature:**
 

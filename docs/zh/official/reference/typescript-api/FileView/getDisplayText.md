@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.getDisplayText"
+aliases: 'FileView.getDisplayText'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## FileView.getDisplayText() method
 
-
 **Signature:**
 
 ```typescript
 getDisplayText(): string;
 ```
+
 **Returns:**
 
 `string`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.openFile"
+aliases: 'WorkspaceLeaf.openFile'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ openFile(file: TFile, openState?: OpenViewState): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
-|  <code>openState</code> | [`OpenViewState`](../OpenViewState) | _(Optional)_ |
+| Parameter              | Type                                | Description  |
+| ---------------------- | ----------------------------------- | ------------ |
+| <code>file</code>      | [`TFile`](../TFile)                 |              |
+| <code>openState</code> | [`OpenViewState`](../OpenViewState) | _(Optional)_ |
 
 **Returns:**
 
 `Promise<void>`
-

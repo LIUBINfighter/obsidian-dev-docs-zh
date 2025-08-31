@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.openLinkText"
+aliases: 'Workspace.openLinkText'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Workspace.openLinkText() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,14 +17,13 @@ openLinkText(linktext: string, sourcePath: string, newLeaf?: PaneType | boolean,
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>linktext</code> | <code>string</code> |  |
-|  <code>sourcePath</code> | <code>string</code> |  |
-|  <code>newLeaf</code> | [`PaneType`](../PaneType)<code> &#124; boolean</code> | _(Optional)_ |
-|  <code>openViewState</code> | [`OpenViewState`](../OpenViewState) | _(Optional)_ |
+| Parameter                  | Type                                                  | Description  |
+| -------------------------- | ----------------------------------------------------- | ------------ |
+| <code>linktext</code>      | <code>string</code>                                   |              |
+| <code>sourcePath</code>    | <code>string</code>                                   |              |
+| <code>newLeaf</code>       | [`PaneType`](../PaneType)<code> &#124; boolean</code> | _(Optional)_ |
+| <code>openViewState</code> | [`OpenViewState`](../OpenViewState)                   | _(Optional)_ |
 
 **Returns:**
 
 `Promise<void>`
-

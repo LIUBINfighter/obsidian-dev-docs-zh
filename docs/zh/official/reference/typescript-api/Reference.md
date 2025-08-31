@@ -1,5 +1,5 @@
 ---
-aliases: "Reference"
+aliases: 'Reference'
 cssclasses: hide-title
 ---
 
@@ -14,14 +14,13 @@ Base interface for items that point to a different location.
 **Signature:**
 
 ```typescript
-export interface Reference 
+export interface Reference
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`displayText?`](Reference/displayText) |  | <code>string</code> | _(Optional)_ Available if title is different from link text, in the case of <code>[[page name&#124;display name]]</code> this will return <code>display name</code> |
-|  [`link`](Reference/link) |  | <code>string</code> | Link destination. |
-|  [`original`](Reference/original) |  | <code>string</code> | Contains the text as it's written in the document. Not available on Publish. |
-
+| Property                                | Modifiers | Type                | Description                                                                                                                                                         |
+| --------------------------------------- | --------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`displayText?`](Reference/displayText) |           | <code>string</code> | _(Optional)_ Available if title is different from link text, in the case of <code>[[page name&#124;display name]]</code> this will return <code>display name</code> |
+| [`link`](Reference/link)                |           | <code>string</code> | Link destination.                                                                                                                                                   |
+| [`original`](Reference/original)        |           | <code>string</code> | Contains the text as it's written in the document. Not available on Publish.                                                                                        |

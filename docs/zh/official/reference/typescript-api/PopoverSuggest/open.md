@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest.open"
+aliases: 'PopoverSuggest.open'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## PopoverSuggest.open() method
 
-
 **Signature:**
 
 ```typescript
 open(): void;
 ```
+
 **Returns:**
 
 `void`
-

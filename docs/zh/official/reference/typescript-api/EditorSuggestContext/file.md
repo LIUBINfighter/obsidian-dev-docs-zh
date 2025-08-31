@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggestContext.file"
+aliases: 'EditorSuggestContext.file'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorSuggestContext`](../EditorSuggestContext) › [`file`](./file)
 
 ## EditorSuggestContext.file property
-
 
 **Signature:**
 

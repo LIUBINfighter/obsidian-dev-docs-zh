@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.moveLeafToPopout"
+aliases: 'Workspace.moveLeafToPopout'
 cssclasses: hide-title
 ---
 
@@ -19,10 +19,10 @@ moveLeafToPopout(leaf: WorkspaceLeaf, data?: WorkspaceWindowInitData): Workspace
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |  |
-|  <code>data</code> | [`WorkspaceWindowInitData`](../WorkspaceWindowInitData) | _(Optional)_ |
+| Parameter         | Type                                                    | Description  |
+| ----------------- | ------------------------------------------------------- | ------------ |
+| <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf)                     |              |
+| <code>data</code> | [`WorkspaceWindowInitData`](../WorkspaceWindowInitData) | _(Optional)_ |
 
 **Returns:**
 
@@ -31,4 +31,3 @@ moveLeafToPopout(leaf: WorkspaceLeaf, data?: WorkspaceWindowInitData): Workspace
 ## Exceptions
 
 Error if the app does not support popout windows (i.e. on mobile or if Electron version is too old)
-

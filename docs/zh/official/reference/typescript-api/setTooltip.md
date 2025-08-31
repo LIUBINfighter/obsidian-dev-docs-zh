@@ -1,5 +1,5 @@
 ---
-aliases: "setTooltip"
+aliases: 'setTooltip'
 cssclasses: hide-title
 ---
 
@@ -12,18 +12,21 @@ cssclasses: hide-title
 **Signature:**
 
 ```typescript
-export function setTooltip(el: HTMLElement, tooltip: string, options?: TooltipOptions): void;
+export function setTooltip(
+  el: HTMLElement,
+  tooltip: string,
+  options?: TooltipOptions,
+): void;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>el</code> | <code>HTMLElement</code> | The element to show the tooltip on |
-|  <code>tooltip</code> | <code>string</code> | The tooltip text to show |
-|  <code>options</code> | [`TooltipOptions`](TooltipOptions) | _(Optional)_ |
+| Parameter            | Type                               | Description                        |
+| -------------------- | ---------------------------------- | ---------------------------------- |
+| <code>el</code>      | <code>HTMLElement</code>           | The element to show the tooltip on |
+| <code>tooltip</code> | <code>string</code>                | The tooltip text to show           |
+| <code>options</code> | [`TooltipOptions`](TooltipOptions) | _(Optional)_                       |
 
 **Returns:**
 
 `void`
-

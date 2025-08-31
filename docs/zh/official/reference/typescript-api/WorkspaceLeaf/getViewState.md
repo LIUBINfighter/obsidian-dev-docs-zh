@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.getViewState"
+aliases: 'WorkspaceLeaf.getViewState'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.getViewState() method
 
-
 **Signature:**
 
 ```typescript
 getViewState(): ViewState;
 ```
+
 **Returns:**
 
 [`ViewState`](../ViewState)
-

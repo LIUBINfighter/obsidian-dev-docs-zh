@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.addCommand"
+aliases: 'Plugin.addCommand'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ addCommand(command: Command): Command;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>command</code> | [`Command`](../Command) |  |
+| Parameter            | Type                    | Description |
+| -------------------- | ----------------------- | ----------- |
+| <code>command</code> | [`Command`](../Command) |             |
 
 **Returns:**
 
 [`Command`](../Command)
-

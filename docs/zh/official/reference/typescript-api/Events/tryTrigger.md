@@ -1,5 +1,5 @@
 ---
-aliases: "Events.tryTrigger"
+aliases: 'Events.tryTrigger'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Events.tryTrigger() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ tryTrigger(evt: EventRef, args: unknown[]): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>evt</code> | [`EventRef`](../EventRef) |  |
-|  <code>args</code> | <code>unknown[]</code> |  |
+| Parameter         | Type                      | Description |
+| ----------------- | ------------------------- | ----------- |
+| <code>evt</code>  | [`EventRef`](../EventRef) |             |
+| <code>args</code> | <code>unknown[]</code>    |             |
 
 **Returns:**
 
 `void`
-

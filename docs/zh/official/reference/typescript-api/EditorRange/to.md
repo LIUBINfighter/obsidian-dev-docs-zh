@@ -1,5 +1,5 @@
 ---
-aliases: "EditorRange.to"
+aliases: 'EditorRange.to'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorRange`](../EditorRange) › [`to`](./to)
 
 ## EditorRange.to property
-
 
 **Signature:**
 

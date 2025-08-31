@@ -1,5 +1,5 @@
 ---
-aliases: "App.lastEvent"
+aliases: 'App.lastEvent'
 cssclasses: hide-title
 ---
 

@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.app"
+aliases: 'Plugin.app'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Plugin`](../Plugin) › [`app`](./app)
 
 ## Plugin.app property
-
 
 **Signature:**
 

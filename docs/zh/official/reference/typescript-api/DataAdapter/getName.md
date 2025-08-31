@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.getName"
+aliases: 'DataAdapter.getName'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## DataAdapter.getName() method
 
-
 **Signature:**
 
 ```typescript
 getName(): string;
 ```
+
 **Returns:**
 
 `string`
-

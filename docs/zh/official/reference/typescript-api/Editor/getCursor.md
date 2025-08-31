@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getCursor"
+aliases: 'Editor.getCursor'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.getCursor() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract getCursor(string?: 'from' | 'to' | 'head' | 'anchor'): EditorPosition;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>string</code> | <code>'from' &#124; 'to' &#124; 'head' &#124; 'anchor'</code> | _(Optional)_ |
+| Parameter           | Type                                                          | Description  |
+| ------------------- | ------------------------------------------------------------- | ------------ |
+| <code>string</code> | <code>'from' &#124; 'to' &#124; 'head' &#124; 'anchor'</code> | _(Optional)_ |
 
 **Returns:**
 
 [`EditorPosition`](../EditorPosition)
-

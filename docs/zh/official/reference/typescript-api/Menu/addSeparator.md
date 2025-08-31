@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.addSeparator"
+aliases: 'Menu.addSeparator'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Adds a separator. Only works when menu is not shown yet.
 ```typescript
 addSeparator(): this;
 ```
+
 **Returns:**
 
 `this`
-

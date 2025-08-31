@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.setCta"
+aliases: 'ButtonComponent.setCta'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ButtonComponent.setCta() method
 
-
 **Signature:**
 
 ```typescript
 setCta(): this;
 ```
+
 **Returns:**
 
 `this`
-

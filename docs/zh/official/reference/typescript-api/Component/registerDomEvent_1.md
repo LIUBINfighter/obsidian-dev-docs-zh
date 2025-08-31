@@ -1,5 +1,5 @@
 ---
-aliases: "Component.registerDomEvent_1"
+aliases: 'Component.registerDomEvent_1'
 cssclasses: hide-title
 ---
 
@@ -19,14 +19,13 @@ registerDomEvent<K extends keyof DocumentEventMap>(el: Document, type: K, callba
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>el</code> | <code>Document</code> |  |
-|  <code>type</code> | <code>K</code> |  |
-|  <code>callback</code> | <code>(this: </code><code>HTMLElement</code><code>, ev: </code><code>DocumentEventMap</code><code>[K]) =&gt; any</code> |  |
-|  <code>options</code> | <code>boolean &#124; </code><code>AddEventListenerOptions</code> | _(Optional)_ |
+| Parameter             | Type                                                                                                                    | Description  |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------ |
+| <code>el</code>       | <code>Document</code>                                                                                                   |              |
+| <code>type</code>     | <code>K</code>                                                                                                          |              |
+| <code>callback</code> | <code>(this: </code><code>HTMLElement</code><code>, ev: </code><code>DocumentEventMap</code><code>[K]) =&gt; any</code> |              |
+| <code>options</code>  | <code>boolean &#124; </code><code>AddEventListenerOptions</code>                                                        | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

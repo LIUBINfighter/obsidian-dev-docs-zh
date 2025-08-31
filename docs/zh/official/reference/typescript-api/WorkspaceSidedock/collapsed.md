@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceSidedock.collapsed"
+aliases: 'WorkspaceSidedock.collapsed'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceSidedock`](../WorkspaceSidedock) › [`collapsed`](./collapsed)
 
 ## WorkspaceSidedock.collapsed property
-
 
 **Signature:**
 

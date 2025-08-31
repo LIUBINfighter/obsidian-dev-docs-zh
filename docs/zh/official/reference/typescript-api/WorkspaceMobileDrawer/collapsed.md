@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceMobileDrawer.collapsed"
+aliases: 'WorkspaceMobileDrawer.collapsed'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceMobileDrawer`](../WorkspaceMobileDrawer) › [`collapsed`](./collapsed)
 
 ## WorkspaceMobileDrawer.collapsed property
-
 
 **Signature:**
 

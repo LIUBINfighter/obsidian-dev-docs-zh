@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.trashSystem"
+aliases: 'CapacitorAdapter.trashSystem'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.trashSystem() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ trashSystem(normalizedPath: string): Promise<boolean>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<boolean>`
-

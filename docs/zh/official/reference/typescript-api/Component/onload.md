@@ -1,5 +1,5 @@
 ---
-aliases: "Component.onload"
+aliases: 'Component.onload'
 cssclasses: hide-title
 ---
 
@@ -17,7 +17,7 @@ Override this to load your component
 /** @virtual */
 onload(): void;
 ```
+
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.getResourcePath"
+aliases: 'FileSystemAdapter.getResourcePath'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.getResourcePath() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ getResourcePath(normalizedPath: string): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `string`
-

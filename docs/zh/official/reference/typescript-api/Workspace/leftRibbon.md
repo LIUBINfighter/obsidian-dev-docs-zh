@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.leftRibbon"
+aliases: 'Workspace.leftRibbon'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Workspace`](../Workspace) › [`leftRibbon`](./leftRibbon)
 
 ## Workspace.leftRibbon property
-
 
 **Signature:**
 

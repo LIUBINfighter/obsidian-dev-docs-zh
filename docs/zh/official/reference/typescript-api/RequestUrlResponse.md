@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlResponse"
+aliases: 'RequestUrlResponse'
 cssclasses: hide-title
 ---
 
@@ -9,20 +9,18 @@ cssclasses: hide-title
 
 ## RequestUrlResponse interface
 
-
 **Signature:**
 
 ```typescript
-export interface RequestUrlResponse 
+export interface RequestUrlResponse
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`arrayBuffer`](RequestUrlResponse/arrayBuffer) |  | <code>ArrayBuffer</code> |  |
-|  [`headers`](RequestUrlResponse/headers) |  | <code>Record</code><code>&lt;string, string&gt;</code> |  |
-|  [`json`](RequestUrlResponse/json) |  | <code>any</code> |  |
-|  [`status`](RequestUrlResponse/status) |  | <code>number</code> |  |
-|  [`text`](RequestUrlResponse/text) |  | <code>string</code> |  |
-
+| Property                                        | Modifiers | Type                                                   | Description |
+| ----------------------------------------------- | --------- | ------------------------------------------------------ | ----------- |
+| [`arrayBuffer`](RequestUrlResponse/arrayBuffer) |           | <code>ArrayBuffer</code>                               |             |
+| [`headers`](RequestUrlResponse/headers)         |           | <code>Record</code><code>&lt;string, string&gt;</code> |             |
+| [`json`](RequestUrlResponse/json)               |           | <code>any</code>                                       |             |
+| [`status`](RequestUrlResponse/status)           |           | <code>number</code>                                    |             |
+| [`text`](RequestUrlResponse/text)               |           | <code>string</code>                                    |             |

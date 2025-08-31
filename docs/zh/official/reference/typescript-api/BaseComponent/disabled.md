@@ -1,5 +1,5 @@
 ---
-aliases: "BaseComponent.disabled"
+aliases: 'BaseComponent.disabled'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`BaseComponent`](../BaseComponent) › [`disabled`](./disabled)
 
 ## BaseComponent.disabled property
-
 
 **Signature:**
 

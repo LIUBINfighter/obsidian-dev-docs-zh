@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addText"
+aliases: 'Setting.addText'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addText() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addText(cb: (component: TextComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`TextComponent`](../TextComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                 | Description |
+| --------------- | ------------------------------------------------------------------------------------ | ----------- |
+| <code>cb</code> | <code>(component: </code>[`TextComponent`](../TextComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

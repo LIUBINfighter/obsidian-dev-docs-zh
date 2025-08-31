@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.createLeafBySplit"
+aliases: 'Workspace.createLeafBySplit'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Workspace.createLeafBySplit() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ createLeafBySplit(leaf: WorkspaceLeaf, direction?: SplitDirection, before?: bool
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |  |
-|  <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
-|  <code>before</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter              | Type                                  | Description  |
+| ---------------------- | ------------------------------------- | ------------ |
+| <code>leaf</code>      | [`WorkspaceLeaf`](../WorkspaceLeaf)   |              |
+| <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
+| <code>before</code>    | <code>boolean</code>                  | _(Optional)_ |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)
-

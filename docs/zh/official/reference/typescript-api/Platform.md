@@ -1,5 +1,5 @@
 ---
-aliases: "Platform"
+aliases: 'Platform'
 cssclasses: hide-title
 ---
 
@@ -9,24 +9,22 @@ cssclasses: hide-title
 
 ## Platform variable
 
-
 **Signature:**
 
 ```typescript
 Platform: {
-    isDesktop: boolean;
-    isMobile: boolean;
-    isDesktopApp: boolean;
-    isMobileApp: boolean;
-    isIosApp: boolean;
-    isAndroidApp: boolean;
-    isPhone: boolean;
-    isTablet: boolean;
-    isMacOS: boolean;
-    isWin: boolean;
-    isLinux: boolean;
-    isSafari: boolean;
-    resourcePathPrefix: string;
-
+  isDesktop: boolean;
+  isMobile: boolean;
+  isDesktopApp: boolean;
+  isMobileApp: boolean;
+  isIosApp: boolean;
+  isAndroidApp: boolean;
+  isPhone: boolean;
+  isTablet: boolean;
+  isMacOS: boolean;
+  isWin: boolean;
+  isLinux: boolean;
+  isSafari: boolean;
+  resourcePathPrefix: string;
 }
 ```

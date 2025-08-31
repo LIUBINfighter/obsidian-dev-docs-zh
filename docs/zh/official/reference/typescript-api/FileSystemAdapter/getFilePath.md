@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.getFilePath"
+aliases: 'FileSystemAdapter.getFilePath'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getFilePath(normalizedPath: string): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `string`
-

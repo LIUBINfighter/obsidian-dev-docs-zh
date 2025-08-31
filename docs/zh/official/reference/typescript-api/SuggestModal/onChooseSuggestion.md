@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.onChooseSuggestion"
+aliases: 'SuggestModal.onChooseSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SuggestModal.onChooseSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract onChooseSuggestion(item: T, evt: MouseEvent | KeyboardEvent): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>item</code> | <code>T</code> |  |
-|  <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |  |
+| Parameter         | Type                                                                   | Description |
+| ----------------- | ---------------------------------------------------------------------- | ----------- |
+| <code>item</code> | <code>T</code>                                                         |             |
+| <code>evt</code>  | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "TagCache.tag"
+aliases: 'TagCache.tag'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TagCache`](../TagCache) › [`tag`](./tag)
 
 ## TagCache.tag property
-
 
 **Signature:**
 

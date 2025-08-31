@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getAbstractFileByPath"
+aliases: 'Vault.getAbstractFileByPath'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ getAbstractFileByPath(path: string): TAbstractFile | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> | vault absolute path to the folder or file, with extension, case sensitive. |
+| Parameter         | Type                | Description                                                                |
+| ----------------- | ------------------- | -------------------------------------------------------------------------- |
+| <code>path</code> | <code>string</code> | vault absolute path to the folder or file, with extension, case sensitive. |
 
 **Returns:**
 
 [`TAbstractFile`](../TAbstractFile)` | null`
 
 the abstract file, if it's found.
-

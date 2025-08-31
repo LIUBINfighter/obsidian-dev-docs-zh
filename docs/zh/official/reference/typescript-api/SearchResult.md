@@ -1,5 +1,5 @@
 ---
-aliases: "SearchResult"
+aliases: 'SearchResult'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## SearchResult interface
 
-
 **Signature:**
 
 ```typescript
-export interface SearchResult 
+export interface SearchResult
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`matches`](SearchResult/matches) |  | [`SearchMatches`](SearchMatches) |  |
-|  [`score`](SearchResult/score) |  | <code>number</code> |  |
-
+| Property                          | Modifiers | Type                             | Description |
+| --------------------------------- | --------- | -------------------------------- | ----------- |
+| [`matches`](SearchResult/matches) |           | [`SearchMatches`](SearchMatches) |             |
+| [`score`](SearchResult/score)     |           | <code>number</code>              |             |

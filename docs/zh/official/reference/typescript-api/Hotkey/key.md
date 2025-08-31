@@ -1,5 +1,5 @@
 ---
-aliases: "Hotkey.key"
+aliases: 'Hotkey.key'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Hotkey`](../Hotkey) › [`key`](./key)
 
 ## Hotkey.key property
-
 
 **Signature:**
 

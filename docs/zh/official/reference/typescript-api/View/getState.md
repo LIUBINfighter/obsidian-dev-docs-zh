@@ -1,5 +1,5 @@
 ---
-aliases: "View.getState"
+aliases: 'View.getState'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.getState() method
 
-
 **Signature:**
 
 ```typescript
 getState(): Record<string, unknown>;
 ```
+
 **Returns:**
 
 `Record<string, unknown>`
-

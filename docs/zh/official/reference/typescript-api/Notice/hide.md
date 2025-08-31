@@ -1,5 +1,5 @@
 ---
-aliases: "Notice.hide"
+aliases: 'Notice.hide'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Notice.hide() method
 
-
 **Signature:**
 
 ```typescript
 hide(): void;
 ```
+
 **Returns:**
 
 `void`
-

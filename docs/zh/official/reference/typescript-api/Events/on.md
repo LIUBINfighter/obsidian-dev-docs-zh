@@ -1,5 +1,5 @@
 ---
-aliases: "Events.on"
+aliases: 'Events.on'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Events.on() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ on(name: string, callback: (...data: unknown[]) => unknown, ctx?: any): EventRef
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>name</code> | <code>string</code> |  |
-|  <code>callback</code> | <code>(...data: unknown[]) =&gt; unknown</code> |  |
-|  <code>ctx</code> | <code>any</code> | _(Optional)_ |
+| Parameter             | Type                                            | Description  |
+| --------------------- | ----------------------------------------------- | ------------ |
+| <code>name</code>     | <code>string</code>                             |              |
+| <code>callback</code> | <code>(...data: unknown[]) =&gt; unknown</code> |              |
+| <code>ctx</code>      | <code>any</code>                                | _(Optional)_ |
 
 **Returns:**
 
 [`EventRef`](../EventRef)
-

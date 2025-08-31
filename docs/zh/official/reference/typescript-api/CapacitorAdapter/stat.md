@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.stat"
+aliases: 'CapacitorAdapter.stat'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.stat() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ stat(normalizedPath: string): Promise<Stat | null>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
+| Parameter                   | Type                | Description |
+| --------------------------- | ------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code> |             |
 
 **Returns:**
 
 `Promise<`[`Stat`](../Stat)` | null>`
-

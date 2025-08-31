@@ -1,5 +1,5 @@
 ---
-aliases: "FileManager.getNewFileParent"
+aliases: 'FileManager.getNewFileParent'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ getNewFileParent(sourcePath: string, newFilePath?: string): TFolder;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>sourcePath</code> | <code>string</code> | The path to the current open/focused file, used when the user wants new files to be created 'in the same folder'. Use an empty string if there is no active file. |
-|  <code>newFilePath</code> | <code>string</code> | _(Optional)_ The path to the file that will be newly created, used to infer what settings to use based on the path's extension. |
+| Parameter                | Type                | Description                                                                                                                                                       |
+| ------------------------ | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <code>sourcePath</code>  | <code>string</code> | The path to the current open/focused file, used when the user wants new files to be created 'in the same folder'. Use an empty string if there is no active file. |
+| <code>newFilePath</code> | <code>string</code> | _(Optional)_ The path to the file that will be newly created, used to infer what settings to use based on the path's extension.                                   |
 
 **Returns:**
 
 [`TFolder`](../TFolder)
-

@@ -1,5 +1,5 @@
 ---
-aliases: "App.loadLocalStorage"
+aliases: 'App.loadLocalStorage'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ loadLocalStorage(key: string): any | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>key</code> | <code>string</code> |  |
+| Parameter        | Type                | Description |
+| ---------------- | ------------------- | ----------- |
+| <code>key</code> | <code>string</code> |             |
 
 **Returns:**
 
 `any | null`
-

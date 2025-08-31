@@ -1,5 +1,5 @@
 ---
-aliases: "Debouncer.cancel"
+aliases: 'Debouncer.cancel'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Cancel any pending debounced function call.
 ```typescript
 cancel(): this;
 ```
+
 **Returns:**
 
 `this`
-

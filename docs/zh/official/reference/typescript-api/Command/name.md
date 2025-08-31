@@ -1,5 +1,5 @@
 ---
-aliases: "Command.name"
+aliases: 'Command.name'
 cssclasses: hide-title
 ---
 

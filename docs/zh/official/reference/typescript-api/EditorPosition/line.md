@@ -1,5 +1,5 @@
 ---
-aliases: "EditorPosition.line"
+aliases: 'EditorPosition.line'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorPosition`](../EditorPosition) › [`line`](./line)
 
 ## EditorPosition.line property
-
 
 **Signature:**
 

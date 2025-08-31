@@ -1,5 +1,5 @@
 ---
-aliases: "TextFileView.save"
+aliases: 'TextFileView.save'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## TextFileView.save() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ save(clear?: boolean): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>clear</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter          | Type                 | Description  |
+| ------------------ | -------------------- | ------------ |
+| <code>clear</code> | <code>boolean</code> | _(Optional)_ |
 
 **Returns:**
 
 `Promise<void>`
-

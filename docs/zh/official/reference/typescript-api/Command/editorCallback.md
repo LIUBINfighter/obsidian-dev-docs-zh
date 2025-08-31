@@ -1,5 +1,5 @@
 ---
-aliases: "Command.editorCallback"
+aliases: 'Command.editorCallback'
 cssclasses: hide-title
 ---
 
@@ -19,7 +19,6 @@ editorCallback?: (editor: Editor, ctx: MarkdownView | MarkdownFileInfo) => any;
 
 ## Example
 
-
 ```ts
 this.addCommand({
   id: 'example-command',
@@ -28,7 +27,6 @@ this.addCommand({
     const sel = editor.getSelection();
 
     console.log(`You have selected: ${sel}`);
-  }
+  },
 });
 ```
-

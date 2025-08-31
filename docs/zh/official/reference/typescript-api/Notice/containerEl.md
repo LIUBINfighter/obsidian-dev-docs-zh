@@ -1,5 +1,5 @@
 ---
-aliases: "Notice.containerEl"
+aliases: 'Notice.containerEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Notice`](../Notice) › [`containerEl`](./containerEl)
 
 ## Notice.containerEl property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "editorLivePreviewField"
+aliases: 'editorLivePreviewField'
 cssclasses: hide-title
 ---
 
@@ -14,5 +14,5 @@ Use this StateField to check whether Live Preview is active
 **Signature:**
 
 ```typescript
-editorLivePreviewField: StateField<boolean>
+editorLivePreviewField: StateField<boolean>;
 ```

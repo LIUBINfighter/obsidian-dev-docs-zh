@@ -1,5 +1,5 @@
 ---
-aliases: "Constructor"
+aliases: 'Constructor'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Constructor`](Constructor)
 
 ## Constructor type
-
 
 **Signature:**
 

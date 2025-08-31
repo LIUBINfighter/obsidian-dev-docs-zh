@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.writeBinary"
+aliases: 'DataAdapter.writeBinary'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ writeBinary(normalizedPath: string, data: ArrayBuffer, options?: DataWriteOption
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
-|  <code>data</code> | <code>ArrayBuffer</code> | the new file content |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
+| Parameter                   | Type                                      | Description                                                                    |
+| --------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------ |
+| <code>normalizedPath</code> | <code>string</code>                       | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| <code>data</code>           | <code>ArrayBuffer</code>                  | the new file content                                                           |
+| <code>options</code>        | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional)                                                        |
 
 **Returns:**
 
 `Promise<void>`
-

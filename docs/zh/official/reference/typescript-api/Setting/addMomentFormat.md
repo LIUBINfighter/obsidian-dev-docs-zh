@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addMomentFormat"
+aliases: 'Setting.addMomentFormat'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addMomentFormat() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addMomentFormat(cb: (component: MomentFormatComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`MomentFormatComponent`](../MomentFormatComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                                 | Description |
+| --------------- | ---------------------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`MomentFormatComponent`](../MomentFormatComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

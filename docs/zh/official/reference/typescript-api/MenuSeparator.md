@@ -1,5 +1,5 @@
 ---
-aliases: "MenuSeparator"
+aliases: 'MenuSeparator'
 cssclasses: hide-title
 ---
 
@@ -9,9 +9,8 @@ cssclasses: hide-title
 
 ## MenuSeparator class
 
-
 **Signature:**
 
 ```typescript
-export class MenuSeparator 
+export class MenuSeparator
 ```

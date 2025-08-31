@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.modifyBinary"
+aliases: 'Vault.modifyBinary'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ modifyBinary(file: TFile, data: ArrayBuffer, options?: DataWriteOptions): Promis
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) | The file |
-|  <code>data</code> | <code>ArrayBuffer</code> | The new file content |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
+| Parameter            | Type                                      | Description             |
+| -------------------- | ----------------------------------------- | ----------------------- |
+| <code>file</code>    | [`TFile`](../TFile)                       | The file                |
+| <code>data</code>    | <code>ArrayBuffer</code>                  | The new file content    |
+| <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
 
 **Returns:**
 
 `Promise<void>`
-

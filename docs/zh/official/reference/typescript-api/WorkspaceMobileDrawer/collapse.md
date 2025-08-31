@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceMobileDrawer.collapse"
+aliases: 'WorkspaceMobileDrawer.collapse'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceMobileDrawer.collapse() method
 
-
 **Signature:**
 
 ```typescript
 collapse(): void;
 ```
+
 **Returns:**
 
 `void`
-

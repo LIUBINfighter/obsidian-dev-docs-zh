@@ -1,5 +1,5 @@
 ---
-aliases: "DropdownComponent.getValue"
+aliases: 'DropdownComponent.getValue'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## DropdownComponent.getValue() method
 
-
 **Signature:**
 
 ```typescript
 getValue(): string;
 ```
+
 **Returns:**
 
 `string`
-

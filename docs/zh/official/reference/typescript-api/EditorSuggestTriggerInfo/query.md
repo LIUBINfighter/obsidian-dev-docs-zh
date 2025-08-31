@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggestTriggerInfo.query"
+aliases: 'EditorSuggestTriggerInfo.query'
 cssclasses: hide-title
 ---
 

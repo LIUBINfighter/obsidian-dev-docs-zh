@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerExtensions"
+aliases: 'Plugin.registerExtensions'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Plugin.registerExtensions() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ registerExtensions(extensions: string[], viewType: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>extensions</code> | <code>string[]</code> |  |
-|  <code>viewType</code> | <code>string</code> |  |
+| Parameter               | Type                  | Description |
+| ----------------------- | --------------------- | ----------- |
+| <code>extensions</code> | <code>string[]</code> |             |
+| <code>viewType</code>   | <code>string</code>   |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "CachedMetadata.referenceLinks"
+aliases: 'CachedMetadata.referenceLinks'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`CachedMetadata`](../CachedMetadata) › [`referenceLinks`](./referenceLinks)
 
 ## CachedMetadata.referenceLinks property
-
 
 **Signature:**
 

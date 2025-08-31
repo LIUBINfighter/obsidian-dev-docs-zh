@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getAllFolders"
+aliases: 'Vault.getAllFolders'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getAllFolders(includeRoot?: boolean): TFolder[];
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>includeRoot</code> | <code>boolean</code> | _(Optional)_ Should the root folder (<code>/</code>) be returned |
+| Parameter                | Type                 | Description                                                      |
+| ------------------------ | -------------------- | ---------------------------------------------------------------- |
+| <code>includeRoot</code> | <code>boolean</code> | _(Optional)_ Should the root folder (<code>/</code>) be returned |
 
 **Returns:**
 
 [`TFolder`](../TFolder)`[]`
-

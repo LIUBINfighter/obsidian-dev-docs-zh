@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.getResourcePath"
+aliases: 'DataAdapter.getResourcePath'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getResourcePath(normalizedPath: string): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                           |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------------------- |
+| <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `string`
-

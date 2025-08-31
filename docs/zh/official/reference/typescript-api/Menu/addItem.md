@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.addItem"
+aliases: 'Menu.addItem'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ addItem(cb: (item: MenuItem) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(item: </code>[`MenuItem`](../MenuItem)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                  | Description |
+| --------------- | --------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(item: </code>[`MenuItem`](../MenuItem)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

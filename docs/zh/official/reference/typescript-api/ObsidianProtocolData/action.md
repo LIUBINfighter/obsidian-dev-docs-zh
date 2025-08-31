@@ -1,5 +1,5 @@
 ---
-aliases: "ObsidianProtocolData.action"
+aliases: 'ObsidianProtocolData.action'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ObsidianProtocolData`](../ObsidianProtocolData) › [`action`](./action)
 
 ## ObsidianProtocolData.action property
-
 
 **Signature:**
 

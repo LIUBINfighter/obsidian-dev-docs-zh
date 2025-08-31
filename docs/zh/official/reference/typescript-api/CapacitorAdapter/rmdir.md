@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter.rmdir"
+aliases: 'CapacitorAdapter.rmdir'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## CapacitorAdapter.rmdir() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ rmdir(normalizedPath: string, recursive: boolean): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
-|  <code>recursive</code> | <code>boolean</code> |  |
+| Parameter                   | Type                 | Description |
+| --------------------------- | -------------------- | ----------- |
+| <code>normalizedPath</code> | <code>string</code>  |             |
+| <code>recursive</code>      | <code>boolean</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

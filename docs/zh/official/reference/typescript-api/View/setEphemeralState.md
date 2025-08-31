@@ -1,5 +1,5 @@
 ---
-aliases: "View.setEphemeralState"
+aliases: 'View.setEphemeralState'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## View.setEphemeralState() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setEphemeralState(state: unknown): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>state</code> | <code>unknown</code> |  |
+| Parameter          | Type                 | Description |
+| ------------------ | -------------------- | ----------- |
+| <code>state</code> | <code>unknown</code> |             |
 
 **Returns:**
 
 `void`
-

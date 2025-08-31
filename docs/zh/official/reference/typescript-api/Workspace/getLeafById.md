@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getLeafById"
+aliases: 'Workspace.getLeafById'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getLeafById(id: string): WorkspaceLeaf | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>id</code> | <code>string</code> | id of the leaf to retrieve. |
+| Parameter       | Type                | Description                 |
+| --------------- | ------------------- | --------------------------- |
+| <code>id</code> | <code>string</code> | id of the leaf to retrieve. |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)` | null`
-

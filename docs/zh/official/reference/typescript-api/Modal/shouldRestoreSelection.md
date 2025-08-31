@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.shouldRestoreSelection"
+aliases: 'Modal.shouldRestoreSelection'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Modal`](../Modal) › [`shouldRestoreSelection`](./shouldRestoreSelection)
 
 ## Modal.shouldRestoreSelection property
-
 
 **Signature:**
 

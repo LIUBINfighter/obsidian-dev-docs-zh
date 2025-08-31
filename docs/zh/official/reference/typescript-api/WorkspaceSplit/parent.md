@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceSplit.parent"
+aliases: 'WorkspaceSplit.parent'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceSplit`](../WorkspaceSplit) › [`parent`](./parent)
 
 ## WorkspaceSplit.parent property
-
 
 **Signature:**
 

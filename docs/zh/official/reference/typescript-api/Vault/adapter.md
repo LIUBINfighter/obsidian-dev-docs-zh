@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.adapter"
+aliases: 'Vault.adapter'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Vault`](../Vault) › [`adapter`](./adapter)
 
 ## Vault.adapter property
-
 
 **Signature:**
 

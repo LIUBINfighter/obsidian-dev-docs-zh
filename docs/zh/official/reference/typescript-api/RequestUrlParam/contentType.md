@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlParam.contentType"
+aliases: 'RequestUrlParam.contentType'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlParam`](../RequestUrlParam) › [`contentType`](./contentType)
 
 ## RequestUrlParam.contentType property
-
 
 **Signature:**
 

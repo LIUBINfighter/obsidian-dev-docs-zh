@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.rename"
+aliases: 'Vault.rename'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ rename(file: TAbstractFile, newPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TAbstractFile`](../TAbstractFile) | the file to rename/move |
-|  <code>newPath</code> | <code>string</code> | vault absolute path to move file to. |
+| Parameter            | Type                                | Description                          |
+| -------------------- | ----------------------------------- | ------------------------------------ |
+| <code>file</code>    | [`TAbstractFile`](../TAbstractFile) | the file to rename/move              |
+| <code>newPath</code> | <code>string</code>                 | vault absolute path to move file to. |
 
 **Returns:**
 
 `Promise<void>`
-

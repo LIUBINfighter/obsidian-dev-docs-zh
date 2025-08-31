@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.append"
+aliases: 'Vault.append'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ append(file: TFile, data: string, options?: DataWriteOptions): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) | The file |
-|  <code>data</code> | <code>string</code> | the text to add |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
+| Parameter            | Type                                      | Description             |
+| -------------------- | ----------------------------------------- | ----------------------- |
+| <code>file</code>    | [`TFile`](../TFile)                       | The file                |
+| <code>data</code>    | <code>string</code>                       | the text to add         |
+| <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
 
 **Returns:**
 
 `Promise<void>`
-

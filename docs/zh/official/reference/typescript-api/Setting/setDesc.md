@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.setDesc"
+aliases: 'Setting.setDesc'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.setDesc() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setDesc(desc: string | DocumentFragment): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>desc</code> | <code>string &#124; </code><code>DocumentFragment</code> |  |
+| Parameter         | Type                                                     | Description |
+| ----------------- | -------------------------------------------------------- | ----------- |
+| <code>desc</code> | <code>string &#124; </code><code>DocumentFragment</code> |             |
 
 **Returns:**
 
 `this`
-

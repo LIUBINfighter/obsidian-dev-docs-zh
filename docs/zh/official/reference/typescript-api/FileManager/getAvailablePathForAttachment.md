@@ -1,5 +1,5 @@
 ---
-aliases: "FileManager.getAvailablePathForAttachment"
+aliases: 'FileManager.getAvailablePathForAttachment'
 cssclasses: hide-title
 ---
 
@@ -19,14 +19,13 @@ getAvailablePathForAttachment(filename: string, sourcePath?: string): Promise<st
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>filename</code> | <code>string</code> | Name of the attachment being saved |
-|  <code>sourcePath</code> | <code>string</code> | _(Optional)_ The path to the note associated with this attachment, defaults to the workspace's active file. |
+| Parameter               | Type                | Description                                                                                                 |
+| ----------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
+| <code>filename</code>   | <code>string</code> | Name of the attachment being saved                                                                          |
+| <code>sourcePath</code> | <code>string</code> | _(Optional)_ The path to the note associated with this attachment, defaults to the workspace's active file. |
 
 **Returns:**
 
 `Promise<string>`
 
 Full path for where the attachment should be saved, according to the user's settings
-

@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceItem.getRoot"
+aliases: 'WorkspaceItem.getRoot'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceItem.getRoot() method
 
-
 **Signature:**
 
 ```typescript
 getRoot(): WorkspaceItem;
 ```
+
 **Returns:**
 
 [`WorkspaceItem`](../WorkspaceItem)
-

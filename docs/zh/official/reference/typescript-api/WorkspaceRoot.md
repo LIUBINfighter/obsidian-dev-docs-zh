@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceRoot"
+aliases: 'WorkspaceRoot'
 cssclasses: hide-title
 ---
 
@@ -9,31 +9,30 @@ cssclasses: hide-title
 
 ## WorkspaceRoot class
 
-
 **Signature:**
 
 ```typescript
-export class WorkspaceRoot extends WorkspaceContainer 
+export class WorkspaceRoot extends WorkspaceContainer
 ```
+
 **Extends:** [`WorkspaceContainer`](WorkspaceContainer)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`doc`](WorkspaceRoot/doc) |  | <code>Document</code> |  |
-|  [`parent`](WorkspaceSplit/parent) |  | [`WorkspaceParent`](WorkspaceParent) | <p>(Inherited from [WorkspaceSplit](WorkspaceSplit)<!-- -->)</p> |
-|  [`win`](WorkspaceRoot/win) |  | <code>Window</code> |  |
+| Property                          | Modifiers | Type                                 | Description                                                      |
+| --------------------------------- | --------- | ------------------------------------ | ---------------------------------------------------------------- |
+| [`doc`](WorkspaceRoot/doc)        |           | <code>Document</code>                |                                                                  |
+| [`parent`](WorkspaceSplit/parent) |           | [`WorkspaceParent`](WorkspaceParent) | <p>(Inherited from [WorkspaceSplit](WorkspaceSplit)<!-- -->)</p> |
+| [`win`](WorkspaceRoot/win)        |           | <code>Window</code>                  |                                                                  |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`getContainer()`](WorkspaceItem/getContainer) |  | <p>Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow)</p><p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
-|  [`getRoot()`](WorkspaceItem/getRoot) |  | <p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
-|  [`off(name, callback)`](Events/off) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`offref(ref)`](Events/offref) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`on(name: string, callback, ctx)`](Events/on) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`trigger(name, data)`](Events/trigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-|  [`tryTrigger(evt, args)`](Events/tryTrigger) |  | <p>(Inherited from [Events](Events)<!-- -->)</p> |
-
+| Method                                         | Modifiers | Description                                                                                                                                                                                         |
+| ---------------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`getContainer()`](WorkspaceItem/getContainer) |           | <p>Get the root container parent item, which can be one of: - [WorkspaceRoot](WorkspaceRoot) - [WorkspaceWindow](WorkspaceWindow)</p><p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p> |
+| [`getRoot()`](WorkspaceItem/getRoot)           |           | <p>(Inherited from [WorkspaceItem](WorkspaceItem)<!-- -->)</p>                                                                                                                                      |
+| [`off(name, callback)`](Events/off)            |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`offref(ref)`](Events/offref)                 |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`on(name: string, callback, ctx)`](Events/on) |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`trigger(name, data)`](Events/trigger)        |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |
+| [`tryTrigger(evt, args)`](Events/tryTrigger)   |           | <p>(Inherited from [Events](Events)<!-- -->)</p>                                                                                                                                                    |

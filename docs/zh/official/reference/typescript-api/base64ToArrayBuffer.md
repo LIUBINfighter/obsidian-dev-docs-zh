@@ -1,5 +1,5 @@
 ---
-aliases: "base64ToArrayBuffer"
+aliases: 'base64ToArrayBuffer'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## base64ToArrayBuffer() function
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ export function base64ToArrayBuffer(base64: string): ArrayBuffer;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>base64</code> | <code>string</code> |  |
+| Parameter           | Type                | Description |
+| ------------------- | ------------------- | ----------- |
+| <code>base64</code> | <code>string</code> |             |
 
 **Returns:**
 
 `ArrayBuffer`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "View.onResize"
+aliases: 'View.onResize'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Called when the size of this view is changed.
 ```typescript
 onResize(): void;
 ```
+
 **Returns:**
 
 `void`
-

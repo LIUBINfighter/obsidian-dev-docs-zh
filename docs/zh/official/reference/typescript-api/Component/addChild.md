@@ -1,5 +1,5 @@
 ---
-aliases: "Component.addChild"
+aliases: 'Component.addChild'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ addChild<T extends Component>(component: T): T;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>component</code> | <code>T</code> |  |
+| Parameter              | Type           | Description |
+| ---------------------- | -------------- | ----------- |
+| <code>component</code> | <code>T</code> |             |
 
 **Returns:**
 
 `T`
-

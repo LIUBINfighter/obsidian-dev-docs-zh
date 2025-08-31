@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.duplicateLeaf"
+aliases: 'Workspace.duplicateLeaf'
 cssclasses: hide-title
 ---
 
@@ -10,9 +10,8 @@ cssclasses: hide-title
 ## Workspace.duplicateLeaf() method
 
 > Warning: This API is now obsolete.
-> 
+>
 > - Use the new form of this method instead
-> 
 
 **Signature:**
 
@@ -22,12 +21,11 @@ duplicateLeaf(leaf: WorkspaceLeaf, direction?: SplitDirection): Promise<Workspac
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>leaf</code> | [`WorkspaceLeaf`](../WorkspaceLeaf) |  |
-|  <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
+| Parameter              | Type                                  | Description  |
+| ---------------------- | ------------------------------------- | ------------ |
+| <code>leaf</code>      | [`WorkspaceLeaf`](../WorkspaceLeaf)   |              |
+| <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
 
 **Returns:**
 
 `Promise<`[`WorkspaceLeaf`](../WorkspaceLeaf)`>`
-

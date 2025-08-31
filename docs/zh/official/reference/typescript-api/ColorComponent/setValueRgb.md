@@ -1,5 +1,5 @@
 ---
-aliases: "ColorComponent.setValueRgb"
+aliases: 'ColorComponent.setValueRgb'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ColorComponent.setValueRgb() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setValueRgb(rgb: RGB): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>rgb</code> | [`RGB`](../RGB) |  |
+| Parameter        | Type            | Description |
+| ---------------- | --------------- | ----------- |
+| <code>rgb</code> | [`RGB`](../RGB) |             |
 
 **Returns:**
 
 `this`
-

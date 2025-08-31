@@ -1,5 +1,5 @@
 ---
-aliases: "FileManager.trashFile"
+aliases: 'FileManager.trashFile'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ trashFile(file: TAbstractFile): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TAbstractFile`](../TAbstractFile) |  |
+| Parameter         | Type                                | Description |
+| ----------------- | ----------------------------------- | ----------- |
+| <code>file</code> | [`TAbstractFile`](../TAbstractFile) |             |
 
 **Returns:**
 
 `Promise<void>`
-

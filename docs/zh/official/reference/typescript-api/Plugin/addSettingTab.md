@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.addSettingTab"
+aliases: 'Plugin.addSettingTab'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ addSettingTab(settingTab: PluginSettingTab): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>settingTab</code> | [`PluginSettingTab`](../PluginSettingTab) |  |
+| Parameter               | Type                                      | Description |
+| ----------------------- | ----------------------------------------- | ----------- |
+| <code>settingTab</code> | [`PluginSettingTab`](../PluginSettingTab) |             |
 
 **Returns:**
 
 `void`
-

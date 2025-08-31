@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewView.rerender"
+aliases: 'MarkdownPreviewView.rerender'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownPreviewView.rerender() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ rerender(full?: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>full</code> | <code>boolean</code> | _(Optional)_ |
+| Parameter         | Type                 | Description  |
+| ----------------- | -------------------- | ------------ |
+| <code>full</code> | <code>boolean</code> | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

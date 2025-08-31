@@ -1,5 +1,5 @@
 ---
-aliases: "DropdownComponent.selectEl"
+aliases: 'DropdownComponent.selectEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`DropdownComponent`](../DropdownComponent) › [`selectEl`](./selectEl)
 
 ## DropdownComponent.selectEl property
-
 
 **Signature:**
 

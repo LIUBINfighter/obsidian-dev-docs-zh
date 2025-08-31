@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.setClass"
+aliases: 'ButtonComponent.setClass'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ButtonComponent.setClass() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setClass(cls: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cls</code> | <code>string</code> |  |
+| Parameter        | Type                | Description |
+| ---------------- | ------------------- | ----------- |
+| <code>cls</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "ExtraButtonComponent.extraSettingsEl"
+aliases: 'ExtraButtonComponent.extraSettingsEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ExtraButtonComponent`](../ExtraButtonComponent) › [`extraSettingsEl`](./extraSettingsEl)
 
 ## ExtraButtonComponent.extraSettingsEl property
-
 
 **Signature:**
 

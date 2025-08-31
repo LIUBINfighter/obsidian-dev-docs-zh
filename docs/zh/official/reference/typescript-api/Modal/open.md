@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.open"
+aliases: 'Modal.open'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Show the modal on the the active window. On mobile, the modal will animate on sc
 ```typescript
 open(): void;
 ```
+
 **Returns:**
 
 `void`
-

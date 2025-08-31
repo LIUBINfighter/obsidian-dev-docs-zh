@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.createLeafInParent"
+aliases: 'Workspace.createLeafInParent'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Workspace.createLeafInParent() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ createLeafInParent(parent: WorkspaceSplit, index: number): WorkspaceLeaf;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>parent</code> | [`WorkspaceSplit`](../WorkspaceSplit) |  |
-|  <code>index</code> | <code>number</code> |  |
+| Parameter           | Type                                  | Description |
+| ------------------- | ------------------------------------- | ----------- |
+| <code>parent</code> | [`WorkspaceSplit`](../WorkspaceSplit) |             |
+| <code>index</code>  | <code>number</code>                   |             |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)
-

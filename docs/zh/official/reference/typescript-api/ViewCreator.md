@@ -1,5 +1,5 @@
 ---
-aliases: "ViewCreator"
+aliases: 'ViewCreator'
 cssclasses: hide-title
 ---
 
@@ -9,11 +9,10 @@ cssclasses: hide-title
 
 ## ViewCreator type
 
-
 **Signature:**
 
 ```typescript
 export type ViewCreator = (leaf: WorkspaceLeaf) => View;
 ```
-**References:** [`WorkspaceLeaf`](WorkspaceLeaf)<!-- -->, [`View`](View)
 
+**References:** [`WorkspaceLeaf`](WorkspaceLeaf)<!-- -->, [`View`](View)

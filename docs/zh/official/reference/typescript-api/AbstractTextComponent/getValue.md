@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractTextComponent.getValue"
+aliases: 'AbstractTextComponent.getValue'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## AbstractTextComponent.getValue() method
 
-
 **Signature:**
 
 ```typescript
 getValue(): string;
 ```
+
 **Returns:**
 
 `string`
-

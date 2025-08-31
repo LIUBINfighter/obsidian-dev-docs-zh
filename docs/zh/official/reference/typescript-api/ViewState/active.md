@@ -1,5 +1,5 @@
 ---
-aliases: "ViewState.active"
+aliases: 'ViewState.active'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ViewState`](../ViewState) › [`active`](./active)
 
 ## ViewState.active property
-
 
 **Signature:**
 

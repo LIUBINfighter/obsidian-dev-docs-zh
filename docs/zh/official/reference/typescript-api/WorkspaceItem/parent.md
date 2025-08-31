@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceItem.parent"
+aliases: 'WorkspaceItem.parent'
 cssclasses: hide-title
 ---
 

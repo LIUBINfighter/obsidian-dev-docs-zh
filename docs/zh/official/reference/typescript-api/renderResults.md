@@ -1,5 +1,5 @@
 ---
-aliases: "renderResults"
+aliases: 'renderResults'
 cssclasses: hide-title
 ---
 
@@ -9,23 +9,26 @@ cssclasses: hide-title
 
 ## renderResults() function
 
-
 **Signature:**
 
 ```typescript
-export function renderResults(el: HTMLElement, text: string, result: SearchResult, offset?: number): void;
+export function renderResults(
+  el: HTMLElement,
+  text: string,
+  result: SearchResult,
+  offset?: number,
+): void;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>el</code> | <code>HTMLElement</code> |  |
-|  <code>text</code> | <code>string</code> |  |
-|  <code>result</code> | [`SearchResult`](SearchResult) |  |
-|  <code>offset</code> | <code>number</code> | _(Optional)_ |
+| Parameter           | Type                           | Description  |
+| ------------------- | ------------------------------ | ------------ |
+| <code>el</code>     | <code>HTMLElement</code>       |              |
+| <code>text</code>   | <code>string</code>            |              |
+| <code>result</code> | [`SearchResult`](SearchResult) |              |
+| <code>offset</code> | <code>number</code>            | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

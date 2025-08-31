@@ -1,5 +1,5 @@
 ---
-aliases: "View.getIcon"
+aliases: 'View.getIcon'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.getIcon() method
 
-
 **Signature:**
 
 ```typescript
 getIcon(): IconName;
 ```
+
 **Returns:**
 
 [`IconName`](../IconName)
-

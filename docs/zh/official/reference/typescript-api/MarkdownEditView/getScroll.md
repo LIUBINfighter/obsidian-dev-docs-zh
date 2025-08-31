@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownEditView.getScroll"
+aliases: 'MarkdownEditView.getScroll'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownEditView.getScroll() method
 
-
 **Signature:**
 
 ```typescript
 getScroll(): number;
 ```
+
 **Returns:**
 
 `number`
-

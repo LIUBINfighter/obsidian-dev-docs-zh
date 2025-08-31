@@ -1,5 +1,5 @@
 ---
-aliases: "iterateRefs"
+aliases: 'iterateRefs'
 cssclasses: hide-title
 ---
 
@@ -14,19 +14,21 @@ If callback returns true, the iteration process will be interrupted.
 **Signature:**
 
 ```typescript
-export function iterateRefs(refs: Reference[], cb: (ref: Reference) => boolean | void): boolean;
+export function iterateRefs(
+  refs: Reference[],
+  cb: (ref: Reference) => boolean | void,
+): boolean;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>refs</code> | [`Reference`](Reference)<code>[]</code> |  |
-|  <code>cb</code> | <code>(ref: </code>[`Reference`](Reference)<code>) =&gt; boolean &#124; void</code> |  |
+| Parameter         | Type                                                                                | Description |
+| ----------------- | ----------------------------------------------------------------------------------- | ----------- |
+| <code>refs</code> | [`Reference`](Reference)<code>[]</code>                                             |             |
+| <code>cb</code>   | <code>(ref: </code>[`Reference`](Reference)<code>) =&gt; boolean &#124; void</code> |             |
 
 **Returns:**
 
 `boolean`
 
 true if callback ever returns true, false otherwise.
-

@@ -1,5 +1,5 @@
 ---
-aliases: "EditorPosition.ch"
+aliases: 'EditorPosition.ch'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorPosition`](../EditorPosition) › [`ch`](./ch)
 
 ## EditorPosition.ch property
-
 
 **Signature:**
 

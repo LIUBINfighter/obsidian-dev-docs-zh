@@ -1,5 +1,5 @@
 ---
-aliases: "FuzzySuggestModal.getSuggestions"
+aliases: 'FuzzySuggestModal.getSuggestions'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FuzzySuggestModal.getSuggestions() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ getSuggestions(query: string): FuzzyMatch<T>[];
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>query</code> | <code>string</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>query</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`FuzzyMatch`](../FuzzyMatch)`<T>[]`
-

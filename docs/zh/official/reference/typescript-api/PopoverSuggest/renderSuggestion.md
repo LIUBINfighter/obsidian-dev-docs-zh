@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest.renderSuggestion"
+aliases: 'PopoverSuggest.renderSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## PopoverSuggest.renderSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ abstract renderSuggestion(value: T, el: HTMLElement): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>T</code> |  |
-|  <code>el</code> | <code>HTMLElement</code> |  |
+| Parameter          | Type                     | Description |
+| ------------------ | ------------------------ | ----------- |
+| <code>value</code> | <code>T</code>           |             |
+| <code>el</code>    | <code>HTMLElement</code> |             |
 
 **Returns:**
 
 `void`
-

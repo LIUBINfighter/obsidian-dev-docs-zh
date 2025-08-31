@@ -1,5 +1,5 @@
 ---
-aliases: "RGB"
+aliases: 'RGB'
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,16 @@ cssclasses: hide-title
 
 ## RGB interface
 
-
 **Signature:**
 
 ```typescript
-export interface RGB 
+export interface RGB
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`b`](RGB/b) |  | <code>number</code> | Blue integer value between 0 and 255 |
-|  [`g`](RGB/g) |  | <code>number</code> | Green integer value between 0 and 255 |
-|  [`r`](RGB/r) |  | <code>number</code> | Red integer value between 0 and 255 |
-
+| Property     | Modifiers | Type                | Description                           |
+| ------------ | --------- | ------------------- | ------------------------------------- |
+| [`b`](RGB/b) |           | <code>number</code> | Blue integer value between 0 and 255  |
+| [`g`](RGB/g) |           | <code>number</code> | Green integer value between 0 and 255 |
+| [`r`](RGB/r) |           | <code>number</code> | Red integer value between 0 and 255   |

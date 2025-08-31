@@ -1,5 +1,5 @@
 ---
-aliases: "HexString"
+aliases: 'HexString'
 cssclasses: hide-title
 ---
 

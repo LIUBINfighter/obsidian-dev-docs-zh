@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceWindow.win"
+aliases: 'WorkspaceWindow.win'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceWindow`](../WorkspaceWindow) › [`win`](./win)
 
 ## WorkspaceWindow.win property
-
 
 **Signature:**
 

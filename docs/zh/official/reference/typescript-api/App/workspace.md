@@ -1,5 +1,5 @@
 ---
-aliases: "App.workspace"
+aliases: 'App.workspace'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`App`](../App) › [`workspace`](./workspace)
 
 ## App.workspace property
-
 
 **Signature:**
 

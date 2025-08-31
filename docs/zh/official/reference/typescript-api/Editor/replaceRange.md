@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.replaceRange"
+aliases: 'Editor.replaceRange'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.replaceRange() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,14 +17,13 @@ abstract replaceRange(replacement: string, from: EditorPosition, to?: EditorPosi
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>replacement</code> | <code>string</code> |  |
-|  <code>from</code> | [`EditorPosition`](../EditorPosition) |  |
-|  <code>to</code> | [`EditorPosition`](../EditorPosition) | _(Optional)_ |
-|  <code>origin</code> | <code>string</code> | _(Optional)_ |
+| Parameter                | Type                                  | Description  |
+| ------------------------ | ------------------------------------- | ------------ |
+| <code>replacement</code> | <code>string</code>                   |              |
+| <code>from</code>        | [`EditorPosition`](../EditorPosition) |              |
+| <code>to</code>          | [`EditorPosition`](../EditorPosition) | _(Optional)_ |
+| <code>origin</code>      | <code>string</code>                   | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

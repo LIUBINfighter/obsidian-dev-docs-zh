@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownRenderer.render"
+aliases: 'MarkdownRenderer.render'
 cssclasses: hide-title
 ---
 
@@ -19,15 +19,14 @@ static render(app: App, markdown: string, el: HTMLElement, sourcePath: string, c
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>app</code> | [`App`](../App) | A reference to the app object |
-|  <code>markdown</code> | <code>string</code> | The Markdown source code |
-|  <code>el</code> | <code>HTMLElement</code> | The element to append to |
-|  <code>sourcePath</code> | <code>string</code> | The normalized path of this Markdown file, used to resolve relative internal links |
-|  <code>component</code> | [`Component`](../Component) | A parent component to manage the lifecycle of the rendered child components. |
+| Parameter               | Type                        | Description                                                                        |
+| ----------------------- | --------------------------- | ---------------------------------------------------------------------------------- |
+| <code>app</code>        | [`App`](../App)             | A reference to the app object                                                      |
+| <code>markdown</code>   | <code>string</code>         | The Markdown source code                                                           |
+| <code>el</code>         | <code>HTMLElement</code>    | The element to append to                                                           |
+| <code>sourcePath</code> | <code>string</code>         | The normalized path of this Markdown file, used to resolve relative internal links |
+| <code>component</code>  | [`Component`](../Component) | A parent component to manage the lifecycle of the rendered child components.       |
 
 **Returns:**
 
 `Promise<void>`
-

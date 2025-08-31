@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.write"
+aliases: 'FileSystemAdapter.write'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.write() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ write(normalizedPath: string, data: string, options?: DataWriteOptions): Promise
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> |  |
-|  <code>data</code> | <code>string</code> |  |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ |
+| Parameter                   | Type                                      | Description  |
+| --------------------------- | ----------------------------------------- | ------------ |
+| <code>normalizedPath</code> | <code>string</code>                       |              |
+| <code>data</code>           | <code>string</code>                       |              |
+| <code>options</code>        | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ |
 
 **Returns:**
 
 `Promise<void>`
-

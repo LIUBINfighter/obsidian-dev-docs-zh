@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.close"
+aliases: 'Menu.close'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Menu.close() method
 
-
 **Signature:**
 
 ```typescript
 close(): void;
 ```
+
 **Returns:**
 
 `void`
-

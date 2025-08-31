@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.list"
+aliases: 'DataAdapter.list'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ list(normalizedPath: string): Promise<ListedFiles>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                      |
+| --------------------------- | ------------------- | -------------------------------------------------------------------------------- |
+| <code>normalizedPath</code> | <code>string</code> | path to folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<`[`ListedFiles`](../ListedFiles)`>`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceFloating.parent"
+aliases: 'WorkspaceFloating.parent'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceFloating`](../WorkspaceFloating) › [`parent`](./parent)
 
 ## WorkspaceFloating.parent property
-
 
 **Signature:**
 

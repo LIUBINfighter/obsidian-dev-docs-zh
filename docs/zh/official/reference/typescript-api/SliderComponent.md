@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent"
+aliases: 'SliderComponent'
 cssclasses: hide-title
 ---
 
@@ -9,40 +9,39 @@ cssclasses: hide-title
 
 ## SliderComponent class
 
-
 **Signature:**
 
 ```typescript
-export class SliderComponent extends ValueComponent<number> 
+export class SliderComponent extends ValueComponent<number>
 ```
+
 **Extends:** [`ValueComponent`](ValueComponent)`<number>`
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(containerEl)`](SliderComponent/(constructor).md) |  | Constructs a new instance of the <code>SliderComponent</code> class |
+| Constructor                                                        | Modifiers | Description                                                         |
+| ------------------------------------------------------------------ | --------- | ------------------------------------------------------------------- |
+| [`(constructor)(containerEl)`](<SliderComponent/(constructor).md>) |           | Constructs a new instance of the <code>SliderComponent</code> class |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`disabled`](BaseComponent/disabled) |  | <code>boolean</code> | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-|  [`sliderEl`](SliderComponent/sliderEl) |  | <code>HTMLInputElement</code> |  |
+| Property                               | Modifiers | Type                          | Description                                                    |
+| -------------------------------------- | --------- | ----------------------------- | -------------------------------------------------------------- |
+| [`disabled`](BaseComponent/disabled)   |           | <code>boolean</code>          | <p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
+| [`sliderEl`](SliderComponent/sliderEl) |           | <code>HTMLInputElement</code> |                                                                |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`getValue()`](SliderComponent/getValue) |  |  |
-|  [`getValuePretty()`](SliderComponent/getValuePretty) |  |  |
-|  [`onChange(callback)`](SliderComponent/onChange) |  |  |
-|  [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |  | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p> |
-|  [`setDisabled(disabled)`](SliderComponent/setDisabled) |  |  |
-|  [`setDynamicTooltip()`](SliderComponent/setDynamicTooltip) |  |  |
-|  [`setInstant(instant)`](SliderComponent/setInstant) |  |  |
-|  [`setLimits(min, max, step)`](SliderComponent/setLimits) |  |  |
-|  [`setValue(value)`](SliderComponent/setValue) |  |  |
-|  [`showTooltip()`](SliderComponent/showTooltip) |  |  |
-|  [`then(cb)`](BaseComponent/then) |  | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |
-
+| Method                                                                            | Modifiers | Description                                                                               |
+| --------------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------- |
+| [`getValue()`](SliderComponent/getValue)                                          |           |                                                                                           |
+| [`getValuePretty()`](SliderComponent/getValuePretty)                              |           |                                                                                           |
+| [`onChange(callback)`](SliderComponent/onChange)                                  |           |                                                                                           |
+| [`registerOptionListener(listeners, key)`](ValueComponent/registerOptionListener) |           | <p>(Inherited from [ValueComponent](ValueComponent)<!-- -->)</p>                          |
+| [`setDisabled(disabled)`](SliderComponent/setDisabled)                            |           |                                                                                           |
+| [`setDynamicTooltip()`](SliderComponent/setDynamicTooltip)                        |           |                                                                                           |
+| [`setInstant(instant)`](SliderComponent/setInstant)                               |           |                                                                                           |
+| [`setLimits(min, max, step)`](SliderComponent/setLimits)                          |           |                                                                                           |
+| [`setValue(value)`](SliderComponent/setValue)                                     |           |                                                                                           |
+| [`showTooltip()`](SliderComponent/showTooltip)                                    |           |                                                                                           |
+| [`then(cb)`](BaseComponent/then)                                                  |           | <p>Facilitates chaining</p><p>(Inherited from [BaseComponent](BaseComponent)<!-- -->)</p> |

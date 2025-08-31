@@ -1,5 +1,5 @@
 ---
-aliases: "ItemView.contentEl"
+aliases: 'ItemView.contentEl'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ItemView`](../ItemView) › [`contentEl`](./contentEl)
 
 ## ItemView.contentEl property
-
 
 **Signature:**
 

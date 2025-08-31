@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPostProcessor"
+aliases: 'MarkdownPostProcessor'
 cssclasses: hide-title
 ---
 
@@ -18,12 +18,11 @@ If your post processor requires lifecycle management, for example, to clear an i
 **Signature:**
 
 ```typescript
-export interface MarkdownPostProcessor 
+export interface MarkdownPostProcessor
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`sortOrder?`](MarkdownPostProcessor/sortOrder) |  | <code>number</code> | _(Optional)_ An optional integer sort order. Defaults to 0. Lower number runs before higher numbers. |
-
+| Property                                        | Modifiers | Type                | Description                                                                                          |
+| ----------------------------------------------- | --------- | ------------------- | ---------------------------------------------------------------------------------------------------- |
+| [`sortOrder?`](MarkdownPostProcessor/sortOrder) |           | <code>number</code> | _(Optional)_ An optional integer sort order. Defaults to 0. Lower number runs before higher numbers. |

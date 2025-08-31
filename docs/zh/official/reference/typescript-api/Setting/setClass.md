@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.setClass"
+aliases: 'Setting.setClass'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.setClass() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setClass(cls: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cls</code> | <code>string</code> |  |
+| Parameter        | Type                | Description |
+| ---------------- | ------------------- | ----------- |
+| <code>cls</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.setName"
+aliases: 'Setting.setName'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.setName() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setName(name: string | DocumentFragment): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>name</code> | <code>string &#124; </code><code>DocumentFragment</code> |  |
+| Parameter         | Type                                                     | Description |
+| ----------------- | -------------------------------------------------------- | ----------- |
+| <code>name</code> | <code>string &#124; </code><code>DocumentFragment</code> |             |
 
 **Returns:**
 
 `this`
-

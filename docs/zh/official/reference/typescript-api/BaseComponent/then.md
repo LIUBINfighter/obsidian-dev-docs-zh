@@ -1,5 +1,5 @@
 ---
-aliases: "BaseComponent.then"
+aliases: 'BaseComponent.then'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ then(cb: (component: this) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: this) =&gt; any</code> |  |
+| Parameter       | Type                                     | Description |
+| --------------- | ---------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: this) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

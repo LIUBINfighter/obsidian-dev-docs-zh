@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getGroupLeaves"
+aliases: 'Workspace.getGroupLeaves'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getGroupLeaves(group: string): WorkspaceLeaf[];
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>group</code> | <code>string</code> | id |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>group</code> | <code>string</code> | id          |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)`[]`
-

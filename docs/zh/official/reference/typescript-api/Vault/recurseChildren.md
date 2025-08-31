@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.recurseChildren"
+aliases: 'Vault.recurseChildren'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Vault.recurseChildren() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ static recurseChildren(root: TFolder, cb: (file: TAbstractFile) => any): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>root</code> | [`TFolder`](../TFolder) |  |
-|  <code>cb</code> | <code>(file: </code>[`TAbstractFile`](../TAbstractFile)<code>) =&gt; any</code> |  |
+| Parameter         | Type                                                                            | Description |
+| ----------------- | ------------------------------------------------------------------------------- | ----------- |
+| <code>root</code> | [`TFolder`](../TFolder)                                                         |             |
+| <code>cb</code>   | <code>(file: </code>[`TAbstractFile`](../TAbstractFile)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `void`
-

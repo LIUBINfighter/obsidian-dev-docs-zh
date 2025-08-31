@@ -1,5 +1,5 @@
 ---
-aliases: "DataWriteOptions"
+aliases: 'DataWriteOptions'
 cssclasses: hide-title
 ---
 
@@ -9,17 +9,15 @@ cssclasses: hide-title
 
 ## DataWriteOptions interface
 
-
 **Signature:**
 
 ```typescript
-export interface DataWriteOptions 
+export interface DataWriteOptions
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`ctime?`](DataWriteOptions/ctime) |  | <code>number</code> | _(Optional)_ Time of creation, represented as a unix timestamp, in milliseconds. Omit this if you want to keep the default behaviour. |
-|  [`mtime?`](DataWriteOptions/mtime) |  | <code>number</code> | _(Optional)_ Time of last modification, represented as a unix timestamp, in milliseconds. Omit this if you want to keep the default behaviour. |
-
+| Property                           | Modifiers | Type                | Description                                                                                                                                    |
+| ---------------------------------- | --------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`ctime?`](DataWriteOptions/ctime) |           | <code>number</code> | _(Optional)_ Time of creation, represented as a unix timestamp, in milliseconds. Omit this if you want to keep the default behaviour.          |
+| [`mtime?`](DataWriteOptions/mtime) |           | <code>number</code> | _(Optional)_ Time of last modification, represented as a unix timestamp, in milliseconds. Omit this if you want to keep the default behaviour. |

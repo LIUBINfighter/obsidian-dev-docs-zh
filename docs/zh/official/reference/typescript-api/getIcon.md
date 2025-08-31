@@ -1,5 +1,5 @@
 ---
-aliases: "getIcon"
+aliases: 'getIcon'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ export function getIcon(iconId: string): SVGSVGElement | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>iconId</code> | <code>string</code> | the icon ID |
+| Parameter           | Type                | Description |
+| ------------------- | ------------------- | ----------- |
+| <code>iconId</code> | <code>string</code> | the icon ID |
 
 **Returns:**
 
 `SVGSVGElement`` | null`
-

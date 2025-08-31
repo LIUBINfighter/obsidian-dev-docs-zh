@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.lastLine"
+aliases: 'Editor.lastLine'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.lastLine() method
 
-
 **Signature:**
 
 ```typescript
 abstract lastLine(): number;
 ```
+
 **Returns:**
 
 `number`
-

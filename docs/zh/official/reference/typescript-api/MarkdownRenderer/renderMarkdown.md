@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownRenderer.renderMarkdown"
+aliases: 'MarkdownRenderer.renderMarkdown'
 cssclasses: hide-title
 ---
 
@@ -10,9 +10,8 @@ cssclasses: hide-title
 ## MarkdownRenderer.renderMarkdown() method
 
 > Warning: This API is now obsolete.
-> 
+>
 > - use [MarkdownRenderer.render()](./render)
-> 
 
 Renders Markdown string to an HTML element.
 
@@ -24,14 +23,13 @@ static renderMarkdown(markdown: string, el: HTMLElement, sourcePath: string, com
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>markdown</code> | <code>string</code> |  |
-|  <code>el</code> | <code>HTMLElement</code> |  |
-|  <code>sourcePath</code> | <code>string</code> |  |
-|  <code>component</code> | [`Component`](../Component) |  |
+| Parameter               | Type                        | Description |
+| ----------------------- | --------------------------- | ----------- |
+| <code>markdown</code>   | <code>string</code>         |             |
+| <code>el</code>         | <code>HTMLElement</code>    |             |
+| <code>sourcePath</code> | <code>string</code>         |             |
+| <code>component</code>  | [`Component`](../Component) |             |
 
 **Returns:**
 
 `Promise<void>`
-

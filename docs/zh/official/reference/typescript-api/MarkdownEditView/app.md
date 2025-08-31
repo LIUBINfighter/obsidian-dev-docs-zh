@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownEditView.app"
+aliases: 'MarkdownEditView.app'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownEditView`](../MarkdownEditView) › [`app`](./app)
 
 ## MarkdownEditView.app property
-
 
 **Signature:**
 

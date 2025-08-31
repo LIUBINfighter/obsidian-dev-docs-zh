@@ -1,5 +1,5 @@
 ---
-aliases: "Tasks"
+aliases: 'Tasks'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,17 @@ cssclasses: hide-title
 
 ## Tasks class
 
-
 **Signature:**
 
 ```typescript
-export class Tasks 
+export class Tasks
 ```
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`add(callback)`](Tasks/add) |  |  |
-|  [`addPromise(promise)`](Tasks/addPromise) |  |  |
-|  [`isEmpty()`](Tasks/isEmpty) |  |  |
-|  [`promise()`](Tasks/promise) |  |  |
-
+| Method                                    | Modifiers | Description |
+| ----------------------------------------- | --------- | ----------- |
+| [`add(callback)`](Tasks/add)              |           |             |
+| [`addPromise(promise)`](Tasks/addPromise) |           |             |
+| [`isEmpty()`](Tasks/isEmpty)              |           |             |
+| [`promise()`](Tasks/promise)              |           |             |

@@ -1,5 +1,5 @@
 ---
-aliases: "Modal.setTitle"
+aliases: 'Modal.setTitle'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Modal.setTitle() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setTitle(title: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>title</code> | <code>string</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>title</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

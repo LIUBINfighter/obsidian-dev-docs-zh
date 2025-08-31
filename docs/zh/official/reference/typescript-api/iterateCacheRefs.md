@@ -1,5 +1,5 @@
 ---
-aliases: "iterateCacheRefs"
+aliases: 'iterateCacheRefs'
 cssclasses: hide-title
 ---
 
@@ -10,27 +10,27 @@ cssclasses: hide-title
 ## iterateCacheRefs() function
 
 > Warning: This API is now obsolete.
-> 
-> 
 
 Iterate links and embeds. If callback returns true, the iteration process will be interrupted.
 
 **Signature:**
 
 ```typescript
-export function iterateCacheRefs(cache: CachedMetadata, cb: (ref: ReferenceCache) => boolean | void): boolean;
+export function iterateCacheRefs(
+  cache: CachedMetadata,
+  cb: (ref: ReferenceCache) => boolean | void,
+): boolean;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cache</code> | [`CachedMetadata`](CachedMetadata) |  |
-|  <code>cb</code> | <code>(ref: </code>[`ReferenceCache`](ReferenceCache)<code>) =&gt; boolean &#124; void</code> |  |
+| Parameter          | Type                                                                                          | Description |
+| ------------------ | --------------------------------------------------------------------------------------------- | ----------- |
+| <code>cache</code> | [`CachedMetadata`](CachedMetadata)                                                            |             |
+| <code>cb</code>    | <code>(ref: </code>[`ReferenceCache`](ReferenceCache)<code>) =&gt; boolean &#124; void</code> |             |
 
 **Returns:**
 
 `boolean`
 
 true if callback ever returns true, false otherwise.
-

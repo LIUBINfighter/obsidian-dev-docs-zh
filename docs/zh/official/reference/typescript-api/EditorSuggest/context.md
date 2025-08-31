@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggest.context"
+aliases: 'EditorSuggest.context'
 cssclasses: hide-title
 ---
 

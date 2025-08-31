@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.loadIfDeferred"
+aliases: 'WorkspaceLeaf.loadIfDeferred'
 cssclasses: hide-title
 ---
 
@@ -9,14 +9,14 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.loadIfDeferred() method
 
-If this view is currently deferred, load it and await that it has fully loaded.  1.7.2
+If this view is currently deferred, load it and await that it has fully loaded. 1.7.2
 
 **Signature:**
 
 ```typescript
 loadIfDeferred(): Promise<void>;
 ```
+
 **Returns:**
 
 `Promise<void>`
-

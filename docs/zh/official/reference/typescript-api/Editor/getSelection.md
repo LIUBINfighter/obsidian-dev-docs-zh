@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getSelection"
+aliases: 'Editor.getSelection'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.getSelection() method
 
-
 **Signature:**
 
 ```typescript
 abstract getSelection(): string;
 ```
+
 **Returns:**
 
 `string`
-

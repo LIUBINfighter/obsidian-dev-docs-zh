@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getResourcePath"
+aliases: 'Vault.getResourcePath'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getResourcePath(file: TFile): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 `string`
-

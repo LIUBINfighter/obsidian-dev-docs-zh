@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPostProcessorContext.addChild"
+aliases: 'MarkdownPostProcessorContext.addChild'
 cssclasses: hide-title
 ---
 
@@ -21,11 +21,10 @@ addChild(child: MarkdownRenderChild): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>child</code> | [`MarkdownRenderChild`](../MarkdownRenderChild) |  |
+| Parameter          | Type                                            | Description |
+| ------------------ | ----------------------------------------------- | ----------- |
+| <code>child</code> | [`MarkdownRenderChild`](../MarkdownRenderChild) |             |
 
 **Returns:**
 
 `void`
-

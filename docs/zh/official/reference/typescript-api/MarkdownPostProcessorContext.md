@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPostProcessorContext"
+aliases: 'MarkdownPostProcessorContext'
 cssclasses: hide-title
 ---
 
@@ -9,25 +9,23 @@ cssclasses: hide-title
 
 ## MarkdownPostProcessorContext interface
 
-
 **Signature:**
 
 ```typescript
-export interface MarkdownPostProcessorContext 
+export interface MarkdownPostProcessorContext
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`docId`](MarkdownPostProcessorContext/docId) |  | <code>string</code> |  |
-|  [`frontmatter`](MarkdownPostProcessorContext/frontmatter) |  | <code>any &#124; null &#124; undefined</code> |  |
-|  [`sourcePath`](MarkdownPostProcessorContext/sourcePath) |  | <code>string</code> | The path to the associated file. Any links are assumed to be relative to the <code>sourcePath</code>. |
+| Property                                                  | Modifiers | Type                                          | Description                                                                                           |
+| --------------------------------------------------------- | --------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [`docId`](MarkdownPostProcessorContext/docId)             |           | <code>string</code>                           |                                                                                                       |
+| [`frontmatter`](MarkdownPostProcessorContext/frontmatter) |           | <code>any &#124; null &#124; undefined</code> |                                                                                                       |
+| [`sourcePath`](MarkdownPostProcessorContext/sourcePath)   |           | <code>string</code>                           | The path to the associated file. Any links are assumed to be relative to the <code>sourcePath</code>. |
 
 ## Methods
 
-|  Method | Description |
-|  --- | --- |
-|  [`addChild(child)`](MarkdownPostProcessorContext/addChild) | <p>Adds a child component that will have its lifecycle managed by the renderer.</p><p>Use this to add a dependent child to the renderer such that if the containerEl of the child is ever removed, the component's unload will be called.</p> |
-|  [`getSectionInfo(el)`](MarkdownPostProcessorContext/getSectionInfo) | Gets the section information of this element at this point in time. Only call this function right before you need this information to get the most up-to-date version. This function may also return null in many circumstances; if you use it, you must be prepared to deal with nulls. |
-
+| Method                                                              | Description                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`addChild(child)`](MarkdownPostProcessorContext/addChild)          | <p>Adds a child component that will have its lifecycle managed by the renderer.</p><p>Use this to add a dependent child to the renderer such that if the containerEl of the child is ever removed, the component's unload will be called.</p>                                            |
+| [`getSectionInfo(el)`](MarkdownPostProcessorContext/getSectionInfo) | Gets the section information of this element at this point in time. Only call this function right before you need this information to get the most up-to-date version. This function may also return null in many circumstances; if you use it, you must be prepared to deal with nulls. |

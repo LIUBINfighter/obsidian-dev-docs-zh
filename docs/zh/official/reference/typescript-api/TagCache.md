@@ -1,5 +1,5 @@
 ---
-aliases: "TagCache"
+aliases: 'TagCache'
 cssclasses: hide-title
 ---
 
@@ -9,18 +9,17 @@ cssclasses: hide-title
 
 ## TagCache interface
 
-
 **Signature:**
 
 ```typescript
-export interface TagCache extends CacheItem 
+export interface TagCache extends CacheItem
 ```
+
 **Extends:** [`CacheItem`](CacheItem)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`position`](CacheItem/position) |  | [`Pos`](Pos) | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
-|  [`tag`](TagCache/tag) |  | <code>string</code> |  |
-
+| Property                         | Modifiers | Type                | Description                                                                                     |
+| -------------------------------- | --------- | ------------------- | ----------------------------------------------------------------------------------------------- |
+| [`position`](CacheItem/position) |           | [`Pos`](Pos)        | <p>Position of this item in the note.</p><p>(Inherited from [CacheItem](CacheItem)<!-- -->)</p> |
+| [`tag`](TagCache/tag)            |           | <code>string</code> |                                                                                                 |

@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.exec"
+aliases: 'Editor.exec'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.exec() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract exec(command: EditorCommandName): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>command</code> | [`EditorCommandName`](../EditorCommandName) |  |
+| Parameter            | Type                                        | Description |
+| -------------------- | ------------------------------------------- | ----------- |
+| <code>command</code> | [`EditorCommandName`](../EditorCommandName) |             |
 
 **Returns:**
 
 `void`
-

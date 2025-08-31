@@ -1,5 +1,5 @@
 ---
-aliases: "renderMatches"
+aliases: 'renderMatches'
 cssclasses: hide-title
 ---
 
@@ -9,23 +9,26 @@ cssclasses: hide-title
 
 ## renderMatches() function
 
-
 **Signature:**
 
 ```typescript
-export function renderMatches(el: HTMLElement | DocumentFragment, text: string, matches: SearchMatches | null, offset?: number): void;
+export function renderMatches(
+  el: HTMLElement | DocumentFragment,
+  text: string,
+  matches: SearchMatches | null,
+  offset?: number,
+): void;
 ```
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>el</code> | <code>HTMLElement</code><code> &#124; </code><code>DocumentFragment</code> |  |
-|  <code>text</code> | <code>string</code> |  |
-|  <code>matches</code> | [`SearchMatches`](SearchMatches)<code> &#124; null</code> |  |
-|  <code>offset</code> | <code>number</code> | _(Optional)_ |
+| Parameter            | Type                                                                       | Description  |
+| -------------------- | -------------------------------------------------------------------------- | ------------ |
+| <code>el</code>      | <code>HTMLElement</code><code> &#124; </code><code>DocumentFragment</code> |              |
+| <code>text</code>    | <code>string</code>                                                        |              |
+| <code>matches</code> | [`SearchMatches`](SearchMatches)<code> &#124; null</code>                  |              |
+| <code>offset</code>  | <code>number</code>                                                        | _(Optional)_ |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.setDynamicTooltip"
+aliases: 'SliderComponent.setDynamicTooltip'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## SliderComponent.setDynamicTooltip() method
 
-
 **Signature:**
 
 ```typescript
 setDynamicTooltip(): this;
 ```
+
 **Returns:**
 
 `this`
-

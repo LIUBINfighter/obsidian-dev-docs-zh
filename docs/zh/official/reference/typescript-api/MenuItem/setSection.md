@@ -1,5 +1,5 @@
 ---
-aliases: "MenuItem.setSection"
+aliases: 'MenuItem.setSection'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ setSection(section: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>section</code> | <code>string</code> |  |
+| Parameter            | Type                | Description |
+| -------------------- | ------------------- | ----------- |
+| <code>section</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

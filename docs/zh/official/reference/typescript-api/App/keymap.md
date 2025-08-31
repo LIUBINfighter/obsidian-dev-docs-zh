@@ -1,5 +1,5 @@
 ---
-aliases: "App.keymap"
+aliases: 'App.keymap'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`App`](../App) › [`keymap`](./keymap)
 
 ## App.keymap property
-
 
 **Signature:**
 

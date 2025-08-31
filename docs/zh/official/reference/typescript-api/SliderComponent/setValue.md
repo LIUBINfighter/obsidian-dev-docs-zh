@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.setValue"
+aliases: 'SliderComponent.setValue'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SliderComponent.setValue() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setValue(value: number): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>number</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>value</code> | <code>number</code> |             |
 
 **Returns:**
 
 `this`
-

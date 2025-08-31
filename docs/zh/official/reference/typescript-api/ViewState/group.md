@@ -1,5 +1,5 @@
 ---
-aliases: "ViewState.group"
+aliases: 'ViewState.group'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`ViewState`](../ViewState) › [`group`](./group)
 
 ## ViewState.group property
-
 
 **Signature:**
 

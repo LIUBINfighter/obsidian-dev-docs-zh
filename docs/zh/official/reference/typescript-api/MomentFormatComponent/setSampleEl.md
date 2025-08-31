@@ -1,5 +1,5 @@
 ---
-aliases: "MomentFormatComponent.setSampleEl"
+aliases: 'MomentFormatComponent.setSampleEl'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MomentFormatComponent.setSampleEl() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setSampleEl(sampleEl: HTMLElement): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>sampleEl</code> | <code>HTMLElement</code> |  |
+| Parameter             | Type                     | Description |
+| --------------------- | ------------------------ | ----------- |
+| <code>sampleEl</code> | <code>HTMLElement</code> |             |
 
 **Returns:**
 
 `this`
-

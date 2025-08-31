@@ -1,5 +1,5 @@
 ---
-aliases: "Menu.hide"
+aliases: 'Menu.hide'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Menu.hide() method
 
-
 **Signature:**
 
 ```typescript
 hide(): this;
 ```
+
 **Returns:**
 
 `this`
-

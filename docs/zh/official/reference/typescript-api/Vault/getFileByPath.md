@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.getFileByPath"
+aliases: 'Vault.getFileByPath'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getFileByPath(path: string): TFile | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>path</code> | <code>string</code> |             |
 
 **Returns:**
 
 [`TFile`](../TFile)` | null`
-

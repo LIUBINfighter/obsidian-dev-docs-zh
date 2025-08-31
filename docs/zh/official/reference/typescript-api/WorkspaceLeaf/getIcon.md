@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.getIcon"
+aliases: 'WorkspaceLeaf.getIcon'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.getIcon() method
 
-
 **Signature:**
 
 ```typescript
 getIcon(): IconName;
 ```
+
 **Returns:**
 
 [`IconName`](../IconName)
-

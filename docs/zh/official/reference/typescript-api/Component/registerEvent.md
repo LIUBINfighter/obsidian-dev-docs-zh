@@ -1,5 +1,5 @@
 ---
-aliases: "Component.registerEvent"
+aliases: 'Component.registerEvent'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ registerEvent(eventRef: EventRef): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>eventRef</code> | [`EventRef`](../EventRef) |  |
+| Parameter             | Type                      | Description |
+| --------------------- | ------------------------- | ----------- |
+| <code>eventRef</code> | [`EventRef`](../EventRef) |             |
 
 **Returns:**
 
 `void`
-

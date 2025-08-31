@@ -1,5 +1,5 @@
 ---
-aliases: "Pos.start"
+aliases: 'Pos.start'
 cssclasses: hide-title
 ---
 

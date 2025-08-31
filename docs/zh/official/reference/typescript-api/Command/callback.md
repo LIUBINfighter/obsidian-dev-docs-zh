@@ -1,5 +1,5 @@
 ---
-aliases: "Command.callback"
+aliases: 'Command.callback'
 cssclasses: hide-title
 ---
 
@@ -19,7 +19,6 @@ callback?: () => any;
 
 ## Example
 
-
 ```ts
 this.addCommand({
   id: 'print-greeting-to-console',
@@ -29,4 +28,3 @@ this.addCommand({
   },
 });
 ```
-

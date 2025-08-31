@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.splitActiveLeaf"
+aliases: 'Workspace.splitActiveLeaf'
 cssclasses: hide-title
 ---
 
@@ -10,9 +10,8 @@ cssclasses: hide-title
 ## Workspace.splitActiveLeaf() method
 
 > Warning: This API is now obsolete.
-> 
+>
 > - You should use [ | getLeaf(true)](obsidian.workspace.getleaf_1.md) instead which does the same thing.
-> 
 
 **Signature:**
 
@@ -22,11 +21,10 @@ splitActiveLeaf(direction?: SplitDirection): WorkspaceLeaf;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
+| Parameter              | Type                                  | Description  |
+| ---------------------- | ------------------------------------- | ------------ |
+| <code>direction</code> | [`SplitDirection`](../SplitDirection) | _(Optional)_ |
 
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)
-

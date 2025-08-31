@@ -1,5 +1,5 @@
 ---
-aliases: "ProgressBarComponent.getValue"
+aliases: 'ProgressBarComponent.getValue'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ProgressBarComponent.getValue() method
 
-
 **Signature:**
 
 ```typescript
 getValue(): number;
 ```
+
 **Returns:**
 
 `number`
-

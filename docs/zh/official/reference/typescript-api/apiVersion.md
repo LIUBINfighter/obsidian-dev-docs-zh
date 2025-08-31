@@ -1,5 +1,5 @@
 ---
-aliases: "apiVersion"
+aliases: 'apiVersion'
 cssclasses: hide-title
 ---
 
@@ -14,5 +14,5 @@ This is the API version of the app, which follows the release cycle of the deskt
 **Signature:**
 
 ```typescript
-apiVersion: string
+apiVersion: string;
 ```

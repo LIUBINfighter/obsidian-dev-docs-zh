@@ -1,5 +1,5 @@
 ---
-aliases: "TextFileView.requestSave"
+aliases: 'TextFileView.requestSave'
 cssclasses: hide-title
 ---
 

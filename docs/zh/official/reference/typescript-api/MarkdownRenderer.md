@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownRenderer"
+aliases: 'MarkdownRenderer'
 cssclasses: hide-title
 ---
 
@@ -9,47 +9,46 @@ cssclasses: hide-title
 
 ## MarkdownRenderer class
 
-
 **Signature:**
 
 ```typescript
-export abstract class MarkdownRenderer extends MarkdownRenderChild implements MarkdownPreviewEvents, HoverParent 
+export abstract class MarkdownRenderer extends MarkdownRenderChild implements MarkdownPreviewEvents, HoverParent
 ```
+
 **Extends:** [`MarkdownRenderChild`](MarkdownRenderChild)
 
 **Implements:** [`MarkdownPreviewEvents`](MarkdownPreviewEvents)<!-- -->, [`HoverParent`](HoverParent)
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(containerEl)`](MarkdownRenderChild/(constructor).md) |  | <p>Constructs a new instance of the <code>MarkdownRenderChild</code> class</p><p>(Inherited from [MarkdownRenderChild](MarkdownRenderChild)<!-- -->)</p> |
+| Constructor                                                            | Modifiers | Description                                                                                                                                              |
+| ---------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`(constructor)(containerEl)`](<MarkdownRenderChild/(constructor).md>) |           | <p>Constructs a new instance of the <code>MarkdownRenderChild</code> class</p><p>(Inherited from [MarkdownRenderChild](MarkdownRenderChild)<!-- -->)</p> |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`app`](MarkdownRenderer/app) |  | [`App`](App) |  |
-|  [`containerEl`](MarkdownRenderChild/containerEl) |  | <code>HTMLElement</code> | <p>(Inherited from [MarkdownRenderChild](MarkdownRenderChild)<!-- -->)</p> |
-|  [`file`](MarkdownRenderer/file) | <p><code>abstract</code></p><p><code>readonly</code></p> | [`TFile`](TFile) |  |
-|  [`hoverPopover`](MarkdownRenderer/hoverPopover) |  | [`HoverPopover`](HoverPopover) |  |
+| Property                                         | Modifiers                                                | Type                           | Description                                                                |
+| ------------------------------------------------ | -------------------------------------------------------- | ------------------------------ | -------------------------------------------------------------------------- |
+| [`app`](MarkdownRenderer/app)                    |                                                          | [`App`](App)                   |                                                                            |
+| [`containerEl`](MarkdownRenderChild/containerEl) |                                                          | <code>HTMLElement</code>       | <p>(Inherited from [MarkdownRenderChild](MarkdownRenderChild)<!-- -->)</p> |
+| [`file`](MarkdownRenderer/file)                  | <p><code>abstract</code></p><p><code>readonly</code></p> | [`TFile`](TFile)               |                                                                            |
+| [`hoverPopover`](MarkdownRenderer/hoverPopover)  |                                                          | [`HoverPopover`](HoverPopover) |                                                                            |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`addChild(component)`](Component/addChild) |  | <p>Adds a child component, loading it if this component is loaded</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`load()`](Component/load) |  | <p>Load this component and its children</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`onload()`](Component/onload) |  | <p>Override this to load your component</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`onunload()`](Component/onunload) |  | <p>Override this to unload your component</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`register(cb)`](Component/register) |  | <p>Registers a callback to be called when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent) |  | <p>Registers an DOM event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_1) |  | <p>Registers an DOM event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_2) |  | <p>Registers an DOM event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`registerEvent(eventRef)`](Component/registerEvent) |  | <p>Registers an event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`registerInterval(id)`](Component/registerInterval) |  | <p>Registers an interval (from setInterval) to be cancelled when unloading Use  instead of  to avoid TypeScript confusing between NodeJS vs Browser API</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`removeChild(component)`](Component/removeChild) |  | <p>Removes a child component, unloading it</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-|  [`render(app, markdown, el, sourcePath, component)`](MarkdownRenderer/render) | <code>static</code> | Renders Markdown string to an HTML element. |
-|  [`renderMarkdown(markdown, el, sourcePath, component)`](MarkdownRenderer/renderMarkdown) | <code>static</code> | Renders Markdown string to an HTML element. |
-|  [`unload()`](Component/unload) |  | <p>Unload this component and its children</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
-
+| Method                                                                                   | Modifiers           | Description                                                                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`addChild(component)`](Component/addChild)                                              |                     | <p>Adds a child component, loading it if this component is loaded</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                     |
+| [`load()`](Component/load)                                                               |                     | <p>Load this component and its children</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                               |
+| [`onload()`](Component/onload)                                                           |                     | <p>Override this to load your component</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                               |
+| [`onunload()`](Component/onunload)                                                       |                     | <p>Override this to unload your component</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                             |
+| [`register(cb)`](Component/register)                                                     |                     | <p>Registers a callback to be called when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                   |
+| [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent)            |                     | <p>Registers an DOM event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                               |
+| [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_1)          |                     | <p>Registers an DOM event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                               |
+| [`registerDomEvent(el, type, callback, options)`](Component/registerDomEvent_2)          |                     | <p>Registers an DOM event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                               |
+| [`registerEvent(eventRef)`](Component/registerEvent)                                     |                     | <p>Registers an event to be detached when unloading</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                   |
+| [`registerInterval(id)`](Component/registerInterval)                                     |                     | <p>Registers an interval (from setInterval) to be cancelled when unloading Use instead of to avoid TypeScript confusing between NodeJS vs Browser API</p><p>(Inherited from [Component](Component)<!-- -->)</p> |
+| [`removeChild(component)`](Component/removeChild)                                        |                     | <p>Removes a child component, unloading it</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                            |
+| [`render(app, markdown, el, sourcePath, component)`](MarkdownRenderer/render)            | <code>static</code> | Renders Markdown string to an HTML element.                                                                                                                                                                     |
+| [`renderMarkdown(markdown, el, sourcePath, component)`](MarkdownRenderer/renderMarkdown) | <code>static</code> | Renders Markdown string to an HTML element.                                                                                                                                                                     |
+| [`unload()`](Component/unload)                                                           |                     | <p>Unload this component and its children</p><p>(Inherited from [Component](Component)<!-- -->)</p>                                                                                                             |

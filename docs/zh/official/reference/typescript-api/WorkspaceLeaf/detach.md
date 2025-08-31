@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.detach"
+aliases: 'WorkspaceLeaf.detach'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.detach() method
 
-
 **Signature:**
 
 ```typescript
 detach(): void;
 ```
+
 **Returns:**
 
 `void`
-

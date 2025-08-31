@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSubView.get"
+aliases: 'MarkdownSubView.get'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownSubView.get() method
 
-
 **Signature:**
 
 ```typescript
 get(): string;
 ```
+
 **Returns:**
 
 `string`
-

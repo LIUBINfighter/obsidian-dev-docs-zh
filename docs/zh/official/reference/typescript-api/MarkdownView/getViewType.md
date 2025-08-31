@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownView.getViewType"
+aliases: 'MarkdownView.getViewType'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownView.getViewType() method
 
-
 **Signature:**
 
 ```typescript
 getViewType(): string;
 ```
+
 **Returns:**
 
 `string`
-

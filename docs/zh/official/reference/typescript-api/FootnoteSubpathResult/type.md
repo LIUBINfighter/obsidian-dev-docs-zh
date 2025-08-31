@@ -1,5 +1,5 @@
 ---
-aliases: "FootnoteSubpathResult.type"
+aliases: 'FootnoteSubpathResult.type'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`FootnoteSubpathResult`](../FootnoteSubpathResult) › [`type`](./type)
 
 ## FootnoteSubpathResult.type property
-
 
 **Signature:**
 

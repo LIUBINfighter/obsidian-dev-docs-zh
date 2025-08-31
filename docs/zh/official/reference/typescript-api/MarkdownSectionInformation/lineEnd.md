@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSectionInformation.lineEnd"
+aliases: 'MarkdownSectionInformation.lineEnd'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownSectionInformation`](../MarkdownSectionInformation) › [`lineEnd`](./lineEnd)
 
 ## MarkdownSectionInformation.lineEnd property
-
 
 **Signature:**
 

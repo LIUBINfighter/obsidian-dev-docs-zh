@@ -1,5 +1,5 @@
 ---
-aliases: "CachedMetadata.frontmatter"
+aliases: 'CachedMetadata.frontmatter'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`CachedMetadata`](../CachedMetadata) › [`frontmatter`](./frontmatter)
 
 ## CachedMetadata.frontmatter property
-
 
 **Signature:**
 

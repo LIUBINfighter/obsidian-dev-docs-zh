@@ -1,5 +1,5 @@
 ---
-aliases: "HSL.l"
+aliases: 'HSL.l'
 cssclasses: hide-title
 ---
 

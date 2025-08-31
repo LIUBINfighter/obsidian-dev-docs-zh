@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.mkdir"
+aliases: 'DataAdapter.mkdir'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ mkdir(normalizedPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to use for new folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                                  |
+| --------------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
+| <code>normalizedPath</code> | <code>string</code> | path to use for new folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<void>`
-

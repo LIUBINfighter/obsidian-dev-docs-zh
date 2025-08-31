@@ -1,5 +1,5 @@
 ---
-aliases: "editorEditorField"
+aliases: 'editorEditorField'
 cssclasses: hide-title
 ---
 
@@ -14,5 +14,5 @@ Use this StateField to get a reference to the EditorView
 **Signature:**
 
 ```typescript
-editorEditorField: StateField<EditorView>
+editorEditorField: StateField<EditorView>;
 ```

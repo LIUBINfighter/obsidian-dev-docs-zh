@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.remove"
+aliases: 'DataAdapter.remove'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ remove(normalizedPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                    |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------------ |
+| <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<void>`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Component.onunload"
+aliases: 'Component.onunload'
 cssclasses: hide-title
 ---
 
@@ -17,7 +17,7 @@ Override this to unload your component
 /** @virtual */
 onunload(): void;
 ```
+
 **Returns:**
 
 `void`
-

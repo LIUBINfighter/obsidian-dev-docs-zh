@@ -1,5 +1,5 @@
 ---
-aliases: "View.onClose"
+aliases: 'View.onClose'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.onClose() method
 
-
 **Signature:**
 
 ```typescript
 protected onClose(): Promise<void>;
 ```
+
 **Returns:**
 
 `Promise<void>`
-

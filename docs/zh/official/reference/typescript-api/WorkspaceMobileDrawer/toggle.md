@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceMobileDrawer.toggle"
+aliases: 'WorkspaceMobileDrawer.toggle'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceMobileDrawer.toggle() method
 
-
 **Signature:**
 
 ```typescript
 toggle(): void;
 ```
+
 **Returns:**
 
 `void`
-

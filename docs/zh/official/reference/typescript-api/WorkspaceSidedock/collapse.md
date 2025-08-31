@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceSidedock.collapse"
+aliases: 'WorkspaceSidedock.collapse'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceSidedock.collapse() method
 
-
 **Signature:**
 
 ```typescript
 collapse(): void;
 ```
+
 **Returns:**
 
 `void`
-

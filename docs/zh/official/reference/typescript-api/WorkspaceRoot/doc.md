@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceRoot.doc"
+aliases: 'WorkspaceRoot.doc'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceRoot`](../WorkspaceRoot) › [`doc`](./doc)
 
 ## WorkspaceRoot.doc property
-
 
 **Signature:**
 

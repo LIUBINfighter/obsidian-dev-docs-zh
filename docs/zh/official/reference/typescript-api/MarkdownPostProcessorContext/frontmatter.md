@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPostProcessorContext.frontmatter"
+aliases: 'MarkdownPostProcessorContext.frontmatter'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownPostProcessorContext`](../MarkdownPostProcessorContext) › [`frontmatter`](./frontmatter)
 
 ## MarkdownPostProcessorContext.frontmatter property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "Notice"
+aliases: 'Notice'
 cssclasses: hide-title
 ---
 
@@ -14,27 +14,26 @@ Notification component. Use to present timely, high-value information.
 **Signature:**
 
 ```typescript
-export class Notice 
+export class Notice
 ```
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(message, duration)`](Notice/(constructor).md) |  | Constructs a new instance of the <code>Notice</code> class |
+| Constructor                                                     | Modifiers | Description                                                |
+| --------------------------------------------------------------- | --------- | ---------------------------------------------------------- |
+| [`(constructor)(message, duration)`](<Notice/(constructor).md>) |           | Constructs a new instance of the <code>Notice</code> class |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`containerEl`](Notice/containerEl) |  | <code>HTMLElement</code> |  |
-|  [`messageEl`](Notice/messageEl) |  | <code>HTMLElement</code> |  |
-|  [`noticeEl`](Notice/noticeEl) |  | <code>HTMLElement</code> |  |
+| Property                            | Modifiers | Type                     | Description |
+| ----------------------------------- | --------- | ------------------------ | ----------- |
+| [`containerEl`](Notice/containerEl) |           | <code>HTMLElement</code> |             |
+| [`messageEl`](Notice/messageEl)     |           | <code>HTMLElement</code> |             |
+| [`noticeEl`](Notice/noticeEl)       |           | <code>HTMLElement</code> |             |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`hide()`](Notice/hide) |  |  |
-|  [`setMessage(message)`](Notice/setMessage) |  | Change the message of this notice. |
-
+| Method                                     | Modifiers | Description                        |
+| ------------------------------------------ | --------- | ---------------------------------- |
+| [`hide()`](Notice/hide)                    |           |                                    |
+| [`setMessage(message)`](Notice/setMessage) |           | Change the message of this notice. |

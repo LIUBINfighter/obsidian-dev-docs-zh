@@ -1,5 +1,5 @@
 ---
-aliases: "Pos.end"
+aliases: 'Pos.end'
 cssclasses: hide-title
 ---
 

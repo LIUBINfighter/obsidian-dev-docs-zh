@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlParam.headers"
+aliases: 'RequestUrlParam.headers'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlParam`](../RequestUrlParam) › [`headers`](./headers)
 
 ## RequestUrlParam.headers property
-
 
 **Signature:**
 

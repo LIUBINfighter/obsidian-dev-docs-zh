@@ -1,5 +1,5 @@
 ---
-aliases: "MomentFormatComponent.setValue"
+aliases: 'MomentFormatComponent.setValue'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MomentFormatComponent.setValue() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setValue(value: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>string</code> |  |
+| Parameter          | Type                | Description |
+| ------------------ | ------------------- | ----------- |
+| <code>value</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

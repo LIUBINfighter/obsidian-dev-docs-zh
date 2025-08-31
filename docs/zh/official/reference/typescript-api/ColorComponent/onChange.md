@@ -1,5 +1,5 @@
 ---
-aliases: "ColorComponent.onChange"
+aliases: 'ColorComponent.onChange'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ColorComponent.onChange() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onChange(callback: (value: string) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(value: string) =&gt; any</code> |  |
+| Parameter             | Type                                   | Description |
+| --------------------- | -------------------------------------- | ----------- |
+| <code>callback</code> | <code>(value: string) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

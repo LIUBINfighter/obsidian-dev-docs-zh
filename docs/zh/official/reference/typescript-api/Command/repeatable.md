@@ -1,5 +1,5 @@
 ---
-aliases: "Command.repeatable"
+aliases: 'Command.repeatable'
 cssclasses: hide-title
 ---
 

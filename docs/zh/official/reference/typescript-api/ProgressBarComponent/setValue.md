@@ -1,5 +1,5 @@
 ---
-aliases: "ProgressBarComponent.setValue"
+aliases: 'ProgressBarComponent.setValue'
 cssclasses: hide-title
 ---
 
@@ -17,11 +17,10 @@ setValue(value: number): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>value</code> | <code>number</code> | The progress amount, a value between 0-100. |
+| Parameter          | Type                | Description                                 |
+| ------------------ | ------------------- | ------------------------------------------- |
+| <code>value</code> | <code>number</code> | The progress amount, a value between 0-100. |
 
 **Returns:**
 
 `this`
-

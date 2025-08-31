@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.setLine"
+aliases: 'Editor.setLine'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.setLine() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ setLine(n: number, text: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>n</code> | <code>number</code> |  |
-|  <code>text</code> | <code>string</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>n</code>    | <code>number</code> |             |
+| <code>text</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

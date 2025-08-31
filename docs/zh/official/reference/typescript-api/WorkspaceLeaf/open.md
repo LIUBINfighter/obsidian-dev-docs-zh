@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.open"
+aliases: 'WorkspaceLeaf.open'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.open() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ open(view: View): Promise<View>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>view</code> | [`View`](../View) |  |
+| Parameter         | Type              | Description |
+| ----------------- | ----------------- | ----------- |
+| <code>view</code> | [`View`](../View) |             |
 
 **Returns:**
 
 `Promise<`[`View`](../View)`>`
-

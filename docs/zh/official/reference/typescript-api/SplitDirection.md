@@ -1,5 +1,5 @@
 ---
-aliases: "SplitDirection"
+aliases: 'SplitDirection'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SplitDirection`](SplitDirection)
 
 ## SplitDirection type
-
 
 **Signature:**
 

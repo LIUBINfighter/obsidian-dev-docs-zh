@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest.close"
+aliases: 'PopoverSuggest.close'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## PopoverSuggest.close() method
 
-
 **Signature:**
 
 ```typescript
 close(): void;
 ```
+
 **Returns:**
 
 `void`
-

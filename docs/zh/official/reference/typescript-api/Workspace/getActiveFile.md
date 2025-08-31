@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getActiveFile"
+aliases: 'Workspace.getActiveFile'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Returns the file for the current view if it's a `FileView`<!-- -->. Otherwise, i
 ```typescript
 getActiveFile(): TFile | null;
 ```
+
 **Returns:**
 
 [`TFile`](../TFile)` | null`
-

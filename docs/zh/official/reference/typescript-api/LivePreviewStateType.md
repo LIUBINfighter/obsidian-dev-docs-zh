@@ -1,5 +1,5 @@
 ---
-aliases: "LivePreviewStateType"
+aliases: 'LivePreviewStateType'
 cssclasses: hide-title
 ---
 
@@ -14,12 +14,11 @@ The object stored in the view plugin [livePreviewState](livePreviewState)
 **Signature:**
 
 ```typescript
-export interface LivePreviewStateType 
+export interface LivePreviewStateType
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`mousedown`](LivePreviewStateType/mousedown) |  | <code>boolean</code> | True if the left mouse is currently held down in the editor (for example, when drag-to-select text). |
-
+| Property                                      | Modifiers | Type                 | Description                                                                                          |
+| --------------------------------------------- | --------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| [`mousedown`](LivePreviewStateType/mousedown) |           | <code>boolean</code> | True if the left mouse is currently held down in the editor (for example, when drag-to-select text). |

@@ -1,5 +1,5 @@
 ---
-aliases: "TooltipOptions"
+aliases: 'TooltipOptions'
 cssclasses: hide-title
 ---
 
@@ -9,19 +9,17 @@ cssclasses: hide-title
 
 ## TooltipOptions interface
 
-
 **Signature:**
 
 ```typescript
-export interface TooltipOptions 
+export interface TooltipOptions
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`classes?`](TooltipOptions/classes) |  | <code>string[]</code> | _(Optional)_ |
-|  [`delay?`](TooltipOptions/delay) |  | <code>number</code> | _(Optional)_ |
-|  [`gap?`](TooltipOptions/gap) |  | <code>number</code> | _(Optional)_ |
-|  [`placement?`](TooltipOptions/placement) |  | [`TooltipPlacement`](TooltipPlacement) | _(Optional)_ |
-
+| Property                                 | Modifiers | Type                                   | Description  |
+| ---------------------------------------- | --------- | -------------------------------------- | ------------ |
+| [`classes?`](TooltipOptions/classes)     |           | <code>string[]</code>                  | _(Optional)_ |
+| [`delay?`](TooltipOptions/delay)         |           | <code>number</code>                    | _(Optional)_ |
+| [`gap?`](TooltipOptions/gap)             |           | <code>number</code>                    | _(Optional)_ |
+| [`placement?`](TooltipOptions/placement) |           | [`TooltipPlacement`](TooltipPlacement) | _(Optional)_ |

@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.isDeferred"
+aliases: 'WorkspaceLeaf.isDeferred'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,7 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.isDeferred property
 
-Returns true if this leaf is currently deferred because it is in the background. A deferred leaf will have a DeferredView as its view, instead of the View that it should normally have for its type (like MarkdownView for the `markdown` type).  1.7.2
+Returns true if this leaf is currently deferred because it is in the background. A deferred leaf will have a DeferredView as its view, instead of the View that it should normally have for its type (like MarkdownView for the `markdown` type). 1.7.2
 
 **Signature:**
 

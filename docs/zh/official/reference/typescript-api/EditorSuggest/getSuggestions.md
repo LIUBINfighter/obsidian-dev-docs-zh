@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSuggest.getSuggestions"
+aliases: 'EditorSuggest.getSuggestions'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ abstract getSuggestions(context: EditorSuggestContext): T[] | Promise<T[]>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>context</code> | [`EditorSuggestContext`](../EditorSuggestContext) |  |
+| Parameter            | Type                                              | Description |
+| -------------------- | ------------------------------------------------- | ----------- |
+| <code>context</code> | [`EditorSuggestContext`](../EditorSuggestContext) |             |
 
 **Returns:**
 
 `T[] | ``Promise<T[]>`
-

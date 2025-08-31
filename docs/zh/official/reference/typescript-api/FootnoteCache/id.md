@@ -1,5 +1,5 @@
 ---
-aliases: "FootnoteCache.id"
+aliases: 'FootnoteCache.id'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`FootnoteCache`](../FootnoteCache) › [`id`](./id)
 
 ## FootnoteCache.id property
-
 
 **Signature:**
 

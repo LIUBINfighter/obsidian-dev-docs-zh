@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewView.getScroll"
+aliases: 'MarkdownPreviewView.getScroll'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownPreviewView.getScroll() method
 
-
 **Signature:**
 
 ```typescript
 getScroll(): number;
 ```
+
 **Returns:**
 
 `number`
-

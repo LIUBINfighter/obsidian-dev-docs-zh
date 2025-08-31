@@ -1,5 +1,5 @@
 ---
-aliases: "View.getEphemeralState"
+aliases: 'View.getEphemeralState'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.getEphemeralState() method
 
-
 **Signature:**
 
 ```typescript
 getEphemeralState(): Record<string, unknown>;
 ```
+
 **Returns:**
 
 `Record<string, unknown>`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "FileManager.renameFile"
+aliases: 'FileManager.renameFile'
 cssclasses: hide-title
 ---
 
@@ -19,12 +19,11 @@ renameFile(file: TAbstractFile, newPath: string): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TAbstractFile`](../TAbstractFile) | the file to rename |
-|  <code>newPath</code> | <code>string</code> | the new path for the file |
+| Parameter            | Type                                | Description               |
+| -------------------- | ----------------------------------- | ------------------------- |
+| <code>file</code>    | [`TAbstractFile`](../TAbstractFile) | the file to rename        |
+| <code>newPath</code> | <code>string</code>                 | the new path for the file |
 
 **Returns:**
 
 `Promise<void>`
-

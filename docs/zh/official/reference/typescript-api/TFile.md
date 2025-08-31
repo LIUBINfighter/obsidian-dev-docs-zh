@@ -1,5 +1,5 @@
 ---
-aliases: "TFile"
+aliases: 'TFile'
 cssclasses: hide-title
 ---
 
@@ -9,23 +9,22 @@ cssclasses: hide-title
 
 ## TFile class
 
-
 **Signature:**
 
 ```typescript
-export class TFile extends TAbstractFile 
+export class TFile extends TAbstractFile
 ```
+
 **Extends:** [`TAbstractFile`](TAbstractFile)
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`basename`](TFile/basename) |  | <code>string</code> |  |
-|  [`extension`](TFile/extension) |  | <code>string</code> |  |
-|  [`name`](TAbstractFile/name) |  | <code>string</code> | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
-|  [`parent`](TAbstractFile/parent) |  | [`TFolder`](TFolder)<code> &#124; null</code> | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
-|  [`path`](TAbstractFile/path) |  | <code>string</code> | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
-|  [`stat`](TFile/stat) |  | [`FileStats`](FileStats) |  |
-|  [`vault`](TAbstractFile/vault) |  | [`Vault`](Vault) | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
-
+| Property                         | Modifiers | Type                                          | Description                                                    |
+| -------------------------------- | --------- | --------------------------------------------- | -------------------------------------------------------------- |
+| [`basename`](TFile/basename)     |           | <code>string</code>                           |                                                                |
+| [`extension`](TFile/extension)   |           | <code>string</code>                           |                                                                |
+| [`name`](TAbstractFile/name)     |           | <code>string</code>                           | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
+| [`parent`](TAbstractFile/parent) |           | [`TFolder`](TFolder)<code> &#124; null</code> | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
+| [`path`](TAbstractFile/path)     |           | <code>string</code>                           | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |
+| [`stat`](TFile/stat)             |           | [`FileStats`](FileStats)                      |                                                                |
+| [`vault`](TAbstractFile/vault)   |           | [`Vault`](Vault)                              | <p>(Inherited from [TAbstractFile](TAbstractFile)<!-- -->)</p> |

@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getActiveViewOfType"
+aliases: 'Workspace.getActiveViewOfType'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ getActiveViewOfType<T extends View>(type: Constructor<T>): T | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>type</code> | [`Constructor`](../Constructor)<code>&lt;T&gt;</code> |  |
+| Parameter         | Type                                                  | Description |
+| ----------------- | ----------------------------------------------------- | ----------- |
+| <code>type</code> | [`Constructor`](../Constructor)<code>&lt;T&gt;</code> |             |
 
 **Returns:**
 
 `T | null`
-

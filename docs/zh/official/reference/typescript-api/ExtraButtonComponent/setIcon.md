@@ -1,5 +1,5 @@
 ---
-aliases: "ExtraButtonComponent.setIcon"
+aliases: 'ExtraButtonComponent.setIcon'
 cssclasses: hide-title
 ---
 
@@ -17,11 +17,10 @@ setIcon(icon: IconName): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>icon</code> | [`IconName`](../IconName) | ID of the icon, can use any icon loaded with [addIcon()](../addIcon) or from the inbuilt library. |
+| Parameter         | Type                      | Description                                                                                       |
+| ----------------- | ------------------------- | ------------------------------------------------------------------------------------------------- |
+| <code>icon</code> | [`IconName`](../IconName) | ID of the icon, can use any icon loaded with [addIcon()](../addIcon) or from the inbuilt library. |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "FileStats.size"
+aliases: 'FileStats.size'
 cssclasses: hide-title
 ---
 

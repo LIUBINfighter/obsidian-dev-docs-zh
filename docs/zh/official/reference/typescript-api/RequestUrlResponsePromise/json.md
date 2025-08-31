@@ -1,5 +1,5 @@
 ---
-aliases: "RequestUrlResponsePromise.json"
+aliases: 'RequestUrlResponsePromise.json'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`RequestUrlResponsePromise`](../RequestUrlResponsePromise) › [`json`](./json)
 
 ## RequestUrlResponsePromise.json property
-
 
 **Signature:**
 

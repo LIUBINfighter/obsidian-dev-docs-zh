@@ -1,5 +1,5 @@
 ---
-aliases: "ItemView.addAction"
+aliases: 'ItemView.addAction'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ItemView.addAction() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,13 +17,12 @@ addAction(icon: IconName, title: string, callback: (evt: MouseEvent) => any): HT
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>icon</code> | [`IconName`](../IconName) |  |
-|  <code>title</code> | <code>string</code> |  |
-|  <code>callback</code> | <code>(evt: </code><code>MouseEvent</code><code>) =&gt; any</code> |  |
+| Parameter             | Type                                                               | Description |
+| --------------------- | ------------------------------------------------------------------ | ----------- |
+| <code>icon</code>     | [`IconName`](../IconName)                                          |             |
+| <code>title</code>    | <code>string</code>                                                |             |
+| <code>callback</code> | <code>(evt: </code><code>MouseEvent</code><code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `HTMLElement`
-

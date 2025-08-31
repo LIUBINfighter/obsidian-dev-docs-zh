@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getLine"
+aliases: 'Editor.getLine'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ abstract getLine(line: number): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>line</code> | <code>number</code> |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>line</code> | <code>number</code> |             |
 
 **Returns:**
 
 `string`
-

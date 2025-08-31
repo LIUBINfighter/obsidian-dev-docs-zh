@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.manifest"
+aliases: 'Plugin.manifest'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Plugin`](../Plugin) › [`manifest`](./manifest)
 
 ## Plugin.manifest property
-
 
 **Signature:**
 

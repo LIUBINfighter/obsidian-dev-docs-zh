@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.rightSplit"
+aliases: 'Workspace.rightSplit'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Workspace`](../Workspace) › [`rightSplit`](./rightSplit)
 
 ## Workspace.rightSplit property
-
 
 **Signature:**
 

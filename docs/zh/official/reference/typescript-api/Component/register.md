@@ -1,5 +1,5 @@
 ---
-aliases: "Component.register"
+aliases: 'Component.register'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ register(cb: () => any): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>() =&gt; any</code> |  |
+| Parameter       | Type                      | Description |
+| --------------- | ------------------------- | ----------- |
+| <code>cb</code> | <code>() =&gt; any</code> |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "FileStats.ctime"
+aliases: 'FileStats.ctime'
 cssclasses: hide-title
 ---
 

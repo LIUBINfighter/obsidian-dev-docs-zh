@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.setIcon"
+aliases: 'ButtonComponent.setIcon'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ButtonComponent.setIcon() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setIcon(icon: IconName): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>icon</code> | [`IconName`](../IconName) |  |
+| Parameter         | Type                      | Description |
+| ----------------- | ------------------------- | ----------- |
+| <code>icon</code> | [`IconName`](../IconName) |             |
 
 **Returns:**
 
 `this`
-

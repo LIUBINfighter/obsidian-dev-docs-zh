@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.stat"
+aliases: 'DataAdapter.stat'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ stat(normalizedPath: string): Promise<Stat | null>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                           |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------------------- |
+| <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<`[`Stat`](../Stat)` | null>`
-

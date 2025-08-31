@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.createBinary"
+aliases: 'Vault.createBinary'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,11 @@ createBinary(path: string, data: ArrayBuffer, options?: DataWriteOptions): Promi
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> | Vault absolute path for the new file, with extension. |
-|  <code>data</code> | <code>ArrayBuffer</code> | content for the new file. |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional) |
+| Parameter            | Type                                      | Description                                           |
+| -------------------- | ----------------------------------------- | ----------------------------------------------------- |
+| <code>path</code>    | <code>string</code>                       | Vault absolute path for the new file, with extension. |
+| <code>data</code>    | <code>ArrayBuffer</code>                  | content for the new file.                             |
+| <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ (Optional)                               |
 
 **Returns:**
 
@@ -32,4 +32,3 @@ createBinary(path: string, data: ArrayBuffer, options?: DataWriteOptions): Promi
 ## Exceptions
 
 Error if file already exists
-

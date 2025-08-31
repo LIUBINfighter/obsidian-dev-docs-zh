@@ -1,5 +1,5 @@
 ---
-aliases: "Events.offref"
+aliases: 'Events.offref'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Events.offref() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ offref(ref: EventRef): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>ref</code> | [`EventRef`](../EventRef) |  |
+| Parameter        | Type                      | Description |
+| ---------------- | ------------------------- | ----------- |
+| <code>ref</code> | [`EventRef`](../EventRef) |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractInputSuggest.getValue"
+aliases: 'AbstractInputSuggest.getValue'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Gets the value from the input element.
 ```typescript
 getValue(): string;
 ```
+
 **Returns:**
 
 `string`
-

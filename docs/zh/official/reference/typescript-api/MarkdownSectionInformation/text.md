@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSectionInformation.text"
+aliases: 'MarkdownSectionInformation.text'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownSectionInformation`](../MarkdownSectionInformation) › [`text`](./text)
 
 ## MarkdownSectionInformation.text property
-
 
 **Signature:**
 

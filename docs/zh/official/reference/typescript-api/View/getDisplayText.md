@@ -1,5 +1,5 @@
 ---
-aliases: "View.getDisplayText"
+aliases: 'View.getDisplayText'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## View.getDisplayText() method
 
-
 **Signature:**
 
 ```typescript
 abstract getDisplayText(): string;
 ```
+
 **Returns:**
 
 `string`
-

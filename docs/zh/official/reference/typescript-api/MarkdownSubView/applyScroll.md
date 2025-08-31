@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSubView.applyScroll"
+aliases: 'MarkdownSubView.applyScroll'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownSubView.applyScroll() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ applyScroll(scroll: number): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>scroll</code> | <code>number</code> |  |
+| Parameter           | Type                | Description |
+| ------------------- | ------------------- | ----------- |
+| <code>scroll</code> | <code>number</code> |             |
 
 **Returns:**
 
 `void`
-

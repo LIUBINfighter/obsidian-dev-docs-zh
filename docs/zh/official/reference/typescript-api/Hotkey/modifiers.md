@@ -1,5 +1,5 @@
 ---
-aliases: "Hotkey.modifiers"
+aliases: 'Hotkey.modifiers'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Hotkey`](../Hotkey) › [`modifiers`](./modifiers)
 
 ## Hotkey.modifiers property
-
 
 **Signature:**
 

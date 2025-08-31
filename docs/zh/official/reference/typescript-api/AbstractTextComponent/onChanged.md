@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractTextComponent.onChanged"
+aliases: 'AbstractTextComponent.onChanged'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## AbstractTextComponent.onChanged() method
 
-
 **Signature:**
 
 ```typescript
 onChanged(): void;
 ```
+
 **Returns:**
 
 `void`
-

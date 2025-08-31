@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.emptyStateText"
+aliases: 'SuggestModal.emptyStateText'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`SuggestModal`](../SuggestModal) › [`emptyStateText`](./emptyStateText)
 
 ## SuggestModal.emptyStateText property
-
 
 **Signature:**
 

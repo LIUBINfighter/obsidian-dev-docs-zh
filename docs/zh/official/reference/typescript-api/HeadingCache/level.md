@@ -1,5 +1,5 @@
 ---
-aliases: "HeadingCache.level"
+aliases: 'HeadingCache.level'
 cssclasses: hide-title
 ---
 

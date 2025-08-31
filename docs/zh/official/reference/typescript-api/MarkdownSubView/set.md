@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownSubView.set"
+aliases: 'MarkdownSubView.set'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MarkdownSubView.set() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ set(data: string, clear: boolean): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>data</code> | <code>string</code> |  |
-|  <code>clear</code> | <code>boolean</code> |  |
+| Parameter          | Type                 | Description |
+| ------------------ | -------------------- | ----------- |
+| <code>data</code>  | <code>string</code>  |             |
+| <code>clear</code> | <code>boolean</code> |             |
 
 **Returns:**
 
 `void`
-

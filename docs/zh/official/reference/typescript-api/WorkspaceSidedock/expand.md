@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceSidedock.expand"
+aliases: 'WorkspaceSidedock.expand'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceSidedock.expand() method
 
-
 **Signature:**
 
 ```typescript
 expand(): void;
 ```
+
 **Returns:**
 
 `void`
-

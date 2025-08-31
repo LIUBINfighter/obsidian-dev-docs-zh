@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.file"
+aliases: 'FileView.file'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`FileView`](../FileView) › [`file`](./file)
 
 ## FileView.file property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "AbstractInputSuggest.onSelect"
+aliases: 'AbstractInputSuggest.onSelect'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ onSelect(callback: (value: T, evt: MouseEvent | KeyboardEvent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(value: T, evt: </code><code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code><code>) =&gt; any</code> |  |
+| Parameter             | Type                                                                                                                        | Description |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| <code>callback</code> | <code>(value: T, evt: </code><code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code><code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

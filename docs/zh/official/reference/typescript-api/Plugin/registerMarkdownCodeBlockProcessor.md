@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.registerMarkdownCodeBlockProcessor"
+aliases: 'Plugin.registerMarkdownCodeBlockProcessor'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ registerMarkdownCodeBlockProcessor(language: string, handler: (source: string, e
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>language</code> | <code>string</code> |  |
-|  <code>handler</code> | <code>(source: string, el: </code><code>HTMLElement</code><code>, ctx: </code>[`MarkdownPostProcessorContext`](../MarkdownPostProcessorContext)<code>) =&gt; </code><code>Promise</code><code>&lt;any&gt; &#124; void</code> |  |
-|  <code>sortOrder</code> | <code>number</code> | _(Optional)_ |
+| Parameter              | Type                                                                                                                                                                                                                         | Description  |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| <code>language</code>  | <code>string</code>                                                                                                                                                                                                          |              |
+| <code>handler</code>   | <code>(source: string, el: </code><code>HTMLElement</code><code>, ctx: </code>[`MarkdownPostProcessorContext`](../MarkdownPostProcessorContext)<code>) =&gt; </code><code>Promise</code><code>&lt;any&gt; &#124; void</code> |              |
+| <code>sortOrder</code> | <code>number</code>                                                                                                                                                                                                          | _(Optional)_ |
 
 **Returns:**
 
 [`MarkdownPostProcessor`](../MarkdownPostProcessor)
-

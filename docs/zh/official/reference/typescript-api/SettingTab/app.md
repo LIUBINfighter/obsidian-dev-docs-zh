@@ -1,5 +1,5 @@
 ---
-aliases: "SettingTab.app"
+aliases: 'SettingTab.app'
 cssclasses: hide-title
 ---
 

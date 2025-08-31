@@ -1,5 +1,5 @@
 ---
-aliases: "View.navigation"
+aliases: 'View.navigation'
 cssclasses: hide-title
 ---
 

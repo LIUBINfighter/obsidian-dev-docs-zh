@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownView.editor"
+aliases: 'MarkdownView.editor'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`MarkdownView`](../MarkdownView) › [`editor`](./editor)
 
 ## MarkdownView.editor property
-
 
 **Signature:**
 

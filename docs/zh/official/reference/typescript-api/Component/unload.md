@@ -1,5 +1,5 @@
 ---
-aliases: "Component.unload"
+aliases: 'Component.unload'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Unload this component and its children
 ```typescript
 unload(): void;
 ```
+
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.removeCommand"
+aliases: 'Plugin.removeCommand'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ removeCommand(commandId: string): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>commandId</code> | <code>string</code> |  |
+| Parameter              | Type                | Description |
+| ---------------------- | ------------------- | ----------- |
+| <code>commandId</code> | <code>string</code> |             |
 
 **Returns:**
 
 `void`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "SearchMatches"
+aliases: 'SearchMatches'
 cssclasses: hide-title
 ---
 
@@ -9,11 +9,10 @@ cssclasses: hide-title
 
 ## SearchMatches type
 
-
 **Signature:**
 
 ```typescript
 export type SearchMatches = SearchMatchPart[];
 ```
-**References:** [`SearchMatchPart`](SearchMatchPart)
 
+**References:** [`SearchMatchPart`](SearchMatchPart)

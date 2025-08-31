@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPostProcessorContext.sourcePath"
+aliases: 'MarkdownPostProcessorContext.sourcePath'
 cssclasses: hide-title
 ---
 

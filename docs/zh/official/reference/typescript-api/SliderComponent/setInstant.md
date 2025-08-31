@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.setInstant"
+aliases: 'SliderComponent.setInstant'
 cssclasses: hide-title
 ---
 
@@ -17,11 +17,10 @@ setInstant(instant: boolean): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>instant</code> | <code>boolean</code> | whether or not the value should get updated while the slider is dragging |
+| Parameter            | Type                 | Description                                                              |
+| -------------------- | -------------------- | ------------------------------------------------------------------------ |
+| <code>instant</code> | <code>boolean</code> | whether or not the value should get updated while the slider is dragging |
 
 **Returns:**
 
 `this`
-

@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.createFolder"
+aliases: 'Vault.createFolder'
 cssclasses: hide-title
 ---
 
@@ -19,9 +19,9 @@ createFolder(path: string): Promise<TFolder>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>path</code> | <code>string</code> | Vault absolute path for the new folder. |
+| Parameter         | Type                | Description                             |
+| ----------------- | ------------------- | --------------------------------------- |
+| <code>path</code> | <code>string</code> | Vault absolute path for the new folder. |
 
 **Returns:**
 
@@ -30,4 +30,3 @@ createFolder(path: string): Promise<TFolder>;
 ## Exceptions
 
 Error if folder already exists
-

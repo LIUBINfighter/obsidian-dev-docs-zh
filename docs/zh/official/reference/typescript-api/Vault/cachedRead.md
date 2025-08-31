@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.cachedRead"
+aliases: 'Vault.cachedRead'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ cachedRead(file: TFile): Promise<string>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) |  |
+| Parameter         | Type                | Description |
+| ----------------- | ------------------- | ----------- |
+| <code>file</code> | [`TFile`](../TFile) |             |
 
 **Returns:**
 
 `Promise<string>`
-

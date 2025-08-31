@@ -1,5 +1,5 @@
 ---
-aliases: "ObsidianProtocolHandler"
+aliases: 'ObsidianProtocolHandler'
 cssclasses: hide-title
 ---
 
@@ -9,11 +9,10 @@ cssclasses: hide-title
 
 ## ObsidianProtocolHandler type
 
-
 **Signature:**
 
 ```typescript
 export type ObsidianProtocolHandler = (params: ObsidianProtocolData) => any;
 ```
-**References:** [`ObsidianProtocolData`](ObsidianProtocolData)
 
+**References:** [`ObsidianProtocolData`](ObsidianProtocolData)

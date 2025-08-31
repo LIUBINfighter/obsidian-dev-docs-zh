@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.trashSystem"
+aliases: 'DataAdapter.trashSystem'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ trashSystem(normalizedPath: string): Promise<boolean>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                           |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------------------- |
+| <code>normalizedPath</code> | <code>string</code> | path to file/folder, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<boolean>`
 
 Returns true if succeeded. This can fail due to system trash being disabled.
-

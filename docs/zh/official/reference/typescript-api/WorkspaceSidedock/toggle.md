@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceSidedock.toggle"
+aliases: 'WorkspaceSidedock.toggle'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceSidedock.toggle() method
 
-
 **Signature:**
 
 ```typescript
 toggle(): void;
 ```
+
 **Returns:**
 
 `void`
-

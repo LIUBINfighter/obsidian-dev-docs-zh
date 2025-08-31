@@ -1,5 +1,5 @@
 ---
-aliases: "MarkdownPreviewView.clear"
+aliases: 'MarkdownPreviewView.clear'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## MarkdownPreviewView.clear() method
 
-
 **Signature:**
 
 ```typescript
 clear(): void;
 ```
+
 **Returns:**
 
 `void`
-

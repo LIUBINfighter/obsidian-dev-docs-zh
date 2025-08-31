@@ -1,5 +1,5 @@
 ---
-aliases: "CapacitorAdapter"
+aliases: 'CapacitorAdapter'
 cssclasses: hide-title
 ---
 
@@ -14,31 +14,31 @@ Implementation of the vault adapter for mobile devices.
 **Signature:**
 
 ```typescript
-export class CapacitorAdapter implements DataAdapter 
+export class CapacitorAdapter implements DataAdapter
 ```
+
 **Implements:** [`DataAdapter`](DataAdapter)
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`append(normalizedPath, data, options)`](CapacitorAdapter/append) |  |  |
-|  [`copy(normalizedPath, normalizedNewPath)`](CapacitorAdapter/copy) |  |  |
-|  [`exists(normalizedPath, sensitive)`](CapacitorAdapter/exists) |  |  |
-|  [`getFullPath(normalizedPath)`](CapacitorAdapter/getFullPath) |  |  |
-|  [`getName()`](CapacitorAdapter/getName) |  |  |
-|  [`getResourcePath(normalizedPath)`](CapacitorAdapter/getResourcePath) |  |  |
-|  [`list(normalizedPath)`](CapacitorAdapter/list) |  |  |
-|  [`mkdir(normalizedPath)`](CapacitorAdapter/mkdir) |  |  |
-|  [`process(normalizedPath, fn, options)`](CapacitorAdapter/process) |  |  |
-|  [`read(normalizedPath)`](CapacitorAdapter/read) |  |  |
-|  [`readBinary(normalizedPath)`](CapacitorAdapter/readBinary) |  |  |
-|  [`remove(normalizedPath)`](CapacitorAdapter/remove) |  |  |
-|  [`rename(normalizedPath, normalizedNewPath)`](CapacitorAdapter/rename) |  |  |
-|  [`rmdir(normalizedPath, recursive)`](CapacitorAdapter/rmdir) |  |  |
-|  [`stat(normalizedPath)`](CapacitorAdapter/stat) |  |  |
-|  [`trashLocal(normalizedPath)`](CapacitorAdapter/trashLocal) |  |  |
-|  [`trashSystem(normalizedPath)`](CapacitorAdapter/trashSystem) |  |  |
-|  [`write(normalizedPath, data, options)`](CapacitorAdapter/write) |  |  |
-|  [`writeBinary(normalizedPath, data, options)`](CapacitorAdapter/writeBinary) |  |  |
-
+| Method                                                                       | Modifiers | Description |
+| ---------------------------------------------------------------------------- | --------- | ----------- |
+| [`append(normalizedPath, data, options)`](CapacitorAdapter/append)           |           |             |
+| [`copy(normalizedPath, normalizedNewPath)`](CapacitorAdapter/copy)           |           |             |
+| [`exists(normalizedPath, sensitive)`](CapacitorAdapter/exists)               |           |             |
+| [`getFullPath(normalizedPath)`](CapacitorAdapter/getFullPath)                |           |             |
+| [`getName()`](CapacitorAdapter/getName)                                      |           |             |
+| [`getResourcePath(normalizedPath)`](CapacitorAdapter/getResourcePath)        |           |             |
+| [`list(normalizedPath)`](CapacitorAdapter/list)                              |           |             |
+| [`mkdir(normalizedPath)`](CapacitorAdapter/mkdir)                            |           |             |
+| [`process(normalizedPath, fn, options)`](CapacitorAdapter/process)           |           |             |
+| [`read(normalizedPath)`](CapacitorAdapter/read)                              |           |             |
+| [`readBinary(normalizedPath)`](CapacitorAdapter/readBinary)                  |           |             |
+| [`remove(normalizedPath)`](CapacitorAdapter/remove)                          |           |             |
+| [`rename(normalizedPath, normalizedNewPath)`](CapacitorAdapter/rename)       |           |             |
+| [`rmdir(normalizedPath, recursive)`](CapacitorAdapter/rmdir)                 |           |             |
+| [`stat(normalizedPath)`](CapacitorAdapter/stat)                              |           |             |
+| [`trashLocal(normalizedPath)`](CapacitorAdapter/trashLocal)                  |           |             |
+| [`trashSystem(normalizedPath)`](CapacitorAdapter/trashSystem)                |           |             |
+| [`write(normalizedPath, data, options)`](CapacitorAdapter/write)             |           |             |
+| [`writeBinary(normalizedPath, data, options)`](CapacitorAdapter/writeBinary) |           |             |

@@ -1,5 +1,5 @@
 ---
-aliases: "EditorChange.text"
+aliases: 'EditorChange.text'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorChange`](../EditorChange) › [`text`](./text)
 
 ## EditorChange.text property
-
 
 **Signature:**
 

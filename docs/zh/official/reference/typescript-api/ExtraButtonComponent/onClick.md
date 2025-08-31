@@ -1,5 +1,5 @@
 ---
-aliases: "ExtraButtonComponent.onClick"
+aliases: 'ExtraButtonComponent.onClick'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ExtraButtonComponent.onClick() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onClick(callback: () => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>() =&gt; any</code> |  |
+| Parameter             | Type                      | Description |
+| --------------------- | ------------------------- | ----------- |
+| <code>callback</code> | <code>() =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

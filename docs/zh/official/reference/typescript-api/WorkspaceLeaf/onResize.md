@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceLeaf.onResize"
+aliases: 'WorkspaceLeaf.onResize'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## WorkspaceLeaf.onResize() method
 
-
 **Signature:**
 
 ```typescript
 onResize(): void;
 ```
+
 **Returns:**
 
 `void`
-

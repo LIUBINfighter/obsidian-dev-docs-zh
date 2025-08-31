@@ -1,5 +1,5 @@
 ---
-aliases: "TFolder.isRoot"
+aliases: 'TFolder.isRoot'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## TFolder.isRoot() method
 
-
 **Signature:**
 
 ```typescript
 isRoot(): boolean;
 ```
+
 **Returns:**
 
 `boolean`
-

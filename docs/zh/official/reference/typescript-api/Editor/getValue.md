@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getValue"
+aliases: 'Editor.getValue'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.getValue() method
 
-
 **Signature:**
 
 ```typescript
 abstract getValue(): string;
 ```
+
 **Returns:**
 
 `string`
-

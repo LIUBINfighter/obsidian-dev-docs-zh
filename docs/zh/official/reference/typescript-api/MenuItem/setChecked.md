@@ -1,5 +1,5 @@
 ---
-aliases: "MenuItem.setChecked"
+aliases: 'MenuItem.setChecked'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## MenuItem.setChecked() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ setChecked(checked: boolean | null): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>checked</code> | <code>boolean &#124; null</code> |  |
+| Parameter            | Type                             | Description |
+| -------------------- | -------------------------------- | ----------- |
+| <code>checked</code> | <code>boolean &#124; null</code> |             |
 
 **Returns:**
 
 `this`
-

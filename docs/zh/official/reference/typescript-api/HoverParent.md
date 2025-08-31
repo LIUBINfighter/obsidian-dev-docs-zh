@@ -1,5 +1,5 @@
 ---
-aliases: "HoverParent"
+aliases: 'HoverParent'
 cssclasses: hide-title
 ---
 
@@ -9,16 +9,14 @@ cssclasses: hide-title
 
 ## HoverParent interface
 
-
 **Signature:**
 
 ```typescript
-export interface HoverParent 
+export interface HoverParent
 ```
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`hoverPopover`](HoverParent/hoverPopover) |  | [`HoverPopover`](HoverPopover)<code> &#124; null</code> |  |
-
+| Property                                   | Modifiers | Type                                                    | Description |
+| ------------------------------------------ | --------- | ------------------------------------------------------- | ----------- |
+| [`hoverPopover`](HoverParent/hoverPopover) |           | [`HoverPopover`](HoverPopover)<code> &#124; null</code> |             |

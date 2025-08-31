@@ -1,5 +1,5 @@
 ---
-aliases: "Tasks.isEmpty"
+aliases: 'Tasks.isEmpty'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Tasks.isEmpty() method
 
-
 **Signature:**
 
 ```typescript
 isEmpty(): boolean;
 ```
+
 **Returns:**
 
 `boolean`
-

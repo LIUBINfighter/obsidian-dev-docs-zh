@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.changeLayout"
+aliases: 'Workspace.changeLayout'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Workspace.changeLayout() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ changeLayout(workspace: any): Promise<void>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>workspace</code> | <code>any</code> |  |
+| Parameter              | Type             | Description |
+| ---------------------- | ---------------- | ----------- |
+| <code>workspace</code> | <code>any</code> |             |
 
 **Returns:**
 
 `Promise<void>`
-

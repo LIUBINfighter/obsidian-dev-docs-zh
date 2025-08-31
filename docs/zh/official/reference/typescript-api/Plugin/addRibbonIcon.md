@@ -1,5 +1,5 @@
 ---
-aliases: "Plugin.addRibbonIcon"
+aliases: 'Plugin.addRibbonIcon'
 cssclasses: hide-title
 ---
 
@@ -19,13 +19,12 @@ addRibbonIcon(icon: IconName, title: string, callback: (evt: MouseEvent) => any)
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>icon</code> | [`IconName`](../IconName) | The icon name to be used. See [addIcon()](../addIcon) |
-|  <code>title</code> | <code>string</code> | The title to be displayed in the tooltip. |
-|  <code>callback</code> | <code>(evt: </code><code>MouseEvent</code><code>) =&gt; any</code> | The <code>click</code> callback. |
+| Parameter             | Type                                                               | Description                                           |
+| --------------------- | ------------------------------------------------------------------ | ----------------------------------------------------- |
+| <code>icon</code>     | [`IconName`](../IconName)                                          | The icon name to be used. See [addIcon()](../addIcon) |
+| <code>title</code>    | <code>string</code>                                                | The title to be displayed in the tooltip.             |
+| <code>callback</code> | <code>(evt: </code><code>MouseEvent</code><code>) =&gt; any</code> | The <code>click</code> callback.                      |
 
 **Returns:**
 
 `HTMLElement`
-

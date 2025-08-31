@@ -1,5 +1,5 @@
 ---
-aliases: "PopoverSuggest"
+aliases: 'PopoverSuggest'
 cssclasses: hide-title
 ---
 
@@ -14,29 +14,29 @@ Base class for adding a type-ahead popover.
 **Signature:**
 
 ```typescript
-export abstract class PopoverSuggest<T> implements ISuggestOwner<T>, CloseableComponent 
+export abstract class PopoverSuggest<T> implements ISuggestOwner<T>, CloseableComponent
 ```
+
 **Implements:** [`ISuggestOwner`](ISuggestOwner)`<T>`<!-- -->, [`CloseableComponent`](CloseableComponent)
 
 ## Constructors
 
-|  Constructor | Modifiers | Description |
-|  --- | --- | --- |
-|  [`(constructor)(app, scope)`](PopoverSuggest/(constructor).md) |  | Constructs a new instance of the <code>PopoverSuggest</code> class |
+| Constructor                                                      | Modifiers | Description                                                        |
+| ---------------------------------------------------------------- | --------- | ------------------------------------------------------------------ |
+| [`(constructor)(app, scope)`](<PopoverSuggest/(constructor).md>) |           | Constructs a new instance of the <code>PopoverSuggest</code> class |
 
 ## Properties
 
-|  Property | Modifiers | Type | Description |
-|  --- | --- | --- | --- |
-|  [`app`](PopoverSuggest/app) |  | [`App`](App) |  |
-|  [`scope`](PopoverSuggest/scope) |  | [`Scope`](Scope) |  |
+| Property                        | Modifiers | Type             | Description |
+| ------------------------------- | --------- | ---------------- | ----------- |
+| [`app`](PopoverSuggest/app)     |           | [`App`](App)     |             |
+| [`scope`](PopoverSuggest/scope) |           | [`Scope`](Scope) |             |
 
 ## Methods
 
-|  Method | Modifiers | Description |
-|  --- | --- | --- |
-|  [`close()`](PopoverSuggest/close) |  |  |
-|  [`open()`](PopoverSuggest/open) |  |  |
-|  [`renderSuggestion(value, el)`](PopoverSuggest/renderSuggestion) | <code>abstract</code> |  |
-|  [`selectSuggestion(value, evt)`](PopoverSuggest/selectSuggestion) | <code>abstract</code> |  |
-
+| Method                                                            | Modifiers             | Description |
+| ----------------------------------------------------------------- | --------------------- | ----------- |
+| [`close()`](PopoverSuggest/close)                                 |                       |             |
+| [`open()`](PopoverSuggest/open)                                   |                       |             |
+| [`renderSuggestion(value, el)`](PopoverSuggest/renderSuggestion)  | <code>abstract</code> |             |
+| [`selectSuggestion(value, evt)`](PopoverSuggest/selectSuggestion) | <code>abstract</code> |             |

@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addSearch"
+aliases: 'Setting.addSearch'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addSearch() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addSearch(cb: (component: SearchComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`SearchComponent`](../SearchComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                     | Description |
+| --------------- | ---------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`SearchComponent`](../SearchComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

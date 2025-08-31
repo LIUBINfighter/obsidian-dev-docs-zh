@@ -1,5 +1,5 @@
 ---
-aliases: "getLanguage"
+aliases: 'getLanguage'
 cssclasses: hide-title
 ---
 
@@ -16,7 +16,7 @@ Get the ISO code for the currently configured app language. Defaults to 'en'. Se
 ```typescript
 export function getLanguage(): string;
 ```
+
 **Returns:**
 
 `string`
-

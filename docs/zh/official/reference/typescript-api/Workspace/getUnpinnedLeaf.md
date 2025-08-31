@@ -1,5 +1,5 @@
 ---
-aliases: "Workspace.getUnpinnedLeaf"
+aliases: 'Workspace.getUnpinnedLeaf'
 cssclasses: hide-title
 ---
 
@@ -10,16 +10,15 @@ cssclasses: hide-title
 ## Workspace.getUnpinnedLeaf() method
 
 > Warning: This API is now obsolete.
-> 
+>
 > - You should use [ | getLeaf(false)](obsidian.workspace.getleaf_1.md) instead which does the same thing.
-> 
 
 **Signature:**
 
 ```typescript
 getUnpinnedLeaf(): WorkspaceLeaf;
 ```
+
 **Returns:**
 
 [`WorkspaceLeaf`](../WorkspaceLeaf)
-

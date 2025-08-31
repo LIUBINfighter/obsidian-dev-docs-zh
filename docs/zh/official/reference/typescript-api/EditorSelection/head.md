@@ -1,5 +1,5 @@
 ---
-aliases: "EditorSelection.head"
+aliases: 'EditorSelection.head'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`EditorSelection`](../EditorSelection) › [`head`](./head)
 
 ## EditorSelection.head property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "getAllTags"
+aliases: 'getAllTags'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ export function getAllTags(cache: CachedMetadata): string[] | null;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cache</code> | [`CachedMetadata`](CachedMetadata) |  |
+| Parameter          | Type                               | Description |
+| ------------------ | ---------------------------------- | ----------- |
+| <code>cache</code> | [`CachedMetadata`](CachedMetadata) |             |
 
 **Returns:**
 
 `string[] | null`
-

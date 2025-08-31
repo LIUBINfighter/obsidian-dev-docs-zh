@@ -1,5 +1,5 @@
 ---
-aliases: "MomentFormatComponent.setDefaultFormat"
+aliases: 'MomentFormatComponent.setDefaultFormat'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ setDefaultFormat(defaultFormat: string): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>defaultFormat</code> | <code>string</code> |  |
+| Parameter                  | Type                | Description |
+| -------------------------- | ------------------- | ----------- |
+| <code>defaultFormat</code> | <code>string</code> |             |
 
 **Returns:**
 
 `this`
-

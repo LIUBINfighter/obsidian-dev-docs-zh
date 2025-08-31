@@ -1,5 +1,5 @@
 ---
-aliases: "WorkspaceTabs.parent"
+aliases: 'WorkspaceTabs.parent'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`WorkspaceTabs`](../WorkspaceTabs) › [`parent`](./parent)
 
 ## WorkspaceTabs.parent property
-
 
 **Signature:**
 

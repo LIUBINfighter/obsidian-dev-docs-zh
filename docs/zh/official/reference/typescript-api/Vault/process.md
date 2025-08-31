@@ -1,5 +1,5 @@
 ---
-aliases: "Vault.process"
+aliases: 'Vault.process'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,11 @@ process(file: TFile, fn: (data: string) => string, options?: DataWriteOptions): 
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>file</code> | [`TFile`](../TFile) | the file to be read and modified. |
-|  <code>fn</code> | <code>(data: string) =&gt; string</code> | a callback function which returns the new content of the note synchronously. |
-|  <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ write options. |
+| Parameter            | Type                                      | Description                                                                  |
+| -------------------- | ----------------------------------------- | ---------------------------------------------------------------------------- |
+| <code>file</code>    | [`TFile`](../TFile)                       | the file to be read and modified.                                            |
+| <code>fn</code>      | <code>(data: string) =&gt; string</code>  | a callback function which returns the new content of the note synchronously. |
+| <code>options</code> | [`DataWriteOptions`](../DataWriteOptions) | _(Optional)_ write options.                                                  |
 
 **Returns:**
 
@@ -33,10 +33,8 @@ string - the text value of the note that was written.
 
 ## Example
 
-
 ```ts
 app.vault.process(file, (data) => {
- return data.replace('Hello', 'World');
+  return data.replace('Hello', 'World');
 });
 ```
-

@@ -1,5 +1,5 @@
 ---
-aliases: "SliderComponent.getValue"
+aliases: 'SliderComponent.getValue'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## SliderComponent.getValue() method
 
-
 **Signature:**
 
 ```typescript
 getValue(): number;
 ```
+
 **Returns:**
 
 `number`
-

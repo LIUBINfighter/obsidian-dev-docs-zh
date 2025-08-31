@@ -1,5 +1,5 @@
 ---
-aliases: "FuzzySuggestModal.getItemText"
+aliases: 'FuzzySuggestModal.getItemText'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## FuzzySuggestModal.getItemText() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ abstract getItemText(item: T): string;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>item</code> | <code>T</code> |  |
+| Parameter         | Type           | Description |
+| ----------------- | -------------- | ----------- |
+| <code>item</code> | <code>T</code> |             |
 
 **Returns:**
 
 `string`
-

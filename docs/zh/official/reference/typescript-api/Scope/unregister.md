@@ -1,5 +1,5 @@
 ---
-aliases: "Scope.unregister"
+aliases: 'Scope.unregister'
 cssclasses: hide-title
 ---
 
@@ -19,11 +19,10 @@ unregister(handler: KeymapEventHandler): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>handler</code> | [`KeymapEventHandler`](../KeymapEventHandler) |  |
+| Parameter            | Type                                          | Description |
+| -------------------- | --------------------------------------------- | ----------- |
+| <code>handler</code> | [`KeymapEventHandler`](../KeymapEventHandler) |             |
 
 **Returns:**
 
 `void`
-

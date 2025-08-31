@@ -1,5 +1,5 @@
 ---
-aliases: "ColorComponent.getValueRgb"
+aliases: 'ColorComponent.getValueRgb'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ColorComponent.getValueRgb() method
 
-
 **Signature:**
 
 ```typescript
 getValueRgb(): RGB;
 ```
+
 **Returns:**
 
 [`RGB`](../RGB)
-

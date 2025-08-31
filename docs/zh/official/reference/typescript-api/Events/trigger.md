@@ -1,5 +1,5 @@
 ---
-aliases: "Events.trigger"
+aliases: 'Events.trigger'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Events.trigger() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,12 +17,11 @@ trigger(name: string, ...data: unknown[]): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>name</code> | <code>string</code> |  |
-|  <code>data</code> | <code>unknown[]</code> |  |
+| Parameter         | Type                   | Description |
+| ----------------- | ---------------------- | ----------- |
+| <code>name</code> | <code>string</code>    |             |
+| <code>data</code> | <code>unknown[]</code> |             |
 
 **Returns:**
 
 `void`
-

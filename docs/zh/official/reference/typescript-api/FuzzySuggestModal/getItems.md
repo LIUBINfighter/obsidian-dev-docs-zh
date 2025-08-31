@@ -1,5 +1,5 @@
 ---
-aliases: "FuzzySuggestModal.getItems"
+aliases: 'FuzzySuggestModal.getItems'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## FuzzySuggestModal.getItems() method
 
-
 **Signature:**
 
 ```typescript
 abstract getItems(): T[];
 ```
+
 **Returns:**
 
 `T[]`
-

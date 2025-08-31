@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.getScrollInfo"
+aliases: 'Editor.getScrollInfo'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Editor.getScrollInfo() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,7 +17,7 @@ abstract getScrollInfo(): {
         left: number;
     };
 ```
+
 **Returns:**
 
 `{         top: number;         left: number;     }`
-

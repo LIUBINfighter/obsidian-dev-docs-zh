@@ -1,5 +1,5 @@
 ---
-aliases: "Editor.blur"
+aliases: 'Editor.blur'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## Editor.blur() method
 
-
 **Signature:**
 
 ```typescript
 abstract blur(): void;
 ```
+
 **Returns:**
 
 `void`
-

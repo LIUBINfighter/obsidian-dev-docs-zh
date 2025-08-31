@@ -1,5 +1,5 @@
 ---
-aliases: "FileView.allowNoFile"
+aliases: 'FileView.allowNoFile'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`FileView`](../FileView) › [`allowNoFile`](./allowNoFile)
 
 ## FileView.allowNoFile property
-
 
 **Signature:**
 

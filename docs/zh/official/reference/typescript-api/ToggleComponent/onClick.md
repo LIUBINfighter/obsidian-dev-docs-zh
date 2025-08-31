@@ -1,5 +1,5 @@
 ---
-aliases: "ToggleComponent.onClick"
+aliases: 'ToggleComponent.onClick'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## ToggleComponent.onClick() method
 
-
 **Signature:**
 
 ```typescript
 onClick(): void;
 ```
+
 **Returns:**
 
 `void`
-

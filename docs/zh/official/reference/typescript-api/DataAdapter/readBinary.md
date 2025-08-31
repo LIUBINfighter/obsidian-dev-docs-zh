@@ -1,5 +1,5 @@
 ---
-aliases: "DataAdapter.readBinary"
+aliases: 'DataAdapter.readBinary'
 cssclasses: hide-title
 ---
 
@@ -17,11 +17,10 @@ readBinary(normalizedPath: string): Promise<ArrayBuffer>;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
+| Parameter                   | Type                | Description                                                                    |
+| --------------------------- | ------------------- | ------------------------------------------------------------------------------ |
+| <code>normalizedPath</code> | <code>string</code> | path to file, use [normalizePath()](../normalizePath) to normalize beforehand. |
 
 **Returns:**
 
 `Promise<``ArrayBuffer``>`
-

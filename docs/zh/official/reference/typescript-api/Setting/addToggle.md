@@ -1,5 +1,5 @@
 ---
-aliases: "Setting.addToggle"
+aliases: 'Setting.addToggle'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## Setting.addToggle() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ addToggle(cb: (component: ToggleComponent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>cb</code> | <code>(component: </code>[`ToggleComponent`](../ToggleComponent)<code>) =&gt; any</code> |  |
+| Parameter       | Type                                                                                     | Description |
+| --------------- | ---------------------------------------------------------------------------------------- | ----------- |
+| <code>cb</code> | <code>(component: </code>[`ToggleComponent`](../ToggleComponent)<code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

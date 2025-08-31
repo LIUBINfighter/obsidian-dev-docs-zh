@@ -1,5 +1,5 @@
 ---
-aliases: "HoverPopover.state"
+aliases: 'HoverPopover.state'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`HoverPopover`](../HoverPopover) › [`state`](./state)
 
 ## HoverPopover.state property
-
 
 **Signature:**
 

@@ -1,5 +1,5 @@
 ---
-aliases: "Stat.type"
+aliases: 'Stat.type'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`Stat`](../Stat) › [`type`](./type)
 
 ## Stat.type property
-
 
 **Signature:**
 

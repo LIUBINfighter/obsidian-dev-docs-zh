@@ -1,5 +1,5 @@
 ---
-aliases: "ButtonComponent.onClick"
+aliases: 'ButtonComponent.onClick'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## ButtonComponent.onClick() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ onClick(callback: (evt: MouseEvent) => any): this;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>callback</code> | <code>(evt: </code><code>MouseEvent</code><code>) =&gt; any</code> |  |
+| Parameter             | Type                                                               | Description |
+| --------------------- | ------------------------------------------------------------------ | ----------- |
+| <code>callback</code> | <code>(evt: </code><code>MouseEvent</code><code>) =&gt; any</code> |             |
 
 **Returns:**
 
 `this`
-

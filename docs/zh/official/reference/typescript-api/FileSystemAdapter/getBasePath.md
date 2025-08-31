@@ -1,5 +1,5 @@
 ---
-aliases: "FileSystemAdapter.getBasePath"
+aliases: 'FileSystemAdapter.getBasePath'
 cssclasses: hide-title
 ---
 
@@ -9,13 +9,12 @@ cssclasses: hide-title
 
 ## FileSystemAdapter.getBasePath() method
 
-
 **Signature:**
 
 ```typescript
 getBasePath(): string;
 ```
+
 **Returns:**
 
 `string`
-

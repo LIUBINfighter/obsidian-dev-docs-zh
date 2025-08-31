@@ -1,5 +1,5 @@
 ---
-aliases: "TFile.stat"
+aliases: 'TFile.stat'
 cssclasses: hide-title
 ---
 
@@ -8,7 +8,6 @@ cssclasses: hide-title
 [`TFile`](../TFile) › [`stat`](./stat)
 
 ## TFile.stat property
-
 
 **Signature:**
 

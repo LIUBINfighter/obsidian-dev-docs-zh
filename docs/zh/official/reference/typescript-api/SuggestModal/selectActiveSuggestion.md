@@ -1,5 +1,5 @@
 ---
-aliases: "SuggestModal.selectActiveSuggestion"
+aliases: 'SuggestModal.selectActiveSuggestion'
 cssclasses: hide-title
 ---
 
@@ -9,7 +9,6 @@ cssclasses: hide-title
 
 ## SuggestModal.selectActiveSuggestion() method
 
-
 **Signature:**
 
 ```typescript
@@ -18,11 +17,10 @@ selectActiveSuggestion(evt: MouseEvent | KeyboardEvent): void;
 
 ## Parameters
 
-|  Parameter | Type | Description |
-|  --- | --- | --- |
-|  <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |  |
+| Parameter        | Type                                                                   | Description |
+| ---------------- | ---------------------------------------------------------------------- | ----------- |
+| <code>evt</code> | <code>MouseEvent</code><code> &#124; </code><code>KeyboardEvent</code> |             |
 
 **Returns:**
 
 `void`
-
