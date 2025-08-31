@@ -33,7 +33,7 @@ jobs:
       - name: 📚 Install Dependencies
         run: pnpm install --frozen-lockfile
 
-      - name:  Code Quality Check
+      - name: 🔧 Code Quality Check
         run: |
           echo "🔍 运行代码质量检查..."
           pnpm lint
@@ -43,7 +43,7 @@ jobs:
       - name: 🏗️ Build with Timer
         run: |
           echo "🚀 开始构建检查..."
-          pnpm build:timer
+          pnpm docs:build
           echo "✅ 构建检查完成"
 
       - name: 📊 Build Summary
@@ -72,7 +72,7 @@ jobs:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          fetch-depth: 0
 
       - name: 📦 Setup pnpm
         uses: pnpm/action-setup@v2
@@ -88,26 +88,12 @@ jobs:
       - name: 📚 Install Dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: 🔄 Sync All Documentation
-        run: |
-          echo "🔄 同步所有文档..."
-          pnpm sync:all
-          echo "✅ 文档同步完成"
-
       - name: 📊 Generate Statistics
         run: |
           echo "📊 生成统计信息..."
-          echo "API 文档统计："
-          pnpm sync:status
-          
-          echo ""
           echo "文件统计："
           find docs/zh -name "*.md" | wc -l | xargs echo "中文文档数量："
           find docs/en -name "*.md" | wc -l | xargs echo "英文文档数量："
-          
-          echo ""
-          echo "翻译进度："
-          pnpm translate:status || echo "翻译状态检查完成"
 
       - name: 🎯 Performance Check
         run: |
